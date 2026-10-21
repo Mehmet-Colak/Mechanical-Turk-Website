@@ -1,0 +1,103 @@
+{
+  "en": {
+    "permalink": "mechanical-turk",
+    "title": "What is a Mechanical Turk?",
+    "description": "The history of the Mechanical Turk, the 18th-century chess automaton, and why this site is named after it.",
+    "show_title": true,
+    "draft": false,
+    "kicker": "History · 1770–1854",
+    "intro": "A chess-playing machine dressed in Ottoman robes fooled Europe for decades. It was one of the best product demos ever built, and the reason this site has its name.",
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "A gift for an empress",
+        "as_card": true,
+        "show_band": true,
+        "image": "",
+        "image_alt": "",
+        "body": "In 1770 Wolfgang von Kempelen, a Hungarian-born engineer at the Habsburg court, unveiled an automaton for Empress Maria Theresa at Schönbrunn Palace in Vienna. A life-size figure in a turban and Ottoman robes sat behind a wooden cabinet with a chessboard on top.\n\nBefore each game Kempelen opened the cabinet doors one at a time to show gears, cylinders and clockwork. Then he wound the machine up. The Turk lifted its arm, moved its own pieces, shook its head at illegal moves and usually won. It could also trace a knight’s tour, moving a knight to every square of the board exactly once."
+      },
+      {
+        "type": "text",
+        "heading": "How it actually worked",
+        "as_card": true,
+        "show_band": true,
+        "image": "",
+        "image_alt": "",
+        "body": "A strong chess player sat inside. The clockwork shown to audiences was real but did nothing; the operator slid on a moving seat to stay hidden while each door opened. Magnets under the pieces pulled small metal markers beneath the board, so the operator could follow the game. A system of levers moved the Turk’s arm, and a candle lit the inside, its smoke escaping through the figure’s turban."
+      },
+      {
+        "type": "text",
+        "heading": "Eighty years on tour",
+        "as_card": true,
+        "show_band": true,
+        "image": "",
+        "image_alt": "",
+        "body": "The Turk toured Europe in the 1780s, and Benjamin Franklin is said to have played it in Paris. After Kempelen’s death in 1804, the showman Johann Nepomuk Mälzel bought it. Napoleon reportedly played it at Schönbrunn in 1809, and Charles Babbage, who later designed the Analytical Engine, played it in London in 1819.\n\nMälzel took it to the United States in 1826. Edgar Allan Poe watched it and in 1836 published an essay arguing a human had to be inside. The Turk ended up in a Philadelphia museum, where a fire destroyed it in 1854."
+      },
+      {
+        "type": "text",
+        "heading": "The afterlife of a name",
+        "as_card": true,
+        "show_band": true,
+        "image": "",
+        "image_alt": "",
+        "body": "In 2005 Amazon launched Mechanical Turk, a marketplace where people complete small tasks that computers still struggle with. The name stuck as shorthand for any system that looks automatic but runs on hidden human work, a question that matters more than ever in today’s AI."
+      },
+      { "type": "divider", "motif": "" },
+      {
+        "type": "text",
+        "heading": "Why I named my site after it",
+        "as_card": false,
+        "show_band": false,
+        "image": "",
+        "image_alt": "",
+        "body": "I don’t read the Turk as a fraud. I read it as a design brief. It made something hard feel effortless, it was built from real mechanics and smart misdirection, and its intelligence came from a skilled person working inside the system. That’s how I think about products: the engineering has to be real, and the people inside it matter most.\n\nAlso, I’m a Turk."
+      }
+    ]
+  },
+  "tr": {
+    "title": "Mekanik Türk nedir?",
+    "description": "18. yüzyılın satranç oynayan otomatı Mekanik Türk’ün tarihi ve bu sitenin adını neden ondan aldığı.",
+    "kicker": "Tarih · 1770–1854",
+    "intro": "Osmanlı kıyafetleri giydirilmiş, satranç oynayan bir makine Avrupa’yı onlarca yıl kandırdı. Tarihin en iyi ürün tanıtımlarından biriydi ve bu sitenin adı ondan geliyor.",
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Bir imparatoriçeye hediye",
+        "as_card": true,
+        "show_band": true,
+        "body": "1770’te Habsburg sarayında görevli Macar asıllı mühendis Wolfgang von Kempelen, Viyana’daki Schönbrunn Sarayı’nda İmparatoriçe Maria Theresa’ya bir otomat sundu. Sarıklı ve Osmanlı kaftanlı, gerçek boyutta bir figür, üzerinde satranç tahtası olan ahşap bir dolabın arkasında oturuyordu.\n\nKempelen her oyundan önce dolabın kapaklarını tek tek açıp dişlileri, silindirleri ve saat mekanizmasını gösterir, ardından makineyi kurardı. Türk kolunu kaldırır, taşlarını kendisi oynar, kurala aykırı hamlelerde başını sallar ve çoğu zaman kazanırdı. Ayrıca at turunu, yani atı tahtanın her karesine yalnızca bir kez uğratmayı da yapabiliyordu."
+      },
+      {
+        "type": "text",
+        "heading": "Aslında nasıl çalışıyordu",
+        "as_card": true,
+        "show_band": true,
+        "body": "İçeride güçlü bir satranç oyuncusu oturuyordu. Seyircilere gösterilen mekanizma gerçekti ama hiçbir işe yaramıyordu; operatör, kapaklar açılırken görünmemek için kayan bir oturakta yer değiştiriyordu. Taşların altındaki mıknatıslar tahtanın altındaki küçük metal göstergeleri çekiyor, böylece operatör oyunu takip edebiliyordu. Bir kaldıraç sistemi Türk’ün kolunu hareket ettiriyor, içerisi bir mumla aydınlanıyor ve mumun dumanı figürün sarığından dışarı çıkıyordu."
+      },
+      {
+        "type": "text",
+        "heading": "Seksen yıllık bir turne",
+        "as_card": true,
+        "show_band": true,
+        "body": "Türk 1780’lerde Avrupa’yı dolaştı; Benjamin Franklin’in Paris’te onunla oynadığı söylenir. Kempelen 1804’te ölünce gösteri adamı Johann Nepomuk Mälzel makineyi satın aldı. Napolyon’un 1809’da Schönbrunn’da onunla oynadığı, sonradan Analitik Makine’yi tasarlayan Charles Babbage’ın da 1819’da Londra’da karşısına geçtiği anlatılır.\n\nMälzel makineyi 1826’da Amerika’ya götürdü. Onu izleyen Edgar Allan Poe, 1836’da içeride bir insan olması gerektiğini savunan bir deneme yayımladı. Türk sonunda Philadelphia’da bir müzeye kaldırıldı ve 1854’te çıkan bir yangında yok oldu."
+      },
+      {
+        "type": "text",
+        "heading": "Bir ismin ikinci hayatı",
+        "as_card": true,
+        "show_band": true,
+        "body": "Amazon 2005’te, bilgisayarların hâlâ zorlandığı küçük görevlerin insanlar tarafından yapıldığı Mechanical Turk adlı bir platform açtı. İsim, otomatik görünen ama gizli insan emeğiyle çalışan her sistemin kısaltması hâline geldi. Bugünün yapay zekâsında bu soru her zamankinden daha önemli."
+      },
+      { "type": "divider", "motif": "" },
+      {
+        "type": "text",
+        "heading": "Siteme neden bu adı verdim",
+        "as_card": false,
+        "show_band": false,
+        "body": "Türk’ü bir sahtekârlık olarak görmüyorum; bir tasarım brifi olarak görüyorum. Zor bir şeyi zahmetsiz gösterdi, gerçek mekanik ve akıllı bir yanıltmacayla inşa edildi ve zekâsını sistemin içinde çalışan yetenekli bir insandan aldı. Ürünlere ben de böyle bakıyorum: mühendislik gerçek olmalı ve en önemlisi, içindeki insanlardır.\n\nAyrıca ben de bir Türk’üm."
+      }
+    ]
+  }
+}

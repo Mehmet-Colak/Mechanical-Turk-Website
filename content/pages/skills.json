@@ -1,0 +1,23 @@
+{
+  "en": {
+    "permalink": "skills",
+    "title": "Skills",
+    "description": "Languages, frameworks, cloud and AI tools Mehmet Colakoglu works with.",
+    "show_title": true,
+    "draft": false,
+    "kicker": "Skills",
+    "intro": "The tools I use to build. Picked for the problem, not the résumé.",
+    "blocks": [
+      { "type": "skills", "heading": "", "intro": "" }
+    ]
+  },
+  "tr": {
+    "title": "Yetenekler",
+    "description": "Mehmet Colakoglu’nun kullandığı programlama dilleri, framework’ler, bulut ve yapay zekâ araçları.",
+    "kicker": "Yetenekler",
+    "intro": "İnşa ederken kullandığım araçlar. Özgeçmiş için değil, probleme göre seçilmiş.",
+    "blocks": [
+      { "type": "skills", "heading": "", "intro": "" }
+    ]
+  }
+}

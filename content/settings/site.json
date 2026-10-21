@@ -1,0 +1,58 @@
+{
+  "en": {
+    "domain": "https://mechanical-turk.dev",
+    "site_name": "mechanical-turk.dev",
+    "owner_name": "Mehmet Colakoglu",
+    "role_line": "Full-stack engineer · Product · Teams",
+    "tagline": "I understand every layer of the build. I do my best work designing the product and leading the people who make it.",
+    "status": "Systems Engineer at **Chip Theory Games**",
+    "description": "Mehmet Colakoglu is a full-stack engineer with a double degree in Computer Science and Psychology who designs products and leads teams of builders.",
+    "portrait": "",
+    "portrait_alt": "Portrait of Mehmet Colakoglu",
+    "og_image": "",
+    "footer_text": "© mechanical-turk.dev",
+    "show_border_symbols": true,
+    "show_motif_dividers": true,
+    "show_card_bands": true,
+    "divider_motif": "koc_boynuzu",
+    "mark_motif": "koc_boynuzu",
+    "skill_logo_style": "mono",
+    "ui": {
+      "skip_to_content": "Skip to content",
+      "main_navigation": "Main navigation",
+      "language": "Language",
+      "toggle_theme": "Switch between light and dark theme",
+      "previous": "Previous image",
+      "next": "Next image",
+      "view_full": "View full size",
+      "watch_video": "Watch video",
+      "open_demo": "Open simulation",
+      "close": "Close",
+      "media_viewer": "Media viewer",
+      "not_found_title": "Page not found",
+      "not_found_body": "This page doesn’t exist, or it moved. [Go to the home page](/)."
+    }
+  },
+  "tr": {
+    "role_line": "Full-stack mühendis · Ürün · Ekipler",
+    "tagline": "Bir ürünün her katmanını anlarım. En iyi işimi ürünü tasarlarken ve onu inşa eden ekibe liderlik ederken çıkarırım.",
+    "status": "**Chip Theory Games**’te Sistem Mühendisi",
+    "description": "Mehmet Colakoglu, Bilgisayar Bilimi ve Psikoloji çift anadal mezunu, ürün tasarlayan ve geliştirici ekiplerine liderlik eden bir full-stack mühendistir.",
+    "portrait_alt": "Mehmet Colakoglu’nun portresi",
+    "ui": {
+      "skip_to_content": "İçeriğe geç",
+      "main_navigation": "Ana menü",
+      "language": "Dil",
+      "toggle_theme": "Açık ve koyu tema arasında geçiş yap",
+      "previous": "Önceki görsel",
+      "next": "Sonraki görsel",
+      "view_full": "Tam boyutta görüntüle",
+      "watch_video": "Videoyu izle",
+      "open_demo": "Simülasyonu aç",
+      "close": "Kapat",
+      "media_viewer": "Medya görüntüleyici",
+      "not_found_title": "Sayfa bulunamadı",
+      "not_found_body": "Bu sayfa yok ya da taşındı. [Ana sayfaya dön](/tr/)."
+    }
+  }
+}

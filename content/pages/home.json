@@ -1,0 +1,99 @@
+{
+  "en": {
+    "permalink": "home",
+    "title": "Home",
+    "description": "Mehmet Colakoglu: full-stack engineer who designs products and leads teams of builders.",
+    "show_title": false,
+    "draft": false,
+    "kicker": "",
+    "intro": "",
+    "blocks": [
+      {
+        "type": "hero",
+        "kicker": "Full-stack engineer · Los Angeles",
+        "heading": "I write the code. I *lead the people* who ship it.",
+        "lead": "I have a coder’s technical skills and I understand every step of the process, from database schema to deployment. Where I excel is designing products and leading teams of builders. I studied Computer Science and Psychology at the same time, and I use both every day.",
+        "image": "",
+        "image_alt": "",
+        "buttons": [
+          { "label": "See my work", "url": "work", "style": "primary", "new_tab": false },
+          { "label": "Get in touch", "url": "contact", "style": "secondary", "new_tab": false },
+          { "label": "Résumé (PDF)", "url": "/assets/uploads/mehmet-colakoglu-resume.pdf", "style": "secondary", "new_tab": true }
+        ]
+      },
+      { "type": "divider", "motif": "" },
+      {
+        "type": "cards",
+        "heading": "What I bring to a team",
+        "intro": "",
+        "columns": "1",
+        "items": [
+          {
+            "title": "Products that start with people",
+            "meta": "Product design",
+            "badge": "",
+            "body": "Psychology taught me to watch what people do, not what they say they’ll do. I scope features around real behavior, write the spec, and turn it into something a team can build.",
+            "tags": [], "links": [], "gallery": [], "video_url": "", "embed_url": "",
+            "show_band": false, "hidden": false
+          },
+          {
+            "title": "Teams that move together",
+            "meta": "Leadership",
+            "badge": "",
+            "body": "I’ve rolled out a platform across four departments, written architecture proposals for a CEO, COO and CCO, and led small hackathon teams to first and second place. I assign work to strengths and keep scope honest.",
+            "tags": [], "links": [], "gallery": [], "video_url": "", "embed_url": "",
+            "show_band": false, "hidden": false
+          },
+          {
+            "title": "Engineering I can stand behind",
+            "meta": "Full-stack",
+            "badge": "",
+            "body": "React, Node.js, MySQL, AWS, real-time systems and local LLMs. I don’t delegate what I don’t understand, which makes me a better reviewer and a faster unblocker.",
+            "tags": [], "links": [], "gallery": [], "video_url": "", "embed_url": "",
+            "show_band": false, "hidden": false
+          }
+        ]
+      }
+    ]
+  },
+  "tr": {
+    "title": "Ana sayfa",
+    "description": "Mehmet Colakoglu: ürün tasarlayan ve geliştirici ekiplerine liderlik eden full-stack mühendis.",
+    "blocks": [
+      {
+        "type": "hero",
+        "kicker": "Full-stack mühendis · Los Angeles",
+        "heading": "Kodu yazarım. Onu hayata geçiren *ekibe liderlik ederim.*",
+        "lead": "Bir yazılımcının teknik becerilerine sahibim ve veritabanı şemasından canlıya almaya kadar sürecin her adımını anlıyorum. Asıl fark yarattığım yer ürün tasarlamak ve geliştirici ekiplerine liderlik etmek. Bilgisayar Bilimi ve Psikolojiyi aynı anda okudum; ikisini de her gün kullanıyorum.",
+        "buttons": [
+          { "label": "Çalışmalarımı gör", "url": "work", "style": "primary", "new_tab": false },
+          { "label": "İletişime geç", "url": "contact", "style": "secondary", "new_tab": false },
+          { "label": "Özgeçmiş (PDF, İngilizce)", "url": "/assets/uploads/mehmet-colakoglu-resume.pdf", "style": "secondary", "new_tab": true }
+        ]
+      },
+      { "type": "divider", "motif": "" },
+      {
+        "type": "cards",
+        "heading": "Bir ekibe kattıklarım",
+        "columns": "1",
+        "items": [
+          {
+            "title": "İnsandan başlayan ürünler",
+            "meta": "Ürün tasarımı",
+            "body": "Psikoloji bana insanların ne yapacaklarını söylediklerine değil, gerçekte ne yaptıklarına bakmayı öğretti. Özellikleri gerçek davranışa göre kapsamlandırır, şartnameyi yazar ve bir ekibin inşa edebileceği bir plana dönüştürürüm."
+          },
+          {
+            "title": "Birlikte hareket eden ekipler",
+            "meta": "Liderlik",
+            "body": "Dört departmanda kullanılan bir platformun geçişini yönettim, CEO, COO ve CCO için mimari öneriler yazdım ve küçük hackathon ekiplerini birinciliğe ve ikinciliğe taşıdım. İşi güçlü yönlere göre dağıtır, kapsamı gerçekçi tutarım."
+          },
+          {
+            "title": "Arkasında durabildiğim mühendislik",
+            "meta": "Full-stack",
+            "body": "React, Node.js, MySQL, AWS, gerçek zamanlı sistemler ve yerel LLM’ler. Anlamadığım işi devretmem; bu da beni daha iyi bir kod gözden geçiricisi ve daha hızlı bir engel kaldırıcı yapıyor."
+          }
+        ]
+      }
+    ]
+  }
+}

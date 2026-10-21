@@ -1,0 +1,26 @@
+{
+  "en": {
+    "items": [
+      { "label": "Home", "link": "home", "new_tab": false, "hidden": false },
+      { "label": "About me", "link": "about", "new_tab": false, "hidden": false },
+      { "label": "Work", "link": "work", "new_tab": false, "hidden": false },
+      { "label": "Skills", "link": "skills", "new_tab": false, "hidden": false },
+      { "label": "Timeline", "link": "timeline", "new_tab": false, "hidden": false },
+      { "label": "The Mechanical Turk", "link": "mechanical-turk", "new_tab": false, "hidden": false },
+      { "label": "Attributed to Turkey", "link": "attributed-to-turkey", "new_tab": false, "hidden": false },
+      { "label": "Contact", "link": "contact", "new_tab": false, "hidden": false }
+    ]
+  },
+  "tr": {
+    "items": [
+      { "label": "Ana sayfa", "link": "home", "new_tab": false, "hidden": false },
+      { "label": "Hakkımda", "link": "about", "new_tab": false, "hidden": false },
+      { "label": "Çalışmalarım", "link": "work", "new_tab": false, "hidden": false },
+      { "label": "Yetenekler", "link": "skills", "new_tab": false, "hidden": false },
+      { "label": "Zaman çizelgesi", "link": "timeline", "new_tab": false, "hidden": false },
+      { "label": "Mekanik Türk", "link": "mechanical-turk", "new_tab": false, "hidden": false },
+      { "label": "Türk’e mal edilenler", "link": "attributed-to-turkey", "new_tab": false, "hidden": false },
+      { "label": "İletişim", "link": "contact", "new_tab": false, "hidden": false }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "en": {
+    "entries": [
+      {
+        "date": "Aug 2021", "kind_label": "Education", "motif": "goz", "link": "", "hidden": false,
+        "title": "Started at Loyola Marymount University",
+        "org": "Los Angeles, CA",
+        "body": "Chose a double degree in Computer Science and Psychology: how systems work, and how people work with them."
+      },
+      {
+        "date": "Aug 2023", "kind_label": "Research", "motif": "muska", "link": "", "hidden": false,
+        "title": "Research Assistant",
+        "org": "LMU Psychology Department",
+        "body": "Automated data cleaning for 300+ participants and built Unity simulations that capture behavioral metrics for perception research."
+      },
+      {
+        "date": "Aug 2025", "kind_label": "Education", "motif": "goz", "link": "", "hidden": false,
+        "title": "Graduated cum laude",
+        "org": "B.S. Computer Science and Psychology · 3.8 GPA",
+        "body": ""
+      },
+      {
+        "date": "Feb 2026", "kind_label": "Work", "motif": "koc_boynuzu", "link": "", "hidden": false,
+        "title": "Frontend Engineering Intern",
+        "org": "DJ League",
+        "body": "Real-time competition UI in React and Convex: under 50 ms end-to-end latency across 200+ concurrent connections."
+      },
+      {
+        "date": "Mar 2026", "kind_label": "Work", "motif": "koc_boynuzu", "link": "", "hidden": false,
+        "title": "Technology & Automation Engineer",
+        "org": "Incredible Dream Studios",
+        "body": "Integrations that cut ticket resolution time by 82%, plus the specs and architecture proposals leadership used to plan."
+      },
+      {
+        "date": "Aug 2026", "kind_label": "Project", "motif": "pitrak", "link": "work", "hidden": false,
+        "title": "Auto Dev. Env. (ADE)",
+        "org": "Personal project",
+        "body": "A local coding agent on a quantized 7B model, powered by an off-grid solar rig."
+      },
+      {
+        "date": "Sep 2026", "kind_label": "Award", "motif": "yildiz", "link": "work", "hidden": false,
+        "title": "1st place, Jewel City Hacks",
+        "org": "Glendale Ready · built for the Glendale Fire Department",
+        "body": ""
+      },
+      {
+        "date": "Sep 2026", "kind_label": "Award", "motif": "yildiz", "link": "work", "hidden": false,
+        "title": "2nd place + presentation award, Demo Vision Hack",
+        "org": "Fix-It LA · AI civic reporting for LA 311",
+        "body": ""
+      },
+      {
+        "date": "Sep 2026", "kind_label": "Work", "motif": "koc_boynuzu", "link": "", "hidden": false,
+        "title": "Systems Engineer",
+        "org": "Chip Theory Games",
+        "body": "Building a shared project management platform for four departments and moving legacy systems to AWS."
+      },
+      {
+        "date": "Next", "kind_label": "Goal", "motif": "dogum", "link": "", "hidden": false,
+        "title": "Robotics",
+        "org": "Long-term direction",
+        "body": "Learning the fundamentals properly and building small, real machines."
+      }
+    ]
+  },
+  "tr": {
+    "entries": [
+      { "date": "Ağu 2021", "kind_label": "Eğitim", "title": "Loyola Marymount Üniversitesi’nde başladım", "org": "Los Angeles, Kaliforniya", "body": "Bilgisayar Bilimi ve Psikoloji çift anadalını seçtim: sistemler nasıl çalışır ve insanlar onlarla nasıl çalışır." },
+      { "date": "Ağu 2023", "kind_label": "Araştırma", "title": "Araştırma Asistanı", "org": "LMU Psikoloji Bölümü", "body": "300’den fazla katılımcının verisi için temizleme sürecini otomatikleştirdim; algı araştırmaları için davranışsal ölçüm yapan Unity simülasyonları geliştirdim." },
+      { "date": "Ağu 2025", "kind_label": "Eğitim", "title": "Onur derecesiyle (cum laude) mezun oldum", "org": "Bilgisayar Bilimi ve Psikoloji lisans · 3.8 not ortalaması", "body": "" },
+      { "date": "Şub 2026", "kind_label": "İş", "title": "Frontend Mühendisliği Stajyeri", "org": "DJ League", "body": "React ve Convex ile gerçek zamanlı yarışma arayüzü: 200’den fazla eşzamanlı bağlantıda 50 ms altında uçtan uca gecikme." },
+      { "date": "Mar 2026", "kind_label": "İş", "title": "Teknoloji ve Otomasyon Mühendisi", "org": "Incredible Dream Studios", "body": "Destek talebi çözüm süresini %82 kısaltan entegrasyonlar; yönetimin planlamada kullandığı teknik şartnameler ve mimari öneriler." },
+      { "date": "Ağu 2026", "kind_label": "Proje", "title": "Auto Dev. Env. (ADE)", "org": "Kişisel proje", "body": "Şebekeden bağımsız bir güneş enerjisi sistemiyle çalışan, 7B parametreli nicemlenmiş bir modelle yerel kodlama ajanı." },
+      { "date": "Eyl 2026", "kind_label": "Ödül", "title": "Jewel City Hacks birinciliği", "org": "Glendale Ready · Glendale İtfaiyesi için geliştirildi", "body": "" },
+      { "date": "Eyl 2026", "kind_label": "Ödül", "title": "Demo Vision Hack ikinciliği + sunum ödülü", "org": "Fix-It LA · LA 311 için yapay zekâ destekli bildirim", "body": "" },
+      { "date": "Eyl 2026", "kind_label": "İş", "title": "Sistem Mühendisi", "org": "Chip Theory Games", "body": "Dört departmanın ortak kullandığı bir proje yönetim platformu geliştiriyor ve eski sistemleri AWS’ye taşıyorum." },
+      { "date": "Sırada", "kind_label": "Hedef", "title": "Robotik", "org": "Uzun vadeli yön", "body": "Temelleri doğru öğrenmek ve küçük ama gerçek makineler yapmak." }
+    ]
+  }
+}

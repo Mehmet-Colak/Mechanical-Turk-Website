@@ -1,0 +1,23 @@
+{
+  "en": {
+    "permalink": "contact",
+    "title": "Contact",
+    "description": "Contact Mehmet Colakoglu by email, LinkedIn, GitHub or Calendly.",
+    "show_title": true,
+    "draft": false,
+    "kicker": "Contact",
+    "intro": "Hiring for product, full-stack or AI work, or building something in robotics? Email is fastest.",
+    "blocks": [
+      { "type": "contact", "heading": "", "intro": "" }
+    ]
+  },
+  "tr": {
+    "title": "İletişim",
+    "description": "Mehmet Colakoglu’na e-posta, LinkedIn, GitHub veya Calendly üzerinden ulaşın.",
+    "kicker": "İletişim",
+    "intro": "Ürün, full-stack veya yapay zekâ alanında işe alım mı yapıyorsunuz, ya da robotik üzerine bir şey mi inşa ediyorsunuz? En hızlı yol e-posta.",
+    "blocks": [
+      { "type": "contact", "heading": "", "intro": "" }
+    ]
+  }
+}

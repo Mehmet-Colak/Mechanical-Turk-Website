@@ -1,0 +1,23 @@
+{
+  "en": {
+    "permalink": "timeline",
+    "title": "Timeline",
+    "description": "Milestones in Mehmet Colakoglu’s education and career.",
+    "show_title": true,
+    "draft": false,
+    "kicker": "Timeline",
+    "intro": "Five years, from the first lecture to the current build.",
+    "blocks": [
+      { "type": "timeline", "heading": "", "intro": "" }
+    ]
+  },
+  "tr": {
+    "title": "Zaman çizelgesi",
+    "description": "Mehmet Colakoglu’nun eğitim ve kariyerindeki dönüm noktaları.",
+    "kicker": "Zaman çizelgesi",
+    "intro": "İlk dersten bugünkü projeye beş yıl.",
+    "blocks": [
+      { "type": "timeline", "heading": "", "intro": "" }
+    ]
+  }
+}
