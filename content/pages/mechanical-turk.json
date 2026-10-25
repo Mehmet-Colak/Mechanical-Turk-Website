@@ -60,9 +60,31 @@
         "image": "",
         "image_alt": "",
         "hidden": false,
-        "body": "I don’t read the Turk as a fraud. I read it as a design brief. It made something hard feel effortless, it was built from real mechanics and smart misdirection, and its intelligence came from a skilled person working inside the system. That’s how I think about products: the engineering has to be real, and the people inside it matter most.\n\nAlso, I’m a Turk.",
+        "body": "We are not frauds; we are not magic. We are engineers, and we are dreammakers. I see the story of the Mechanical Turk not as a condemnation of \"oriental trickery,\" but rather as a way of emulating an incredible idea that did not yet have the technological backing.\n\nAnd since this was a \"toy\" used for entertainment, I do not  see it as any more malicious than a carnival trick or a magician's show. We want magic to be real; we want to believe in the power of the machines, but they are not there yet, so we settle for the imitations of it.\n\nMy life's goal is to realize these dreams. I intend to work in the field of AI and robotics for the rest of my life, and I intend to build a real, working Mechanical Turk by the end of 2028. So, follow me on LinkedIn and GitHub, and follow along on my journey.",
         "as_card": false,
         "show_band": false
+      },
+      {
+        "type": "cards",
+        "heading": "Other Things Attributed to Turks",
+        "hidden": false,
+        "intro": "",
+        "columns": "2",
+        "items": [
+          {
+            "title": "Steak Tartare",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
       }
     ]
   },
@@ -130,6 +152,28 @@
         "body": "Türk’ü bir sahtekârlık olarak görmüyorum; bir tasarım brifi olarak görüyorum. Zor bir şeyi zahmetsiz gösterdi, gerçek mekanik ve akıllı bir yanıltmacayla inşa edildi ve zekâsını sistemin içinde çalışan yetenekli bir insandan aldı. Ürünlere ben de böyle bakıyorum: mühendislik gerçek olmalı ve en önemlisi, içindeki insanlardır.\n\nAyrıca ben de bir Türk’üm.",
         "as_card": false,
         "show_band": false
+      },
+      {
+        "type": "cards",
+        "heading": "Turklere mal edilenler",
+        "hidden": false,
+        "intro": "",
+        "columns": "2",
+        "items": [
+          {
+            "title": "Cig Kofte",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
       }
     ]
   }

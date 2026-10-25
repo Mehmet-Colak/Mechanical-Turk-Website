@@ -3,14 +3,17 @@
     "permalink": "work",
     "title": "Work",
     "description": "Work experience, research, projects and civic work by Mehmet Colakoglu.",
-    "show_title": true,
-    "draft": false,
     "kicker": "Work",
+    "show_title": true,
     "intro": "Where I’ve built, what I learned, and what changed because of it.",
+    "divider_motif": "",
+    "og_image": "",
+    "draft": false,
     "blocks": [
       {
         "type": "cards",
         "heading": "Experience",
+        "hidden": false,
         "intro": "",
         "columns": "1",
         "items": [
@@ -19,30 +22,86 @@
             "meta": "Systems Engineer · Sep 2026 – present",
             "badge": "",
             "body": "- Building a modular project management platform (React, Node.js, MySQL) that centralizes workflows across **4 teams**. The first rollout cut proofing prep time by **40%** and task handoffs by **32%**.\n- Migrating three legacy on-prem applications to AWS, re-architecting them for cloud access and lower maintenance.",
-            "tags": ["React", "Node.js", "MySQL", "AWS"], "links": [], "gallery": [], "video_url": "", "embed_url": "",
-            "show_band": true, "hidden": false
+            "tags": [
+              "React",
+              "Node.js",
+              "MySQL",
+              "AWS"
+            ],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
           },
           {
             "title": "Incredible Dream Studios",
             "meta": "Technology & Automation Engineer · Mar – Sep 2026",
             "badge": "",
             "body": "- Linked external ticketing tools to the core website with custom JavaScript, webhooks and Zapier, cutting resolution times by **82%** and raising distribution efficiency by **45%**.\n- Wrote technical specs, API scoping and system architecture proposals for the CEO, COO and CCO.",
-            "tags": ["JavaScript", "Webhooks", "Zapier", "Architecture"], "links": [], "gallery": [], "video_url": "", "embed_url": "",
-            "show_band": true, "hidden": false
+            "tags": [
+              "JavaScript",
+              "Webhooks",
+              "Zapier",
+              "Architecture"
+            ],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
           },
           {
             "title": "DJ League",
             "meta": "Frontend Engineering Intern · Feb – Apr 2026",
             "badge": "",
             "body": "- Built animated React components for live competitions on Convex’s reactive WebSocket layer, keeping latency under **50 ms** across 200+ concurrent connections.\n- Handled high-frequency writes with debounced subscriptions and optimistic updates to hold a steady **60 FPS**.",
-            "tags": ["React", "Convex", "WebSockets"], "links": [], "gallery": [], "video_url": "", "embed_url": "",
-            "show_band": true, "hidden": false
+            "tags": [
+              "React",
+              "Convex",
+              "WebSockets"
+            ],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "LMU Psychology Department",
+            "meta": "Research Assistant and then DEI Commitee Member",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "G2 Esports",
+            "meta": "Marketing and Partnership Acquisition Intern",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
           }
         ]
       },
       {
         "type": "cards",
         "heading": "Research",
+        "hidden": false,
         "intro": "",
         "columns": "1",
         "items": [
@@ -51,14 +110,25 @@
             "meta": "Research Assistant · Aug 2023 – Aug 2025",
             "badge": "",
             "body": "Wrote automated Python scripts to validate survey and test data for **300+ participants**. Built 3D simulation tools in Unity (C#) that capture behavioral metrics, making perception experiments scalable.",
-            "tags": ["Python", "Unity", "C#", "Research design"], "links": [], "gallery": [], "video_url": "", "embed_url": "",
-            "show_band": true, "hidden": false
+            "tags": [
+              "Python",
+              "Unity",
+              "C#",
+              "Research design"
+            ],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
           }
         ]
       },
       {
         "type": "cards",
         "heading": "Projects",
+        "hidden": false,
         "intro": "",
         "columns": "1",
         "items": [
@@ -67,30 +137,61 @@
             "meta": "Aug 2026 – present",
             "badge": "Off-grid",
             "body": "An autonomous coding agent that writes, tests and debugs code locally against acceptance criteria I define. It runs a 4-bit Qwen2.5-Coder 7B through Ollama on 8 GB of VRAM, with SSH access for remote work, and the whole rig is powered by a 400 W solar array and a 2,000 Wh battery.",
-            "tags": ["Ollama", "Qwen2.5-Coder", "Agentic AI", "OpenSSH"], "links": [], "gallery": [], "video_url": "", "embed_url": "",
-            "show_band": true, "hidden": false
+            "tags": [
+              "Ollama",
+              "Qwen2.5-Coder",
+              "Agentic AI",
+              "OpenSSH"
+            ],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
           },
           {
             "title": "Fix-It LA",
             "meta": "Demo Vision Hack · Sep 2026",
             "badge": "2nd place",
             "body": "An AI civic reporting app: Gemini Vision classifies infrastructure problems from a photo, routes them to the right LA 311 form and submits the ticket to the Mayor’s Office. I scraped the 311 portal to map its form schema so fields generate dynamically. We placed 2nd of ~20 teams and won a distinction for presentation, pitching live to 100+ people including investors and city representatives.",
-            "tags": ["React", "Node.js", "Python", "Gemini Vision"], "links": [], "gallery": [], "video_url": "", "embed_url": "",
-            "show_band": true, "hidden": false
+            "tags": [
+              "React",
+              "Node.js",
+              "Python",
+              "Gemini Vision"
+            ],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
           },
           {
             "title": "Glendale Ready",
             "meta": "Jewel City Hacks · Sep 2026",
             "badge": "1st place",
             "body": "A two-person build for the Glendale Fire Department that won 1st of 15+ teams. It overlays Cal Fire hazard data on Google Maps to show active threat zones and evacuation routes, with Google Calendar reminders for recurring emergency drills.",
-            "tags": ["React", "Firebase", "Google Maps API", "Cal Fire data"], "links": [], "gallery": [], "video_url": "", "embed_url": "",
-            "show_band": true, "hidden": false
+            "tags": [
+              "React",
+              "Firebase",
+              "Google Maps API",
+              "Cal Fire data"
+            ],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
           }
         ]
       },
       {
         "type": "cards",
         "heading": "Political & civic work",
+        "hidden": false,
         "intro": "",
         "columns": "1",
         "items": [
@@ -99,89 +200,202 @@
             "meta": "Role · dates",
             "badge": "",
             "body": "This card is hidden. Edit it in the CMS and switch off “Hide this card” to publish the section.",
-            "tags": [], "links": [], "gallery": [], "video_url": "", "embed_url": "",
-            "show_band": true, "hidden": true
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": true
           }
         ]
       }
     ]
   },
   "tr": {
+    "permalink": "work",
     "title": "Çalışmalarım",
     "description": "Mehmet Colakoglu’nun iş deneyimi, araştırmaları, projeleri ve sivil çalışmaları.",
     "kicker": "Çalışmalarım",
+    "show_title": true,
     "intro": "Nerede neler inşa ettim, ne öğrendim ve bunun sonucunda ne değişti.",
+    "divider_motif": "",
+    "og_image": "",
+    "draft": false,
     "blocks": [
       {
         "type": "cards",
         "heading": "Deneyim",
+        "hidden": false,
+        "intro": "",
         "columns": "1",
         "items": [
           {
             "title": "Chip Theory Games",
             "meta": "Sistem Mühendisi · Eyl 2026 – günümüz",
-            "body": "- **4 ekibin** iş akışlarını tek yerde toplayan modüler bir proje yönetim platformu geliştiriyorum (React, Node.js, MySQL). İlk geçiş, prova materyali hazırlama süresini **%40**, görev devirlerini **%32** azalttı.\n- Şirket içi sunucularda çalışan üç eski uygulamayı AWS’ye taşıyor, bulut erişimi ve daha düşük bakım yükü için yeniden tasarlıyorum."
+            "badge": "",
+            "body": "- **4 ekibin** iş akışlarını tek yerde toplayan modüler bir proje yönetim platformu geliştiriyorum (React, Node.js, MySQL). İlk geçiş, prova materyali hazırlama süresini **%40**, görev devirlerini **%32** azalttı.\n- Şirket içi sunucularda çalışan üç eski uygulamayı AWS’ye taşıyor, bulut erişimi ve daha düşük bakım yükü için yeniden tasarlıyorum.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
           },
           {
             "title": "Incredible Dream Studios",
             "meta": "Teknoloji ve Otomasyon Mühendisi · Mar – Eyl 2026",
-            "body": "- Harici destek talebi araçlarını özel JavaScript, webhook’lar ve Zapier ile ana web sitesine bağladım; çözüm sürelerini **%82** kısalttım, dağıtım verimliliğini **%45** artırdım.\n- CEO, COO ve CCO için teknik şartnameler, API kapsam belgeleri ve sistem mimarisi önerileri yazdım."
+            "badge": "",
+            "body": "- Harici destek talebi araçlarını özel JavaScript, webhook’lar ve Zapier ile ana web sitesine bağladım; çözüm sürelerini **%82** kısalttım, dağıtım verimliliğini **%45** artırdım.\n- CEO, COO ve CCO için teknik şartnameler, API kapsam belgeleri ve sistem mimarisi önerileri yazdım.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
           },
           {
             "title": "DJ League",
             "meta": "Frontend Mühendisliği Stajyeri · Şub – Nis 2026",
-            "body": "- Convex’in reaktif WebSocket katmanı üzerinde canlı yarışmalar için animasyonlu React bileşenleri geliştirdim; 200’den fazla eşzamanlı bağlantıda gecikmeyi **50 ms** altında tuttum.\n- Yüksek frekanslı yazmaları gecikmeli abonelikler ve iyimser arayüz güncellemeleriyle yöneterek akıcı **60 FPS** sağladım."
+            "badge": "",
+            "body": "- Convex’in reaktif WebSocket katmanı üzerinde canlı yarışmalar için animasyonlu React bileşenleri geliştirdim; 200’den fazla eşzamanlı bağlantıda gecikmeyi **50 ms** altında tuttum.\n- Yüksek frekanslı yazmaları gecikmeli abonelikler ve iyimser arayüz güncellemeleriyle yöneterek akıcı **60 FPS** sağladım.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Bilim Asistani",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "G2 Esporlari",
+            "meta": "Pazarlama Stajyeri",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
           }
         ]
       },
       {
         "type": "cards",
         "heading": "Araştırma",
+        "hidden": false,
+        "intro": "",
         "columns": "1",
         "items": [
           {
             "title": "LMU Psikoloji Bölümü",
             "meta": "Araştırma Asistanı · Ağu 2023 – Ağu 2025",
+            "badge": "",
             "body": "**300’den fazla katılımcının** anket ve test verisini doğrulayan otomatik Python betikleri yazdım. Davranışsal ölçümler toplayan Unity (C#) 3B simülasyon araçları geliştirerek algı deneylerini ölçeklenebilir hâle getirdim.",
-            "tags": ["Python", "Unity", "C#", "Araştırma tasarımı"]
+            "tags": [
+              "Python",
+              "Unity",
+              "C#",
+              "Araştırma tasarımı"
+            ],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
           }
         ]
       },
       {
         "type": "cards",
         "heading": "Projeler",
+        "hidden": false,
+        "intro": "",
         "columns": "1",
         "items": [
           {
             "title": "Auto Dev. Env. (ADE)",
             "meta": "Ağu 2026 – günümüz",
             "badge": "Şebekeden bağımsız",
-            "body": "Belirlediğim kabul kriterlerine göre kodu yerelde yazan, test eden ve hatalarını ayıklayan otonom bir kodlama ajanı. 4-bit Qwen2.5-Coder 7B modelini Ollama üzerinden 8 GB VRAM ile çalıştırıyor, uzaktan çalışma için SSH erişimi sunuyor. Sistemin tamamı 400 W’lık bir güneş paneli dizisi ve 2.000 Wh’lik bir bataryayla besleniyor."
+            "body": "Belirlediğim kabul kriterlerine göre kodu yerelde yazan, test eden ve hatalarını ayıklayan otonom bir kodlama ajanı. 4-bit Qwen2.5-Coder 7B modelini Ollama üzerinden 8 GB VRAM ile çalıştırıyor, uzaktan çalışma için SSH erişimi sunuyor. Sistemin tamamı 400 W’lık bir güneş paneli dizisi ve 2.000 Wh’lik bir bataryayla besleniyor.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
           },
           {
             "title": "Fix-It LA",
             "meta": "Demo Vision Hack · Eyl 2026",
             "badge": "İkincilik",
-            "body": "Yapay zekâ destekli bir şehir sorunu bildirim uygulaması: Gemini Vision, fotoğraftan altyapı sorununu sınıflandırıyor, doğru LA 311 formuna yönlendiriyor ve talebi doğrudan Belediye Başkanlığı’na iletiyor. Form şemasını çıkarmak için 311 portalını Python ile taradım; böylece alanlar dinamik olarak oluşuyor. Yatırımcılar ve belediye temsilcilerinin de bulunduğu 100’den fazla kişiye canlı sunum yaparak ~20 ekip arasında ikinci olduk ve sunum ödülünü kazandık."
+            "body": "Yapay zekâ destekli bir şehir sorunu bildirim uygulaması: Gemini Vision, fotoğraftan altyapı sorununu sınıflandırıyor, doğru LA 311 formuna yönlendiriyor ve talebi doğrudan Belediye Başkanlığı’na iletiyor. Form şemasını çıkarmak için 311 portalını Python ile taradım; böylece alanlar dinamik olarak oluşuyor. Yatırımcılar ve belediye temsilcilerinin de bulunduğu 100’den fazla kişiye canlı sunum yaparak ~20 ekip arasında ikinci olduk ve sunum ödülünü kazandık.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
           },
           {
             "title": "Glendale Ready",
             "meta": "Jewel City Hacks · Eyl 2026",
             "badge": "Birincilik",
             "body": "Glendale İtfaiyesi için iki kişilik ekiple geliştirdiğimiz ve 15’ten fazla ekip arasında birinci olan proje. Cal Fire tehlike verilerini Google Haritalar üzerine bindirerek aktif tehdit bölgelerini ve tahliye rotalarını gösteriyor; düzenli acil durum tatbikatları için Google Takvim hatırlatmaları içeriyor.",
-            "tags": ["React", "Firebase", "Google Maps API", "Cal Fire verisi"]
+            "tags": [
+              "React",
+              "Firebase",
+              "Google Maps API",
+              "Cal Fire verisi"
+            ],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
           }
         ]
       },
       {
         "type": "cards",
         "heading": "Siyasi ve sivil çalışmalar",
+        "hidden": false,
+        "intro": "",
         "columns": "1",
         "items": [
           {
             "title": "Siyasi çalışmalarını buraya ekle",
             "meta": "Rol · tarihler",
-            "body": "Bu kart gizli. CMS’te düzenle ve bölümü yayınlamak için “Bu kartı gizle” seçeneğini kapat."
+            "badge": "",
+            "body": "Bu kart gizli. CMS’te düzenle ve bölümü yayınlamak için “Bu kartı gizle” seçeneğini kapat.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": true
           }
         ]
       }

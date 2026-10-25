@@ -1,0 +1,362 @@
+{
+  "en": {
+    "permalink": "projects",
+    "title": "Personal Projects",
+    "description": "",
+    "kicker": "",
+    "show_title": true,
+    "intro": "",
+    "divider_motif": "",
+    "og_image": "",
+    "draft": false,
+    "blocks": [
+      {
+        "type": "cards",
+        "heading": "Robotics",
+        "hidden": false,
+        "intro": "",
+        "columns": "1",
+        "items": [
+          {
+            "title": "Fencing",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "heading": "Software",
+        "hidden": false,
+        "intro": "",
+        "columns": "1",
+        "items": [
+          {
+            "title": "Glendale Ready",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "heading": "Research Papers",
+        "hidden": false,
+        "intro": "",
+        "columns": "1",
+        "items": [
+          {
+            "title": "Verical Distance Estimation Study",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "heading": "AI",
+        "hidden": false,
+        "intro": "",
+        "columns": "1",
+        "items": [
+          {
+            "title": "Auto Dev. Env. (ADE)",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "heading": "Video Games",
+        "hidden": false,
+        "intro": "",
+        "columns": "1",
+        "items": [
+          {
+            "title": "Secret Chip Theory Games Project",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Hell Upon the Highest Tower",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "heading": "Clubs",
+        "hidden": false,
+        "intro": "",
+        "columns": "1",
+        "items": [
+          {
+            "title": "EurAsian Lions",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "heading": "Creative Writing",
+        "hidden": false,
+        "intro": "",
+        "columns": "1",
+        "items": [
+          {
+            "title": "Without Feathers",
+            "meta": "Short Story",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
+      }
+    ]
+  },
+  "tr": {
+    "permalink": "projects",
+    "title": "Personal Projelerim",
+    "description": "",
+    "kicker": "",
+    "show_title": true,
+    "intro": "",
+    "divider_motif": "",
+    "og_image": "",
+    "draft": false,
+    "blocks": [
+      {
+        "type": "cards",
+        "heading": "",
+        "hidden": false,
+        "intro": "",
+        "columns": "1",
+        "items": [
+          {
+            "title": "Eskrim",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "heading": "",
+        "hidden": false,
+        "intro": "",
+        "columns": "1",
+        "items": [
+          {
+            "title": "Glendale Hazir",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "heading": "",
+        "hidden": false,
+        "intro": "",
+        "columns": "1",
+        "items": [
+          {
+            "title": "Dusme Makalesi",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "heading": "",
+        "hidden": false,
+        "intro": "",
+        "columns": "1",
+        "items": [
+          {
+            "title": "ADE",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "heading": "",
+        "hidden": false,
+        "intro": "",
+        "columns": "1",
+        "items": [
+          {
+            "title": "Gizle Chip Theory Games Oyunu",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "En Yuksek Kuledeki Cehennem",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "heading": "",
+        "hidden": false,
+        "intro": "",
+        "columns": "1",
+        "items": [
+          {
+            "title": "Avrasyali Aslanlar",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "heading": "",
+        "hidden": false,
+        "intro": "",
+        "columns": "1",
+        "items": [
+          {
+            "title": "Cavlak",
+            "meta": "Kisa Hikaye",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
+      }
+    ]
+  }
+}

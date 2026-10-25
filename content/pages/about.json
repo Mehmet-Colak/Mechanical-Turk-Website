@@ -3,24 +3,31 @@
     "permalink": "about",
     "title": "About me",
     "description": "The story of how Mehmet Colakoglu came to software through psychology, research and teams.",
-    "show_title": true,
-    "draft": false,
     "kicker": "About me",
+    "show_title": true,
     "intro": "Engineer, psychology graduate, and usually the person who ends up organizing the team.",
+    "divider_motif": "",
+    "og_image": "",
+    "draft": false,
     "blocks": [
       {
         "type": "text",
         "heading": "I came to software through people",
-        "as_card": true,
-        "show_band": true,
         "image": "",
         "image_alt": "",
-        "body": "At Loyola Marymount University I studied Computer Science and Psychology at the same time, and graduated cum laude with a 3.8 GPA in 2025. The two degrees argued with each other in useful ways. Computer science taught me how systems behave. Psychology taught me how people behave around systems, and that the second question usually decides whether the first one matters.\n\nFor two years I was a research assistant in LMU’s Psychology Department. I wrote Python scripts that cleaned and validated data for more than 300 participants, and built 3D simulations in Unity to measure how people perceive the world around them. It was my first lesson in building tools for someone else’s work: researchers didn’t want code, they wanted experiments that ran.\n\nAfter graduating I went into industry and kept drifting toward the problems *between* teams. At DJ League I built real-time competition interfaces in React and Convex. At Incredible Dream Studios I connected ticketing tools to the company’s web infrastructure, cut resolution times by 82%, and wrote the specs and architecture proposals leadership used to decide what to build next. Today I’m a Systems Engineer at Chip Theory Games, building a project management platform that four departments share and moving legacy systems to AWS.\n\nHackathons are where I practice leading. A small team and a hard deadline teach you quickly how to cut scope, give people work that fits their strengths, and pitch what you built. That’s how we took first place at Jewel City Hacks, building for the Glendale Fire Department, and second place plus a presentation award at Demo Vision Hack.\n\nNext is robotics. I’m new to it, and I’m approaching it the way I approached psychology: learn the fundamentals properly, build small real things, and stay close to people who know more than I do."
+        "hidden": false,
+        "body": "At Loyola Marymount University I studied Computer Science and Psychology at the same time, and graduated cum laude with a 3.8 GPA in 2025. The two degrees argued with each other in useful ways. Computer science taught me how systems behave. Psychology taught me how people behave around systems, and that the second question usually decides whether the first one matters.\n\nFor two years I was a research assistant in LMU’s Psychology Department. I wrote Python scripts that cleaned and validated data for more than 300 participants, and built 3D simulations in Unity to measure how people perceive the world around them. It was my first lesson in building tools for someone else’s work: researchers didn’t want code, they wanted experiments that ran.\n\nAfter graduating I went into industry and kept drifting toward the problems *between* teams. At DJ League I built real-time competition interfaces in React and Convex. At Incredible Dream Studios I connected ticketing tools to the company’s web infrastructure, cut resolution times by 82%, and wrote the specs and architecture proposals leadership used to decide what to build next. Today I’m a Systems Engineer at Chip Theory Games, building a project management platform that four departments share and moving legacy systems to AWS.\n\nHackathons are where I practice leading. A small team and a hard deadline teach you quickly how to cut scope, give people work that fits their strengths, and pitch what you built. That’s how we took first place at Jewel City Hacks, building for the Glendale Fire Department, and second place plus a presentation award at Demo Vision Hack.\n\nNext is robotics. I’m new to it, and I’m approaching it the way I approached psychology: learn the fundamentals properly, build small real things, and stay close to people who know more than I do.",
+        "as_card": true,
+        "show_band": true
       },
-      { "type": "divider", "motif": "" },
+      {
+        "type": "divider",
+        "motif": ""
+      },
       {
         "type": "cards",
         "heading": "Outside of work",
+        "hidden": false,
         "intro": "",
         "columns": "2",
         "items": [
@@ -29,60 +36,271 @@
             "meta": "Hardware tinkering",
             "badge": "",
             "body": "My local coding agent runs on a 400 W solar array and a 2,000 Wh battery. Part engineering problem, part refusal to pay for cloud compute.",
-            "tags": [], "links": [], "gallery": [], "video_url": "", "embed_url": "",
-            "show_band": true, "hidden": false
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
           },
           {
             "title": "Hackathons",
             "meta": "Weekend sprints",
             "badge": "",
             "body": "Strangers on Friday, a working product and a live pitch by Sunday. The fastest way I know to learn how a team works.",
-            "tags": [], "links": [], "gallery": [], "video_url": "", "embed_url": "",
-            "show_band": true, "hidden": false
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
           },
           {
             "title": "Languages",
             "meta": "English · Türkçe · Español",
             "badge": "",
             "body": "Switching languages changes how I explain things. It has made me a better translator between engineers, designers and executives too.",
-            "tags": [], "links": [], "gallery": [], "video_url": "", "embed_url": "",
-            "show_band": true, "hidden": false
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
           },
           {
             "title": "Learning robotics",
             "meta": "Long-term goal",
             "badge": "",
             "body": "Sensors, actuators and control loops, one small build at a time. Psychology and robotics share a question: how does a system make sense of the world?",
-            "tags": [], "links": [], "gallery": [], "video_url": "", "embed_url": "",
-            "show_band": true, "hidden": false
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Fencing",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Olympic Recurve Archery",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Western Horsebck Riding",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Horseback Archery",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Writing Creative Fiction",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
           }
         ]
       }
     ]
   },
   "tr": {
+    "permalink": "about",
     "title": "Hakkımda",
     "description": "Mehmet Colakoglu’nun psikoloji, araştırma ve ekipler üzerinden yazılıma uzanan hikâyesi.",
     "kicker": "Hakkımda",
+    "show_title": true,
     "intro": "Mühendis, psikoloji mezunu ve genellikle ekibi organize eden kişi.",
+    "divider_motif": "",
+    "og_image": "",
+    "draft": false,
     "blocks": [
       {
         "type": "text",
         "heading": "Yazılıma insanlar üzerinden geldim",
+        "image": "",
+        "image_alt": "",
+        "hidden": false,
+        "body": "Loyola Marymount Üniversitesi’nde Bilgisayar Bilimi ve Psikolojiyi aynı anda okudum ve 2025’te 3.8 not ortalamasıyla onur derecesiyle (cum laude) mezun oldum. İki bölüm birbiriyle verimli bir şekilde tartıştı. Bilgisayar bilimi bana sistemlerin nasıl davrandığını öğretti. Psikoloji ise insanların sistemler karşısında nasıl davrandığını ve çoğu zaman asıl belirleyici sorunun bu olduğunu.\n\nİki yıl boyunca LMU Psikoloji Bölümü’nde araştırma asistanı olarak çalıştım. 300’den fazla katılımcının verisini temizleyip doğrulayan Python betikleri yazdım ve insanların çevrelerini nasıl algıladığını ölçmek için Unity’de 3B simülasyonlar geliştirdim. Başkalarının işi için araç yapmaya dair ilk dersimdi: araştırmacılar kod istemiyordu, sorunsuz çalışan deneyler istiyordu.\n\nMezun olduktan sonra sektöre geçtim ve hep ekiplerin *arasındaki* sorunlara yöneldim. DJ League’de React ve Convex ile gerçek zamanlı yarışma arayüzleri geliştirdim. Incredible Dream Studios’ta destek talebi araçlarını şirketin web altyapısına bağladım, çözüm sürelerini %82 kısalttım ve yönetimin neyi inşa edeceğine karar verirken kullandığı şartnameleri ve mimari önerileri yazdım. Bugün Chip Theory Games’te Sistem Mühendisiyim; dört departmanın ortak kullandığı bir proje yönetim platformu geliştiriyor ve eski sistemleri AWS’ye taşıyorum.\n\nLiderliği hackathonlarda pratik ediyorum. Küçük bir ekip ve zorlu bir teslim tarihi; kapsamı daraltmayı, işi insanların güçlü yönlerine göre dağıtmayı ve yaptığını sunmayı çabucak öğretiyor. Glendale İtfaiyesi için geliştirdiğimiz projeyle Jewel City Hacks’te birinci, Demo Vision Hack’te ise ikinci olup sunum ödülünü de bu şekilde aldık.\n\nSırada robotik var. Bu alanda yeniyim ve ona psikolojiye yaklaştığım gibi yaklaşıyorum: temelleri doğru öğrenmek, küçük ama gerçek şeyler yapmak ve benden daha çok bilen insanlara yakın durmak.",
         "as_card": true,
-        "show_band": true,
-        "body": "Loyola Marymount Üniversitesi’nde Bilgisayar Bilimi ve Psikolojiyi aynı anda okudum ve 2025’te 3.8 not ortalamasıyla onur derecesiyle (cum laude) mezun oldum. İki bölüm birbiriyle verimli bir şekilde tartıştı. Bilgisayar bilimi bana sistemlerin nasıl davrandığını öğretti. Psikoloji ise insanların sistemler karşısında nasıl davrandığını ve çoğu zaman asıl belirleyici sorunun bu olduğunu.\n\nİki yıl boyunca LMU Psikoloji Bölümü’nde araştırma asistanı olarak çalıştım. 300’den fazla katılımcının verisini temizleyip doğrulayan Python betikleri yazdım ve insanların çevrelerini nasıl algıladığını ölçmek için Unity’de 3B simülasyonlar geliştirdim. Başkalarının işi için araç yapmaya dair ilk dersimdi: araştırmacılar kod istemiyordu, sorunsuz çalışan deneyler istiyordu.\n\nMezun olduktan sonra sektöre geçtim ve hep ekiplerin *arasındaki* sorunlara yöneldim. DJ League’de React ve Convex ile gerçek zamanlı yarışma arayüzleri geliştirdim. Incredible Dream Studios’ta destek talebi araçlarını şirketin web altyapısına bağladım, çözüm sürelerini %82 kısalttım ve yönetimin neyi inşa edeceğine karar verirken kullandığı şartnameleri ve mimari önerileri yazdım. Bugün Chip Theory Games’te Sistem Mühendisiyim; dört departmanın ortak kullandığı bir proje yönetim platformu geliştiriyor ve eski sistemleri AWS’ye taşıyorum.\n\nLiderliği hackathonlarda pratik ediyorum. Küçük bir ekip ve zorlu bir teslim tarihi; kapsamı daraltmayı, işi insanların güçlü yönlerine göre dağıtmayı ve yaptığını sunmayı çabucak öğretiyor. Glendale İtfaiyesi için geliştirdiğimiz projeyle Jewel City Hacks’te birinci, Demo Vision Hack’te ise ikinci olup sunum ödülünü de bu şekilde aldık.\n\nSırada robotik var. Bu alanda yeniyim ve ona psikolojiye yaklaştığım gibi yaklaşıyorum: temelleri doğru öğrenmek, küçük ama gerçek şeyler yapmak ve benden daha çok bilen insanlara yakın durmak."
+        "show_band": true
       },
-      { "type": "divider", "motif": "" },
+      {
+        "type": "divider",
+        "motif": ""
+      },
       {
         "type": "cards",
         "heading": "İş dışında",
+        "hidden": false,
+        "intro": "",
         "columns": "2",
         "items": [
-          { "title": "Şebekeden bağımsız bilişim", "meta": "Donanım kurcalamak", "body": "Yerel kodlama ajanım 400 W’lık bir güneş paneli dizisi ve 2.000 Wh’lik bir bataryayla çalışıyor. Yarısı mühendislik problemi, yarısı bulut faturası ödememe inadı." },
-          { "title": "Hackathonlar", "meta": "Hafta sonu maratonları", "body": "Cuma günü yabancı, pazar günü çalışan bir ürün ve canlı bir sunum. Bir ekibin nasıl işlediğini öğrenmenin bildiğim en hızlı yolu." },
-          { "title": "Diller", "meta": "English · Türkçe · Español", "body": "Dil değiştirmek bir şeyi anlatma biçimimi de değiştiriyor. Bu beni mühendisler, tasarımcılar ve yöneticiler arasında daha iyi bir tercüman yaptı." },
-          { "title": "Robotik öğrenmek", "meta": "Uzun vadeli hedef", "body": "Sensörler, eyleyiciler ve kontrol döngüleri; her seferinde küçük bir proje. Psikoloji ve robotik aynı soruyu paylaşır: bir sistem dünyayı nasıl anlamlandırır?" }
+          {
+            "title": "Şebekeden bağımsız bilişim",
+            "meta": "Donanım kurcalamak",
+            "badge": "",
+            "body": "Yerel kodlama ajanım 400 W’lık bir güneş paneli dizisi ve 2.000 Wh’lik bir bataryayla çalışıyor. Yarısı mühendislik problemi, yarısı bulut faturası ödememe inadı.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Hackathonlar",
+            "meta": "Hafta sonu maratonları",
+            "badge": "",
+            "body": "Cuma günü yabancı, pazar günü çalışan bir ürün ve canlı bir sunum. Bir ekibin nasıl işlediğini öğrenmenin bildiğim en hızlı yolu.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Diller",
+            "meta": "English · Türkçe · Español",
+            "badge": "",
+            "body": "Dil değiştirmek bir şeyi anlatma biçimimi de değiştiriyor. Bu beni mühendisler, tasarımcılar ve yöneticiler arasında daha iyi bir tercüman yaptı.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Robotik öğrenmek",
+            "meta": "Uzun vadeli hedef",
+            "badge": "",
+            "body": "Sensörler, eyleyiciler ve kontrol döngüleri; her seferinde küçük bir proje. Psikoloji ve robotik aynı soruyu paylaşır: bir sistem dünyayı nasıl anlamlandırır?",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Eskrim",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Okculuk",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "At Binmek",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Ata Sporlari",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Kurgu Yazmak",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
         ]
       }
     ]

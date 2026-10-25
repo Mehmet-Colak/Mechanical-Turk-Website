@@ -3,94 +3,185 @@
     "permalink": "home",
     "title": "Home",
     "description": "Mehmet Colakoglu: full-stack engineer who designs products and leads teams of builders.",
-    "show_title": false,
-    "draft": false,
     "kicker": "",
+    "show_title": false,
     "intro": "",
+    "divider_motif": "",
+    "og_image": "",
+    "draft": false,
     "blocks": [
       {
         "type": "hero",
-        "kicker": "Full-stack engineer · Los Angeles",
-        "heading": "I write the code. I *lead the people* who ship it.",
-        "lead": "I have a coder’s technical skills and I understand every step of the process, from database schema to deployment. Where I excel is designing products and leading teams of builders. I studied Computer Science and Psychology at the same time, and I use both every day.",
+        "kicker": "Full-stack engineer · San Francisco",
+        "heading": "Product Manager. *Engineer.* Team Leader.",
+        "lead": "I have a coder's technical skills and a psychologist's deep understanding of human behavior. I understand every step of development, from backend architecture to creating a polished user experience. I excel at designing products and leading teams of builders.\n\nI have a B.S. in Computer Science and Psychology, and I use both daily to solve problems and automate away tedium.\n\nI have three years of work experience and currently work as an Internal Systems Engineer at Chip Theory Games.",
         "image": "",
         "image_alt": "",
         "buttons": [
-          { "label": "See my work", "url": "work", "style": "primary", "new_tab": false },
-          { "label": "Get in touch", "url": "contact", "style": "secondary", "new_tab": false },
-          { "label": "Résumé (PDF)", "url": "/assets/uploads/mehmet-colakoglu-resume.pdf", "style": "secondary", "new_tab": true }
-        ]
+          {
+            "label": "See my work",
+            "url": "work",
+            "style": "primary",
+            "new_tab": false
+          },
+          {
+            "label": "Get in touch",
+            "url": "contact",
+            "style": "secondary",
+            "new_tab": false
+          },
+          {
+            "label": "Résumé (PDF)",
+            "url": "/assets/uploads/mehmet-colakoglu-resume.pdf",
+            "style": "secondary",
+            "new_tab": true
+          }
+        ],
+        "hidden": false
       },
-      { "type": "divider", "motif": "" },
+      {
+        "type": "divider",
+        "motif": "elibelinde"
+      },
       {
         "type": "cards",
         "heading": "What I bring to a team",
+        "hidden": false,
         "intro": "",
         "columns": "1",
         "items": [
           {
-            "title": "Products that start with people",
-            "meta": "Product design",
+            "title": "Discovering Needs",
+            "meta": "Innovation",
             "badge": "",
-            "body": "Psychology taught me to watch what people do, not what they say they’ll do. I scope features around real behavior, write the spec, and turn it into something a team can build.",
-            "tags": [], "links": [], "gallery": [], "video_url": "", "embed_url": "",
-            "show_band": false, "hidden": false
+            "body": "Studying Psychology taught me to identify what people need, alongside what they want. I listen to people to scope the necessary features; I conduct extensive SWOT analyses to understand my competition; then I write clear specifications that my team can build around.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
           },
           {
-            "title": "Teams that move together",
+            "title": "Moving Teams Together",
             "meta": "Leadership",
             "badge": "",
-            "body": "I’ve rolled out a platform across four departments, written architecture proposals for a CEO, COO and CCO, and led small hackathon teams to first and second place. I assign work to strengths and keep scope honest.",
-            "tags": [], "links": [], "gallery": [], "video_url": "", "embed_url": "",
-            "show_band": false, "hidden": false
+            "body": "I’ve organized many cross-functional events, written architecture proposals for C-suites, conference papers, and well-researched lectures for my peers, and led hackathon teams to success with my vision. \n\nI break down my projects into department-specific modules, identify technical bottlenecks for each independent shard, and then expand features horizontally. I assign work based on my teammates' existing strengths and transferable skills. During development, I usually use week-long sprints, keep timelines honest, and always outline stretch goals when talking with stakeholders to show the project's full potential.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
           },
           {
-            "title": "Engineering I can stand behind",
+            "title": "Engineering I am Proud of",
             "meta": "Full-stack",
             "badge": "",
-            "body": "React, Node.js, MySQL, AWS, real-time systems and local LLMs. I don’t delegate what I don’t understand, which makes me a better reviewer and a faster unblocker.",
-            "tags": [], "links": [], "gallery": [], "video_url": "", "embed_url": "",
-            "show_band": false, "hidden": false
+            "body": "Roman engineers were forced to stand under their bridges when the scaffolding was removed; I treat my technical systems the same way.\n\nProtecting sensitive user data is extremely important to me, so I conduct extensive testing and peer-review code. I utilize generative AI for drafting and boilerplate code, but maintain strict guardrails and never delegate algorithms I cannot fully understand.\n\nI have a decade of experience in Python, JavaScript, C++, SQL, Cloud Infrastructure, and running optimized local LLMs, which makes me a competent reviewer and an efficient debugger.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
           }
         ]
       }
     ]
   },
   "tr": {
+    "permalink": "home",
     "title": "Ana sayfa",
     "description": "Mehmet Colakoglu: ürün tasarlayan ve geliştirici ekiplerine liderlik eden full-stack mühendis.",
+    "kicker": "",
+    "show_title": false,
+    "intro": "",
+    "divider_motif": "",
+    "og_image": "",
+    "draft": false,
     "blocks": [
       {
         "type": "hero",
         "kicker": "Full-stack mühendis · Los Angeles",
         "heading": "Kodu yazarım. Onu hayata geçiren *ekibe liderlik ederim.*",
         "lead": "Bir yazılımcının teknik becerilerine sahibim ve veritabanı şemasından canlıya almaya kadar sürecin her adımını anlıyorum. Asıl fark yarattığım yer ürün tasarlamak ve geliştirici ekiplerine liderlik etmek. Bilgisayar Bilimi ve Psikolojiyi aynı anda okudum; ikisini de her gün kullanıyorum.",
+        "image": "",
+        "image_alt": "",
         "buttons": [
-          { "label": "Çalışmalarımı gör", "url": "work", "style": "primary", "new_tab": false },
-          { "label": "İletişime geç", "url": "contact", "style": "secondary", "new_tab": false },
-          { "label": "Özgeçmiş (PDF, İngilizce)", "url": "/assets/uploads/mehmet-colakoglu-resume.pdf", "style": "secondary", "new_tab": true }
-        ]
+          {
+            "label": "Çalışmalarımı gör",
+            "url": "work",
+            "style": "primary",
+            "new_tab": false
+          },
+          {
+            "label": "İletişime geç",
+            "url": "contact",
+            "style": "secondary",
+            "new_tab": false
+          },
+          {
+            "label": "Özgeçmiş (PDF, İngilizce)",
+            "url": "/assets/uploads/mehmet-colakoglu-resume.pdf",
+            "style": "secondary",
+            "new_tab": true
+          }
+        ],
+        "hidden": false
       },
-      { "type": "divider", "motif": "" },
+      {
+        "type": "divider",
+        "motif": "elibelinde"
+      },
       {
         "type": "cards",
         "heading": "Bir ekibe kattıklarım",
+        "hidden": false,
+        "intro": "",
         "columns": "1",
         "items": [
           {
             "title": "İnsandan başlayan ürünler",
             "meta": "Ürün tasarımı",
-            "body": "Psikoloji bana insanların ne yapacaklarını söylediklerine değil, gerçekte ne yaptıklarına bakmayı öğretti. Özellikleri gerçek davranışa göre kapsamlandırır, şartnameyi yazar ve bir ekibin inşa edebileceği bir plana dönüştürürüm."
+            "badge": "",
+            "body": "Psikoloji bana insanların ne yapacaklarını söylediklerine değil, gerçekte ne yaptıklarına bakmayı öğretti. Özellikleri gerçek davranışa göre kapsamlandırır, şartnameyi yazar ve bir ekibin inşa edebileceği bir plana dönüştürürüm.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
           },
           {
             "title": "Birlikte hareket eden ekipler",
             "meta": "Liderlik",
-            "body": "Dört departmanda kullanılan bir platformun geçişini yönettim, CEO, COO ve CCO için mimari öneriler yazdım ve küçük hackathon ekiplerini birinciliğe ve ikinciliğe taşıdım. İşi güçlü yönlere göre dağıtır, kapsamı gerçekçi tutarım."
+            "badge": "",
+            "body": "Dört departmanda kullanılan bir platformun geçişini yönettim, CEO, COO ve CCO için mimari öneriler yazdım ve küçük hackathon ekiplerini birinciliğe ve ikinciliğe taşıdım. İşi güçlü yönlere göre dağıtır, kapsamı gerçekçi tutarım.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
           },
           {
             "title": "Arkasında durabildiğim mühendislik",
             "meta": "Full-stack",
-            "body": "React, Node.js, MySQL, AWS, gerçek zamanlı sistemler ve yerel LLM’ler. Anlamadığım işi devretmem; bu da beni daha iyi bir kod gözden geçiricisi ve daha hızlı bir engel kaldırıcı yapıyor."
+            "badge": "",
+            "body": "React, Node.js, MySQL, AWS, gerçek zamanlı sistemler ve yerel LLM’ler. Anlamadığım işi devretmem; bu da beni daha iyi bir kod gözden geçiricisi ve daha hızlı bir engel kaldırıcı yapıyor.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
           }
         ]
       }
