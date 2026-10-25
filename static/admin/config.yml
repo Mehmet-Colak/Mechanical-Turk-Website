@@ -6,9 +6,9 @@
 
 backend:
   name: github
-  repo: YOUR-GITHUB-USERNAME/mechanical-turk-dev   # ← change after creating the repo (see README)
+  repo: Mehmet-Colak/Mechanical-Turk-Website
   branch: main
-  base_url: https://mechanical-turk.dev            # OAuth handled by /functions/oauth on Cloudflare Pages
+  base_url: https://mechanical-turk.dev # OAuth handled by /functions/oauth on Cloudflare Pages
   auth_endpoint: oauth/auth
   commit_messages:
     create: "content: create {{collection}} “{{slug}}”"
@@ -42,6 +42,248 @@ x-motif-options: &motif_options
   - { label: "Pıtrak · burdock (abundance)", value: pitrak }
   - { label: "Doğum · diamond (growth)", value: dogum }
 
+x-light-colour-fields: &light_colour_fields
+  - {
+      name: bg,
+      label: Page background,
+      widget: color,
+      allowInput: true,
+      default: "#F6EEDC",
+    }
+  - {
+      name: surface,
+      label: "Card / panel background",
+      widget: color,
+      allowInput: true,
+      default: "#FBF7EC",
+    }
+  - {
+      name: surface_hover,
+      label: Card hover background,
+      widget: color,
+      allowInput: true,
+      default: "#F0E5CA",
+    }
+  - {
+      name: ink,
+      label: Main text,
+      widget: color,
+      allowInput: true,
+      default: "#2A1416",
+    }
+  - {
+      name: ink_soft,
+      label: Secondary text,
+      widget: color,
+      allowInput: true,
+      default: "#5B3D35",
+    }
+  - {
+      name: line,
+      label: "Borders & rules",
+      widget: color,
+      allowInput: true,
+      default: "#6A2C2E",
+    }
+  - {
+      name: link,
+      label: Links,
+      widget: color,
+      allowInput: true,
+      default: "#006475",
+    }
+  - {
+      name: accent,
+      label: "Accent (filled buttons, highlights)",
+      widget: color,
+      allowInput: true,
+      default: "#007A8E",
+    }
+  - {
+      name: on_accent,
+      label: Text on accent,
+      widget: color,
+      allowInput: true,
+      default: "#FFFFFF",
+    }
+  - {
+      name: kicker,
+      label: "Kicker (small label above titles)",
+      widget: color,
+      allowInput: true,
+      default: "#A45B3D",
+    }
+  - {
+      name: motif,
+      label: Motif dividers,
+      widget: color,
+      allowInput: true,
+      default: "#A45B3D",
+    }
+  - {
+      name: connector,
+      label: Timeline connector,
+      widget: color,
+      allowInput: true,
+      default: "#007A8E",
+    }
+  - {
+      name: nav_current,
+      label: Current menu item background,
+      widget: color,
+      allowInput: true,
+      default: "#F9C74F",
+    }
+  - {
+      name: on_nav_current,
+      label: Current menu item text,
+      widget: color,
+      allowInput: true,
+      default: "#2A1416",
+    }
+  - {
+      name: mark_bg,
+      label: Sidebar mark background,
+      widget: color,
+      allowInput: true,
+      default: "#6A2C2E",
+    }
+  - {
+      name: mark_fg,
+      label: Sidebar mark symbol,
+      widget: color,
+      allowInput: true,
+      default: "#F9C74F",
+    }
+  - {
+      name: logo_color,
+      label: "Skill logos (one-colour style)",
+      widget: color,
+      allowInput: true,
+      default: "#6A2C2E",
+    }
+
+x-dark-colour-fields: &dark_colour_fields
+  - {
+      name: bg,
+      label: Page background,
+      widget: color,
+      allowInput: true,
+      default: "#1B1112",
+    }
+  - {
+      name: surface,
+      label: "Card / panel background",
+      widget: color,
+      allowInput: true,
+      default: "#251718",
+    }
+  - {
+      name: surface_hover,
+      label: Card hover background,
+      widget: color,
+      allowInput: true,
+      default: "#301F20",
+    }
+  - {
+      name: ink,
+      label: Main text,
+      widget: color,
+      allowInput: true,
+      default: "#F4E9CF",
+    }
+  - {
+      name: ink_soft,
+      label: Secondary text,
+      widget: color,
+      allowInput: true,
+      default: "#CDBA92",
+    }
+  - {
+      name: line,
+      label: "Borders & rules",
+      widget: color,
+      allowInput: true,
+      default: "#D9BF77",
+    }
+  - {
+      name: link,
+      label: Links,
+      widget: color,
+      allowInput: true,
+      default: "#F9C74F",
+    }
+  - {
+      name: accent,
+      label: "Accent (filled buttons, highlights)",
+      widget: color,
+      allowInput: true,
+      default: "#F9C74F",
+    }
+  - {
+      name: on_accent,
+      label: Text on accent,
+      widget: color,
+      allowInput: true,
+      default: "#1B1112",
+    }
+  - {
+      name: kicker,
+      label: "Kicker (small label above titles)",
+      widget: color,
+      allowInput: true,
+      default: "#F9C74F",
+    }
+  - {
+      name: motif,
+      label: Motif dividers,
+      widget: color,
+      allowInput: true,
+      default: "#C4714E",
+    }
+  - {
+      name: connector,
+      label: Timeline connector,
+      widget: color,
+      allowInput: true,
+      default: "#2B97A8",
+    }
+  - {
+      name: nav_current,
+      label: Current menu item background,
+      widget: color,
+      allowInput: true,
+      default: "#F9C74F",
+    }
+  - {
+      name: on_nav_current,
+      label: Current menu item text,
+      widget: color,
+      allowInput: true,
+      default: "#1B1112",
+    }
+  - {
+      name: mark_bg,
+      label: Sidebar mark background,
+      widget: color,
+      allowInput: true,
+      default: "#A45B3D",
+    }
+  - {
+      name: mark_fg,
+      label: Sidebar mark symbol,
+      widget: color,
+      allowInput: true,
+      default: "#1B1112",
+    }
+  - {
+      name: logo_color,
+      label: "Skill logos (one-colour style)",
+      widget: color,
+      allowInput: true,
+      default: "#D9BF77",
+    }
+
 x-link-fields: &link_fields
   - { name: label, label: Label, widget: string, i18n: true }
   - name: url
@@ -54,15 +296,62 @@ x-link-fields: &link_fields
     widget: select
     i18n: duplicate
     default: secondary
-    options: [{ label: "Filled", value: primary }, { label: "Outline", value: secondary }]
-  - { name: new_tab, label: Open in new tab, widget: boolean, default: false, required: false, i18n: duplicate }
+    options:
+      [
+        { label: "Filled", value: primary },
+        { label: "Outline", value: secondary },
+      ]
+  - {
+      name: new_tab,
+      label: Open in new tab,
+      widget: boolean,
+      default: false,
+      required: false,
+      i18n: duplicate,
+    }
 
 x-card-fields: &card_fields
   - { name: title, label: Title, widget: string, i18n: true }
-  - { name: meta, label: "Subtitle (role · dates · place)", widget: string, required: false, i18n: true }
-  - { name: badge, label: "Badge (e.g. 1st place)", widget: string, required: false, i18n: true }
-  - { name: body, label: Text, widget: markdown, required: false, i18n: true, buttons: [bold, italic, link, bulleted-list, numbered-list, heading-three, quote, code] }
-  - { name: tags, label: Tags, widget: list, required: false, i18n: true, hint: "Comma-separated, e.g. React, Node.js" }
+  - {
+      name: meta,
+      label: "Subtitle (role · dates · place)",
+      widget: string,
+      required: false,
+      i18n: true,
+    }
+  - {
+      name: badge,
+      label: "Badge (e.g. 1st place)",
+      widget: string,
+      required: false,
+      i18n: true,
+    }
+  - {
+      name: body,
+      label: Text,
+      widget: markdown,
+      required: false,
+      i18n: true,
+      buttons:
+        [
+          bold,
+          italic,
+          link,
+          bulleted-list,
+          numbered-list,
+          heading-three,
+          quote,
+          code,
+        ],
+    }
+  - {
+      name: tags,
+      label: Tags,
+      widget: list,
+      required: false,
+      i18n: true,
+      hint: "Comma-separated, e.g. React, Node.js",
+    }
   - name: links
     label: Buttons / links
     label_singular: Link
@@ -80,12 +369,50 @@ x-card-fields: &card_fields
     hint: "Two or more images show ‹ › arrows. Click opens full size."
     fields:
       - { name: image, label: Image, widget: image, i18n: duplicate }
-      - { name: alt, label: "Alt text (describe the image)", widget: string, required: false, i18n: true }
-      - { name: caption, label: Caption, widget: string, required: false, i18n: true }
-  - { name: video_url, label: "Video link (YouTube, Vimeo, Google Drive or .mp4)", widget: string, required: false, i18n: duplicate }
-  - { name: embed_url, label: "Simulation / live demo URL (opens in a viewer)", widget: string, required: false, i18n: duplicate }
-  - { name: show_band, label: Show woven band next to title, widget: boolean, default: true, required: false, i18n: duplicate }
-  - { name: hidden, label: Hide this card, widget: boolean, default: false, required: false, i18n: duplicate }
+      - {
+          name: alt,
+          label: "Alt text (describe the image)",
+          widget: string,
+          required: false,
+          i18n: true,
+        }
+      - {
+          name: caption,
+          label: Caption,
+          widget: string,
+          required: false,
+          i18n: true,
+        }
+  - {
+      name: video_url,
+      label: "Video link (YouTube, Vimeo, Google Drive or .mp4)",
+      widget: string,
+      required: false,
+      i18n: duplicate,
+    }
+  - {
+      name: embed_url,
+      label: "Simulation / live demo URL (opens in a viewer)",
+      widget: string,
+      required: false,
+      i18n: duplicate,
+    }
+  - {
+      name: show_band,
+      label: Show woven band next to title,
+      widget: boolean,
+      default: true,
+      required: false,
+      i18n: duplicate,
+    }
+  - {
+      name: hidden,
+      label: Hide this card,
+      widget: boolean,
+      default: false,
+      required: false,
+      i18n: duplicate,
+    }
 
 x-block-types: &block_types
   - name: hero
@@ -93,11 +420,40 @@ x-block-types: &block_types
     widget: object
     summary: "Hero · {{fields.heading}}"
     fields:
-      - { name: kicker, label: Small label above, widget: string, required: false, i18n: true }
-      - { name: heading, label: "Headline (wrap words in *asterisks* to colour them)", widget: string, i18n: true }
-      - { name: lead, label: Paragraph, widget: markdown, required: false, i18n: true }
-      - { name: image, label: Image (optional), widget: image, required: false, i18n: duplicate }
-      - { name: image_alt, label: Image alt text, widget: string, required: false, i18n: true }
+      - {
+          name: kicker,
+          label: Small label above,
+          widget: string,
+          required: false,
+          i18n: true,
+        }
+      - {
+          name: heading,
+          label: "Headline (wrap words in *asterisks* to colour them)",
+          widget: string,
+          i18n: true,
+        }
+      - {
+          name: lead,
+          label: Paragraph,
+          widget: markdown,
+          required: false,
+          i18n: true,
+        }
+      - {
+          name: image,
+          label: Image (optional),
+          widget: image,
+          required: false,
+          i18n: duplicate,
+        }
+      - {
+          name: image_alt,
+          label: Image alt text,
+          widget: string,
+          required: false,
+          i18n: true,
+        }
       - name: buttons
         label: Buttons
         label_singular: Button
@@ -106,34 +462,96 @@ x-block-types: &block_types
         i18n: true
         summary: "{{fields.label}}"
         fields: *link_fields
-      - { name: hidden, label: Hide this section, widget: boolean, default: false, required: false, i18n: duplicate }
+      - {
+          name: hidden,
+          label: Hide this section,
+          widget: boolean,
+          default: false,
+          required: false,
+          i18n: duplicate,
+        }
 
   - name: text
     label: Text section / long-form card
     widget: object
     summary: "Text · {{fields.heading}}"
     fields:
-      - { name: heading, label: Heading, widget: string, required: false, i18n: true }
+      - {
+          name: heading,
+          label: Heading,
+          widget: string,
+          required: false,
+          i18n: true,
+        }
       - { name: body, label: Text, widget: markdown, i18n: true }
-      - { name: as_card, label: Show inside a card, widget: boolean, default: true, required: false, i18n: duplicate }
-      - { name: show_band, label: Show woven band next to heading (cards only), widget: boolean, default: true, required: false, i18n: duplicate }
-      - { name: image, label: Image (optional), widget: image, required: false, i18n: duplicate }
-      - { name: image_alt, label: Image alt text, widget: string, required: false, i18n: true }
-      - { name: hidden, label: Hide this section, widget: boolean, default: false, required: false, i18n: duplicate }
+      - {
+          name: as_card,
+          label: Show inside a card,
+          widget: boolean,
+          default: true,
+          required: false,
+          i18n: duplicate,
+        }
+      - {
+          name: show_band,
+          label: Show woven band next to heading (cards only),
+          widget: boolean,
+          default: true,
+          required: false,
+          i18n: duplicate,
+        }
+      - {
+          name: image,
+          label: Image (optional),
+          widget: image,
+          required: false,
+          i18n: duplicate,
+        }
+      - {
+          name: image_alt,
+          label: Image alt text,
+          widget: string,
+          required: false,
+          i18n: true,
+        }
+      - {
+          name: hidden,
+          label: Hide this section,
+          widget: boolean,
+          default: false,
+          required: false,
+          i18n: duplicate,
+        }
 
   - name: cards
     label: Cards (projects, jobs, hobbies…)
     widget: object
     summary: "Cards · {{fields.heading}}"
     fields:
-      - { name: heading, label: Section heading, widget: string, required: false, i18n: true }
-      - { name: intro, label: Intro text, widget: markdown, required: false, i18n: true }
+      - {
+          name: heading,
+          label: Section heading,
+          widget: string,
+          required: false,
+          i18n: true,
+        }
+      - {
+          name: intro,
+          label: Intro text,
+          widget: markdown,
+          required: false,
+          i18n: true,
+        }
       - name: columns
         label: Columns on wide screens
         widget: select
         default: "1"
         i18n: duplicate
-        options: [{ label: "1 (stacked)", value: "1" }, { label: "2 (side by side)", value: "2" }]
+        options:
+          [
+            { label: "1 (stacked)", value: "1" },
+            { label: "2 (side by side)", value: "2" },
+          ]
       - name: items
         label: Cards
         label_singular: Card
@@ -141,41 +559,111 @@ x-block-types: &block_types
         i18n: true
         summary: "{{fields.title}}"
         fields: *card_fields
-      - { name: hidden, label: Hide this section, widget: boolean, default: false, required: false, i18n: duplicate }
+      - {
+          name: hidden,
+          label: Hide this section,
+          widget: boolean,
+          default: false,
+          required: false,
+          i18n: duplicate,
+        }
 
   - name: timeline
     label: Timeline (entries come from Data → Timeline)
     widget: object
     summary: "Timeline"
     fields:
-      - { name: heading, label: Heading, widget: string, required: false, i18n: true }
-      - { name: intro, label: Intro text, widget: markdown, required: false, i18n: true }
-      - { name: hidden, label: Hide this section, widget: boolean, default: false, required: false, i18n: duplicate }
+      - {
+          name: heading,
+          label: Heading,
+          widget: string,
+          required: false,
+          i18n: true,
+        }
+      - {
+          name: intro,
+          label: Intro text,
+          widget: markdown,
+          required: false,
+          i18n: true,
+        }
+      - {
+          name: hidden,
+          label: Hide this section,
+          widget: boolean,
+          default: false,
+          required: false,
+          i18n: duplicate,
+        }
 
   - name: skills
     label: Skills grid (logos come from Data → Skills)
     widget: object
     summary: "Skills grid"
     fields:
-      - { name: heading, label: Heading, widget: string, required: false, i18n: true }
-      - { name: intro, label: Intro text, widget: markdown, required: false, i18n: true }
-      - { name: hidden, label: Hide this section, widget: boolean, default: false, required: false, i18n: duplicate }
+      - {
+          name: heading,
+          label: Heading,
+          widget: string,
+          required: false,
+          i18n: true,
+        }
+      - {
+          name: intro,
+          label: Intro text,
+          widget: markdown,
+          required: false,
+          i18n: true,
+        }
+      - {
+          name: hidden,
+          label: Hide this section,
+          widget: boolean,
+          default: false,
+          required: false,
+          i18n: duplicate,
+        }
 
   - name: contact
     label: Contact links (from Settings → Contact links)
     widget: object
     summary: "Contact links"
     fields:
-      - { name: heading, label: Heading, widget: string, required: false, i18n: true }
-      - { name: intro, label: Intro text, widget: markdown, required: false, i18n: true }
-      - { name: hidden, label: Hide this section, widget: boolean, default: false, required: false, i18n: duplicate }
+      - {
+          name: heading,
+          label: Heading,
+          widget: string,
+          required: false,
+          i18n: true,
+        }
+      - {
+          name: intro,
+          label: Intro text,
+          widget: markdown,
+          required: false,
+          i18n: true,
+        }
+      - {
+          name: hidden,
+          label: Hide this section,
+          widget: boolean,
+          default: false,
+          required: false,
+          i18n: duplicate,
+        }
 
   - name: links
     label: Link list (external links)
     widget: object
     summary: "Links · {{fields.heading}}"
     fields:
-      - { name: heading, label: Heading, widget: string, required: false, i18n: true }
+      - {
+          name: heading,
+          label: Heading,
+          widget: string,
+          required: false,
+          i18n: true,
+        }
       - name: items
         label: Links
         label_singular: Link
@@ -184,9 +672,27 @@ x-block-types: &block_types
         summary: "{{fields.label}}"
         fields:
           - { name: label, label: Label, widget: string, i18n: true }
-          - { name: url, label: URL or page slug, widget: string, i18n: duplicate }
-          - { name: note, label: Short note, widget: string, required: false, i18n: true }
-      - { name: hidden, label: Hide this section, widget: boolean, default: false, required: false, i18n: duplicate }
+          - {
+              name: url,
+              label: URL or page slug,
+              widget: string,
+              i18n: duplicate,
+            }
+          - {
+              name: note,
+              label: Short note,
+              widget: string,
+              required: false,
+              i18n: true,
+            }
+      - {
+          name: hidden,
+          label: Hide this section,
+          widget: boolean,
+          default: false,
+          required: false,
+          i18n: duplicate,
+        }
 
   - name: image
     label: Image
@@ -194,9 +700,28 @@ x-block-types: &block_types
     summary: "Image · {{fields.caption}}"
     fields:
       - { name: image, label: Image, widget: image, i18n: duplicate }
-      - { name: alt, label: Alt text, widget: string, required: false, i18n: true }
-      - { name: caption, label: Caption, widget: string, required: false, i18n: true }
-      - { name: hidden, label: Hide this section, widget: boolean, default: false, required: false, i18n: duplicate }
+      - {
+          name: alt,
+          label: Alt text,
+          widget: string,
+          required: false,
+          i18n: true,
+        }
+      - {
+          name: caption,
+          label: Caption,
+          widget: string,
+          required: false,
+          i18n: true,
+        }
+      - {
+          name: hidden,
+          label: Hide this section,
+          widget: boolean,
+          default: false,
+          required: false,
+          i18n: duplicate,
+        }
 
   - name: divider
     label: Kilim motif divider
@@ -233,16 +758,61 @@ collections:
         label: URL slug
         widget: string
         i18n: duplicate
-        pattern: ['^[a-z0-9-]+$', "Lowercase letters, numbers and dashes only"]
+        pattern: ["^[a-z0-9-]+$", "Lowercase letters, numbers and dashes only"]
         hint: "The page lives at mechanical-turk.dev/<slug>/ (Turkish: /tr/<slug>/). Use “home” for the front page."
       - { name: title, label: Title, widget: string, i18n: true }
-      - { name: description, label: "Search & social description", widget: text, required: false, i18n: true }
-      - { name: kicker, label: Small label above the title, widget: string, required: false, i18n: true }
-      - { name: show_title, label: Show page title, widget: boolean, default: true, required: false, i18n: duplicate }
-      - { name: intro, label: Intro under the title, widget: markdown, required: false, i18n: true }
-      - { name: divider_motif, label: Motif for the divider under the title, widget: select, required: false, i18n: duplicate, options: *motif_options }
-      - { name: og_image, label: Social share image, widget: image, required: false, i18n: duplicate }
-      - { name: draft, label: "Draft (don’t publish this page)", widget: boolean, default: false, required: false, i18n: duplicate }
+      - {
+          name: description,
+          label: "Search & social description",
+          widget: text,
+          required: false,
+          i18n: true,
+        }
+      - {
+          name: kicker,
+          label: Small label above the title,
+          widget: string,
+          required: false,
+          i18n: true,
+        }
+      - {
+          name: show_title,
+          label: Show page title,
+          widget: boolean,
+          default: true,
+          required: false,
+          i18n: duplicate,
+        }
+      - {
+          name: intro,
+          label: Intro under the title,
+          widget: markdown,
+          required: false,
+          i18n: true,
+        }
+      - {
+          name: divider_motif,
+          label: Motif for the divider under the title,
+          widget: select,
+          required: false,
+          i18n: duplicate,
+          options: *motif_options,
+        }
+      - {
+          name: og_image,
+          label: Social share image,
+          widget: image,
+          required: false,
+          i18n: duplicate,
+        }
+      - {
+          name: draft,
+          label: "Draft (don’t publish this page)",
+          widget: boolean,
+          default: false,
+          required: false,
+          i18n: duplicate,
+        }
       - name: blocks
         label: Sections
         label_singular: Section
@@ -260,6 +830,7 @@ collections:
       - name: timeline
         label: Timeline
         file: content/timeline.json
+        i18n: true
         fields:
           - name: entries
             label: Entries (top to bottom)
@@ -268,18 +839,62 @@ collections:
             i18n: true
             summary: "{{fields.date}} · {{fields.title}}"
             fields:
-              - { name: date, label: "Date (e.g. Sep 2026)", widget: string, i18n: true }
-              - { name: kind_label, label: "Tag (Work, Education, Award…)", widget: string, required: false, i18n: true }
+              - {
+                  name: date,
+                  label: "Date (e.g. Sep 2026)",
+                  widget: string,
+                  i18n: true,
+                }
+              - {
+                  name: kind_label,
+                  label: "Tag (Work, Education, Award…)",
+                  widget: string,
+                  required: false,
+                  i18n: true,
+                }
               - { name: title, label: Title, widget: string, i18n: true }
-              - { name: org, label: Organization / subtitle, widget: string, required: false, i18n: true }
-              - { name: body, label: Description, widget: markdown, required: false, i18n: true }
-              - { name: link, label: "Link (page slug or URL)", widget: string, required: false, i18n: duplicate }
-              - { name: motif, label: Marker motif, widget: select, required: false, i18n: duplicate, options: *motif_options }
-              - { name: hidden, label: Hide this entry, widget: boolean, default: false, required: false, i18n: duplicate }
+              - {
+                  name: org,
+                  label: Organization / subtitle,
+                  widget: string,
+                  required: false,
+                  i18n: true,
+                }
+              - {
+                  name: body,
+                  label: Description,
+                  widget: markdown,
+                  required: false,
+                  i18n: true,
+                }
+              - {
+                  name: link,
+                  label: "Link (page slug or URL)",
+                  widget: string,
+                  required: false,
+                  i18n: duplicate,
+                }
+              - {
+                  name: motif,
+                  label: Marker motif,
+                  widget: select,
+                  required: false,
+                  i18n: duplicate,
+                  options: *motif_options,
+                }
+              - {
+                  name: hidden,
+                  label: Hide this entry,
+                  widget: boolean,
+                  default: false,
+                  required: false,
+                  i18n: duplicate,
+                }
 
       - name: skills
         label: Skills
         file: content/skills.json
+        i18n: true
         fields:
           - name: groups
             label: Groups
@@ -289,7 +904,14 @@ collections:
             summary: "{{fields.name}}"
             fields:
               - { name: name, label: Group name, widget: string, i18n: true }
-              - { name: hidden, label: Hide this group, widget: boolean, default: false, required: false, i18n: duplicate }
+              - {
+                  name: hidden,
+                  label: Hide this group,
+                  widget: boolean,
+                  default: false,
+                  required: false,
+                  i18n: duplicate,
+                }
               - name: items
                 label: Skills
                 label_singular: Skill
@@ -304,14 +926,33 @@ collections:
                     required: false
                     i18n: duplicate
                     hint: "devicon:python · devicon:react/react-original · si:ollama (simpleicons.org slug) · or a full image URL. Leave empty to show the short label."
-                  - { name: image, label: Or upload a logo, widget: image, required: false, i18n: duplicate }
-                  - { name: short, label: "Short label if no logo (max 4 chars)", widget: string, required: false, i18n: duplicate }
-                  - { name: url, label: Link (optional), widget: string, required: false, i18n: duplicate }
+                  - {
+                      name: image,
+                      label: Or upload a logo,
+                      widget: image,
+                      required: false,
+                      i18n: duplicate,
+                    }
+                  - {
+                      name: short,
+                      label: "Short label if no logo (max 4 chars)",
+                      widget: string,
+                      required: false,
+                      i18n: duplicate,
+                    }
+                  - {
+                      name: url,
+                      label: Link (optional),
+                      widget: string,
+                      required: false,
+                      i18n: duplicate,
+                    }
 
   - name: settings
     label: Settings
     format: json
     extension: json
+    i18n: true
     editor: { preview: false }
     files:
       - name: site
@@ -319,47 +960,198 @@ collections:
         file: content/settings/site.json
         i18n: true
         fields:
-          - { name: owner_name, label: Your name, widget: string, i18n: duplicate }
-          - { name: role_line, label: Role line (sidebar), widget: string, i18n: true }
-          - { name: tagline, label: Sidebar tagline, widget: text, required: false, i18n: true }
-          - { name: status, label: "Current status (sidebar, **bold** allowed)", widget: string, required: false, i18n: true }
-          - { name: description, label: Default search description, widget: text, required: false, i18n: true }
-          - { name: portrait, label: "Portrait photo (replaces the motif mark)", widget: image, required: false, i18n: duplicate }
-          - { name: portrait_alt, label: Portrait alt text, widget: string, required: false, i18n: true }
-          - { name: mark_motif, label: Sidebar mark motif (when no portrait), widget: select, required: false, i18n: duplicate, options: *motif_options }
-          - { name: og_image, label: Default social share image, widget: image, required: false, i18n: duplicate }
-          - { name: site_name, label: Header brand text, widget: string, i18n: duplicate }
-          - { name: domain, label: "Domain (https://…)", widget: string, i18n: duplicate }
-          - { name: footer_text, label: Footer text, widget: string, i18n: duplicate }
-          - { name: show_border_symbols, label: "Decorations: bereket symbols on header & footer borders", widget: boolean, default: true, i18n: duplicate }
-          - { name: show_motif_dividers, label: "Decorations: chained kilim motif dividers", widget: boolean, default: true, i18n: duplicate }
-          - { name: show_card_bands, label: "Decorations: woven band next to card titles (master switch; each card also has its own)", widget: boolean, default: true, i18n: duplicate }
-          - { name: divider_motif, label: Default divider motif, widget: select, i18n: duplicate, options: *motif_options }
+          - {
+              name: owner_name,
+              label: Your name,
+              widget: string,
+              i18n: duplicate,
+            }
+          - {
+              name: role_line,
+              label: Role line (sidebar),
+              widget: string,
+              i18n: true,
+            }
+          - {
+              name: tagline,
+              label: Sidebar tagline,
+              widget: text,
+              required: false,
+              i18n: true,
+            }
+          - {
+              name: status,
+              label: "Current status (sidebar, **bold** allowed)",
+              widget: string,
+              required: false,
+              i18n: true,
+            }
+          - {
+              name: description,
+              label: Default search description,
+              widget: text,
+              required: false,
+              i18n: true,
+            }
+          - {
+              name: portrait,
+              label: "Portrait photo (replaces the motif mark)",
+              widget: image,
+              required: false,
+              i18n: duplicate,
+            }
+          - {
+              name: portrait_alt,
+              label: Portrait alt text,
+              widget: string,
+              required: false,
+              i18n: true,
+            }
+          - {
+              name: mark_motif,
+              label: Sidebar mark motif (when no portrait),
+              widget: select,
+              required: false,
+              i18n: duplicate,
+              options: *motif_options,
+            }
+          - {
+              name: og_image,
+              label: Default social share image,
+              widget: image,
+              required: false,
+              i18n: duplicate,
+            }
+          - {
+              name: site_name,
+              label: Header brand text,
+              widget: string,
+              i18n: duplicate,
+            }
+          - {
+              name: domain,
+              label: "Domain (https://…)",
+              widget: string,
+              i18n: duplicate,
+            }
+          - {
+              name: footer_text,
+              label: Footer text,
+              widget: string,
+              i18n: duplicate,
+            }
+          - {
+              name: show_border_symbols,
+              label: "Decorations: bereket symbols on header & footer borders",
+              widget: boolean,
+              default: true,
+              i18n: duplicate,
+            }
+          - {
+              name: show_motif_dividers,
+              label: "Decorations: chained kilim motif dividers",
+              widget: boolean,
+              default: true,
+              i18n: duplicate,
+            }
+          - {
+              name: show_card_bands,
+              label: "Decorations: woven band next to card titles (master switch; each card also has its own)",
+              widget: boolean,
+              default: true,
+              i18n: duplicate,
+            }
+          - {
+              name: divider_motif,
+              label: Default divider motif,
+              widget: select,
+              i18n: duplicate,
+              options: *motif_options,
+            }
           - name: skill_logo_style
             label: Skill logo style
             widget: select
             i18n: duplicate
             default: mono
-            options: [{ label: "One colour, matches theme", value: mono }, { label: "Original brand colours", value: brand }]
+            options:
+              [
+                { label: "One colour, matches theme", value: mono },
+                { label: "Original brand colours", value: brand },
+              ]
           - name: ui
             label: Interface text (screen readers, buttons)
             widget: object
             collapsed: true
             i18n: true
             fields:
-              - { name: skip_to_content, label: Skip link, widget: string, i18n: true }
-              - { name: main_navigation, label: Navigation label, widget: string, i18n: true }
-              - { name: language, label: Language menu label, widget: string, i18n: true }
-              - { name: toggle_theme, label: Theme toggle label, widget: string, i18n: true }
-              - { name: previous, label: Gallery previous, widget: string, i18n: true }
+              - {
+                  name: skip_to_content,
+                  label: Skip link,
+                  widget: string,
+                  i18n: true,
+                }
+              - {
+                  name: main_navigation,
+                  label: Navigation label,
+                  widget: string,
+                  i18n: true,
+                }
+              - {
+                  name: language,
+                  label: Language menu label,
+                  widget: string,
+                  i18n: true,
+                }
+              - {
+                  name: toggle_theme,
+                  label: Theme toggle label,
+                  widget: string,
+                  i18n: true,
+                }
+              - {
+                  name: previous,
+                  label: Gallery previous,
+                  widget: string,
+                  i18n: true,
+                }
               - { name: next, label: Gallery next, widget: string, i18n: true }
-              - { name: view_full, label: View full size, widget: string, i18n: true }
-              - { name: watch_video, label: Watch video button, widget: string, i18n: true }
-              - { name: open_demo, label: Open simulation button, widget: string, i18n: true }
+              - {
+                  name: view_full,
+                  label: View full size,
+                  widget: string,
+                  i18n: true,
+                }
+              - {
+                  name: watch_video,
+                  label: Watch video button,
+                  widget: string,
+                  i18n: true,
+                }
+              - {
+                  name: open_demo,
+                  label: Open simulation button,
+                  widget: string,
+                  i18n: true,
+                }
               - { name: close, label: Close, widget: string, i18n: true }
-              - { name: media_viewer, label: Media viewer label, widget: string, i18n: true }
-              - { name: not_found_title, label: 404 title, widget: string, i18n: true }
-              - { name: not_found_body, label: 404 text, widget: markdown, i18n: true }
+              - {
+                  name: media_viewer,
+                  label: Media viewer label,
+                  widget: string,
+                  i18n: true,
+                }
+              - {
+                  name: not_found_title,
+                  label: 404 title,
+                  widget: string,
+                  i18n: true,
+                }
+              - {
+                  name: not_found_body,
+                  label: 404 text,
+                  widget: markdown,
+                  i18n: true,
+                }
 
       - name: navigation
         label: Navigation menu
@@ -379,8 +1171,22 @@ collections:
                 widget: string
                 i18n: duplicate
                 hint: "A page slug (home, about, work) or a full external URL (https://…)"
-              - { name: new_tab, label: Open in new tab, widget: boolean, default: false, required: false, i18n: duplicate }
-              - { name: hidden, label: Hide from menu, widget: boolean, default: false, required: false, i18n: duplicate }
+              - {
+                  name: new_tab,
+                  label: Open in new tab,
+                  widget: boolean,
+                  default: false,
+                  required: false,
+                  i18n: duplicate,
+                }
+              - {
+                  name: hidden,
+                  label: Hide from menu,
+                  widget: boolean,
+                  default: false,
+                  required: false,
+                  i18n: duplicate,
+                }
 
       - name: contact
         label: Contact links
@@ -394,10 +1200,93 @@ collections:
             i18n: true
             summary: "{{fields.label}}"
             fields:
-              - { name: label, label: "Label (Email, LinkedIn…)", widget: string, i18n: true }
+              - {
+                  name: label,
+                  label: "Label (Email, LinkedIn…)",
+                  widget: string,
+                  i18n: true,
+                }
               - { name: value, label: Text shown, widget: string, i18n: true }
-              - { name: url, label: "URL (https://… or mailto:…)", widget: string, i18n: duplicate }
-              - { name: hidden, label: Hide, widget: boolean, default: false, required: false, i18n: duplicate }
+              - {
+                  name: url,
+                  label: "URL (https://… or mailto:…)",
+                  widget: string,
+                  i18n: duplicate,
+                }
+              - {
+                  name: hidden,
+                  label: Hide,
+                  widget: boolean,
+                  default: false,
+                  required: false,
+                  i18n: duplicate,
+                }
+
+      - name: theme
+        label: Colour scheme
+        file: content/settings/theme.json
+        i18n: false
+        fields:
+          - name: default_mode
+            label: Default mode for new visitors
+            widget: select
+            default: system
+            hint: "Visitors can still switch with the sun/moon button; their choice is remembered."
+            options:
+              [
+                { label: "Follow their device setting", value: system },
+                { label: "Light", value: light },
+                { label: "Dark", value: dark },
+              ]
+          - name: palette
+            label: Kilim palette (motifs, symbols, quote bars, favicon)
+            widget: object
+            fields:
+              - {
+                  name: teal,
+                  label: Teal,
+                  widget: color,
+                  allowInput: true,
+                  default: "#007A8E",
+                }
+              - {
+                  name: rust,
+                  label: Rust,
+                  widget: color,
+                  allowInput: true,
+                  default: "#A45B3D",
+                }
+              - {
+                  name: saffron,
+                  label: Saffron,
+                  widget: color,
+                  allowInput: true,
+                  default: "#F9C74F",
+                }
+              - {
+                  name: sand,
+                  label: Sand,
+                  widget: color,
+                  allowInput: true,
+                  default: "#D9BF77",
+                }
+              - {
+                  name: burgundy,
+                  label: "Burgundy (also browser tab colour)",
+                  widget: color,
+                  allowInput: true,
+                  default: "#6A2C2E",
+                }
+          - name: light
+            label: Light mode
+            widget: object
+            collapsed: true
+            fields: *light_colour_fields
+          - name: dark
+            label: Dark mode
+            widget: object
+            collapsed: true
+            fields: *dark_colour_fields
 
       - name: languages
         label: Languages
@@ -410,13 +1299,36 @@ collections:
             summary: "{{fields.code}} · {{fields.name}}"
             hint: "A language must also be listed under i18n → locales in static/admin/config.yml to be editable here."
             fields:
-              - { name: code, label: "Code (en, tr, es, ar, ru, zh)", widget: string }
+              - {
+                  name: code,
+                  label: "Code (en, tr, es, ar, ru, zh)",
+                  widget: string,
+                }
               - { name: name, label: Name in its own language, widget: string }
               - name: dir
                 label: Text direction
                 widget: select
                 default: ltr
-                options: [{ label: "Left to right", value: ltr }, { label: "Right to left (Arabic)", value: rtl }]
-              - { name: enabled, label: Published on the site, widget: boolean, default: false }
-              - { name: default, label: Default language (served at /), widget: boolean, default: false }
-              - { name: font_url, label: Extra Google Fonts URL for this script, widget: string, required: false }
+                options:
+                  [
+                    { label: "Left to right", value: ltr },
+                    { label: "Right to left (Arabic)", value: rtl },
+                  ]
+              - {
+                  name: enabled,
+                  label: Published on the site,
+                  widget: boolean,
+                  default: false,
+                }
+              - {
+                  name: default,
+                  label: Default language (served at /),
+                  widget: boolean,
+                  default: false,
+                }
+              - {
+                  name: font_url,
+                  label: Extra Google Fonts URL for this script,
+                  widget: string,
+                  required: false,
+                }

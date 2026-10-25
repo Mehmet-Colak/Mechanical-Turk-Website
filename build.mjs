@@ -10,6 +10,7 @@ import crypto from "node:crypto";
 import { fileURLToPath } from "node:url";
 import { renderPage } from "./lib/render.mjs";
 import { faviconSvg } from "./lib/symbols.mjs";
+import { paletteColor } from "./lib/theme.mjs";
 
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
 const CONTENT = path.join(ROOT, "content");
@@ -67,6 +68,7 @@ const settings = {
   site: readJson(path.join(CONTENT, "settings/site.json")),
   nav: readJson(path.join(CONTENT, "settings/navigation.json")),
   contact: readJson(path.join(CONTENT, "settings/contact.json")),
+  theme: readJson(path.join(CONTENT, "settings/theme.json")),
 };
 const skills = readJson(path.join(CONTENT, "skills.json"));
 const timeline = readJson(path.join(CONTENT, "timeline.json"));
@@ -97,7 +99,10 @@ function urlFor(code) {
 fs.rmSync(OUT, { recursive: true, force: true });
 fs.mkdirSync(OUT, { recursive: true });
 fs.cpSync(STATIC, OUT, { recursive: true });
-fs.writeFileSync(path.join(OUT, "favicon.svg"), faviconSvg());
+fs.writeFileSync(path.join(OUT, "favicon.svg"), faviconSvg({
+  bg: paletteColor(settings.theme, "burgundy", "#6A2C2E"),
+  fg: paletteColor(settings.theme, "saffron", "#F9C74F"),
+}));
 
 const hash = (file) => crypto.createHash("sha1").update(fs.readFileSync(file)).digest("hex").slice(0, 8);
 const assetVersion = hash(path.join(STATIC, "assets/css/site.css")) + hash(path.join(STATIC, "assets/js/site.js"));
@@ -119,7 +124,7 @@ for (const lang of ENABLED) {
     const url = urlFor(lang.code)(p.permalink);
     const html = renderPage({
       page, site, nav, languages: ENABLED.map((l) => ({ ...l, default: l.code === DEFAULT })),
-      locale: lang, alternates, data, urlFor: urlFor(lang.code), assetVersion,
+      locale: lang, alternates, data, urlFor: urlFor(lang.code), assetVersion, theme: settings.theme,
     });
 
     const outFile = path.join(OUT, url, "index.html");
@@ -141,7 +146,7 @@ fs.writeFileSync(path.join(OUT, "404.html"), renderPage({
   languages: [{ ...languages.find((l) => l.code === DEFAULT), default: true, enabled: true }],
   locale: languages.find((l) => l.code === DEFAULT),
   alternates: { [DEFAULT]: "/" },
-  data: { skills: {}, timeline: {}, contact: {} }, urlFor: urlFor(DEFAULT), assetVersion,
+  data: { skills: {}, timeline: {}, contact: {} }, urlFor: urlFor(DEFAULT), assetVersion, theme: settings.theme,
 }));
 
 fs.writeFileSync(path.join(OUT, "sitemap.xml"),

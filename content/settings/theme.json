@@ -1,0 +1,48 @@
+{
+  "default_mode": "system",
+  "palette": {
+    "teal": "#007A8E",
+    "rust": "#A45B3D",
+    "saffron": "#F9C74F",
+    "sand": "#D9BF77",
+    "burgundy": "#6A2C2E"
+  },
+  "light": {
+    "bg": "#F6EEDC",
+    "surface": "#FBF7EC",
+    "surface_hover": "#F0E5CA",
+    "ink": "#2A1416",
+    "ink_soft": "#5B3D35",
+    "line": "#6A2C2E",
+    "link": "#006475",
+    "accent": "#007A8E",
+    "on_accent": "#FFFFFF",
+    "kicker": "#A45B3D",
+    "motif": "#A45B3D",
+    "connector": "#007A8E",
+    "nav_current": "#F9C74F",
+    "on_nav_current": "#2A1416",
+    "mark_bg": "#6A2C2E",
+    "mark_fg": "#F9C74F",
+    "logo_color": "#6A2C2E"
+  },
+  "dark": {
+    "bg": "#1B1112",
+    "surface": "#251718",
+    "surface_hover": "#301F20",
+    "ink": "#F4E9CF",
+    "ink_soft": "#CDBA92",
+    "line": "#D9BF77",
+    "link": "#F9C74F",
+    "accent": "#F9C74F",
+    "on_accent": "#1B1112",
+    "kicker": "#F9C74F",
+    "motif": "#C4714E",
+    "connector": "#2B97A8",
+    "nav_current": "#F9C74F",
+    "on_nav_current": "#1B1112",
+    "mark_bg": "#A45B3D",
+    "mark_fg": "#1B1112",
+    "logo_color": "#D9BF77"
+  }
+}

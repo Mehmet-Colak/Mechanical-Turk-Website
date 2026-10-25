@@ -5,46 +5,185 @@
         "name": "Languages",
         "hidden": false,
         "items": [
-          { "name": "Python", "icon": "devicon:python", "image": "", "short": "", "url": "" },
-          { "name": "JavaScript", "icon": "devicon:javascript", "image": "", "short": "", "url": "" },
-          { "name": "TypeScript", "icon": "devicon:typescript", "image": "", "short": "", "url": "" },
-          { "name": "C++", "icon": "devicon:cplusplus", "image": "", "short": "", "url": "" },
-          { "name": "C#", "icon": "devicon:csharp", "image": "", "short": "", "url": "" },
-          { "name": "SQL", "icon": "devicon:azuresqldatabase", "image": "", "short": "SQL", "url": "" }
+          {
+            "name": "Python",
+            "icon": "devicon:python",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "JavaScript",
+            "icon": "devicon:javascript",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "TypeScript",
+            "icon": "devicon:typescript",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "C++",
+            "icon": "devicon:cplusplus",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "C#",
+            "icon": "devicon:csharp",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "PHP",
+            "icon": "devicon: php",
+            "image": "",
+            "short": "PHP",
+            "url": ""
+          },
+          {
+            "name": "SQL",
+            "icon": "devicon:azuresqldatabase",
+            "image": "",
+            "short": "SQL",
+            "url": ""
+          }
         ]
       },
       {
         "name": "Frameworks & tools",
         "hidden": false,
         "items": [
-          { "name": "React", "icon": "devicon:react/react-original", "image": "", "short": "", "url": "" },
-          { "name": "Node.js", "icon": "devicon:nodejs", "image": "", "short": "", "url": "" },
-          { "name": "Convex", "icon": "si:convex", "image": "", "short": "", "url": "" },
-          { "name": "Unity", "icon": "devicon:unity/unity-original", "image": "", "short": "", "url": "" },
-          { "name": "Firebase", "icon": "devicon:firebase", "image": "", "short": "", "url": "" },
-          { "name": "MySQL", "icon": "devicon:mysql/mysql-original", "image": "", "short": "", "url": "" },
-          { "name": "Git", "icon": "devicon:git", "image": "", "short": "", "url": "" },
-          { "name": "Zapier", "icon": "si:zapier", "image": "", "short": "", "url": "" }
+          {
+            "name": "React",
+            "icon": "devicon:react/react-original",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Node.js",
+            "icon": "devicon:nodejs",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Convex",
+            "icon": "si:convex",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Unity",
+            "icon": "devicon:unity/unity-original",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Firebase",
+            "icon": "devicon:firebase",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "MySQL",
+            "icon": "devicon:mysql/mysql-original",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Git",
+            "icon": "devicon:git",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Zapier",
+            "icon": "si:zapier",
+            "image": "",
+            "short": "",
+            "url": ""
+          }
         ]
       },
       {
         "name": "Cloud & AI",
         "hidden": false,
         "items": [
-          { "name": "AWS", "icon": "devicon:amazonwebservices/amazonwebservices-plain-wordmark", "image": "", "short": "AWS", "url": "" },
-          { "name": "Google Cloud", "icon": "devicon:googlecloud", "image": "", "short": "GCP", "url": "" },
-          { "name": "Ollama", "icon": "si:ollama", "image": "", "short": "", "url": "" },
-          { "name": "Gemini API", "icon": "si:googlegemini", "image": "", "short": "Gem", "url": "" },
-          { "name": "Local LLMs", "icon": "", "image": "", "short": "LLM", "url": "" }
+          {
+            "name": "AWS",
+            "icon": "devicon:amazonwebservices/amazonwebservices-plain-wordmark",
+            "image": "",
+            "short": "AWS",
+            "url": ""
+          },
+          {
+            "name": "Google Cloud",
+            "icon": "devicon:googlecloud",
+            "image": "",
+            "short": "GCP",
+            "url": ""
+          },
+          {
+            "name": "Ollama",
+            "icon": "si:ollama",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Gemini API",
+            "icon": "si:googlegemini",
+            "image": "",
+            "short": "Gem",
+            "url": ""
+          },
+          {
+            "name": "Local LLMs",
+            "icon": "",
+            "image": "",
+            "short": "LLM",
+            "url": ""
+          }
         ]
       },
       {
         "name": "Spoken languages",
         "hidden": false,
         "items": [
-          { "name": "English", "icon": "", "image": "", "short": "EN", "url": "" },
-          { "name": "Turkish", "icon": "", "image": "", "short": "TR", "url": "" },
-          { "name": "Spanish", "icon": "", "image": "", "short": "ES", "url": "" }
+          {
+            "name": "English",
+            "icon": "",
+            "image": "",
+            "short": "EN",
+            "url": ""
+          },
+          {
+            "name": "Turkish",
+            "icon": "",
+            "image": "",
+            "short": "TR",
+            "url": ""
+          },
+          {
+            "name": "Spanish",
+            "icon": "",
+            "image": "",
+            "short": "ES",
+            "url": ""
+          }
         ]
       }
     ]
@@ -53,29 +192,187 @@
     "groups": [
       {
         "name": "Programlama dilleri",
+        "hidden": false,
         "items": [
-          { "name": "Python" }, { "name": "JavaScript" }, { "name": "TypeScript" },
-          { "name": "C++" }, { "name": "C#" }, { "name": "SQL" }
+          {
+            "name": "Python",
+            "icon": "devicon:python",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "JavaScript",
+            "icon": "devicon:javascript",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "TypeScript",
+            "icon": "devicon:typescript",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "C++",
+            "icon": "devicon:cplusplus",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "C#",
+            "icon": "devicon:csharp",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "PHP",
+            "icon": "devicon: php",
+            "image": "",
+            "short": "PHP",
+            "url": ""
+          },
+          {
+            "name": "SQL",
+            "icon": "devicon:azuresqldatabase",
+            "image": "",
+            "short": "SQL",
+            "url": ""
+          }
         ]
       },
       {
         "name": "Framework ve araçlar",
+        "hidden": false,
         "items": [
-          { "name": "React" }, { "name": "Node.js" }, { "name": "Convex" }, { "name": "Unity" },
-          { "name": "Firebase" }, { "name": "MySQL" }, { "name": "Git" }, { "name": "Zapier" }
+          {
+            "name": "React",
+            "icon": "devicon:react/react-original",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Node.js",
+            "icon": "devicon:nodejs",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Convex",
+            "icon": "si:convex",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Unity",
+            "icon": "devicon:unity/unity-original",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Firebase",
+            "icon": "devicon:firebase",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "MySQL",
+            "icon": "devicon:mysql/mysql-original",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Git",
+            "icon": "devicon:git",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Zapier",
+            "icon": "si:zapier",
+            "image": "",
+            "short": "",
+            "url": ""
+          }
         ]
       },
       {
         "name": "Bulut ve yapay zekâ",
+        "hidden": false,
         "items": [
-          { "name": "AWS" }, { "name": "Google Cloud" }, { "name": "Ollama" },
-          { "name": "Gemini API" }, { "name": "Yerel LLM’ler" }
+          {
+            "name": "AWS",
+            "icon": "devicon:amazonwebservices/amazonwebservices-plain-wordmark",
+            "image": "",
+            "short": "AWS",
+            "url": ""
+          },
+          {
+            "name": "Google Cloud",
+            "icon": "devicon:googlecloud",
+            "image": "",
+            "short": "GCP",
+            "url": ""
+          },
+          {
+            "name": "Ollama",
+            "icon": "si:ollama",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Gemini API",
+            "icon": "si:googlegemini",
+            "image": "",
+            "short": "Gem",
+            "url": ""
+          },
+          {
+            "name": "Yerel LLM’ler",
+            "icon": "",
+            "image": "",
+            "short": "LLM",
+            "url": ""
+          }
         ]
       },
       {
         "name": "Konuştuğum diller",
+        "hidden": false,
         "items": [
-          { "name": "İngilizce" }, { "name": "Türkçe" }, { "name": "İspanyolca" }
+          {
+            "name": "İngilizce",
+            "icon": "",
+            "image": "",
+            "short": "EN",
+            "url": ""
+          },
+          {
+            "name": "Türkçe",
+            "icon": "",
+            "image": "",
+            "short": "TR",
+            "url": ""
+          },
+          {
+            "name": "İspanyolca",
+            "icon": "",
+            "image": "",
+            "short": "ES",
+            "url": ""
+          }
         ]
       }
     ]

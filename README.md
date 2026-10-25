@@ -106,6 +106,7 @@ Only people with write access to the GitHub repo can save changes. Anyone else w
 | **Timeline** | Data → Timeline. Entries display top to bottom; drag to reorder. Pick a motif for each marker. |
 | **Upload images** | Any image field, or the Media library. Files are committed to `static/assets/uploads/`. |
 | **Decorative symbols** | Settings → Site, *Decorations*: bereket border symbols, chained motif dividers, woven card bands (global). Each card and long-form card also has **Show woven band next to title**. Choose the default divider motif there, or override per page and per divider. |
+| **Colours** | Settings → Colour scheme. *Kilim palette* colours the motifs, symbols and favicon; *Light mode* and *Dark mode* set backgrounds, text, links, buttons and borders for each mode. Also choose whether new visitors start in light, dark or their device setting. |
 | **Project / simulation display** | Card → *Image gallery* (2+ images get ‹ › arrows and a counter; click opens full size), *Video link* (YouTube, Vimeo, Google Drive or .mp4) and *Simulation URL* open in a viewer window. |
 
 Section types you can stack on any page: **Hero, Text / long-form card, Cards, Timeline, Skills grid, Contact links, Link list, Image, Kilim divider.**

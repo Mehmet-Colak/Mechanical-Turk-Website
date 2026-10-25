@@ -107,8 +107,8 @@ button, input, select, textarea { font: inherit; color: inherit; border-radius: 
 h1, h2, h3, h4, h5 { font-family: var(--font-display); line-height: 1.15; font-weight: 700; }
 
 .sprite { position: absolute; width: 0; height: 0; overflow: hidden; }
-.k-teal { fill: #007A8E; } .k-rust { fill: #A45B3D; } .k-burg { fill: #6A2C2E; }
-.k-saff { fill: #F9C74F; } .k-sand { fill: #D9BF77; } .k-ink { fill: currentColor; }
+.k-teal { fill: var(--teal); } .k-rust { fill: var(--rust); } .k-burg { fill: var(--burgundy); }
+.k-saff { fill: var(--saffron); } .k-sand { fill: var(--sand); } .k-ink { fill: currentColor; }
 .k-motif { color: var(--motif); }
 .k-link { fill: var(--connector); }
 
