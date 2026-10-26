@@ -28,7 +28,34 @@
                 "label": "Demonstration",
                 "url": "https://youtube.com/shorts/gT84GApSMoY?feature=share",
                 "style": "secondary",
-                "new_tab": false
+                "new_tab": true
+              }
+            ],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Plant Watering Robot",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [
+              {
+                "label": "Demonstration",
+                "url": "https://youtube.com/shorts/MjYnnWbauPA?feature=share",
+                "style": "secondary",
+                "new_tab": true
+              },
+              {
+                "label": "Embedded System",
+                "url": "https://youtube.com/shorts/-ecraDPek9Q",
+                "style": "secondary",
+                "new_tab": true
               }
             ],
             "gallery": [],
@@ -223,7 +250,34 @@
                 "label": "Gosterge",
                 "url": "https://youtube.com/shorts/gT84GApSMoY?feature=share",
                 "style": "secondary",
-                "new_tab": false
+                "new_tab": true
+              }
+            ],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Eskrim Hedefi Robotu",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [
+              {
+                "label": "Sulama Robotu",
+                "url": "https://youtube.com/shorts/MjYnnWbauPA?feature=share",
+                "style": "secondary",
+                "new_tab": true
+              },
+              {
+                "label": "Gomulu Sistem",
+                "url": "https://youtube.com/shorts/-ecraDPek9Q",
+                "style": "secondary",
+                "new_tab": true
               }
             ],
             "gallery": [],
