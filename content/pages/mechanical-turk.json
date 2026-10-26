@@ -11,6 +11,13 @@
     "draft": false,
     "blocks": [
       {
+        "type": "image",
+        "image": "/assets/uploads/mech-turk.jpg",
+        "hidden": false,
+        "alt": "",
+        "caption": ""
+      },
+      {
         "type": "text",
         "heading": "A gift for an empress",
         "image": "",
@@ -18,7 +25,8 @@
         "hidden": false,
         "body": "In 1770 Wolfgang von Kempelen, a Hungarian-born engineer at the Habsburg court, unveiled an automaton for Empress Maria Theresa at Schönbrunn Palace in Vienna. A life-size figure in a turban and Ottoman robes sat behind a wooden cabinet with a chessboard on top.\n\nBefore each game Kempelen opened the cabinet doors one at a time to show gears, cylinders and clockwork. Then he wound the machine up. The Turk lifted its arm, moved its own pieces, shook its head at illegal moves and usually won. It could also trace a knight’s tour, moving a knight to every square of the board exactly once.",
         "as_card": true,
-        "show_band": true
+        "show_band": true,
+        "image_position": "top"
       },
       {
         "type": "text",
@@ -28,7 +36,8 @@
         "hidden": false,
         "body": "A strong chess player sat inside. The clockwork shown to audiences was real but did nothing; the operator slid on a moving seat to stay hidden while each door opened. Magnets under the pieces pulled small metal markers beneath the board, so the operator could follow the game. A system of levers moved the Turk’s arm, and a candle lit the inside, its smoke escaping through the figure’s turban.",
         "as_card": true,
-        "show_band": true
+        "show_band": true,
+        "image_position": "top"
       },
       {
         "type": "text",
@@ -38,7 +47,8 @@
         "hidden": false,
         "body": "The Turk toured Europe in the 1780s, and Benjamin Franklin is said to have played it in Paris. After Kempelen’s death in 1804, the showman Johann Nepomuk Mälzel bought it. Napoleon reportedly played it at Schönbrunn in 1809, and Charles Babbage, who later designed the Analytical Engine, played it in London in 1819.\n\nMälzel took it to the United States in 1826. Edgar Allan Poe watched it and in 1836 published an essay arguing a human had to be inside. The Turk ended up in a Philadelphia museum, where a fire destroyed it in 1854.",
         "as_card": true,
-        "show_band": true
+        "show_band": true,
+        "image_position": "top"
       },
       {
         "type": "text",
@@ -48,7 +58,8 @@
         "hidden": false,
         "body": "In 2005 Amazon launched Mechanical Turk, a marketplace where people complete small tasks that computers still struggle with. The name stuck as shorthand for any system that looks automatic but runs on hidden human work, a question that matters more than ever in today’s AI.",
         "as_card": true,
-        "show_band": true
+        "show_band": true,
+        "image_position": "top"
       },
       {
         "type": "divider",
@@ -62,7 +73,8 @@
         "hidden": false,
         "body": "We are not frauds; we are not magic. We are engineers, and we are dreammakers. I see the story of the Mechanical Turk not as a condemnation of \"oriental trickery,\" but rather as a way of emulating an incredible idea that did not yet have the technological backing.\n\nAnd since this was a \"toy\" used for entertainment, I do not  see it as any more malicious than a carnival trick or a magician's show. We want magic to be real; we want to believe in the power of the machines, but they are not there yet, so we settle for the imitations of it.\n\nMy life's goal is to realize these dreams. I intend to work in the field of AI and robotics for the rest of my life, and I intend to build a real, working Mechanical Turk by the end of 2028. So, follow me on LinkedIn and GitHub, and follow along on my journey.",
         "as_card": false,
-        "show_band": false
+        "show_band": false,
+        "image_position": "top"
       },
       {
         "type": "cards",
@@ -79,6 +91,7 @@
             "tags": [],
             "links": [],
             "gallery": [],
+            "image_side": "right",
             "video_url": "",
             "embed_url": "",
             "show_band": true,
@@ -100,6 +113,13 @@
     "draft": false,
     "blocks": [
       {
+        "type": "image",
+        "image": "/assets/uploads/mech-turk.jpg",
+        "hidden": false,
+        "alt": "",
+        "caption": ""
+      },
+      {
         "type": "text",
         "heading": "Bir imparatoriçeye hediye",
         "image": "",
@@ -107,7 +127,8 @@
         "hidden": false,
         "body": "1770’te Habsburg sarayında görevli Macar asıllı mühendis Wolfgang von Kempelen, Viyana’daki Schönbrunn Sarayı’nda İmparatoriçe Maria Theresa’ya bir otomat sundu. Sarıklı ve Osmanlı kaftanlı, gerçek boyutta bir figür, üzerinde satranç tahtası olan ahşap bir dolabın arkasında oturuyordu.\n\nKempelen her oyundan önce dolabın kapaklarını tek tek açıp dişlileri, silindirleri ve saat mekanizmasını gösterir, ardından makineyi kurardı. Türk kolunu kaldırır, taşlarını kendisi oynar, kurala aykırı hamlelerde başını sallar ve çoğu zaman kazanırdı. Ayrıca at turunu, yani atı tahtanın her karesine yalnızca bir kez uğratmayı da yapabiliyordu.",
         "as_card": true,
-        "show_band": true
+        "show_band": true,
+        "image_position": "top"
       },
       {
         "type": "text",
@@ -117,7 +138,8 @@
         "hidden": false,
         "body": "İçeride güçlü bir satranç oyuncusu oturuyordu. Seyircilere gösterilen mekanizma gerçekti ama hiçbir işe yaramıyordu; operatör, kapaklar açılırken görünmemek için kayan bir oturakta yer değiştiriyordu. Taşların altındaki mıknatıslar tahtanın altındaki küçük metal göstergeleri çekiyor, böylece operatör oyunu takip edebiliyordu. Bir kaldıraç sistemi Türk’ün kolunu hareket ettiriyor, içerisi bir mumla aydınlanıyor ve mumun dumanı figürün sarığından dışarı çıkıyordu.",
         "as_card": true,
-        "show_band": true
+        "show_band": true,
+        "image_position": "top"
       },
       {
         "type": "text",
@@ -127,7 +149,8 @@
         "hidden": false,
         "body": "Türk 1780’lerde Avrupa’yı dolaştı; Benjamin Franklin’in Paris’te onunla oynadığı söylenir. Kempelen 1804’te ölünce gösteri adamı Johann Nepomuk Mälzel makineyi satın aldı. Napolyon’un 1809’da Schönbrunn’da onunla oynadığı, sonradan Analitik Makine’yi tasarlayan Charles Babbage’ın da 1819’da Londra’da karşısına geçtiği anlatılır.\n\nMälzel makineyi 1826’da Amerika’ya götürdü. Onu izleyen Edgar Allan Poe, 1836’da içeride bir insan olması gerektiğini savunan bir deneme yayımladı. Türk sonunda Philadelphia’da bir müzeye kaldırıldı ve 1854’te çıkan bir yangında yok oldu.",
         "as_card": true,
-        "show_band": true
+        "show_band": true,
+        "image_position": "top"
       },
       {
         "type": "text",
@@ -137,7 +160,8 @@
         "hidden": false,
         "body": "Amazon 2005’te, bilgisayarların hâlâ zorlandığı küçük görevlerin insanlar tarafından yapıldığı Mechanical Turk adlı bir platform açtı. İsim, otomatik görünen ama gizli insan emeğiyle çalışan her sistemin kısaltması hâline geldi. Bugünün yapay zekâsında bu soru her zamankinden daha önemli.",
         "as_card": true,
-        "show_band": true
+        "show_band": true,
+        "image_position": "top"
       },
       {
         "type": "divider",
@@ -151,7 +175,8 @@
         "hidden": false,
         "body": "Türk’ü bir sahtekârlık olarak görmüyorum; bir tasarım brifi olarak görüyorum. Zor bir şeyi zahmetsiz gösterdi, gerçek mekanik ve akıllı bir yanıltmacayla inşa edildi ve zekâsını sistemin içinde çalışan yetenekli bir insandan aldı. Ürünlere ben de böyle bakıyorum: mühendislik gerçek olmalı ve en önemlisi, içindeki insanlardır.\n\nAyrıca ben de bir Türk’üm.",
         "as_card": false,
-        "show_band": false
+        "show_band": false,
+        "image_position": "top"
       },
       {
         "type": "cards",
@@ -168,6 +193,7 @@
             "tags": [],
             "links": [],
             "gallery": [],
+            "image_side": "right",
             "video_url": "",
             "embed_url": "",
             "show_band": true,
