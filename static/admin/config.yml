@@ -1000,7 +1000,6 @@ collections:
     format: json
     extension: json
     i18n: true
-    editor: { preview: false }
     files:
       - name: site
         label: Site, identity & decorations

@@ -22,7 +22,7 @@ for (const dir of ["content", "static", "lib"]) {
 }
 
 const types = {
-  ".html": "text/html; charset=utf-8", ".css": "text/css", ".js": "text/javascript",
+  ".html": "text/html; charset=utf-8", ".css": "text/css", ".js": "text/javascript", ".mjs": "text/javascript",
   ".svg": "image/svg+xml", ".png": "image/png", ".jpg": "image/jpeg", ".jpeg": "image/jpeg",
   ".webp": "image/webp", ".gif": "image/gif", ".pdf": "application/pdf", ".json": "application/json",
   ".yml": "text/yaml", ".xml": "application/xml", ".txt": "text/plain", ".mp4": "video/mp4",

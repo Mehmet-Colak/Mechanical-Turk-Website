@@ -12,6 +12,7 @@ import { renderPage } from "./lib/render.mjs";
 import { faviconSvg, MOTIF_KEYS } from "./lib/symbols.mjs";
 import { renderMotifReference } from "./lib/motif-reference.mjs";
 import { color, paletteColor } from "./lib/theme.mjs";
+import { makeLocalize, motifArtFrom } from "./lib/i18n.mjs";
 
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
 const CONTENT = path.join(ROOT, "content");
@@ -33,36 +34,7 @@ const ALL_CODES = languages.map((l) => l.code);
 const DEFAULT = (languages.find((l) => l.default) || languages[0]).code;
 const ENABLED = languages.filter((l) => l.enabled || l.code === DEFAULT);
 
-// ---------- i18n merge ----------
-// Files use the CMS "single_file" structure: { "en": {...}, "tr": {...} }.
-// Anything missing in a translation falls back to the default language,
-// field by field and card by card, so untranslated images and URLs still work.
-const isEmpty = (v) => v === undefined || v === null || v === "";
-const isObj = (v) => v && typeof v === "object" && !Array.isArray(v);
-
-function fallback(loc, base) {
-  if (isEmpty(loc)) return base;
-  if (Array.isArray(loc) && Array.isArray(base)) {
-    return loc.map((item, i) => {
-      const b = base[i];
-      if (isObj(item) && isObj(b) && (item.type === undefined || item.type === b.type)) return fallback(item, b);
-      return item;
-    });
-  }
-  if (isObj(loc) && isObj(base)) {
-    const out = { ...loc };
-    for (const [k, v] of Object.entries(base)) out[k] = k in loc ? fallback(loc[k], v) : v;
-    return out;
-  }
-  return loc;
-}
-
-function localize(file, code) {
-  const shared = {};
-  for (const [k, v] of Object.entries(file)) if (!ALL_CODES.includes(k)) shared[k] = v;
-  const base = { ...shared, ...(file[DEFAULT] || {}) };
-  return code === DEFAULT ? base : fallback(file[code] || {}, base);
-}
+const localize = makeLocalize(ALL_CODES, DEFAULT);
 
 // ---------- load content ----------
 const settings = {
@@ -102,11 +74,8 @@ function urlFor(code) {
 fs.rmSync(OUT, { recursive: true, force: true });
 fs.mkdirSync(OUT, { recursive: true });
 fs.cpSync(STATIC, OUT, { recursive: true });
-// Uploaded motif art: { key: { href, recolour } }. Pages reference the file by URL;
-// the favicon needs it inlined as a data: URI (see faviconSvg).
-const motifArt = Object.fromEntries(Object.entries(settings.motifArt)
-  .filter(([, a]) => typeof a?.image === "string" && a.image.trim())
-  .map(([k, a]) => [k, { href: a.image.trim(), recolour: k !== "band" && a.recolour !== false }]));
+// The favicon needs uploaded motif art inlined as a data: URI (see faviconSvg).
+const motifArt = motifArtFrom(settings.motifArt);
 const MIME = { ".png": "image/png", ".gif": "image/gif", ".webp": "image/webp", ".svg": "image/svg+xml", ".jpg": "image/jpeg", ".jpeg": "image/jpeg" };
 const inlineArt = (a) => {
   if (!a || !a.href.startsWith("/")) return null;
@@ -135,6 +104,15 @@ const assetVersion = hash(path.join(STATIC, "assets/css/site.css")) + hash(path.
 // Motif reference sheet for editors, linked from the CMS motif pickers.
 fs.mkdirSync(path.join(OUT, "admin/motifs"), { recursive: true });
 fs.writeFileSync(path.join(OUT, "admin/motifs/index.html"), renderMotifReference({ theme: settings.theme, iconColours, assetVersion, motifArt, faviconArt }));
+
+// CMS live preview (static/admin/preview.js): the templates plus a snapshot of the
+// published content, so the editor can render the page being edited.
+fs.cpSync(path.join(ROOT, "lib"), path.join(OUT, "admin/preview/lib"), { recursive: true });
+fs.writeFileSync(path.join(OUT, "admin/preview/data.json"), JSON.stringify({
+  languages, defaultCode: DEFAULT, settings, skills, timeline,
+  pages: Object.fromEntries(pages.map((p) => [p.file.replace(/\.json$/, ""), p.raw])),
+  assetVersion, favicon,
+}));
 
 const sitemap = [];
 let count = 0;
