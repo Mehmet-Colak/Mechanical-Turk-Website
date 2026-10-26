@@ -75,10 +75,12 @@
           },
           {
             "title": "LMU Psychology Department",
-            "meta": "Research Assistant and then DEI Commitee Member",
+            "meta": "Research Assistant",
             "badge": "",
-            "body": "",
-            "tags": [],
+            "body": "Wrote automated Python scripts to validate survey and test data for **300+ participants**. Built 3D simulation tools in Unity (C#) that capture behavioral metrics, making perception experiments scalable.",
+            "tags": [
+              "Python"
+            ],
             "links": [],
             "gallery": [],
             "image_side": "right",
@@ -126,9 +128,9 @@
         "items": [
           {
             "title": "LMU Psychology Department",
-            "meta": "Research Assistant · Aug 2023 – Aug 2025",
+            "meta": "Vertical Distance Estimation Study",
             "badge": "",
-            "body": "Wrote automated Python scripts to validate survey and test data for **300+ participants**. Built 3D simulation tools in Unity (C#) that capture behavioral metrics, making perception experiments scalable.",
+            "body": "",
             "tags": [
               "Python",
               "Unity",
