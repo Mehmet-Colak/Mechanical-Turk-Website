@@ -9,7 +9,7 @@ import path from "node:path";
 import crypto from "node:crypto";
 import { fileURLToPath } from "node:url";
 import { renderPage } from "./lib/render.mjs";
-import { faviconSvg } from "./lib/symbols.mjs";
+import { faviconSvg, MOTIF_KEYS } from "./lib/symbols.mjs";
 import { renderMotifReference } from "./lib/motif-reference.mjs";
 import { color, paletteColor } from "./lib/theme.mjs";
 
@@ -71,6 +71,7 @@ const settings = {
   contact: readJson(path.join(CONTENT, "settings/contact.json")),
   theme: readJson(path.join(CONTENT, "settings/theme.json")),
   tabIcon: readJson(path.join(CONTENT, "settings/tab_icon.json")),
+  motifArt: readJson(path.join(CONTENT, "settings/motif_art.json")),
 };
 const skills = readJson(path.join(CONTENT, "skills.json"));
 const timeline = readJson(path.join(CONTENT, "timeline.json"));
@@ -101,12 +102,28 @@ function urlFor(code) {
 fs.rmSync(OUT, { recursive: true, force: true });
 fs.mkdirSync(OUT, { recursive: true });
 fs.cpSync(STATIC, OUT, { recursive: true });
+// Uploaded motif art: { key: { href, recolour } }. Pages reference the file by URL;
+// the favicon needs it inlined as a data: URI (see faviconSvg).
+const motifArt = Object.fromEntries(Object.entries(settings.motifArt)
+  .filter(([, a]) => typeof a?.image === "string" && a.image.trim())
+  .map(([k, a]) => [k, { href: a.image.trim(), recolour: k !== "band" && a.recolour !== false }]));
+const MIME = { ".png": "image/png", ".gif": "image/gif", ".webp": "image/webp", ".svg": "image/svg+xml", ".jpg": "image/jpeg", ".jpeg": "image/jpeg" };
+const inlineArt = (a) => {
+  if (!a || !a.href.startsWith("/")) return null;
+  let file;
+  try { file = path.join(STATIC, decodeURI(a.href)); } catch { return null; }
+  const mime = MIME[path.extname(file).toLowerCase()];
+  if (!mime || !file.startsWith(STATIC) || !fs.existsSync(file)) return null;
+  return { ...a, href: `data:${mime};base64,${fs.readFileSync(file).toString("base64")}` };
+};
+const faviconArt = Object.fromEntries(Object.entries(motifArt).map(([k, a]) => [k, inlineArt(a)]).filter(([, a]) => a));
+
 const tabIcon = settings.tabIcon;
 const iconColours = {
   bg: color(tabIcon.background) || paletteColor(settings.theme, "burgundy", "#6A2C2E"),
   fg: color(tabIcon.foreground) || paletteColor(settings.theme, "saffron", "#F9C74F"),
 };
-fs.writeFileSync(path.join(OUT, "favicon.svg"), faviconSvg({ ...iconColours, symbol: tabIcon.symbol }));
+fs.writeFileSync(path.join(OUT, "favicon.svg"), faviconSvg({ ...iconColours, symbol: tabIcon.symbol, art: faviconArt[MOTIF_KEYS.includes(tabIcon.symbol) ? tabIcon.symbol : "bereket"] || null }));
 
 const hash = (file) => crypto.createHash("sha1").update(fs.readFileSync(file)).digest("hex").slice(0, 8);
 // An uploaded image replaces the generated icon; the version query makes browsers pick up changes.
@@ -117,7 +134,7 @@ const assetVersion = hash(path.join(STATIC, "assets/css/site.css")) + hash(path.
 
 // Motif reference sheet for editors, linked from the CMS motif pickers.
 fs.mkdirSync(path.join(OUT, "admin/motifs"), { recursive: true });
-fs.writeFileSync(path.join(OUT, "admin/motifs/index.html"), renderMotifReference({ theme: settings.theme, iconColours, assetVersion }));
+fs.writeFileSync(path.join(OUT, "admin/motifs/index.html"), renderMotifReference({ theme: settings.theme, iconColours, assetVersion, motifArt, faviconArt }));
 
 const sitemap = [];
 let count = 0;
@@ -136,7 +153,7 @@ for (const lang of ENABLED) {
     const url = urlFor(lang.code)(p.permalink);
     const html = renderPage({
       page, site, nav, languages: ENABLED.map((l) => ({ ...l, default: l.code === DEFAULT })),
-      locale: lang, alternates, data, urlFor: urlFor(lang.code), assetVersion, theme: settings.theme, favicon,
+      locale: lang, alternates, data, urlFor: urlFor(lang.code), assetVersion, theme: settings.theme, favicon, motifArt,
     });
 
     const outFile = path.join(OUT, url, "index.html");
@@ -158,7 +175,7 @@ fs.writeFileSync(path.join(OUT, "404.html"), renderPage({
   languages: [{ ...languages.find((l) => l.code === DEFAULT), default: true, enabled: true }],
   locale: languages.find((l) => l.code === DEFAULT),
   alternates: { [DEFAULT]: "/" },
-  data: { skills: {}, timeline: {}, contact: {} }, urlFor: urlFor(DEFAULT), assetVersion, theme: settings.theme, favicon,
+  data: { skills: {}, timeline: {}, contact: {} }, urlFor: urlFor(DEFAULT), assetVersion, theme: settings.theme, favicon, motifArt,
 }));
 
 fs.writeFileSync(path.join(OUT, "sitemap.xml"),

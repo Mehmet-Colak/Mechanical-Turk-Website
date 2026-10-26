@@ -384,6 +384,16 @@ x-card-fields: &card_fields
           i18n: true,
         }
   - {
+      name: image_side,
+      label: Gallery position,
+      widget: select,
+      default: right,
+      required: false,
+      i18n: duplicate,
+      hint: "Which side of the text the image gallery sits on. On phones and in two-column layouts it goes above (left) or below (right) the text.",
+      options: [{ label: "Right of the text", value: right }, { label: "Left of the text", value: left }],
+    }
+  - {
       name: video_url,
       label: "Video link (YouTube, Vimeo, Google Drive or .mp4)",
       widget: string,
@@ -513,6 +523,16 @@ x-block-types: &block_types
           widget: string,
           required: false,
           i18n: true,
+        }
+      - {
+          name: image_position,
+          label: Image position,
+          widget: select,
+          default: top,
+          required: false,
+          i18n: duplicate,
+          hint: "Left or right puts the image beside the text on wide screens; on phones it goes above the text.",
+          options: [{ label: "Above the text", value: top }, { label: "Left of the text", value: left }, { label: "Right of the text", value: right }],
         }
       - {
           name: hidden,
@@ -1329,6 +1349,75 @@ collections:
             allowInput: true
             required: false
             hint: "Leave empty to use the palette’s saffron."
+
+      - name: motif_art
+        label: Motif art (custom pixel art)
+        file: content/settings/motif_art.json
+        i18n: false
+        description: "Upload your own art to replace any kilim symbol everywhere it appears (dividers, timeline, sidebar mark, tab icon, borders). Use a PNG with a transparent background. Leave a slot empty to keep the built-in drawing. Preview: https://mechanical-turk.dev/admin/motifs/"
+        fields:
+          - name: bereket
+            label: "Bereket · border symbol"
+            widget: object
+            collapsed: true
+            fields:
+              - { name: image, label: "Image (tall: 9 × 21 grid, e.g. 9×21, 18×42 or 27×63 px)", widget: image, required: false }
+              - { name: recolour, label: Paint in palette colours, widget: boolean, default: true, required: false, hint: "On: only the image's shape is used, painted like the built-in art (follows light/dark mode). Off: the image keeps its own colours." }
+          - name: band
+            label: "Woven band · card title strip"
+            widget: object
+            collapsed: true
+            fields:
+              - { name: image, label: "Tile image (12 × 14 grid, e.g. 12×14 or 24×28 px; repeats sideways, keeps its own colours)", widget: image, required: false }
+          - name: koc_boynuzu
+            label: "Koç boynuzu · ram’s horn"
+            widget: object
+            collapsed: true
+            fields:
+              - { name: image, label: "Image (square: e.g. 20×20, 40×40 or 16×16 px)", widget: image, required: false }
+              - { name: recolour, label: Paint in palette colours, widget: boolean, default: true, required: false, hint: "On: only the image's shape is used, painted like the built-in art (follows light/dark mode). Off: the image keeps its own colours." }
+          - name: elibelinde
+            label: "Elibelinde · hands on hips"
+            widget: object
+            collapsed: true
+            fields:
+              - { name: image, label: "Image (square: e.g. 20×20, 40×40 or 16×16 px)", widget: image, required: false }
+              - { name: recolour, label: Paint in palette colours, widget: boolean, default: true, required: false, hint: "On: only the image's shape is used, painted like the built-in art (follows light/dark mode). Off: the image keeps its own colours." }
+          - name: yildiz
+            label: "Yıldız · star"
+            widget: object
+            collapsed: true
+            fields:
+              - { name: image, label: "Image (square: e.g. 20×20, 40×40 or 16×16 px)", widget: image, required: false }
+              - { name: recolour, label: Paint in palette colours, widget: boolean, default: true, required: false, hint: "On: only the image's shape is used, painted like the built-in art (follows light/dark mode). Off: the image keeps its own colours." }
+          - name: goz
+            label: "Göz · eye"
+            widget: object
+            collapsed: true
+            fields:
+              - { name: image, label: "Image (square: e.g. 20×20, 40×40 or 16×16 px)", widget: image, required: false }
+              - { name: recolour, label: Paint in palette colours, widget: boolean, default: true, required: false, hint: "On: only the image's shape is used, painted like the built-in art (follows light/dark mode). Off: the image keeps its own colours." }
+          - name: muska
+            label: "Muska · amulet"
+            widget: object
+            collapsed: true
+            fields:
+              - { name: image, label: "Image (square: e.g. 20×20, 40×40 or 16×16 px)", widget: image, required: false }
+              - { name: recolour, label: Paint in palette colours, widget: boolean, default: true, required: false, hint: "On: only the image's shape is used, painted like the built-in art (follows light/dark mode). Off: the image keeps its own colours." }
+          - name: pitrak
+            label: "Pıtrak · burdock"
+            widget: object
+            collapsed: true
+            fields:
+              - { name: image, label: "Image (square: e.g. 20×20, 40×40 or 16×16 px)", widget: image, required: false }
+              - { name: recolour, label: Paint in palette colours, widget: boolean, default: true, required: false, hint: "On: only the image's shape is used, painted like the built-in art (follows light/dark mode). Off: the image keeps its own colours." }
+          - name: dogum
+            label: "Doğum · diamond"
+            widget: object
+            collapsed: true
+            fields:
+              - { name: image, label: "Image (square: e.g. 20×20, 40×40 or 16×16 px)", widget: image, required: false }
+              - { name: recolour, label: Paint in palette colours, widget: boolean, default: true, required: false, hint: "On: only the image's shape is used, painted like the built-in art (follows light/dark mode). Off: the image keeps its own colours." }
 
       - name: languages
         label: Languages

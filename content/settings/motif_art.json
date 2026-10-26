@@ -1,0 +1,37 @@
+{
+  "bereket": {
+    "image": "",
+    "recolour": true
+  },
+  "band": {
+    "image": ""
+  },
+  "koc_boynuzu": {
+    "image": "",
+    "recolour": true
+  },
+  "elibelinde": {
+    "image": "",
+    "recolour": true
+  },
+  "yildiz": {
+    "image": "",
+    "recolour": true
+  },
+  "goz": {
+    "image": "",
+    "recolour": true
+  },
+  "muska": {
+    "image": "",
+    "recolour": true
+  },
+  "pitrak": {
+    "image": "",
+    "recolour": true
+  },
+  "dogum": {
+    "image": "",
+    "recolour": true
+  }
+}
