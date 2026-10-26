@@ -6,7 +6,7 @@
     "kicker": "About me",
     "show_title": true,
     "intro": "Engineer, psychology graduate, and usually the person who ends up organizing the team.",
-    "divider_motif": "",
+    "divider_motif": "goz",
     "og_image": "",
     "draft": false,
     "blocks": [
@@ -33,48 +33,6 @@
         "columns": "2",
         "items": [
           {
-            "title": "Off-grid computing",
-            "meta": "Hardware tinkering",
-            "badge": "",
-            "body": "My local coding agent runs on a 400 W solar array and a 2,000 Wh battery. Part engineering problem, part refusal to pay for cloud compute.",
-            "tags": [],
-            "links": [],
-            "gallery": [],
-            "image_side": "right",
-            "video_url": "",
-            "embed_url": "",
-            "show_band": true,
-            "hidden": false
-          },
-          {
-            "title": "Hackathons",
-            "meta": "Weekend sprints",
-            "badge": "",
-            "body": "Strangers on Friday, a working product and a live pitch by Sunday. The fastest way I know to learn how a team works.",
-            "tags": [],
-            "links": [],
-            "gallery": [],
-            "image_side": "right",
-            "video_url": "",
-            "embed_url": "",
-            "show_band": true,
-            "hidden": false
-          },
-          {
-            "title": "Languages",
-            "meta": "English · Türkçe · Español",
-            "badge": "",
-            "body": "Switching languages changes how I explain things. It has made me a better translator between engineers, designers and executives too.",
-            "tags": [],
-            "links": [],
-            "gallery": [],
-            "image_side": "right",
-            "video_url": "",
-            "embed_url": "",
-            "show_band": true,
-            "hidden": false
-          },
-          {
             "title": "Learning robotics",
             "meta": "Long-term goal",
             "badge": "",
@@ -90,12 +48,18 @@
           },
           {
             "title": "Fencing",
-            "meta": "",
+            "meta": "Foil - Elite Fencing Club",
             "badge": "",
-            "body": "",
+            "body": "I have been fencing since I was 13. Although I tried Épée, I found I enjoy Foil more because it is faster and gives more room for trial and error. Fencing allows me to watch my opponent and problem-solve in real time.",
             "tags": [],
             "links": [],
-            "gallery": [],
+            "gallery": [
+              {
+                "image": "/assets/uploads/fencing.png",
+                "alt": "",
+                "caption": ""
+              }
+            ],
             "image_side": "right",
             "video_url": "",
             "embed_url": "",
@@ -103,13 +67,19 @@
             "hidden": false
           },
           {
-            "title": "Olympic Recurve Archery",
-            "meta": "",
+            "title": "Archery",
+            "meta": "Olympic Recurve - Rancho Park Archers",
             "badge": "",
-            "body": "",
+            "body": "I started archery after visiting Almaty, Kazakhstan. I mostly do target archery with an ILF bow at distances between 18 and 28 meters. Archery is a calming experience that lets me relax, take steady aim, make mistakes, and troubleshoot when my form or equipment falters. Archery also allows me to reconnect with my Turkic heritage.",
             "tags": [],
             "links": [],
-            "gallery": [],
+            "gallery": [
+              {
+                "image": "/assets/uploads/archery.png",
+                "alt": "",
+                "caption": ""
+              }
+            ],
             "image_side": "right",
             "video_url": "",
             "embed_url": "",
@@ -169,7 +139,7 @@
     "kicker": "Hakkımda",
     "show_title": true,
     "intro": "Mühendis, psikoloji mezunu ve genellikle ekibi organize eden kişi.",
-    "divider_motif": "",
+    "divider_motif": "goz",
     "og_image": "",
     "draft": false,
     "blocks": [
@@ -196,48 +166,6 @@
         "columns": "2",
         "items": [
           {
-            "title": "Şebekeden bağımsız bilişim",
-            "meta": "Donanım kurcalamak",
-            "badge": "",
-            "body": "Yerel kodlama ajanım 400 W’lık bir güneş paneli dizisi ve 2.000 Wh’lik bir bataryayla çalışıyor. Yarısı mühendislik problemi, yarısı bulut faturası ödememe inadı.",
-            "tags": [],
-            "links": [],
-            "gallery": [],
-            "image_side": "right",
-            "video_url": "",
-            "embed_url": "",
-            "show_band": true,
-            "hidden": false
-          },
-          {
-            "title": "Hackathonlar",
-            "meta": "Hafta sonu maratonları",
-            "badge": "",
-            "body": "Cuma günü yabancı, pazar günü çalışan bir ürün ve canlı bir sunum. Bir ekibin nasıl işlediğini öğrenmenin bildiğim en hızlı yolu.",
-            "tags": [],
-            "links": [],
-            "gallery": [],
-            "image_side": "right",
-            "video_url": "",
-            "embed_url": "",
-            "show_band": true,
-            "hidden": false
-          },
-          {
-            "title": "Diller",
-            "meta": "English · Türkçe · Español",
-            "badge": "",
-            "body": "Dil değiştirmek bir şeyi anlatma biçimimi de değiştiriyor. Bu beni mühendisler, tasarımcılar ve yöneticiler arasında daha iyi bir tercüman yaptı.",
-            "tags": [],
-            "links": [],
-            "gallery": [],
-            "image_side": "right",
-            "video_url": "",
-            "embed_url": "",
-            "show_band": true,
-            "hidden": false
-          },
-          {
             "title": "Robotik öğrenmek",
             "meta": "Uzun vadeli hedef",
             "badge": "",
@@ -258,7 +186,13 @@
             "body": "",
             "tags": [],
             "links": [],
-            "gallery": [],
+            "gallery": [
+              {
+                "image": "/assets/uploads/fencing.png",
+                "alt": "",
+                "caption": ""
+              }
+            ],
             "image_side": "right",
             "video_url": "",
             "embed_url": "",
@@ -272,7 +206,13 @@
             "body": "",
             "tags": [],
             "links": [],
-            "gallery": [],
+            "gallery": [
+              {
+                "image": "/assets/uploads/archery.png",
+                "alt": "",
+                "caption": ""
+              }
+            ],
             "image_side": "right",
             "video_url": "",
             "embed_url": "",
