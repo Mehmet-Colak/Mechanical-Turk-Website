@@ -112,6 +112,44 @@
     reveals.forEach(function (el) { el.classList.add("is-visible"); });
   }
 
+  // ----- sidebar: glide in proportion to the page scroll, so both hit top/bottom together -----
+  var side = document.querySelector(".sidebar__inner");
+  if (side) {
+    var reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    var manual = false;
+    var frame = 0;
+
+    function sideTarget() {
+      var pageRange = document.documentElement.scrollHeight - window.innerHeight;
+      var progress = pageRange > 0 ? Math.min(1, Math.max(0, window.scrollY / pageRange)) : 0;
+      return progress * (side.scrollHeight - side.clientHeight);
+    }
+    function glide() {
+      frame = 0;
+      if (manual || side.scrollHeight <= side.clientHeight) return;
+      var target = sideTarget();
+      var diff = target - side.scrollTop;
+      if (reduceMotion || Math.abs(diff) < 1) { side.scrollTop = target; return; }
+      side.scrollTop += diff * 0.12;
+      frame = requestAnimationFrame(glide);
+    }
+    function follow() {
+      manual = false;
+      if (!frame) frame = requestAnimationFrame(glide);
+    }
+    // The visitor scrolling the sidebar itself takes over until the page scrolls again.
+    function takeOver() {
+      manual = true;
+      if (frame) { cancelAnimationFrame(frame); frame = 0; }
+    }
+    ["wheel", "touchstart", "pointerdown", "keydown"].forEach(function (type) {
+      side.addEventListener(type, takeOver, { passive: true });
+    });
+    window.addEventListener("scroll", follow, { passive: true });
+    window.addEventListener("resize", follow);
+    side.scrollTop = sideTarget();
+  }
+
   // ----- skill logos: show the logo once it loads, keep the monogram if it fails -----
   document.querySelectorAll(".skill__logo[data-src]").forEach(function (el) {
     var probe = new Image();
