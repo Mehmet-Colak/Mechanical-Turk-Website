@@ -379,8 +379,9 @@ h1, h2, h3, h4, h5 { font-family: var(--font-display); line-height: 1.15; font-w
 .figure img, .text__figure img { width: 100%; border: var(--border) solid var(--line); }
 .figure figcaption { font-family: var(--font-mono); font-size: 0.85rem; color: var(--ink-soft); margin-top: 8px; }
 .text__figure { margin: 0 0 20px; }
+.timeline__card > .text__figure, .timeline__card .text-media { margin-top: 12px; }
 /* Long-form image beside the text: side by side once the column is wide enough. */
-.block:has(> .text-media), .card__body:has(> .text-media) { container-type: inline-size; }
+.block:has(> .text-media), .card__body:has(> .text-media), .timeline__card:has(> .text-media) { container-type: inline-size; }
 @container (min-width: 560px) {
   .text-media { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 3fr); gap: 28px; align-items: start; }
   .text-media--right { grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); }

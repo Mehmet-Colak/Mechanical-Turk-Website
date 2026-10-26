@@ -890,6 +890,30 @@ collections:
                   i18n: true,
                 }
               - {
+                  name: image,
+                  label: Image (optional),
+                  widget: image,
+                  required: false,
+                  i18n: duplicate,
+                }
+              - {
+                  name: image_alt,
+                  label: Image alt text,
+                  widget: string,
+                  required: false,
+                  i18n: true,
+                }
+              - {
+                  name: image_position,
+                  label: Image position,
+                  widget: select,
+                  default: right,
+                  required: false,
+                  i18n: duplicate,
+                  hint: "Left or right puts the image beside the description on wide screens; on phones it goes above.",
+                  options: [{ label: "Above the text", value: top }, { label: "Left of the text", value: left }, { label: "Right of the text", value: right }],
+                }
+              - {
                   name: link,
                   label: "Link (page slug or URL)",
                   widget: string,
