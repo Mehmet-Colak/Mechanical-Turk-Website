@@ -35,7 +35,7 @@ function page(origin, status, payload) {
   });
 }
 
-export async function onRequestGet({ request, env }) {
+export async function handleCallback(request, env) {
   const url = new URL(request.url);
   const origin = url.origin;
   const code = url.searchParams.get("code");

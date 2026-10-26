@@ -1,0 +1,11 @@
+// Cloudflare Workers config. Cloudflare runs `npm run build`, then `npx wrangler deploy`.
+{
+  "name": "mechanical-turk-website",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-06-01",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "not_found_handling": "404-page"
+  }
+}

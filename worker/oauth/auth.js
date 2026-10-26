@@ -1,8 +1,8 @@
 // GET /oauth/auth — step 1 of CMS login.
-// Sends the editor to GitHub to approve access. Runs as a Cloudflare Pages Function.
+// Sends the editor to GitHub to approve access. Routed from worker/index.js.
 // Needs the environment variable GITHUB_CLIENT_ID (see README → CMS authentication).
 
-export async function onRequestGet({ request, env }) {
+export async function handleAuth(request, env) {
   const url = new URL(request.url);
   const provider = url.searchParams.get("provider") || "github";
 
@@ -11,7 +11,7 @@ export async function onRequestGet({ request, env }) {
   }
   if (!env.GITHUB_CLIENT_ID || !env.GITHUB_CLIENT_SECRET) {
     return new Response(
-      "CMS login is not configured yet: set GITHUB_CLIENT_ID and GITHUB_CLIENT_SECRET in Cloudflare Pages → Settings → Variables and Secrets, then redeploy.",
+      "CMS login is not configured yet: set GITHUB_CLIENT_ID and GITHUB_CLIENT_SECRET in the Cloudflare Worker → Settings → Variables and Secrets.",
       { status: 500, headers: { "content-type": "text/plain; charset=utf-8" } },
     );
   }

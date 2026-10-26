@@ -1,10 +1,10 @@
 # mechanical-turk.dev
 
-Portfolio of **Mehmet Colakoglu**. A static, multi-page site with a Git-based CMS at `/admin`, hosted on Cloudflare Pages.
+Portfolio of **Mehmet Colakoglu**. A static, multi-page site with a Git-based CMS at `/admin`, hosted on Cloudflare Workers.
 
 - **No dependencies.** `node build.mjs` turns the JSON in `content/` into HTML in `dist/`. Nothing to `npm install`, nothing to break.
 - **CMS:** [Sveltia CMS](https://github.com/sveltia/sveltia-cms) at `/admin`. Every save is a Git commit; Cloudflare rebuilds in about a minute. Free, serverless, versioned.
-- **Login:** a tiny GitHub OAuth handler in `functions/oauth/` runs on Cloudflare Pages Functions. No third-party auth service.
+- **Login:** a tiny GitHub OAuth handler in `worker/oauth/` runs in the site's Cloudflare Worker. No third-party auth service.
 - **Languages:** English (`/`) and Turkish (`/tr/`), ready for Spanish, Arabic (right-to-left), Russian and Chinese.
 
 ---
@@ -43,25 +43,25 @@ You need a GitHub account, a Cloudflare account, and the domain `mechanical-turk
    git push -u origin main
    ```
 
-### 2. Deploy on Cloudflare Pages
+### 2. Deploy on Cloudflare Workers
 
-1. In the Cloudflare dashboard go to **Workers & Pages → Create → Pages → Connect to Git** (the label may read “Import an existing Git repository”).
-2. Authorize GitHub and pick `mechanical-turk-dev`.
-3. Build settings:
+The site runs as a Cloudflare Worker with static assets (configured in `wrangler.jsonc`).
+
+1. In the Cloudflare dashboard go to **Workers & Pages → Create application → Import a repository**.
+2. Authorize GitHub and pick `Mehmet-Colak/Mechanical-Turk-Website`.
+3. Settings:
    | Setting | Value |
    |---|---|
-   | Production branch | `main` |
-   | Framework preset | **None** |
+   | Project name | `mechanical-turk-website` (must match `name` in `wrangler.jsonc`) |
    | Build command | `npm run build` |
-   | Build output directory | `dist` |
-   | Root directory | *(leave empty)* |
-4. Click **Save and Deploy**. You’ll get a `*.pages.dev` address in about a minute. (Node 22 is picked up from `.node-version`; if a build ever complains, add the variable `NODE_VERSION = 22`.)
+   | Deploy command | `npx wrangler deploy` |
+4. Click **Deploy**. You’ll get a `*.workers.dev` address in about a minute. (Node 22 is picked up from `.node-version`.)
 
 From now on, every push to `main`, including every CMS save, rebuilds the site automatically.
 
 ### 3. Connect the domain
 
-1. In the Pages project open **Custom domains → Set up a custom domain** and enter `mechanical-turk.dev`.
+1. In the Worker open **Settings → Domains & Routes → Add → Custom domain** and enter `mechanical-turk.dev`.
 2. If the domain is registered with or its DNS is on Cloudflare, it’s set up for you. Otherwise Cloudflare shows the record to add at your registrar (or tells you to move the nameservers to Cloudflare, which is the simplest option).
 3. Optionally add `www.mechanical-turk.dev` too; Cloudflare will redirect it.
 
@@ -76,12 +76,12 @@ Wait until the domain shows **Active** before step 4, because the CMS login runs
    | Homepage URL | `https://mechanical-turk.dev` |
    | Authorization callback URL | `https://mechanical-turk.dev/oauth/callback` |
 2. Click **Register application**, copy the **Client ID**, then **Generate a new client secret** and copy it (it’s shown once).
-3. Cloudflare → your Pages project → **Settings → Variables and Secrets** → add, for **Production**:
+3. Cloudflare → your Worker → **Settings → Variables and Secrets** → add:
    | Name | Type | Value |
    |---|---|---|
    | `GITHUB_CLIENT_ID` | Text | the Client ID |
    | `GITHUB_CLIENT_SECRET` | Secret | the client secret |
-4. **Deployments → latest → Retry deployment** (variables only apply to new deployments).
+4. Click **Deploy** when saving the variables so they take effect.
 5. Visit **https://mechanical-turk.dev/admin/** and click **Sign in with GitHub**. Approve once; you’re in.
 
 Only people with write access to the GitHub repo can save changes. Anyone else who signs in can’t commit.
@@ -150,7 +150,8 @@ content/settings/      site, navigation, contact links, languages
 content/skills.json    skills grid
 content/timeline.json  timeline entries
 static/                copied as-is: CSS, JS, uploads, /admin, _headers
-functions/oauth/       GitHub login for the CMS (Cloudflare Pages Functions)
+worker/                Cloudflare Worker: serves dist/, handles /oauth (CMS GitHub login)
+wrangler.jsonc         Cloudflare Workers config
 ```
 
 ## Design notes
