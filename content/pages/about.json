@@ -87,13 +87,19 @@
             "hidden": false
           },
           {
-            "title": "Western Horsebck Riding",
-            "meta": "",
+            "title": "Horseback Riding",
+            "meta": "Western Style - Portuguese Bend Riding Club",
             "badge": "",
-            "body": "",
+            "body": "Since the start of 2026, I have been taking horse riding classes.\n\nAgain, this helps me reconnect with my heritage.",
             "tags": [],
             "links": [],
-            "gallery": [],
+            "gallery": [
+              {
+                "image": "/assets/uploads/horse riding.png",
+                "alt": "",
+                "caption": ""
+              }
+            ],
             "image_side": "right",
             "video_url": "",
             "embed_url": "",
@@ -102,12 +108,18 @@
           },
           {
             "title": "Horseback Archery",
-            "meta": "",
+            "meta": "Asiatic Draw - Heather Horseback Archery",
             "badge": "",
-            "body": "",
+            "body": "You get the gist, there is no point in beating a dead you-know-what.",
             "tags": [],
             "links": [],
-            "gallery": [],
+            "gallery": [
+              {
+                "image": "/assets/uploads/horseback archery.png",
+                "alt": "",
+                "caption": ""
+              }
+            ],
             "image_side": "right",
             "video_url": "",
             "embed_url": "",
@@ -226,7 +238,13 @@
             "body": "",
             "tags": [],
             "links": [],
-            "gallery": [],
+            "gallery": [
+              {
+                "image": "/assets/uploads/horse riding.png",
+                "alt": "",
+                "caption": ""
+              }
+            ],
             "image_side": "right",
             "video_url": "",
             "embed_url": "",
@@ -240,7 +258,13 @@
             "body": "",
             "tags": [],
             "links": [],
-            "gallery": [],
+            "gallery": [
+              {
+                "image": "/assets/uploads/horseback archery.png",
+                "alt": "",
+                "caption": ""
+              }
+            ],
             "image_side": "right",
             "video_url": "",
             "embed_url": "",
