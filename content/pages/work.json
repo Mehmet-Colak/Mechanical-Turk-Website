@@ -124,52 +124,10 @@
       },
       {
         "type": "cards",
-        "heading": "Research",
-        "hidden": false,
-        "intro": "",
-        "columns": "2",
-        "items": [
-          {
-            "title": "LMU Psychology Department",
-            "meta": "Vertical Distance Estimation Study",
-            "badge": "",
-            "body": "",
-            "tags": [
-              "Python",
-              "Unity",
-              "C#",
-              "Research design"
-            ],
-            "links": [],
-            "gallery": [],
-            "image_side": "right",
-            "video_url": "",
-            "embed_url": "",
-            "show_band": true,
-            "hidden": false
-          },
-          {
-            "title": "Intergroup Conflict Calculator",
-            "meta": "",
-            "badge": "",
-            "body": "",
-            "tags": [],
-            "links": [],
-            "gallery": [],
-            "image_side": "right",
-            "video_url": "",
-            "embed_url": "",
-            "show_band": true,
-            "hidden": false
-          }
-        ]
-      },
-      {
-        "type": "cards",
         "heading": "Leadership",
         "hidden": false,
         "intro": "",
-        "columns": "2",
+        "columns": "1",
         "items": [
           {
             "title": "RAE For LA",
@@ -323,52 +281,10 @@
       },
       {
         "type": "cards",
-        "heading": "Araştırma",
-        "hidden": false,
-        "intro": "",
-        "columns": "2",
-        "items": [
-          {
-            "title": "LMU Psikoloji Bölümü",
-            "meta": "Araştırma Asistanı · Ağu 2023 – Ağu 2025",
-            "badge": "",
-            "body": "**300’den fazla katılımcının** anket ve test verisini doğrulayan otomatik Python betikleri yazdım. Davranışsal ölçümler toplayan Unity (C#) 3B simülasyon araçları geliştirerek algı deneylerini ölçeklenebilir hâle getirdim.",
-            "tags": [
-              "Python",
-              "Unity",
-              "C#",
-              "Araştırma tasarımı"
-            ],
-            "links": [],
-            "gallery": [],
-            "image_side": "right",
-            "video_url": "",
-            "embed_url": "",
-            "show_band": true,
-            "hidden": false
-          },
-          {
-            "title": "Intergroup Calc",
-            "meta": "",
-            "badge": "",
-            "body": "",
-            "tags": [],
-            "links": [],
-            "gallery": [],
-            "image_side": "right",
-            "video_url": "",
-            "embed_url": "",
-            "show_band": true,
-            "hidden": false
-          }
-        ]
-      },
-      {
-        "type": "cards",
         "heading": "Siyasi ve sivil çalışmalar",
         "hidden": false,
         "intro": "",
-        "columns": "2",
+        "columns": "1",
         "items": [
           {
             "title": "RAE For LA",
