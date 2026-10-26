@@ -3,21 +3,38 @@
     "permalink": "contact",
     "title": "Contact",
     "description": "Contact Mehmet Colakoglu by email, LinkedIn, GitHub or Calendly.",
-    "show_title": true,
-    "draft": false,
     "kicker": "Contact",
-    "intro": "Hiring for product, full-stack or AI work, or building something in robotics? Email is fastest.",
+    "show_title": true,
+    "intro": "Hiring for product development, full-stack engineering, ML engineering, or robotics? Email me or schedule a time to chat!",
+    "divider_motif": "",
+    "og_image": "",
+    "draft": false,
     "blocks": [
-      { "type": "contact", "heading": "", "intro": "" }
+      {
+        "type": "contact",
+        "heading": "",
+        "hidden": false,
+        "intro": ""
+      }
     ]
   },
   "tr": {
+    "permalink": "contact",
     "title": "İletişim",
     "description": "Mehmet Colakoglu’na e-posta, LinkedIn, GitHub veya Calendly üzerinden ulaşın.",
     "kicker": "İletişim",
+    "show_title": true,
     "intro": "Ürün, full-stack veya yapay zekâ alanında işe alım mı yapıyorsunuz, ya da robotik üzerine bir şey mi inşa ediyorsunuz? En hızlı yol e-posta.",
+    "divider_motif": "",
+    "og_image": "",
+    "draft": false,
     "blocks": [
-      { "type": "contact", "heading": "", "intro": "" }
+      {
+        "type": "contact",
+        "heading": "",
+        "hidden": false,
+        "intro": ""
+      }
     ]
   }
 }
