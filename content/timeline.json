@@ -152,7 +152,7 @@
         "body": "I was born in Istanbul and went to the Ozel Alev Okullari, where I learned to speak German and developed an interest in Mathematics.",
         "image": "/assets/uploads/childhood.png",
         "image_alt": "",
-        "image_position": "right",
+        "image_position": "left",
         "link": "",
         "motif": "",
         "hidden": false
@@ -312,7 +312,7 @@
         "body": "",
         "image": "/assets/uploads/childhood.png",
         "image_alt": "",
-        "image_position": "right",
+        "image_position": "left",
         "link": "",
         "motif": "",
         "hidden": false
