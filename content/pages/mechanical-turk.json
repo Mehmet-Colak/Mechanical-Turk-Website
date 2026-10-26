@@ -15,7 +15,9 @@
         "image": "/assets/uploads/mech-turk.jpg",
         "hidden": false,
         "alt": "",
-        "caption": ""
+        "caption": "",
+        "size": "medium",
+        "align": "center"
       },
       {
         "type": "text",
@@ -187,7 +189,9 @@
         "image": "/assets/uploads/mech-turk.jpg",
         "hidden": false,
         "alt": "",
-        "caption": ""
+        "caption": "",
+        "size": "medium",
+        "align": "center"
       },
       {
         "type": "text",

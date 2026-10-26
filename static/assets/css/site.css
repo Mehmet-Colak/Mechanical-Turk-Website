@@ -384,6 +384,17 @@ h1, h2, h3, h4, h5 { font-family: var(--font-display); line-height: 1.15; font-w
 .figure { margin: 0; }
 .figure img, .text__figure img { width: 100%; border: var(--border) solid var(--line); }
 .figure figcaption { font-family: var(--font-mono); font-size: 0.85rem; color: var(--ink-soft); margin-top: 8px; }
+.figure--small { max-width: 40%; }
+.figure--medium { max-width: 62%; }
+.figure--large { max-width: 82%; }
+.figure--center { margin-inline: auto; }
+.figure--center figcaption { text-align: center; }
+.figure--right { margin-inline-start: auto; }
+.figure--right figcaption { text-align: end; }
+@media (max-width: 560px) {
+  .figure--small { max-width: 70%; }
+  .figure--medium, .figure--large { max-width: 100%; }
+}
 .text__figure { margin: 0 0 20px; }
 .timeline__card > .text__figure, .timeline__card .text-media { margin-top: 12px; }
 /* Long-form image beside the text: side by side once the column is wide enough. */
