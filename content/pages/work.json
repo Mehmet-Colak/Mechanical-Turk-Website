@@ -79,7 +79,10 @@
             "badge": "",
             "body": "Wrote Python scripts to validate survey and test data for **300+ participants**. Built 3D simulation tools in Unity (C#) that capture behavioral metrics, making perception experiments scalable.",
             "tags": [
-              "Python"
+              "Python",
+              "Unity",
+              "C#",
+              "Research Design"
             ],
             "links": [],
             "gallery": [],
@@ -124,7 +127,7 @@
         "heading": "Research",
         "hidden": false,
         "intro": "",
-        "columns": "1",
+        "columns": "2",
         "items": [
           {
             "title": "LMU Psychology Department",
@@ -144,6 +147,20 @@
             "embed_url": "",
             "show_band": true,
             "hidden": false
+          },
+          {
+            "title": "Intergroup Conflict Calculator",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
           }
         ]
       },
@@ -152,7 +169,7 @@
         "heading": "Leadership",
         "hidden": false,
         "intro": "",
-        "columns": "1",
+        "columns": "2",
         "items": [
           {
             "title": "RAE For LA",
@@ -170,7 +187,7 @@
           },
           {
             "title": "Associated Students of Loyola Marymount University",
-            "meta": "",
+            "meta": "Senator",
             "badge": "",
             "body": "",
             "tags": [],
@@ -309,7 +326,7 @@
         "heading": "Araştırma",
         "hidden": false,
         "intro": "",
-        "columns": "1",
+        "columns": "2",
         "items": [
           {
             "title": "LMU Psikoloji Bölümü",
@@ -329,6 +346,20 @@
             "embed_url": "",
             "show_band": true,
             "hidden": false
+          },
+          {
+            "title": "Intergroup Calc",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
           }
         ]
       },
@@ -337,7 +368,7 @@
         "heading": "Siyasi ve sivil çalışmalar",
         "hidden": false,
         "intro": "",
-        "columns": "1",
+        "columns": "2",
         "items": [
           {
             "title": "RAE For LA",
