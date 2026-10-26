@@ -36,7 +36,7 @@
             "title": "Learning robotics",
             "meta": "Long-term goal",
             "badge": "",
-            "body": "I love designing complex circuits, soldering, and working with circuitry to achieve multi\n\nWhile in software you can edit the code and clone it within a few commands, to change even the slightest thing on hardware requires careful planning and days of restructuring. (Ignore the messy wire, they didn't have the components I needed haha.)\n\nSensors, actuators and control loops, one small build at a time. Psychology and robotics share a question: how does a system make sense of the world?",
+            "body": "I love designing complex circuits, soldering, and working with circuitry to replicate how human neurons work. I love tuning and working with sensors; I enjoy watching the motors move the way I intend, and I tolerate joining wires together to form a nervous system. In software, you can edit code and clone it in a few commands; on hardware, changing even the slightest thing requires careful planning and days of restructuring. (Ignore the messy wire; they didn't have the components I needed haha.)",
             "tags": [],
             "links": [],
             "gallery": [
