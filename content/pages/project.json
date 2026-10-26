@@ -18,12 +18,19 @@
         "columns": "1",
         "items": [
           {
-            "title": "Fencing",
+            "title": "Fencing Target Robot",
             "meta": "",
             "badge": "",
-            "body": "",
+            "body": "Currently building a Robot to train reaction time and aim for foil fencing.",
             "tags": [],
-            "links": [],
+            "links": [
+              {
+                "label": "Demonstration",
+                "url": "https://youtube.com/shorts/gT84GApSMoY?feature=share",
+                "style": "secondary",
+                "new_tab": false
+              }
+            ],
             "gallery": [],
             "image_side": "right",
             "video_url": "",
@@ -211,7 +218,14 @@
             "badge": "",
             "body": "",
             "tags": [],
-            "links": [],
+            "links": [
+              {
+                "label": "Gosterge",
+                "url": "https://youtube.com/shorts/gT84GApSMoY?feature=share",
+                "style": "secondary",
+                "new_tab": false
+              }
+            ],
             "gallery": [],
             "image_side": "right",
             "video_url": "",
