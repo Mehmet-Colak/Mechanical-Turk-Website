@@ -733,6 +733,7 @@ x-block-types: &block_types
         widget: select
         required: false
         i18n: duplicate
+        hint: "[See every motif](https://mechanical-turk.dev/admin/motifs/) (opens the reference sheet)."
         options: *motif_options
 
 # ---------------------------------------------------------------------------
@@ -796,6 +797,7 @@ collections:
           widget: select,
           required: false,
           i18n: duplicate,
+          hint: "[See every motif](https://mechanical-turk.dev/admin/motifs/) (opens the reference sheet).",
           options: *motif_options,
         }
       - {
@@ -880,6 +882,7 @@ collections:
                   widget: select,
                   required: false,
                   i18n: duplicate,
+                  hint: "[See every motif](https://mechanical-turk.dev/admin/motifs/) (opens the reference sheet).",
                   options: *motif_options,
                 }
               - {
@@ -1013,6 +1016,7 @@ collections:
               widget: select,
               required: false,
               i18n: duplicate,
+              hint: "[See every motif](https://mechanical-turk.dev/admin/motifs/) (opens the reference sheet).",
               options: *motif_options,
             }
           - {
@@ -1066,6 +1070,7 @@ collections:
               label: Default divider motif,
               widget: select,
               i18n: duplicate,
+              hint: "[See every motif](https://mechanical-turk.dev/admin/motifs/) (opens the reference sheet).",
               options: *motif_options,
             }
           - name: skill_logo_style
@@ -1302,6 +1307,7 @@ collections:
             label: Symbol
             widget: select
             default: bereket
+            hint: "[See every motif](https://mechanical-turk.dev/admin/motifs/) (opens the reference sheet)."
             options:
               - { label: "Bereket · abundance (border symbol)", value: bereket }
               - { label: "Koç boynuzu · ram’s horn (strength)", value: koc_boynuzu }

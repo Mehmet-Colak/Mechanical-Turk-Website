@@ -10,6 +10,7 @@ import crypto from "node:crypto";
 import { fileURLToPath } from "node:url";
 import { renderPage } from "./lib/render.mjs";
 import { faviconSvg } from "./lib/symbols.mjs";
+import { renderMotifReference } from "./lib/motif-reference.mjs";
 import { color, paletteColor } from "./lib/theme.mjs";
 
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
@@ -101,11 +102,11 @@ fs.rmSync(OUT, { recursive: true, force: true });
 fs.mkdirSync(OUT, { recursive: true });
 fs.cpSync(STATIC, OUT, { recursive: true });
 const tabIcon = settings.tabIcon;
-fs.writeFileSync(path.join(OUT, "favicon.svg"), faviconSvg({
+const iconColours = {
   bg: color(tabIcon.background) || paletteColor(settings.theme, "burgundy", "#6A2C2E"),
   fg: color(tabIcon.foreground) || paletteColor(settings.theme, "saffron", "#F9C74F"),
-  symbol: tabIcon.symbol,
-}));
+};
+fs.writeFileSync(path.join(OUT, "favicon.svg"), faviconSvg({ ...iconColours, symbol: tabIcon.symbol }));
 
 const hash = (file) => crypto.createHash("sha1").update(fs.readFileSync(file)).digest("hex").slice(0, 8);
 // An uploaded image replaces the generated icon; the version query makes browsers pick up changes.
@@ -113,6 +114,10 @@ const favicon = typeof tabIcon.image === "string" && tabIcon.image.trim()
   ? { href: tabIcon.image.trim() }
   : { href: `/favicon.svg?v=${hash(path.join(OUT, "favicon.svg"))}`, type: "image/svg+xml" };
 const assetVersion = hash(path.join(STATIC, "assets/css/site.css")) + hash(path.join(STATIC, "assets/js/site.js"));
+
+// Motif reference sheet for editors, linked from the CMS motif pickers.
+fs.mkdirSync(path.join(OUT, "admin/motifs"), { recursive: true });
+fs.writeFileSync(path.join(OUT, "admin/motifs/index.html"), renderMotifReference({ theme: settings.theme, iconColours, assetVersion }));
 
 const sitemap = [];
 let count = 0;
