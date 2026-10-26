@@ -8,8 +8,14 @@
         "hidden": false
       },
       {
+        "label": "Calendly",
+        "value": "Book an Intro Call",
+        "url": "https://calendly.com/mehmetnuri-colakoglu/intro-call",
+        "hidden": false
+      },
+      {
         "label": "LinkedIn",
-        "value": "in/mehmet-colakoglu",
+        "value": "mehmet-colakoglu",
         "url": "https://www.linkedin.com/in/mehmet-colakoglu",
         "hidden": false
       },
@@ -17,12 +23,6 @@
         "label": "GitHub",
         "value": "Mehmet-Colak",
         "url": "https://github.com/Mehmet-Colak",
-        "hidden": false
-      },
-      {
-        "label": "Calendly",
-        "value": "Book a 30-minute call",
-        "url": "https://calendly.com/mehmetnuri-colakoglu/intro-call",
         "hidden": false
       }
     ]
@@ -36,6 +36,12 @@
         "hidden": false
       },
       {
+        "label": "Calendly",
+        "value": "30 dakikalık görüşme ayarla",
+        "url": "https://calendly.com/mehmetnuri-colakoglu/intro-call",
+        "hidden": false
+      },
+      {
         "label": "LinkedIn",
         "value": "in/mehmet-colakoglu",
         "url": "https://www.linkedin.com/in/mehmet-colakoglu",
@@ -45,12 +51,6 @@
         "label": "GitHub",
         "value": "Mehmet-Colak",
         "url": "https://github.com/Mehmet-Colak",
-        "hidden": false
-      },
-      {
-        "label": "Calendly",
-        "value": "30 dakikalık görüşme ayarla",
-        "url": "https://calendly.com/mehmetnuri-colakoglu/intro-call",
         "hidden": false
       }
     ]
