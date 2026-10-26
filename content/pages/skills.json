@@ -3,21 +3,38 @@
     "permalink": "skills",
     "title": "Skills",
     "description": "Languages, frameworks, cloud and AI tools Mehmet Colakoglu works with.",
-    "show_title": true,
-    "draft": false,
     "kicker": "Skills",
-    "intro": "The tools I use to build. Picked for the problem, not the résumé.",
+    "show_title": true,
+    "intro": "These are the tools I use to build. I prefer scripting languages, but I have extensive experience with compiled languages.",
+    "divider_motif": "",
+    "og_image": "",
+    "draft": false,
     "blocks": [
-      { "type": "skills", "heading": "", "intro": "" }
+      {
+        "type": "skills",
+        "heading": "",
+        "hidden": false,
+        "intro": ""
+      }
     ]
   },
   "tr": {
+    "permalink": "skills",
     "title": "Yetenekler",
     "description": "Mehmet Colakoglu’nun kullandığı programlama dilleri, framework’ler, bulut ve yapay zekâ araçları.",
     "kicker": "Yetenekler",
+    "show_title": true,
     "intro": "İnşa ederken kullandığım araçlar. Özgeçmiş için değil, probleme göre seçilmiş.",
+    "divider_motif": "",
+    "og_image": "",
+    "draft": false,
     "blocks": [
-      { "type": "skills", "heading": "", "intro": "" }
+      {
+        "type": "skills",
+        "heading": "",
+        "hidden": false,
+        "intro": ""
+      }
     ]
   }
 }
