@@ -344,14 +344,14 @@ x-card-fields: &card_fields
           code,
         ],
     }
-  - {
-      name: tags,
-      label: Tags,
-      widget: list,
-      required: false,
-      i18n: true,
-      hint: "Comma-separated, e.g. React, Node.js",
-    }
+  - name: tags
+    label: Tags
+    label_singular: Tag
+    widget: list
+    required: false
+    i18n: true
+    hint: "One tag per row, e.g. React"
+    field: { name: tag, label: Tag, widget: string }
   - name: links
     label: Buttons / links
     label_singular: Link
