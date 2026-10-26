@@ -30,6 +30,7 @@
             ],
             "links": [],
             "gallery": [],
+            "image_side": "right",
             "video_url": "",
             "embed_url": "",
             "show_band": true,
@@ -48,6 +49,7 @@
             ],
             "links": [],
             "gallery": [],
+            "image_side": "right",
             "video_url": "",
             "embed_url": "",
             "show_band": true,
@@ -65,6 +67,7 @@
             ],
             "links": [],
             "gallery": [],
+            "image_side": "right",
             "video_url": "",
             "embed_url": "",
             "show_band": true,
@@ -78,6 +81,7 @@
             "tags": [],
             "links": [],
             "gallery": [],
+            "image_side": "right",
             "video_url": "",
             "embed_url": "",
             "show_band": true,
@@ -91,6 +95,21 @@
             "tags": [],
             "links": [],
             "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "LMU Psychology Department",
+            "meta": "Member of DEI Committee",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
             "video_url": "",
             "embed_url": "",
             "show_band": true,
@@ -118,6 +137,7 @@
             ],
             "links": [],
             "gallery": [],
+            "image_side": "right",
             "video_url": "",
             "embed_url": "",
             "show_band": true,
@@ -127,86 +147,52 @@
       },
       {
         "type": "cards",
-        "heading": "Projects",
+        "heading": "Leadership",
         "hidden": false,
         "intro": "",
         "columns": "1",
         "items": [
           {
-            "title": "Auto Dev. Env. (ADE)",
-            "meta": "Aug 2026 – present",
-            "badge": "Off-grid",
-            "body": "An autonomous coding agent that writes, tests and debugs code locally against acceptance criteria I define. It runs a 4-bit Qwen2.5-Coder 7B through Ollama on 8 GB of VRAM, with SSH access for remote work, and the whole rig is powered by a 400 W solar array and a 2,000 Wh battery.",
-            "tags": [
-              "Ollama",
-              "Qwen2.5-Coder",
-              "Agentic AI",
-              "OpenSSH"
-            ],
-            "links": [],
-            "gallery": [],
-            "video_url": "",
-            "embed_url": "",
-            "show_band": true,
-            "hidden": false
-          },
-          {
-            "title": "Fix-It LA",
-            "meta": "Demo Vision Hack · Sep 2026",
-            "badge": "2nd place",
-            "body": "An AI civic reporting app: Gemini Vision classifies infrastructure problems from a photo, routes them to the right LA 311 form and submits the ticket to the Mayor’s Office. I scraped the 311 portal to map its form schema so fields generate dynamically. We placed 2nd of ~20 teams and won a distinction for presentation, pitching live to 100+ people including investors and city representatives.",
-            "tags": [
-              "React",
-              "Node.js",
-              "Python",
-              "Gemini Vision"
-            ],
-            "links": [],
-            "gallery": [],
-            "video_url": "",
-            "embed_url": "",
-            "show_band": true,
-            "hidden": false
-          },
-          {
-            "title": "Glendale Ready",
-            "meta": "Jewel City Hacks · Sep 2026",
-            "badge": "1st place",
-            "body": "A two-person build for the Glendale Fire Department that won 1st of 15+ teams. It overlays Cal Fire hazard data on Google Maps to show active threat zones and evacuation routes, with Google Calendar reminders for recurring emergency drills.",
-            "tags": [
-              "React",
-              "Firebase",
-              "Google Maps API",
-              "Cal Fire data"
-            ],
-            "links": [],
-            "gallery": [],
-            "video_url": "",
-            "embed_url": "",
-            "show_band": true,
-            "hidden": false
-          }
-        ]
-      },
-      {
-        "type": "cards",
-        "heading": "Political & civic work",
-        "hidden": false,
-        "intro": "",
-        "columns": "1",
-        "items": [
-          {
-            "title": "Add your political work here",
-            "meta": "Role · dates",
+            "title": "RAE For LA",
+            "meta": "Team Member",
             "badge": "",
             "body": "This card is hidden. Edit it in the CMS and switch off “Hide this card” to publish the section.",
             "tags": [],
             "links": [],
             "gallery": [],
+            "image_side": "right",
             "video_url": "",
             "embed_url": "",
             "show_band": true,
-            "hidden": true
+            "hidden": false
+          },
+          {
+            "title": "Associated Students of Loyola Marymount University",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Peter Symonds College",
+            "meta": "Student Union President",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
           }
         ]
       }
@@ -238,6 +224,7 @@
             "tags": [],
             "links": [],
             "gallery": [],
+            "image_side": "right",
             "video_url": "",
             "embed_url": "",
             "show_band": true,
@@ -251,6 +238,7 @@
             "tags": [],
             "links": [],
             "gallery": [],
+            "image_side": "right",
             "video_url": "",
             "embed_url": "",
             "show_band": true,
@@ -264,6 +252,7 @@
             "tags": [],
             "links": [],
             "gallery": [],
+            "image_side": "right",
             "video_url": "",
             "embed_url": "",
             "show_band": true,
@@ -277,6 +266,7 @@
             "tags": [],
             "links": [],
             "gallery": [],
+            "image_side": "right",
             "video_url": "",
             "embed_url": "",
             "show_band": true,
@@ -290,6 +280,21 @@
             "tags": [],
             "links": [],
             "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "DEI Committee",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
             "video_url": "",
             "embed_url": "",
             "show_band": true,
@@ -317,59 +322,7 @@
             ],
             "links": [],
             "gallery": [],
-            "video_url": "",
-            "embed_url": "",
-            "show_band": true,
-            "hidden": false
-          }
-        ]
-      },
-      {
-        "type": "cards",
-        "heading": "Projeler",
-        "hidden": false,
-        "intro": "",
-        "columns": "1",
-        "items": [
-          {
-            "title": "Auto Dev. Env. (ADE)",
-            "meta": "Ağu 2026 – günümüz",
-            "badge": "Şebekeden bağımsız",
-            "body": "Belirlediğim kabul kriterlerine göre kodu yerelde yazan, test eden ve hatalarını ayıklayan otonom bir kodlama ajanı. 4-bit Qwen2.5-Coder 7B modelini Ollama üzerinden 8 GB VRAM ile çalıştırıyor, uzaktan çalışma için SSH erişimi sunuyor. Sistemin tamamı 400 W’lık bir güneş paneli dizisi ve 2.000 Wh’lik bir bataryayla besleniyor.",
-            "tags": [],
-            "links": [],
-            "gallery": [],
-            "video_url": "",
-            "embed_url": "",
-            "show_band": true,
-            "hidden": false
-          },
-          {
-            "title": "Fix-It LA",
-            "meta": "Demo Vision Hack · Eyl 2026",
-            "badge": "İkincilik",
-            "body": "Yapay zekâ destekli bir şehir sorunu bildirim uygulaması: Gemini Vision, fotoğraftan altyapı sorununu sınıflandırıyor, doğru LA 311 formuna yönlendiriyor ve talebi doğrudan Belediye Başkanlığı’na iletiyor. Form şemasını çıkarmak için 311 portalını Python ile taradım; böylece alanlar dinamik olarak oluşuyor. Yatırımcılar ve belediye temsilcilerinin de bulunduğu 100’den fazla kişiye canlı sunum yaparak ~20 ekip arasında ikinci olduk ve sunum ödülünü kazandık.",
-            "tags": [],
-            "links": [],
-            "gallery": [],
-            "video_url": "",
-            "embed_url": "",
-            "show_band": true,
-            "hidden": false
-          },
-          {
-            "title": "Glendale Ready",
-            "meta": "Jewel City Hacks · Eyl 2026",
-            "badge": "Birincilik",
-            "body": "Glendale İtfaiyesi için iki kişilik ekiple geliştirdiğimiz ve 15’ten fazla ekip arasında birinci olan proje. Cal Fire tehlike verilerini Google Haritalar üzerine bindirerek aktif tehdit bölgelerini ve tahliye rotalarını gösteriyor; düzenli acil durum tatbikatları için Google Takvim hatırlatmaları içeriyor.",
-            "tags": [
-              "React",
-              "Firebase",
-              "Google Maps API",
-              "Cal Fire verisi"
-            ],
-            "links": [],
-            "gallery": [],
+            "image_side": "right",
             "video_url": "",
             "embed_url": "",
             "show_band": true,
@@ -385,17 +338,46 @@
         "columns": "1",
         "items": [
           {
-            "title": "Siyasi çalışmalarını buraya ekle",
+            "title": "RAE For LA",
             "meta": "Rol · tarihler",
             "badge": "",
             "body": "Bu kart gizli. CMS’te düzenle ve bölümü yayınlamak için “Bu kartı gizle” seçeneğini kapat.",
             "tags": [],
             "links": [],
             "gallery": [],
+            "image_side": "right",
             "video_url": "",
             "embed_url": "",
             "show_band": true,
-            "hidden": true
+            "hidden": false
+          },
+          {
+            "title": "Associated Students of Loyola Marymount University",
+            "meta": "ASLMU Senator",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Peter Symonds College",
+            "meta": "Student Union President",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
           }
         ]
       }
