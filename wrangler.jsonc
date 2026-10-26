@@ -3,9 +3,19 @@
   "name": "mechanical-turk-website",
   "main": "worker/index.js",
   "compatibility_date": "2026-06-01",
+  // Only serve on the domains below, not on *.workers.dev.
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [
+    { "pattern": "mechanical-turk.dev", "custom_domain": true },
+    // www needs a proxied DNS record (CNAME www → mechanical-turk.dev); the worker redirects it.
+    { "pattern": "www.mechanical-turk.dev/*", "zone_name": "mechanical-turk.dev" }
+  ],
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS",
-    "not_found_handling": "404-page"
+    "not_found_handling": "404-page",
+    // Run worker/index.js before serving files, so www → apex redirects apply everywhere.
+    "run_worker_first": true
   }
 }
