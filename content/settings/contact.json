@@ -1,18 +1,58 @@
 {
   "en": {
     "items": [
-      { "label": "Email", "value": "mehmetnuri.colakoglu@gmail.com", "url": "mailto:mehmetnuri.colakoglu@gmail.com", "hidden": false },
-      { "label": "LinkedIn", "value": "in/mehmet-colakoglu", "url": "https://www.linkedin.com/in/mehmet-colakoglu", "hidden": false },
-      { "label": "GitHub", "value": "Mehmet-Colak", "url": "https://github.com/Mehmet-Colak", "hidden": false },
-      { "label": "Calendly", "value": "Book a 30-minute call", "url": "https://calendly.com/YOUR-LINK", "hidden": true }
+      {
+        "label": "Email",
+        "value": "mehmetnuri.colakoglu@gmail.com",
+        "url": "mailto:mehmetnuri.colakoglu@gmail.com",
+        "hidden": false
+      },
+      {
+        "label": "LinkedIn",
+        "value": "in/mehmet-colakoglu",
+        "url": "https://www.linkedin.com/in/mehmet-colakoglu",
+        "hidden": false
+      },
+      {
+        "label": "GitHub",
+        "value": "Mehmet-Colak",
+        "url": "https://github.com/Mehmet-Colak",
+        "hidden": false
+      },
+      {
+        "label": "Calendly",
+        "value": "Book a 30-minute call",
+        "url": "https://calendly.com/YOUR-LINK",
+        "hidden": false
+      }
     ]
   },
   "tr": {
     "items": [
-      { "label": "E-posta", "value": "mehmetnuri.colakoglu@gmail.com", "url": "mailto:mehmetnuri.colakoglu@gmail.com", "hidden": false },
-      { "label": "LinkedIn", "value": "in/mehmet-colakoglu", "url": "https://www.linkedin.com/in/mehmet-colakoglu", "hidden": false },
-      { "label": "GitHub", "value": "Mehmet-Colak", "url": "https://github.com/Mehmet-Colak", "hidden": false },
-      { "label": "Calendly", "value": "30 dakikalık görüşme ayarla", "url": "https://calendly.com/YOUR-LINK", "hidden": true }
+      {
+        "label": "E-posta",
+        "value": "mehmetnuri.colakoglu@gmail.com",
+        "url": "mailto:mehmetnuri.colakoglu@gmail.com",
+        "hidden": false
+      },
+      {
+        "label": "LinkedIn",
+        "value": "in/mehmet-colakoglu",
+        "url": "https://www.linkedin.com/in/mehmet-colakoglu",
+        "hidden": false
+      },
+      {
+        "label": "GitHub",
+        "value": "Mehmet-Colak",
+        "url": "https://github.com/Mehmet-Colak",
+        "hidden": false
+      },
+      {
+        "label": "Calendly",
+        "value": "30 dakikalık görüşme ayarla",
+        "url": "https://calendly.com/YOUR-LINK",
+        "hidden": false
+      }
     ]
   }
 }
