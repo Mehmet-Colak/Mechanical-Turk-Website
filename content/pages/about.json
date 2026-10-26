@@ -78,10 +78,17 @@
             "badge": "",
             "body": "I started archery after visiting Almaty, Kazakhstan. I mostly do target archery with an ILF bow at distances between 18 and 28 meters. Archery is a calming experience that lets me relax, take steady aim, make mistakes, and troubleshoot when my form or equipment falters. Archery also allows me to reconnect with my Turkic heritage.",
             "tags": [],
-            "links": [],
+            "links": [
+              {
+                "label": "Watch Me Shoot",
+                "url": "https://youtube.com/shorts/mwmkznOFC1Y",
+                "style": "secondary",
+                "new_tab": true
+              }
+            ],
             "gallery": [
               {
-                "image": "/assets/uploads/archery.png",
+                "image": "/assets/uploads/first archery.png",
                 "alt": "",
                 "caption": ""
               }
@@ -98,7 +105,14 @@
             "badge": "",
             "body": "Since the start of 2026, I have been taking horse riding classes. I prefer the Western style because it feels more utilitarian, freeing, and natural. I love the bond I have been developing with the animals at the ranch, and learning to trust the process rather than fearing my \"partner\" is a great life lesson to have. And again, this helps me reconnect with my heritage.",
             "tags": [],
-            "links": [],
+            "links": [
+              {
+                "label": "Watch Me Ride",
+                "url": "https://youtube.com/shorts/WA6U7myg7ec",
+                "style": "secondary",
+                "new_tab": true
+              }
+            ],
             "gallery": [
               {
                 "image": "/assets/uploads/horse riding.png",
@@ -229,10 +243,17 @@
             "badge": "",
             "body": "",
             "tags": [],
-            "links": [],
+            "links": [
+              {
+                "label": "Ok Atmami Izle",
+                "url": "https://youtube.com/shorts/mwmkznOFC1Y",
+                "style": "secondary",
+                "new_tab": true
+              }
+            ],
             "gallery": [
               {
-                "image": "/assets/uploads/archery.png",
+                "image": "/assets/uploads/first archery.png",
                 "alt": "",
                 "caption": ""
               }
@@ -249,7 +270,14 @@
             "badge": "",
             "body": "",
             "tags": [],
-            "links": [],
+            "links": [
+              {
+                "label": "Ok Atmami Izle",
+                "url": "https://youtube.com/shorts/WA6U7myg7ec",
+                "style": "secondary",
+                "new_tab": true
+              }
+            ],
             "gallery": [
               {
                 "image": "/assets/uploads/horse riding.png",
