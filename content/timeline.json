@@ -2,16 +2,6 @@
   "en": {
     "entries": [
       {
-        "date": "Aug 2021",
-        "kind_label": "Education",
-        "title": "Started at Loyola Marymount University",
-        "org": "Los Angeles, CA",
-        "body": "Chose a double degree in Computer Science and Psychology: how systems work, and how people work with them.",
-        "link": "",
-        "motif": "goz",
-        "hidden": false
-      },
-      {
         "date": "Aug 2023",
         "kind_label": "Research",
         "title": "Research Assistant",
@@ -82,16 +72,6 @@
         "hidden": false
       },
       {
-        "date": "Sep 2026",
-        "kind_label": "Work",
-        "title": "Systems Engineer",
-        "org": "Chip Theory Games",
-        "body": "Building a shared project management platform for four departments and moving legacy systems to AWS.",
-        "link": "",
-        "motif": "koc_boynuzu",
-        "hidden": false
-      },
-      {
         "date": "Next",
         "kind_label": "Goal",
         "title": "Robotics",
@@ -102,21 +82,41 @@
         "hidden": false
       },
       {
-        "date": "Moved to England",
-        "kind_label": "",
-        "title": "International Sensation",
+        "date": "Sep 2026",
+        "kind_label": "Work",
+        "title": "Systems Engineer",
+        "org": "Chip Theory Games",
+        "body": "Building a shared project management platform for four departments and moving legacy systems to AWS.",
+        "link": "",
+        "motif": "koc_boynuzu",
+        "hidden": false
+      },
+      {
+        "date": "Aug 2021",
+        "kind_label": "Education",
+        "title": "Started at Loyola Marymount University",
+        "org": "Los Angeles, CA",
+        "body": "Chose a double degree in Computer Science and Psychology: how systems work, and how people work with them.",
+        "link": "",
+        "motif": "goz",
+        "hidden": false
+      },
+      {
+        "date": "2014 - 2021",
+        "kind_label": "Moved to England",
+        "title": "International Student",
         "org": "",
-        "body": "",
+        "body": "After the Gezi Protests, my mom, brother, and I moved to the UK. There, I went to Eggar's School in Hampshire. After acing my GCSEs, I had the privilege of boarding at Peter Symonds Sixth Form College, the largest in the country, with a student body of over 8,000. When the  COVID-19 Pandemic hit and we moved to online learning, I led an entirely remote campaign to get elected as the Student Union President and worked with the faculty to help reopen the campus.",
         "link": "",
         "motif": "",
         "hidden": false
       },
       {
-        "date": "Born in Turkey, Went to Alev",
-        "kind_label": "",
+        "date": "2002 - 2014",
+        "kind_label": "Born in Istanbul",
         "title": "Child",
         "org": "",
-        "body": "",
+        "body": "I was born in Istanbul and went to the Ozel Alev Okullari, where I learned to speak German and developed an interest in Mathematics.",
         "link": "",
         "motif": "",
         "hidden": false
@@ -125,16 +125,6 @@
   },
   "tr": {
     "entries": [
-      {
-        "date": "Ağu 2021",
-        "kind_label": "Eğitim",
-        "title": "Loyola Marymount Üniversitesi’nde başladım",
-        "org": "Los Angeles, Kaliforniya",
-        "body": "Bilgisayar Bilimi ve Psikoloji çift anadalını seçtim: sistemler nasıl çalışır ve insanlar onlarla nasıl çalışır.",
-        "link": "",
-        "motif": "goz",
-        "hidden": false
-      },
       {
         "date": "Ağu 2023",
         "kind_label": "Araştırma",
@@ -206,6 +196,16 @@
         "hidden": false
       },
       {
+        "date": "Sırada",
+        "kind_label": "Hedef",
+        "title": "Robotik",
+        "org": "Uzun vadeli yön",
+        "body": "Temelleri doğru öğrenmek ve küçük ama gerçek makineler yapmak.",
+        "link": "",
+        "motif": "dogum",
+        "hidden": false
+      },
+      {
         "date": "Eyl 2026",
         "kind_label": "İş",
         "title": "Sistem Mühendisi",
@@ -216,13 +216,13 @@
         "hidden": false
       },
       {
-        "date": "Sırada",
-        "kind_label": "Hedef",
-        "title": "Robotik",
-        "org": "Uzun vadeli yön",
-        "body": "Temelleri doğru öğrenmek ve küçük ama gerçek makineler yapmak.",
+        "date": "Ağu 2021",
+        "kind_label": "Eğitim",
+        "title": "Loyola Marymount Üniversitesi’nde başladım",
+        "org": "Los Angeles, Kaliforniya",
+        "body": "Bilgisayar Bilimi ve Psikoloji çift anadalını seçtim: sistemler nasıl çalışır ve insanlar onlarla nasıl çalışır.",
         "link": "",
-        "motif": "dogum",
+        "motif": "goz",
         "hidden": false
       },
       {
