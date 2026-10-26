@@ -10,7 +10,7 @@ import crypto from "node:crypto";
 import { fileURLToPath } from "node:url";
 import { renderPage } from "./lib/render.mjs";
 import { faviconSvg } from "./lib/symbols.mjs";
-import { paletteColor } from "./lib/theme.mjs";
+import { color, paletteColor } from "./lib/theme.mjs";
 
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
 const CONTENT = path.join(ROOT, "content");
@@ -69,6 +69,7 @@ const settings = {
   nav: readJson(path.join(CONTENT, "settings/navigation.json")),
   contact: readJson(path.join(CONTENT, "settings/contact.json")),
   theme: readJson(path.join(CONTENT, "settings/theme.json")),
+  tabIcon: readJson(path.join(CONTENT, "settings/tab_icon.json")),
 };
 const skills = readJson(path.join(CONTENT, "skills.json"));
 const timeline = readJson(path.join(CONTENT, "timeline.json"));
@@ -99,12 +100,18 @@ function urlFor(code) {
 fs.rmSync(OUT, { recursive: true, force: true });
 fs.mkdirSync(OUT, { recursive: true });
 fs.cpSync(STATIC, OUT, { recursive: true });
+const tabIcon = settings.tabIcon;
 fs.writeFileSync(path.join(OUT, "favicon.svg"), faviconSvg({
-  bg: paletteColor(settings.theme, "burgundy", "#6A2C2E"),
-  fg: paletteColor(settings.theme, "saffron", "#F9C74F"),
+  bg: color(tabIcon.background) || paletteColor(settings.theme, "burgundy", "#6A2C2E"),
+  fg: color(tabIcon.foreground) || paletteColor(settings.theme, "saffron", "#F9C74F"),
+  symbol: tabIcon.symbol,
 }));
 
 const hash = (file) => crypto.createHash("sha1").update(fs.readFileSync(file)).digest("hex").slice(0, 8);
+// An uploaded image replaces the generated icon; the version query makes browsers pick up changes.
+const favicon = typeof tabIcon.image === "string" && tabIcon.image.trim()
+  ? { href: tabIcon.image.trim() }
+  : { href: `/favicon.svg?v=${hash(path.join(OUT, "favicon.svg"))}`, type: "image/svg+xml" };
 const assetVersion = hash(path.join(STATIC, "assets/css/site.css")) + hash(path.join(STATIC, "assets/js/site.js"));
 
 const sitemap = [];
@@ -124,7 +131,7 @@ for (const lang of ENABLED) {
     const url = urlFor(lang.code)(p.permalink);
     const html = renderPage({
       page, site, nav, languages: ENABLED.map((l) => ({ ...l, default: l.code === DEFAULT })),
-      locale: lang, alternates, data, urlFor: urlFor(lang.code), assetVersion, theme: settings.theme,
+      locale: lang, alternates, data, urlFor: urlFor(lang.code), assetVersion, theme: settings.theme, favicon,
     });
 
     const outFile = path.join(OUT, url, "index.html");
@@ -146,7 +153,7 @@ fs.writeFileSync(path.join(OUT, "404.html"), renderPage({
   languages: [{ ...languages.find((l) => l.code === DEFAULT), default: true, enabled: true }],
   locale: languages.find((l) => l.code === DEFAULT),
   alternates: { [DEFAULT]: "/" },
-  data: { skills: {}, timeline: {}, contact: {} }, urlFor: urlFor(DEFAULT), assetVersion, theme: settings.theme,
+  data: { skills: {}, timeline: {}, contact: {} }, urlFor: urlFor(DEFAULT), assetVersion, theme: settings.theme, favicon,
 }));
 
 fs.writeFileSync(path.join(OUT, "sitemap.xml"),

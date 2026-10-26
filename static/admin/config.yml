@@ -1239,7 +1239,7 @@ collections:
                 { label: "Dark", value: dark },
               ]
           - name: palette
-            label: Kilim palette (motifs, symbols, quote bars, favicon)
+            label: Kilim palette (motifs, symbols, quote bars, default tab icon colours)
             widget: object
             fields:
               - {
@@ -1287,6 +1287,42 @@ collections:
             widget: object
             collapsed: true
             fields: *dark_colour_fields
+
+      - name: tab_icon
+        label: Tab icon
+        file: content/settings/tab_icon.json
+        i18n: false
+        fields:
+          - name: image
+            label: Custom icon image
+            widget: image
+            required: false
+            hint: "Optional. Replaces the generated icon below. Use a square PNG or SVG, at least 64×64."
+          - name: symbol
+            label: Symbol
+            widget: select
+            default: bereket
+            options:
+              - { label: "Bereket · abundance (border symbol)", value: bereket }
+              - { label: "Koç boynuzu · ram’s horn (strength)", value: koc_boynuzu }
+              - { label: "Elibelinde · hands on hips (abundance)", value: elibelinde }
+              - { label: "Yıldız · star (happiness)", value: yildiz }
+              - { label: "Göz · eye (protection)", value: goz }
+              - { label: "Muska · amulet (protection)", value: muska }
+              - { label: "Pıtrak · burdock (abundance)", value: pitrak }
+              - { label: "Doğum · diamond (growth)", value: dogum }
+          - name: background
+            label: Background colour
+            widget: color
+            allowInput: true
+            required: false
+            hint: "Leave empty to use the palette’s burgundy."
+          - name: foreground
+            label: Symbol colour
+            widget: color
+            allowInput: true
+            required: false
+            hint: "Leave empty to use the palette’s saffron."
 
       - name: languages
         label: Languages
