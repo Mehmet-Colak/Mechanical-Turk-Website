@@ -7,6 +7,9 @@
         "title": "Research Assistant",
         "org": "LMU Psychology Department",
         "body": "Automated data cleaning for 300+ participants and built Unity simulations that capture behavioral metrics for perception research.",
+        "image": "",
+        "image_alt": "",
+        "image_position": "right",
         "link": "",
         "motif": "muska",
         "hidden": false
@@ -17,6 +20,9 @@
         "title": "Graduated cum laude",
         "org": "B.S. Computer Science and Psychology · 3.8 GPA",
         "body": "",
+        "image": "",
+        "image_alt": "",
+        "image_position": "right",
         "link": "",
         "motif": "goz",
         "hidden": false
@@ -27,6 +33,9 @@
         "title": "Frontend Engineering Intern",
         "org": "DJ League",
         "body": "Real-time competition UI in React and Convex: under 50 ms end-to-end latency across 200+ concurrent connections.",
+        "image": "",
+        "image_alt": "",
+        "image_position": "right",
         "link": "",
         "motif": "koc_boynuzu",
         "hidden": false
@@ -37,6 +46,9 @@
         "title": "Technology & Automation Engineer",
         "org": "Incredible Dream Studios",
         "body": "Integrations that cut ticket resolution time by 82%, plus the specs and architecture proposals leadership used to plan.",
+        "image": "",
+        "image_alt": "",
+        "image_position": "right",
         "link": "",
         "motif": "koc_boynuzu",
         "hidden": false
@@ -47,6 +59,9 @@
         "title": "Auto Dev. Env. (ADE)",
         "org": "Personal project",
         "body": "A local coding agent on a quantized 7B model, powered by an off-grid solar rig.",
+        "image": "",
+        "image_alt": "",
+        "image_position": "right",
         "link": "work",
         "motif": "pitrak",
         "hidden": false
@@ -57,6 +72,9 @@
         "title": "1st place, Jewel City Hacks",
         "org": "Glendale Ready · built for the Glendale Fire Department",
         "body": "",
+        "image": "",
+        "image_alt": "",
+        "image_position": "right",
         "link": "work",
         "motif": "yildiz",
         "hidden": false
@@ -67,6 +85,9 @@
         "title": "2nd place + presentation award, Demo Vision Hack",
         "org": "Fix-It LA · AI civic reporting for LA 311",
         "body": "",
+        "image": "",
+        "image_alt": "",
+        "image_position": "right",
         "link": "work",
         "motif": "yildiz",
         "hidden": false
@@ -77,6 +98,9 @@
         "title": "Robotics",
         "org": "Long-term direction",
         "body": "Learning the fundamentals properly and building small, real machines.",
+        "image": "",
+        "image_alt": "",
+        "image_position": "right",
         "link": "",
         "motif": "dogum",
         "hidden": false
@@ -87,6 +111,9 @@
         "title": "Systems Engineer",
         "org": "Chip Theory Games",
         "body": "Building a shared project management platform for four departments and moving legacy systems to AWS.",
+        "image": "",
+        "image_alt": "",
+        "image_position": "right",
         "link": "",
         "motif": "koc_boynuzu",
         "hidden": false
@@ -97,6 +124,9 @@
         "title": "Started at Loyola Marymount University",
         "org": "Los Angeles, CA",
         "body": "Chose a double degree in Computer Science and Psychology: how systems work, and how people work with them.",
+        "image": "",
+        "image_alt": "",
+        "image_position": "right",
         "link": "",
         "motif": "goz",
         "hidden": false
@@ -107,6 +137,9 @@
         "title": "International Student",
         "org": "",
         "body": "After the Gezi Protests, my mom, brother, and I moved to the UK. There, I went to Eggar's School in Hampshire. After acing my GCSEs, I had the privilege of boarding at Peter Symonds Sixth Form College, the largest in the country, with a student body of over 8,000. When the  COVID-19 Pandemic hit and we moved to online learning, I led an entirely remote campaign to get elected as the Student Union President and worked with the faculty to help reopen the campus.",
+        "image": "",
+        "image_alt": "",
+        "image_position": "right",
         "link": "",
         "motif": "",
         "hidden": false
@@ -117,6 +150,9 @@
         "title": "Child",
         "org": "",
         "body": "I was born in Istanbul and went to the Ozel Alev Okullari, where I learned to speak German and developed an interest in Mathematics.",
+        "image": "/assets/uploads/childhood.png",
+        "image_alt": "",
+        "image_position": "right",
         "link": "",
         "motif": "",
         "hidden": false
@@ -131,6 +167,9 @@
         "title": "Araştırma Asistanı",
         "org": "LMU Psikoloji Bölümü",
         "body": "300’den fazla katılımcının verisi için temizleme sürecini otomatikleştirdim; algı araştırmaları için davranışsal ölçüm yapan Unity simülasyonları geliştirdim.",
+        "image": "",
+        "image_alt": "",
+        "image_position": "right",
         "link": "",
         "motif": "muska",
         "hidden": false
@@ -141,6 +180,9 @@
         "title": "Onur derecesiyle (cum laude) mezun oldum",
         "org": "Bilgisayar Bilimi ve Psikoloji lisans · 3.8 not ortalaması",
         "body": "",
+        "image": "",
+        "image_alt": "",
+        "image_position": "right",
         "link": "",
         "motif": "goz",
         "hidden": false
@@ -151,6 +193,9 @@
         "title": "Frontend Mühendisliği Stajyeri",
         "org": "DJ League",
         "body": "React ve Convex ile gerçek zamanlı yarışma arayüzü: 200’den fazla eşzamanlı bağlantıda 50 ms altında uçtan uca gecikme.",
+        "image": "",
+        "image_alt": "",
+        "image_position": "right",
         "link": "",
         "motif": "koc_boynuzu",
         "hidden": false
@@ -161,6 +206,9 @@
         "title": "Teknoloji ve Otomasyon Mühendisi",
         "org": "Incredible Dream Studios",
         "body": "Destek talebi çözüm süresini %82 kısaltan entegrasyonlar; yönetimin planlamada kullandığı teknik şartnameler ve mimari öneriler.",
+        "image": "",
+        "image_alt": "",
+        "image_position": "right",
         "link": "",
         "motif": "koc_boynuzu",
         "hidden": false
@@ -171,6 +219,9 @@
         "title": "Auto Dev. Env. (ADE)",
         "org": "Kişisel proje",
         "body": "Şebekeden bağımsız bir güneş enerjisi sistemiyle çalışan, 7B parametreli nicemlenmiş bir modelle yerel kodlama ajanı.",
+        "image": "",
+        "image_alt": "",
+        "image_position": "right",
         "link": "work",
         "motif": "pitrak",
         "hidden": false
@@ -181,6 +232,9 @@
         "title": "Jewel City Hacks birinciliği",
         "org": "Glendale Ready · Glendale İtfaiyesi için geliştirildi",
         "body": "",
+        "image": "",
+        "image_alt": "",
+        "image_position": "right",
         "link": "work",
         "motif": "yildiz",
         "hidden": false
@@ -191,6 +245,9 @@
         "title": "Demo Vision Hack ikinciliği + sunum ödülü",
         "org": "Fix-It LA · LA 311 için yapay zekâ destekli bildirim",
         "body": "",
+        "image": "",
+        "image_alt": "",
+        "image_position": "right",
         "link": "work",
         "motif": "yildiz",
         "hidden": false
@@ -201,6 +258,9 @@
         "title": "Robotik",
         "org": "Uzun vadeli yön",
         "body": "Temelleri doğru öğrenmek ve küçük ama gerçek makineler yapmak.",
+        "image": "",
+        "image_alt": "",
+        "image_position": "right",
         "link": "",
         "motif": "dogum",
         "hidden": false
@@ -211,6 +271,9 @@
         "title": "Sistem Mühendisi",
         "org": "Chip Theory Games",
         "body": "Dört departmanın ortak kullandığı bir proje yönetim platformu geliştiriyor ve eski sistemleri AWS’ye taşıyorum.",
+        "image": "",
+        "image_alt": "",
+        "image_position": "right",
         "link": "",
         "motif": "koc_boynuzu",
         "hidden": false
@@ -221,6 +284,9 @@
         "title": "Loyola Marymount Üniversitesi’nde başladım",
         "org": "Los Angeles, Kaliforniya",
         "body": "Bilgisayar Bilimi ve Psikoloji çift anadalını seçtim: sistemler nasıl çalışır ve insanlar onlarla nasıl çalışır.",
+        "image": "",
+        "image_alt": "",
+        "image_position": "right",
         "link": "",
         "motif": "goz",
         "hidden": false
@@ -231,6 +297,9 @@
         "title": "Dünyayı Kasıp Kavuran Kimse",
         "org": "",
         "body": "",
+        "image": "",
+        "image_alt": "",
+        "image_position": "right",
         "link": "",
         "motif": "",
         "hidden": false
@@ -241,6 +310,9 @@
         "title": "Cocuk",
         "org": "",
         "body": "",
+        "image": "/assets/uploads/childhood.png",
+        "image_alt": "",
+        "image_position": "right",
         "link": "",
         "motif": "",
         "hidden": false
