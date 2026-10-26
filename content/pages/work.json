@@ -77,7 +77,7 @@
             "title": "LMU Psychology Department",
             "meta": "Research Assistant",
             "badge": "",
-            "body": "Wrote automated Python scripts to validate survey and test data for **300+ participants**. Built 3D simulation tools in Unity (C#) that capture behavioral metrics, making perception experiments scalable.",
+            "body": "Wrote Python scripts to validate survey and test data for **300+ participants**. Built 3D simulation tools in Unity (C#) that capture behavioral metrics, making perception experiments scalable.",
             "tags": [
               "Python"
             ],
