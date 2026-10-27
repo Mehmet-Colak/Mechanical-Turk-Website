@@ -844,12 +844,20 @@ collections:
           i18n: true,
         }
       - {
+          name: show_divider,
+          label: Show divider under the title,
+          widget: boolean,
+          default: true,
+          required: false,
+          i18n: duplicate,
+        }
+      - {
           name: divider_motif,
           label: Motif for the divider under the title,
           widget: select,
           required: false,
           i18n: duplicate,
-          hint: "[See every motif](https://mechanical-turk.dev/admin/motifs/) (opens the reference sheet).",
+          hint: "(None) uses the site's default motif. [See every motif](https://mechanical-turk.dev/admin/motifs/) (opens the reference sheet).",
           options: *motif_options,
         }
       - {
