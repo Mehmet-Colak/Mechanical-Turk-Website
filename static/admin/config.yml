@@ -535,6 +535,19 @@ x-block-types: &block_types
           options: [{ label: "Above the text", value: top }, { label: "Left of the text", value: left }, { label: "Right of the text", value: right }],
         }
       - {
+          name: more_images,
+          label: More images (optional),
+          label_singular: Image,
+          widget: list,
+          required: false,
+          i18n: true,
+          hint: "Stacked under the image above, in this order. Drag to reorder.",
+          fields: [
+            { name: image, label: Image, widget: image, i18n: duplicate },
+            { name: alt, label: Image alt text, widget: string, required: false, i18n: true },
+          ],
+        }
+      - {
           name: hidden,
           label: Hide this section,
           widget: boolean,
@@ -931,6 +944,19 @@ collections:
                   i18n: duplicate,
                   hint: "Left or right puts the image beside the description on wide screens; on phones it goes above.",
                   options: [{ label: "Above the text", value: top }, { label: "Left of the text", value: left }, { label: "Right of the text", value: right }],
+                }
+              - {
+                  name: more_images,
+                  label: More images (optional),
+                  label_singular: Image,
+                  widget: list,
+                  required: false,
+                  i18n: true,
+                  hint: "Stacked under the image above, in this order. Drag to reorder.",
+                  fields: [
+                    { name: image, label: Image, widget: image, i18n: duplicate },
+                    { name: alt, label: Image alt text, widget: string, required: false, i18n: true },
+                  ],
                 }
               - {
                   name: link,
