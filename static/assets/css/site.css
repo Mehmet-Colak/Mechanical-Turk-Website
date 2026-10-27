@@ -457,6 +457,4 @@ h1, h2, h3, h4, h5 { font-family: var(--font-display); line-height: 1.15; font-w
   .contact-row__value { font-size: 1.15rem; }
   .skills { grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); }
   .skill__link, .skill { min-height: 112px; padding: 16px 6px 14px; }
-  .bereket { width: 24px; }
-  .border-symbols__gap { width: 8px; }
 }
