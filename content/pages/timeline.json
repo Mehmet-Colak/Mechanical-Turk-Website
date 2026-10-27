@@ -3,21 +3,40 @@
     "permalink": "timeline",
     "title": "Timeline",
     "description": "Milestones in Mehmet Colakoglu’s education and career.",
-    "show_title": true,
-    "draft": false,
     "kicker": "Timeline",
-    "intro": "Five years, from the first lecture to the current build.",
+    "show_title": true,
+    "intro": "An engineer at heart, but one guided by community.",
+    "show_divider": true,
+    "divider_motif": "",
+    "og_image": "",
+    "draft": false,
     "blocks": [
-      { "type": "timeline", "heading": "", "intro": "" }
+      {
+        "type": "timeline",
+        "heading": "",
+        "hidden": false,
+        "intro": ""
+      }
     ]
   },
   "tr": {
+    "permalink": "timeline",
     "title": "Zaman çizelgesi",
     "description": "Mehmet Colakoglu’nun eğitim ve kariyerindeki dönüm noktaları.",
     "kicker": "Zaman çizelgesi",
+    "show_title": true,
     "intro": "İlk dersten bugünkü projeye beş yıl.",
+    "show_divider": true,
+    "divider_motif": "",
+    "og_image": "",
+    "draft": false,
     "blocks": [
-      { "type": "timeline", "heading": "", "intro": "" }
+      {
+        "type": "timeline",
+        "heading": "",
+        "hidden": false,
+        "intro": ""
+      }
     ]
   }
 }
