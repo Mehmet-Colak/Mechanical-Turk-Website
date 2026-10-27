@@ -3,9 +3,9 @@
     "entries": [
       {
         "date": "June 2026 - Present",
-        "kind_label": "Research",
+        "kind_label": "Exploration",
         "title": "Career In AI and Robotics",
-        "org": "LMU Psychology Department",
+        "org": "",
         "body": "Automated data cleaning for 300+ participants and built Unity simulations that capture behavioral metrics for perception research.",
         "image": "",
         "image_alt": "",
@@ -15,11 +15,11 @@
         "hidden": false
       },
       {
-        "date": "Sep 2025 - Present",
+        "date": "2025 - Present",
         "kind_label": "Work",
         "title": "Entering the WorkForce",
         "org": "Chip Theory Games",
-        "body": "Building a shared project management platform for four departments and moving legacy systems to AWS.",
+        "body": "Since graduating, I have continued to build on my college work experience. I set up automated systems to handle customer support queries, debugged political campaign websites, completed a front-end engineering internship, and secured a back-end role as a Systems Engineer at Chip Theory Games. Through these experiences, I have developed into an AI-native full-stack engineer familiar with all parts of a product's lifecycle, who is confident in my craft and can anticipate the consequences of my design decisions.",
         "image": "",
         "image_alt": "",
         "image_position": "right",
@@ -31,7 +31,7 @@
         "date": "2025",
         "kind_label": "Education",
         "title": "Graduated cum laude",
-        "org": "",
+        "org": "Los Angeles, CA",
         "body": "In August 2025, I graduated with a B.S. in Computer Science and Psychology and a 3.8 GPA. Because of my innovative approach to building community in EurAsian Lions, my club was recognized as the most prestigious of 200+ student organizations, received the New Outstanding Organization of the Year Award in 2024, and earned the Practice Ignatian Values Award in 2025.",
         "image": "/assets/uploads/award.jpg",
         "image_alt": "",
