@@ -6,6 +6,7 @@
     "kicker": "History · 1770–1854",
     "show_title": true,
     "intro": "This chess-playing machine, dressed in Ottoman robes, is one of the most misleading demos ever built, and it fooled European aristocracy for decades.",
+    "show_divider": true,
     "divider_motif": "",
     "og_image": "",
     "draft": false,
@@ -82,6 +83,10 @@
         "show_band": false,
         "image_position": "top",
         "more_images": []
+      },
+      {
+        "type": "divider",
+        "motif": ""
       },
       {
         "type": "cards",
@@ -185,6 +190,7 @@
     "kicker": "Tarih · 1770–1854",
     "show_title": true,
     "intro": "Osmanlı kıyafetleri giydirilmiş, satranç oynayan bir makine Avrupa’yı onlarca yıl kandırdı. Tarihin en iyi ürün tanıtımlarından biriydi ve bu sitenin adı ondan geliyor.",
+    "show_divider": true,
     "divider_motif": "",
     "og_image": "",
     "draft": false,
@@ -261,6 +267,10 @@
         "show_band": false,
         "image_position": "top",
         "more_images": []
+      },
+      {
+        "type": "divider",
+        "motif": ""
       },
       {
         "type": "cards",
