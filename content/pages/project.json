@@ -20,11 +20,12 @@
         "items": [
           {
             "title": "Fencing Target Robot",
-            "meta": "",
+            "meta": "Elite Fencing Club",
             "badge": "",
             "body": "- Currently building a Robot to train reaction time and aim for foil fencing. When a target area glows, the trainee is supposed to hit that area and get an average reaction time at the end of their session.\n- While Favero is my biggest competitor in the market, I believe I can produce a cheaper alternative with a humanoid shape and more versatile features.\n- To protect the target's LEDs, I created custom hard-plastic molds to withstand up to 800 N of force over an area of 38.5 mm².\n- I am adding more sections to give trainees more variation in where to attack.\n- Eventually, I would like to add wheels and possibly a robotic arm to the training dummy to show how a given defense might expose different body sections.",
             "tags": [
-              "Raspberry Pi",
+              "Arduino",
+              "C++",
               "Electrical Engineering",
               "SWOT Analysis",
               "Circuit Design",
@@ -50,11 +51,12 @@
           },
           {
             "title": "Plant Watering Robot",
-            "meta": "",
+            "meta": "Personal Use",
             "badge": "",
             "body": "- Built a solar-powered autonomous system using 10W external batteries to power soil moisture sensors, I2C modules, servo motors, pumps, and a microcontroller.\n- Built an intuitive user interface with an LCD display and keypad module that lets users schedule regular watering cycles, set the amount of water to pour, and see the countdown to watering.\n- With this project, my goal wasn't efficiency so much as learning how to integrate different systems into the same codebase.",
             "tags": [
-              "Microcontroller",
+              "Arduino",
+              "C++",
               "Renewable Energy",
               "Mechanical Engineering",
               "Problem Solving",
@@ -75,6 +77,34 @@
                 "new_tab": true
               }
             ],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "heading": "AI",
+        "hidden": false,
+        "intro": "",
+        "columns": "1",
+        "items": [
+          {
+            "title": "Auto Dev. Env. (ADE)",
+            "meta": "Personal Use",
+            "badge": "",
+            "body": "- Built an autonomous coding agent that writes, tests, and debugs code locally based on user-defined acceptance criteria.\n- Deployed a quantized 7B LLM locally via Ollama on an 8GB VRAM / 32GB RAM hardware setup with SSH access for remote dev work.\n- Ran the entire physical compute setup off an off-grid 400W solar array and 2000Wh battery rig to bypass cloud compute costs.",
+            "tags": [
+              "Ollama",
+              "OpenSSH",
+              "Dyad",
+              "Agentic AI"
+            ],
+            "links": [],
             "gallery": [],
             "image_side": "right",
             "video_url": "",
@@ -170,29 +200,6 @@
               "Css",
               "Research Design"
             ],
-            "links": [],
-            "gallery": [],
-            "image_side": "right",
-            "video_url": "",
-            "embed_url": "",
-            "show_band": true,
-            "hidden": false
-          }
-        ]
-      },
-      {
-        "type": "cards",
-        "heading": "AI",
-        "hidden": false,
-        "intro": "",
-        "columns": "1",
-        "items": [
-          {
-            "title": "Auto Dev. Env. (ADE)",
-            "meta": "",
-            "badge": "",
-            "body": "- Built an autonomous coding agent that writes, tests, and debugs code locally based on user-defined acceptance criteria.\n- Deployed a quantized 7B LLM locally via Ollama on an 8GB VRAM / 32GB RAM hardware setup with SSH access for remote dev work.\n- Ran the entire physical compute setup off an off-grid 400W solar array and 2000Wh battery rig to bypass cloud compute costs.",
-            "tags": [],
             "links": [],
             "gallery": [],
             "image_side": "right",
@@ -342,6 +349,29 @@
         "columns": "1",
         "items": [
           {
+            "title": "ADE",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "heading": "",
+        "hidden": false,
+        "intro": "",
+        "columns": "1",
+        "items": [
+          {
             "title": "Glendale Hazir",
             "meta": "",
             "badge": "",
@@ -394,29 +424,6 @@
           },
           {
             "title": "Intergroup Conflict Theory",
-            "meta": "",
-            "badge": "",
-            "body": "",
-            "tags": [],
-            "links": [],
-            "gallery": [],
-            "image_side": "right",
-            "video_url": "",
-            "embed_url": "",
-            "show_band": true,
-            "hidden": false
-          }
-        ]
-      },
-      {
-        "type": "cards",
-        "heading": "",
-        "hidden": false,
-        "intro": "",
-        "columns": "1",
-        "items": [
-          {
-            "title": "ADE",
             "meta": "",
             "badge": "",
             "body": "",
