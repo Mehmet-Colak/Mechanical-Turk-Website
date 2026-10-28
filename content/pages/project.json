@@ -171,9 +171,9 @@
         "columns": "1",
         "items": [
           {
-            "title": "Verical Distance Estimation Study",
-            "meta": "",
-            "badge": "",
+            "title": "Vertical Distance Estimation Study",
+            "meta": "Psychology",
+            "badge": "Pending Publication",
             "body": "- Built a full-scale Unity / C# VR simulation mirroring real-world height environments for a controlled study across 40+ participants.\n- Designed a statistical analysis pipeline in Python on height-perception data to get statistically significant results.\n- Authored an academic paper on findings, in preparation for publication.",
             "tags": [
               "Unity",
@@ -191,8 +191,8 @@
           },
           {
             "title": "Intergroup Conflict Calculator",
-            "meta": "",
-            "badge": "",
+            "meta": "Computer Science",
+            "badge": "Pending Publication",
             "body": "- Identified a gap in quantitative conflict-prediction methodology. Specificcally built on the Realistic Conflict Theory by Muzafer Sharif.\n- Engineered a scalable mathematical framework drawing on 11 Social Psychological theories to compute conflict likelihood between two groups as a probabilistic output.\n- Architected a full-stack React web app (HTML, CSS, Firebase) exposing the model as an interactive calculator.\n- Deployed on Firebase Hosting with a Firestore-backed logging layer for usage analytics.",
             "tags": [
               "React",
