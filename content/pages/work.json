@@ -134,6 +134,24 @@
         "columns": "1",
         "items": [
           {
+            "title": "EurAsian Lions",
+            "meta": "Founder, President, and Community Engagement Chair",
+            "badge": "",
+            "body": "- Founded a club to represent Eastern European, Middle Eastern, Central Asian, and Siberian peoples.\n- Conducted extensive exploration and gave seminars related to the histories, customs, and beliefs of these cultures.\n- Fundraised, planned, and hosted horse rides, movie screenings, and museum outings by working with Mazevo and Modern Campus CMS.\n- Received Practice Ignation Values and New Outstanding Student Organizations Award from my college for my innovative approach to bridging communities and inspiring others to engage deeply with diverse backgrounds.",
+            "tags": [
+              "Mazevo CMS",
+              "Canva",
+              "Excel"
+            ],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
             "title": "RAE For LA",
             "meta": "Tech Team Member",
             "badge": "",
@@ -294,6 +312,20 @@
         "intro": "",
         "columns": "1",
         "items": [
+          {
+            "title": "Avrasyali Aslanlar",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
           {
             "title": "RAE For LA",
             "meta": "Rol · tarihler",
