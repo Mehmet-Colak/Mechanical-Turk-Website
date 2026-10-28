@@ -224,7 +224,12 @@
             "meta": "Sistem Mühendisi · Eyl 2026 – günümüz",
             "badge": "",
             "body": "- **4 ekibin** iş akışlarını tek yerde toplayan modüler bir proje yönetim platformu geliştiriyorum (React, Node.js, MySQL). İlk geçiş, prova materyali hazırlama süresini **%40**, görev devirlerini **%32** azalttı.\n- Şirket içi sunucularda çalışan üç eski uygulamayı AWS’ye taşıyor, bulut erişimi ve daha düşük bakım yükü için yeniden tasarlıyorum.",
-            "tags": [],
+            "tags": [
+              "React",
+              "Node.js",
+              "MySQL",
+              "AWS"
+            ],
             "links": [],
             "gallery": [],
             "image_side": "right",
@@ -238,7 +243,12 @@
             "meta": "Teknoloji ve Otomasyon Mühendisi · Mar – Eyl 2026",
             "badge": "",
             "body": "- Harici destek talebi araçlarını özel JavaScript, webhook’lar ve Zapier ile ana web sitesine bağladım; çözüm sürelerini **%82** kısalttım, dağıtım verimliliğini **%45** artırdım.\n- CEO, COO ve CCO için teknik şartnameler, API kapsam belgeleri ve sistem mimarisi önerileri yazdım.",
-            "tags": [],
+            "tags": [
+              "JavaScript",
+              "Webhook",
+              "Zapier",
+              "Mimari"
+            ],
             "links": [],
             "gallery": [],
             "image_side": "right",
@@ -252,7 +262,11 @@
             "meta": "Frontend Mühendisliği Stajyeri · Şub – Nis 2026",
             "badge": "",
             "body": "- Convex’in reaktif WebSocket katmanı üzerinde canlı yarışmalar için animasyonlu React bileşenleri geliştirdim; 200’den fazla eşzamanlı bağlantıda gecikmeyi **50 ms** altında tuttum.\n- Yüksek frekanslı yazmaları gecikmeli abonelikler ve iyimser arayüz güncellemeleriyle yöneterek akıcı **60 FPS** sağladım.",
-            "tags": [],
+            "tags": [
+              "React",
+              "Convex",
+              "WebSockets"
+            ],
             "links": [],
             "gallery": [],
             "image_side": "right",
@@ -266,7 +280,12 @@
             "meta": "",
             "badge": "",
             "body": "",
-            "tags": [],
+            "tags": [
+              "Python",
+              "Unity",
+              "C#",
+              "Araştırma Tasarımı"
+            ],
             "links": [],
             "gallery": [],
             "image_side": "right",
