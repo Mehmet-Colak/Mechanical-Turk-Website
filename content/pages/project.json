@@ -219,8 +219,8 @@
         "items": [
           {
             "title": "Hell Upon the Highest Tower",
-            "meta": "",
-            "badge": "",
+            "meta": "Demo",
+            "badge": "Pending Publication",
             "body": "- Architected a 2-player card-game engine in Unity / C# with a data-driven card system (ScriptableObjects), state-machine turn logic, and a local-network backend using Unity Netcode for GameObjects (client-server authority model).\n- Designed memory-efficient entity-component architecture supporting 200+ unique card interactions; profiled and optimized GC pressure to maintain stable 60 fps on mid-range hardware.\n- Published source code on GitHub, enabling open access for anyone to run the demo locally.",
             "tags": [
               "Unity",
@@ -237,8 +237,8 @@
           },
           {
             "title": "Secret Chip Theory Games Project",
-            "meta": "",
-            "badge": "",
+            "meta": "Demo",
+            "badge": "In Development",
             "body": "- In the exploratory phase.\n- Signed an NDA.",
             "tags": [],
             "links": [],
