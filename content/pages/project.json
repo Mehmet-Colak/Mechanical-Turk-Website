@@ -22,14 +22,16 @@
             "title": "Fencing Target Robot",
             "meta": "",
             "badge": "",
-            "body": "- Spen\n- Currently building a Robot to train reaction time and aim for foil fencing.",
+            "body": "- Currently building a Robot to train reaction time and aim for foil fencing. When a target area glows, the trainee is supposed to hit that area and get an average reaction time at the end of their session.\n- While Favero is my biggest competitor in the market, I believe I can produce a cheaper alternative with a humanoid shape and more versatile features.\n- To protect the target's LEDs, I created custom hard-plastic molds to withstand up to 800 N of force over an area of 38.5 mm².\n- I am adding more sections to give trainees more variation in where to attack.\n- Eventually, I would like to add wheels and possibly a robotic arm to the training dummy to show how a given defense might expose different body sections.",
             "tags": [
-              "Arduino",
               "Raspberry Pi",
               "Electrical Engineering",
+              "SWOT Analysis",
               "Circuit Design",
               "3-D Printing",
-              "OnShape"
+              "OnShape",
+              "Mold Making",
+              "Epoxy Resin Casting"
             ],
             "links": [
               {
@@ -50,10 +52,12 @@
             "title": "Plant Watering Robot",
             "meta": "",
             "badge": "",
-            "body": "- With this project, my goal wasn't efficiency as much as learning about how to construct different systems together.",
+            "body": "- Built a solar-powered autonomous system using 10W external batteries to power soil moisture sensors, I2C modules, servo motors, pumps, and a microcontroller.\n- Built an intuitive user interface with an LCD display and keypad module that lets users schedule regular watering cycles, set the amount of water to pour, and see the countdown to watering.\n- With this project, my goal wasn't efficiency so much as learning how to integrate different systems into the same codebase.",
             "tags": [
+              "Microcontroller",
               "Renewable Energy",
               "Mechanical Engineering",
+              "Problem Solving",
               "Soldering",
               "Woodworking"
             ],
@@ -89,10 +93,36 @@
         "items": [
           {
             "title": "Glendale Ready",
-            "meta": "",
-            "badge": "",
-            "body": "",
-            "tags": [],
+            "meta": "Jewel City Hacks",
+            "badge": "1st Place",
+            "body": "- Built an AI-powered civic reporting app using Gemini Vision to classify infrastructure issues from user photos, route them to the correct LA 311 form, and submit tickets directly to the Mayor’s Office.\n- Scraped the 311 portal with Python to map its form schema, enabling dynamic field generation for different request categories.\n- Took 2nd place out of \\~20 teams (plus a distinction award for presentation) pitching live to 100+ attendees, including local investors and city representatives.",
+            "tags": [
+              "React",
+              "Node.js",
+              "Vercel v0",
+              "Google Maps API",
+              "Firebase"
+            ],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Fix-It-LA",
+            "meta": "Vision Hack",
+            "badge": "2nd Place",
+            "body": "- Built an AI-powered civic reporting app using Gemini Vision to classify infrastructure issues from user photos, route them to the correct LA 311 form, and submit tickets directly to the Mayor’s Office.\n- Scraped the 311 portal with Python to map its form schema, enabling dynamic field generation for different request categories.\n- Took 2nd place out of \\~20 teams (plus a distinction award for presentation) pitching live to 100+ attendees, including local investors and city representatives.",
+            "tags": [
+              "React",
+              "Python",
+              "Node.js",
+              "Vercel v0",
+              "Gemini API"
+            ],
             "links": [],
             "gallery": [],
             "image_side": "right",
@@ -289,6 +319,20 @@
         "items": [
           {
             "title": "Glendale Hazir",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Fix-It-LA",
             "meta": "",
             "badge": "",
             "body": "",
