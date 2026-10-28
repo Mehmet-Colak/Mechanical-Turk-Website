@@ -6,6 +6,7 @@
     "kicker": "",
     "show_title": true,
     "intro": "",
+    "show_divider": true,
     "divider_motif": "",
     "og_image": "",
     "draft": false,
@@ -21,8 +22,15 @@
             "title": "Fencing Target Robot",
             "meta": "",
             "badge": "",
-            "body": "Currently building a Robot to train reaction time and aim for foil fencing.",
-            "tags": [],
+            "body": "- Spen\n- Currently building a Robot to train reaction time and aim for foil fencing.",
+            "tags": [
+              "Arduino",
+              "Raspberry Pi",
+              "Electrical Engineering",
+              "Circuit Design",
+              "3-D Printing",
+              "OnShape"
+            ],
             "links": [
               {
                 "label": "Demonstration",
@@ -42,8 +50,13 @@
             "title": "Plant Watering Robot",
             "meta": "",
             "badge": "",
-            "body": "",
-            "tags": [],
+            "body": "- With this project, my goal wasn't efficiency as much as learning about how to construct different systems together.",
+            "tags": [
+              "Renewable Energy",
+              "Mechanical Engineering",
+              "Soldering",
+              "Woodworking"
+            ],
             "links": [
               {
                 "label": "Demonstration",
@@ -124,7 +137,7 @@
             "title": "Auto Dev. Env. (ADE)",
             "meta": "",
             "badge": "",
-            "body": "",
+            "body": "- Built an autonomous coding agent that writes, tests, and debugs code locally based on user-defined acceptance criteria.\n- Deployed a quantized 7B LLM locally via Ollama on an 8GB VRAM / 32GB RAM hardware setup with SSH access for remote dev work.\n- Ran the entire physical compute setup off an off-grid 400W solar array and 2000Wh battery rig to bypass cloud compute costs.",
             "tags": [],
             "links": [],
             "gallery": [],
@@ -175,29 +188,6 @@
       },
       {
         "type": "cards",
-        "heading": "Clubs",
-        "hidden": false,
-        "intro": "",
-        "columns": "1",
-        "items": [
-          {
-            "title": "EurAsian Lions",
-            "meta": "",
-            "badge": "",
-            "body": "",
-            "tags": [],
-            "links": [],
-            "gallery": [],
-            "image_side": "right",
-            "video_url": "",
-            "embed_url": "",
-            "show_band": true,
-            "hidden": false
-          }
-        ]
-      },
-      {
-        "type": "cards",
         "heading": "Creative Writing",
         "hidden": false,
         "intro": "",
@@ -228,6 +218,7 @@
     "kicker": "",
     "show_title": true,
     "intro": "",
+    "show_divider": true,
     "divider_motif": "",
     "og_image": "",
     "draft": false,
@@ -381,29 +372,6 @@
           },
           {
             "title": "En Yuksek Kuledeki Cehennem",
-            "meta": "",
-            "badge": "",
-            "body": "",
-            "tags": [],
-            "links": [],
-            "gallery": [],
-            "image_side": "right",
-            "video_url": "",
-            "embed_url": "",
-            "show_band": true,
-            "hidden": false
-          }
-        ]
-      },
-      {
-        "type": "cards",
-        "heading": "",
-        "hidden": false,
-        "intro": "",
-        "columns": "1",
-        "items": [
-          {
-            "title": "Avrasyali Aslanlar",
             "meta": "",
             "badge": "",
             "body": "",
