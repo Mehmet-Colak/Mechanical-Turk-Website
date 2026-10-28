@@ -26,7 +26,7 @@
         "image_position": "left",
         "more_images": [],
         "link": "",
-        "motif": "koc_boynuzu",
+        "motif": "yildiz",
         "hidden": false
       },
       {
@@ -59,7 +59,7 @@
           }
         ],
         "link": "",
-        "motif": "goz",
+        "motif": "koc_boynuzu",
         "hidden": false
       },
       {
@@ -73,7 +73,7 @@
         "image_position": "right",
         "more_images": [],
         "link": "",
-        "motif": "",
+        "motif": "pitrak",
         "hidden": false
       },
       {
@@ -87,7 +87,7 @@
         "image_position": "left",
         "more_images": [],
         "link": "",
-        "motif": "",
+        "motif": "dogum",
         "hidden": false
       }
     ]
@@ -119,7 +119,7 @@
         "image_position": "left",
         "more_images": [],
         "link": "",
-        "motif": "koc_boynuzu",
+        "motif": "yildiz",
         "hidden": false
       },
       {
@@ -152,7 +152,7 @@
           }
         ],
         "link": "",
-        "motif": "goz",
+        "motif": "koc_boynuzu",
         "hidden": false
       },
       {
@@ -166,7 +166,7 @@
         "image_position": "right",
         "more_images": [],
         "link": "",
-        "motif": "",
+        "motif": "pitrak",
         "hidden": false
       },
       {
@@ -180,7 +180,7 @@
         "image_position": "left",
         "more_images": [],
         "link": "",
-        "motif": "",
+        "motif": "dogum",
         "hidden": false
       }
     ]
