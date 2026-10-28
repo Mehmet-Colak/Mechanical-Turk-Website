@@ -218,11 +218,15 @@
         "columns": "1",
         "items": [
           {
-            "title": "Secret Chip Theory Games Project",
+            "title": "Hell Upon the Highest Tower",
             "meta": "",
             "badge": "",
-            "body": "",
-            "tags": [],
+            "body": "- Architected a 2-player card-game engine in Unity / C# with a data-driven card system (ScriptableObjects), state-machine turn logic, and a local-network backend using Unity Netcode for GameObjects (client-server authority model).\n- Designed memory-efficient entity-component architecture supporting 200+ unique card interactions; profiled and optimized GC pressure to maintain stable 60 fps on mid-range hardware.\n- Published source code on GitHub, enabling open access for anyone to run the demo locally.",
+            "tags": [
+              "Unity",
+              "C#",
+              "Playesting"
+            ],
             "links": [],
             "gallery": [],
             "image_side": "right",
@@ -232,10 +236,10 @@
             "hidden": false
           },
           {
-            "title": "Hell Upon the Highest Tower",
+            "title": "Secret Chip Theory Games Project",
             "meta": "",
             "badge": "",
-            "body": "",
+            "body": "- In the exploratory phase.\n- Signed an NDA.",
             "tags": [],
             "links": [],
             "gallery": [],
@@ -257,8 +261,36 @@
           {
             "title": "Without Feathers",
             "meta": "Short Story",
-            "badge": "",
-            "body": "",
+            "badge": "Pending Publication",
+            "body": "- Unconventional Cowboy story set in the deserts of Turkmenistan during the 1980s.\n- When his wife is kidnapped by a group of bandits, a local rebel leader must rally his allies and save her to defend his honor.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "The Dybbuk and the Shaman",
+            "meta": "Short Story",
+            "badge": "First Draft",
+            "body": "- Horror and coming-of-age story set in Finland in the 1940s.\n- A young amputee and the priest who adopted her must work together to banish a deadly Dybbuk before it wreaks havoc on the local populace.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "The Divine Color",
+            "meta": "Short Story",
+            "badge": "Second Draft",
+            "body": "- A thriller with religious undertones, set in present-day Ethiopia.\n- When an elder from a nearby village is kidnapped by soldiers awaiting execution, a good-hearted, albeit unstable, painter from a nearby city finds himself the man's only hope.",
             "tags": [],
             "links": [],
             "gallery": [],
@@ -491,11 +523,15 @@
         "columns": "1",
         "items": [
           {
-            "title": "Gizle Chip Theory Games Oyunu",
+            "title": "En Yuksek Kuledeki Cehennem",
             "meta": "",
             "badge": "",
             "body": "",
-            "tags": [],
+            "tags": [
+              "Unity",
+              "C#",
+              "Playesting"
+            ],
             "links": [],
             "gallery": [],
             "image_side": "right",
@@ -505,7 +541,7 @@
             "hidden": false
           },
           {
-            "title": "En Yuksek Kuledeki Cehennem",
+            "title": "Gizle Chip Theory Games Oyunu",
             "meta": "",
             "badge": "",
             "body": "",
@@ -530,6 +566,34 @@
           {
             "title": "Cavlak",
             "meta": "Kisa Hikaye",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "The Dybbuk and the Shaman",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "The Divine Color",
+            "meta": "",
             "badge": "",
             "body": "",
             "tags": [],
