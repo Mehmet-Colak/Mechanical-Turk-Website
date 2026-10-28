@@ -245,9 +245,9 @@
             "body": "- Harici destek talebi araçlarını özel JavaScript, webhook’lar ve Zapier ile ana web sitesine bağladım; çözüm sürelerini **%82** kısalttım, dağıtım verimliliğini **%45** artırdım.\n- CEO, COO ve CCO için teknik şartnameler, API kapsam belgeleri ve sistem mimarisi önerileri yazdım.",
             "tags": [
               "JavaScript",
-              "Webhook",
+              "Webhooks",
               "Zapier",
-              "Mimari"
+              "Architecture"
             ],
             "links": [],
             "gallery": [],
@@ -284,7 +284,7 @@
               "Python",
               "Unity",
               "C#",
-              "Araştırma Tasarımı"
+              "Research Design"
             ],
             "links": [],
             "gallery": [],
@@ -313,7 +313,10 @@
             "meta": "",
             "badge": "",
             "body": "",
-            "tags": [],
+            "tags": [
+              "Adobe Photoshop",
+              "Canva"
+            ],
             "links": [],
             "gallery": [],
             "image_side": "right",
@@ -336,7 +339,11 @@
             "meta": "",
             "badge": "",
             "body": "",
-            "tags": [],
+            "tags": [
+              "Mazevo CMS",
+              "Canva",
+              "Excel"
+            ],
             "links": [],
             "gallery": [],
             "image_side": "right",
@@ -350,7 +357,10 @@
             "meta": "Rol · tarihler",
             "badge": "",
             "body": "Bu kart gizli. CMS’te düzenle ve bölümü yayınlamak için “Bu kartı gizle” seçeneğini kapat.",
-            "tags": [],
+            "tags": [
+              "Javascript",
+              "Zapier"
+            ],
             "links": [],
             "gallery": [],
             "image_side": "right",

@@ -96,7 +96,7 @@
     "entries": [
       {
         "date": "Ağu 2023",
-        "kind_label": "Keşif",
+        "kind_label": "Araştırma",
         "title": "Araştırma Asistanı",
         "org": "LMU Psikoloji Bölümü",
         "body": "300’den fazla katılımcının verisi için temizleme sürecini otomatikleştirdim; algı araştırmaları için davranışsal ölçüm yapan Unity simülasyonları geliştirdim.",
@@ -157,7 +157,7 @@
       },
       {
         "date": "Ingiltereye Tasindim",
-        "kind_label": "Temeller",
+        "kind_label": "",
         "title": "Dünyayı Kasıp Kavuran Kimse",
         "org": "",
         "body": "",
@@ -171,7 +171,7 @@
       },
       {
         "date": "Istanbul'da Dogdum, Alev Okullarina Gittim",
-        "kind_label": "Temeller",
+        "kind_label": "",
         "title": "Cocuk",
         "org": "",
         "body": "",

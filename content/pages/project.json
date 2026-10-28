@@ -296,7 +296,17 @@
             "meta": "",
             "badge": "",
             "body": "",
-            "tags": [],
+            "tags": [
+              "Arduino",
+              "C++",
+              "Electrical Engineering",
+              "SWOT Analysis",
+              "Circuit Design",
+              "3-D Printing",
+              "OnShape",
+              "Mold Making",
+              "Epoxy Resin Casting"
+            ],
             "links": [
               {
                 "label": "Gosterge",
@@ -317,7 +327,15 @@
             "meta": "",
             "badge": "",
             "body": "",
-            "tags": [],
+            "tags": [
+              "Arduino",
+              "C++",
+              "Renewable Energy",
+              "Mechanical Engineering",
+              "Problem Solving",
+              "Soldering",
+              "Woodworking"
+            ],
             "links": [
               {
                 "label": "Sulama Robotu",
@@ -353,7 +371,12 @@
             "meta": "",
             "badge": "",
             "body": "",
-            "tags": [],
+            "tags": [
+              "Ollama",
+              "OpenSSH",
+              "Dyad",
+              "Agentic AI"
+            ],
             "links": [],
             "gallery": [],
             "image_side": "right",
@@ -376,7 +399,13 @@
             "meta": "",
             "badge": "",
             "body": "",
-            "tags": [],
+            "tags": [
+              "React",
+              "Node.js",
+              "Vercel v0",
+              "Google Maps API",
+              "Firebase"
+            ],
             "links": [],
             "gallery": [],
             "image_side": "right",
@@ -390,7 +419,13 @@
             "meta": "",
             "badge": "",
             "body": "",
-            "tags": [],
+            "tags": [
+              "React",
+              "Python",
+              "Node.js",
+              "Vercel v0",
+              "Gemini API"
+            ],
             "links": [],
             "gallery": [],
             "image_side": "right",
@@ -413,7 +448,12 @@
             "meta": "",
             "badge": "",
             "body": "",
-            "tags": [],
+            "tags": [
+              "Unity",
+              "C#",
+              "Python",
+              "Research Design"
+            ],
             "links": [],
             "gallery": [],
             "image_side": "right",
@@ -427,7 +467,12 @@
             "meta": "",
             "badge": "",
             "body": "",
-            "tags": [],
+            "tags": [
+              "React",
+              "Firebase",
+              "Css",
+              "Research Design"
+            ],
             "links": [],
             "gallery": [],
             "image_side": "right",

@@ -349,7 +349,7 @@ x-card-fields: &card_fields
     label_singular: Tag
     widget: list
     required: false
-    i18n: true
+    i18n: duplicate
     hint: "One tag per row, e.g. React"
     field: { name: tag, label: Tag, widget: string }
   - name: links
