@@ -41,8 +41,15 @@
             "url": ""
           },
           {
+            "name": "Rust",
+            "icon": "si:rust",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
             "name": "PHP",
-            "icon": "is: php",
+            "icon": "devicon:php",
             "image": "",
             "short": "PHP",
             "url": ""
@@ -52,13 +59,6 @@
             "icon": "devicon:azuresqldatabase",
             "image": "",
             "short": "SQL",
-            "url": ""
-          },
-          {
-            "name": "Rust",
-            "icon": "si:rust",
-            "image": "",
-            "short": "",
             "url": ""
           }
         ]
@@ -244,8 +244,15 @@
             "url": ""
           },
           {
+            "name": "Rust",
+            "icon": "si:rust",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
             "name": "PHP",
-            "icon": "is: php",
+            "icon": "devicon:php",
             "image": "",
             "short": "PHP",
             "url": ""
@@ -255,13 +262,6 @@
             "icon": "devicon:azuresqldatabase",
             "image": "",
             "short": "SQL",
-            "url": ""
-          },
-          {
-            "name": "Rust",
-            "icon": "si:rust",
-            "image": "",
-            "short": "",
             "url": ""
           }
         ]
