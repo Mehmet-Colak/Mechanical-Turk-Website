@@ -42,7 +42,7 @@
           },
           {
             "name": "PHP",
-            "icon": "devicon: php",
+            "icon": "is: php",
             "image": "",
             "short": "PHP",
             "url": ""
@@ -52,6 +52,13 @@
             "icon": "devicon:azuresqldatabase",
             "image": "",
             "short": "SQL",
+            "url": ""
+          },
+          {
+            "name": "Rust",
+            "icon": "si:rust",
+            "image": "",
+            "short": "",
             "url": ""
           }
         ]
@@ -75,15 +82,15 @@
             "url": ""
           },
           {
-            "name": "Convex",
-            "icon": "si:convex",
+            "name": "Unity",
+            "icon": "devicon:unity/unity-original",
             "image": "",
             "short": "",
             "url": ""
           },
           {
-            "name": "Unity",
-            "icon": "devicon:unity/unity-original",
+            "name": "Arduino",
+            "icon": "si:arduino",
             "image": "",
             "short": "",
             "url": ""
@@ -105,6 +112,13 @@
           {
             "name": "Git",
             "icon": "devicon:git",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Convex",
+            "icon": "si:convex",
             "image": "",
             "short": "",
             "url": ""
@@ -231,7 +245,7 @@
           },
           {
             "name": "PHP",
-            "icon": "devicon: php",
+            "icon": "is: php",
             "image": "",
             "short": "PHP",
             "url": ""
@@ -241,6 +255,13 @@
             "icon": "devicon:azuresqldatabase",
             "image": "",
             "short": "SQL",
+            "url": ""
+          },
+          {
+            "name": "Rust",
+            "icon": "si:rust",
+            "image": "",
+            "short": "",
             "url": ""
           }
         ]
@@ -264,15 +285,15 @@
             "url": ""
           },
           {
-            "name": "Convex",
-            "icon": "si:convex",
+            "name": "Unity",
+            "icon": "devicon:unity/unity-original",
             "image": "",
             "short": "",
             "url": ""
           },
           {
-            "name": "Unity",
-            "icon": "devicon:unity/unity-original",
+            "name": "Arduino",
+            "icon": "si:arduino",
             "image": "",
             "short": "",
             "url": ""
@@ -294,6 +315,13 @@
           {
             "name": "Git",
             "icon": "devicon:git",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Convex",
+            "icon": "si:convex",
             "image": "",
             "short": "",
             "url": ""
