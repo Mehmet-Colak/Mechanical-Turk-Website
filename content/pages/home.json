@@ -111,20 +111,20 @@
     "blocks": [
       {
         "type": "hero",
-        "kicker": "**Ürün Yöneticisi. *Mühendis.* Ekip Lideri.**",
-        "heading": "Kodu yazarım. Onu hayata geçiren *ekibe liderlik ederim.*",
-        "lead": "Bir yazılımcının teknik becerilerine sahibim ve veritabanı şemasından canlıya almaya kadar sürecin her adımını anlıyorum. Asıl fark yarattığım yer ürün tasarlamak ve geliştirici ekiplerine liderlik etmek. Bilgisayar Bilimi ve Psikolojiyi aynı anda okudum; ikisini de her gün kullanıyorum.",
+        "kicker": "Full-stack mühendisi · San Francisco/Los Angeles",
+        "heading": "Ürün Yöneticisi. *Mühendis.* Ekip Lideri.",
+        "lead": "Bir yazılımcının teknik yetkinliğine ve bir psikoloğun insan davranışına dair derin kavrayışına sahibim. Backend mimarisinden kusursuz bir kullanıcı deneyimi yaratmaya kadar geliştirme sürecinin her aşamasına hâkimim. Ürün tasarlamakta ve üretken ekiplere liderlik etmekte üstün bir performans sergiliyorum.\n\nBilgisayar Bilimleri ve Psikoloji alanlarında lisans (B.S.) derecesine sahibim ve problemleri çözmek ve angarya işleri otomasyonla bertaraf etmek için her iki disiplinden de her gün yararlanıyorum.\n\nÜç yıllık iş tecrübem var ve hâlihazırda Chip Theory Games'te İç Sistemler Mühendisi olarak çalışıyorum.",
         "image": "",
         "image_alt": "",
         "buttons": [
           {
-            "label": "Çalışmalarımı gör",
+            "label": "Çalışmalarımı inceleyin",
             "url": "work",
             "style": "primary",
             "new_tab": false
           },
           {
-            "label": "İletişime geç",
+            "label": "İletişime geçin",
             "url": "contact",
             "style": "secondary",
             "new_tab": false
@@ -150,10 +150,10 @@
         "columns": "1",
         "items": [
           {
-            "title": "İnsandan başlayan ürünler",
-            "meta": "Ürün tasarımı",
+            "title": "İhtiyaçları Keşfetmek",
+            "meta": "İnovasyon",
             "badge": "",
-            "body": "Psikoloji bana insanların ne yapacaklarını söylediklerine değil, gerçekte ne yaptıklarına bakmayı öğretti. Özellikleri gerçek davranışa göre kapsamlandırır, şartnameyi yazar ve bir ekibin inşa edebileceği bir plana dönüştürürüm.",
+            "body": "Psikoloji eğitimi bana insanların ne istediğinin yanı sıra neye ihtiyaç duyduğunu da tespit etmeyi öğretti. Gerekli özelliklerin kapsamını belirlemek için insanları dinliyor, rekabet ortamını kavramak için kapsamlı SWOT analizleri yürütüyor ve ardından ekibimin üzerine inşa edebileceği net teknik şartnameler kaleme alıyorum.",
             "tags": [],
             "links": [],
             "gallery": [],
@@ -164,10 +164,10 @@
             "hidden": false
           },
           {
-            "title": "Birlikte hareket eden ekipler",
+            "title": "Ekiple Birlikte İlerlemek",
             "meta": "Liderlik",
             "badge": "",
-            "body": "Dört departmanda kullanılan bir platformun geçişini yönettim, CEO, COO ve CCO için mimari öneriler yazdım ve küçük hackathon ekiplerini birinciliğe ve ikinciliğe taşıdım. İşi güçlü yönlere göre dağıtır, kapsamı gerçekçi tutarım.",
+            "body": "Disiplinlerarası pek çok etkinlik organize ettim; üst düzey yöneticiler için mimari öneriler, konferans bildirileri ve meslektaşlarım için titizlikle araştırılmış sunumlar hazırladım; vizyonumla hackathon ekiplerini başarıya taşıdım.\n\nProjelerimi departmanlara özgü modüllere ayırıyor, her bağımsız bileşen için teknik darboğazları tespit ediyor ve ardından özellikleri yatay olarak genişletiyorum. Görev dağılımını ekip arkadaşlarımın mevcut güçlü yönlerine ve aktarılabilir becerilerine göre yapıyorum. Geliştirme sürecinde genellikle bir haftalık sprintler uyguluyor, zaman çizelgelerini gerçekçi tutuyor ve projenin tüm potansiyelini ortaya koymak için paydaşlarla görüşürken iddialı hedefleri (stretch goals) her zaman açıkça belirtiyorum.",
             "tags": [],
             "links": [],
             "gallery": [],
@@ -178,10 +178,10 @@
             "hidden": false
           },
           {
-            "title": "Arkasında durabildiğim mühendislik",
+            "title": "Gurur Duyduğum Mühendislik",
             "meta": "Full-stack",
             "badge": "",
-            "body": "React, Node.js, MySQL, AWS, gerçek zamanlı sistemler ve yerel LLM’ler. Anlamadığım işi devretmem; bu da beni daha iyi bir kod gözden geçiricisi ve daha hızlı bir engel kaldırıcı yapıyor.",
+            "body": "Romalı mühendisler, iskele söküldüğünde inşa ettikleri köprülerin altında durmaya mecbur bırakılırdı; ben de teknik sistemlerime aynı anlayışla yaklaşıyorum.\n\nHassas kullanıcı verilerinin korunması benim için son derece önemli; bu nedenle kapsamlı testler yürütüyor ve kodları akran incelemesinden geçiriyorum. Taslak hazırlama ve şablon (boilerplate) kod için üretken yapay zekâdan faydalanıyorum; ancak katı denetim mekanizmalarını muhafaza ediyorum ve tam olarak kavrayamadığım algoritmaları asla yapay zekâya devretmiyorum.\n\nPython, JavaScript, C++, SQL, bulut altyapısı ve optimize edilmiş yerel büyük dil modellerinin (LLM) çalıştırılması konularında on yıllık tecrübeye sahibim; bu da beni yetkin bir kod denetçisi ve verimli bir hata ayıklayıcı kılıyor.",
             "tags": [],
             "links": [],
             "gallery": [],
