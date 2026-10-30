@@ -221,9 +221,9 @@
         "items": [
           {
             "title": "Chip Theory Games",
-            "meta": "Sistem Mühendisi · Eyl 2026 – günümüz",
+            "meta": "Sistem Mühendisi · Eylül 2026 – Günümüz",
             "badge": "",
-            "body": "- **4 ekibin** iş akışlarını tek yerde toplayan modüler bir proje yönetim platformu geliştiriyorum (React, Node.js, MySQL). İlk geçiş, prova materyali hazırlama süresini **%40**, görev devirlerini **%32** azalttı.\n- Şirket içi sunucularda çalışan üç eski uygulamayı AWS’ye taşıyor, bulut erişimi ve daha düşük bakım yükü için yeniden tasarlıyorum.",
+            "body": "- \\*\\*4 ekibin\\*\\* iş akışlarını tek bir merkezde toplayan modüler bir proje yönetim platformu (React, Node.js, MySQL) geliştiriyorum. İlk sürüm, baskı öncesi prova hazırlık süresini \\*\\*%40\\*\\*, görev devir süreçlerini ise \\*\\*%32\\*\\* oranında azalttı.\n- Kurum içi sunucularda çalışan üç eski (legacy) uygulamayı, bulut erişimine uygun ve bakım yükü daha düşük olacak şekilde yeniden yapılandırarak AWS'ye taşıyorum.",
             "tags": [
               "React",
               "Node.js",
