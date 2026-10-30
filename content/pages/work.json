@@ -276,10 +276,10 @@
             "hidden": false
           },
           {
-            "title": "Bilim Asistani",
-            "meta": "",
+            "title": "LMU Psikoloji Bölümü",
+            "meta": "Araştırma Asistanı",
             "badge": "",
-            "body": "",
+            "body": "- Karmaşık istatistiksel analiz betikleri (Python) için büyük veri kümelerini derleyip temizleyen sağlam veri toplama hatları tasarladım; 300'ü aşkın katılımcıya ait verilerde katı veri kalitesi, doğrulama ve geçerlilik denetimi sağladım.\n- İleri düzey araştırma çalışmalarına yönelik, insan algısına dair büyük veri kümelerini elde eden ve karmaşık davranışsal ölçütleri haritalandıran ölçeklenebilir simülasyon araçlarını Unity (C#) ile geliştirdim.\n- Karmaşık istatistiksel çıktıları teknik bilgiye sahip olmayan okuyucular için anlaşılır içgörülere dönüştüren, veriye dayalı kapsamlı analitik makaleler kaleme aldım.",
             "tags": [
               "Python",
               "Unity",
@@ -295,10 +295,10 @@
             "hidden": false
           },
           {
-            "title": "G2 Esporlari",
-            "meta": "Pazarlama Stajyeri",
+            "title": "G2 Esports",
+            "meta": "Pazarlama ve Ortaklık Edinimi Stajyeri",
             "badge": "",
-            "body": "",
+            "body": "- Ortaklık fırsatlarını, ticari girişimleri ve etkileşim metriklerini değerlendirmek amacıyla Salesforce, Google Analytics ve Microsoft Excel kullanarak kapsamlı pazar araştırmaları ve sponsor erişim çalışmaları yürüttüm.\n- Veriye dayalı veritabanları oluşturarak 200'ü aşkın çok uluslu şirket nezdinde ticari pazar etki alanını %34 oranında genişlettim.\n- Kurumsal sponsor edinimini optimize etmek için izleyici demografisini ve coğrafi eğilimleri sınıflandırıp modelledim.\n- İş geliştirme stratejisine, doğrudan tüketiciye (DTC) gelir modeli çalışmalarına ve ticari ortaklıklara yön vermek amacıyla nicel bulguları ve performans göstergelerini (KPI) üst yönetime sundum.",
             "tags": [],
             "links": [],
             "gallery": [],
@@ -309,10 +309,10 @@
             "hidden": false
           },
           {
-            "title": "DEI Committee",
-            "meta": "",
+            "title": "LMU Psikoloji Bölümü",
+            "meta": "Çeşitlilik, Eşitlik ve Kapsayıcılık (DEI) Komitesi Üyesi",
             "badge": "",
-            "body": "",
+            "body": "- Microsoft Office ürünleri, Adobe Photoshop ve HTML kullanarak araştırmalar yürüttüm; LMU web sitesi için psikoloji kariyerlerine yönelik tarihsel derlemeler ve küresel kaynaklar hazırladım. Ekiple Outlook ve Zoom üzerinden düzenli iletişim kurdum, son sınıf öğrencileriyle yapılan odak grubu çalışmalarını Workday aracılığıyla koordine ettim.",
             "tags": [
               "Adobe Photoshop",
               "Canva"
