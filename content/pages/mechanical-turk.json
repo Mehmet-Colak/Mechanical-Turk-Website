@@ -274,16 +274,16 @@
       },
       {
         "type": "cards",
-        "heading": "Turklere mal edilenler",
+        "heading": "Türklerin Adını Taşıyan Diğer Şeyler",
         "hidden": false,
         "intro": "",
         "columns": "2",
         "items": [
           {
-            "title": "x",
+            "title": "Hindi (İngilizcede \"turkey\")",
             "meta": "",
             "badge": "",
-            "body": "",
+            "body": "1500'lerde İngilizce konuşanlar bu Amerikan kuşunu, Osmanlı ticareti yoluyla Avrupa'ya ulaşmış ve zaten \"turkey-cock\" diye anılan beçtavuğuyla karıştırdı. Türkçede ise bu kuşun adı \"Hint'ten gelen\" anlamına gelen \\*hindi\\*dir; yani kimse onu sahiplenmeye pek hevesli değildi.",
             "tags": [],
             "links": [],
             "gallery": [],
@@ -294,10 +294,10 @@
             "hidden": false
           },
           {
-            "title": "Cig Kofte",
+            "title": "Tatar Bifteği",
             "meta": "",
             "badge": "",
-            "body": "",
+            "body": "Rivayete göre bir Türk halkı olan Tatarların atlı savaşçıları çiğ eti eyerlerinin altında yumuşatırmış. Bu bir mittir. Yemeğin bugün bildiğimiz hâli Fransız restoranlarında şekillendi; adı ise bu süvarilerin korku salan şöhretine yapılmış bir göndermedir.",
             "tags": [],
             "links": [],
             "gallery": [],
@@ -308,10 +308,10 @@
             "hidden": false
           },
           {
-            "title": "x",
+            "title": "Turkuaz",
             "meta": "",
             "badge": "",
-            "body": "",
+            "body": "Bu \"Türk taşı\" ağırlıklı olarak İran'da ve Sina'da çıkarılıyordu. Avrupa pazarlarına Türk ticaret yolları üzerinden ulaştı; adı da madenleri değil, tüccarları izledi.",
             "tags": [],
             "links": [],
             "gallery": [],
@@ -322,10 +322,10 @@
             "hidden": false
           },
           {
-            "title": "x",
+            "title": "Turks ve Caicos Adaları",
             "meta": "",
             "badge": "",
-            "body": "",
+            "body": "Adadaki kaktüslerin \"sarıklı Türklere\" benzediğini düşünmüşler.",
             "tags": [],
             "links": [],
             "gallery": [],
@@ -336,10 +336,10 @@
             "hidden": false
           },
           {
-            "title": "x",
+            "title": "Kruvasan",
             "meta": "",
             "badge": "",
-            "body": "",
+            "body": "Efsaneye göre Viyanalı fırıncılar, 1683'teki Osmanlı kuşatmasının püskürtülmesini kutlamak için hilal biçiminde bir hamur işi yapmış. Oysa atası olan Avusturya \\*kipferl\\*'i kuşatmadan daha eskidir; kruvasanın kendisi ise 19. yüzyılın bir Fransız icadıdır.",
             "tags": [],
             "links": [],
             "gallery": [],
@@ -350,10 +350,10 @@
             "hidden": false
           },
           {
-            "title": "x",
+            "title": "Lale",
             "meta": "",
             "badge": "",
-            "body": "",
+            "body": "Lale, Batı Avrupa'ya 16. yüzyılda Osmanlı bahçelerinden ulaştı; Hollandalıların onu meşhur etmesinden çok önce. Batı dillerindeki adının, çiçeğin biçimine atfen, büyük ihtimalle Türkçedeki \\*tülbent\\* (sarık) sözcüğüne dayandığı düşünülüyor. Osmanlıların bir \"Lale Devri\" (1718–1730) bile vardı.",
             "tags": [],
             "links": [],
             "gallery": [],
