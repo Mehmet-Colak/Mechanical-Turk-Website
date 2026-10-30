@@ -327,7 +327,7 @@
             "title": "Eskrim Hedef Robotu",
             "meta": "Elite Fencing Club",
             "badge": "",
-            "body": "",
+            "body": "- Flöre eskriminde reaksiyon süresini ve isabeti geliştirmeye yönelik bir robot inşa ediyorum. Bir hedef bölgesi ışıldadığında sporcunun o bölgeye isabet ettirmesi gerekiyor; seansın sonunda ise ortalama reaksiyon süresi raporlanıyor.\n- Pazardaki en büyük rakibim Favero olsa da insansı bir forma ve çok daha çok yönlü özelliklere sahip, daha uygun maliyetli bir alternatif üretebileceğime inanıyorum.\n- Hedefin LED'lerini korumak amacıyla, 38,5 mm²'lik bir yüzeye uygulanan 800 N'a kadar kuvvete dayanabilen özel sert plastik kalıplar tasarladım.\n- Sporculara hücum noktalarında daha fazla çeşitlilik sunmak için yeni bölgeler ekliyorum.\n- Nihai hedefim, belirli bir savunma pozisyonunun vücudun hangi bölgelerini açıkta bıraktığını gösterebilmek için antrenman mankenine tekerlekler ve muhtemelen bir robotik kol eklemek.",
             "tags": [
               "Arduino",
               "C++",
@@ -341,7 +341,7 @@
             ],
             "links": [
               {
-                "label": "Gosterge",
+                "label": "Tanıtım",
                 "url": "https://youtube.com/shorts/gT84GApSMoY?feature=share",
                 "style": "secondary",
                 "new_tab": true
@@ -355,10 +355,10 @@
             "hidden": false
           },
           {
-            "title": "Eskrim Hedefi Robotu",
-            "meta": "",
+            "title": "Bitki Sulama Robotu",
+            "meta": "Kişisel Kullanım",
             "badge": "",
-            "body": "",
+            "body": "- Toprak nem sensörlerini, I2C modüllerini, servo motorları, pompaları ve bir mikrodenetleyiciyi 10 W harici bataryalarla besleyen, güneş enerjili otonom bir sistem inşa ettim.\n- Kullanıcıların düzenli sulama döngüleri planlamasına, verilecek su miktarını belirlemesine ve sulamaya kalan süreyi takip etmesine olanak tanıyan, LCD ekran ve tuş takımı modülünden oluşan sezgisel bir kullanıcı arayüzü geliştirdim.\n- Bu projedeki amacım verimlilikten ziyade farklı sistemleri aynı kod tabanına entegre etmeyi öğrenmekti.",
             "tags": [
               "Arduino",
               "C++",
@@ -370,13 +370,13 @@
             ],
             "links": [
               {
-                "label": "Sulama Robotu",
+                "label": "Tanıtım",
                 "url": "https://youtube.com/shorts/MjYnnWbauPA?feature=share",
                 "style": "secondary",
                 "new_tab": true
               },
               {
-                "label": "Gomulu Sistem",
+                "label": "Gömülü Sistem",
                 "url": "https://youtube.com/shorts/-ecraDPek9Q",
                 "style": "secondary",
                 "new_tab": true
