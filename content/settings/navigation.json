@@ -2,43 +2,43 @@
   "en": {
     "items": [
       {
-        "label": "Ana Sayfa",
+        "label": "Home",
         "link": "home",
         "new_tab": false,
         "hidden": false
       },
       {
-        "label": "Hakkımda",
+        "label": "About me",
         "link": "about",
         "new_tab": false,
         "hidden": false
       },
       {
-        "label": "Deneyim",
+        "label": "Work",
         "link": "work",
         "new_tab": false,
         "hidden": false
       },
       {
-        "label": "Kişisel Projeler",
+        "label": "Personal Projects",
         "link": "projects",
         "new_tab": false,
         "hidden": false
       },
       {
-        "label": "Yetkinlikler",
+        "label": "Skills",
         "link": "skills",
         "new_tab": false,
         "hidden": false
       },
       {
-        "label": "Zaman Çizelgesi",
+        "label": "Timeline",
         "link": "timeline",
         "new_tab": false,
         "hidden": false
       },
       {
-        "label": "Mechanical Turk",
+        "label": "The Mechanical Turk",
         "link": "mechanical-turk",
         "new_tab": false,
         "hidden": false
