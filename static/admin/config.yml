@@ -23,11 +23,11 @@ logo_url: /favicon.svg
 media_folder: static/assets/uploads
 public_folder: /assets/uploads
 
-# Languages shown as tabs in the editor. To add Spanish, Arabic, Russian or Chinese:
+# Languages shown as tabs in the editor. To add Arabic, Russian or Chinese:
 # 1) add its code here, 2) enable it in Settings → Languages. (README → “Adding a language”)
 i18n:
   structure: single_file
-  locales: [en, tr]
+  locales: [en, tr, es]
   default_locale: en
 
 # ---------------------------------------------------------------------------
@@ -1503,8 +1503,8 @@ collections:
             label: Languages
             label_singular: Language
             widget: list
-            summary: "{{fields.code}} · {{fields.name}}"
-            hint: "A language must also be listed under i18n → locales in static/admin/config.yml to be editable here."
+            summary: "{{fields.code}} · {{fields.name}} · published: {{fields.enabled}}"
+            hint: "Untick “Published on the site” to take a language off the site; its translations stay saved. A language must also be listed under i18n → locales in static/admin/config.yml to be editable here."
             fields:
               - {
                   name: code,

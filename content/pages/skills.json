@@ -38,5 +38,24 @@
         "intro": ""
       }
     ]
+  },
+  "es": {
+    "permalink": "skills",
+    "title": "Competencias",
+    "description": "Lenguajes, frameworks y herramientas de nube e inteligencia artificial que emplea Mehmet Colakoglu.",
+    "kicker": "Competencias",
+    "show_title": true,
+    "intro": "Estas son las herramientas con las que construyo. Prefiero los lenguajes de scripting, pero poseo una amplia experiencia con lenguajes compilados.",
+    "divider_motif": "",
+    "og_image": "",
+    "draft": false,
+    "blocks": [
+      {
+        "type": "skills",
+        "heading": "",
+        "hidden": false,
+        "intro": ""
+      }
+    ]
   }
 }

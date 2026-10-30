@@ -184,5 +184,98 @@
         "hidden": false
       }
     ]
+  },
+  "es": {
+    "entries": [
+      {
+        "date": "2026 - Actualidad",
+        "kind_label": "Exploración",
+        "title": "El aprendizaje de la robótica y el trabajo con inteligencia artificial",
+        "org": "",
+        "body": "Desde junio de este año me cautiva el autoaprendizaje de la robótica, con la ayuda de personas extraordinarias de mi makerspace. Me apasiona que esta disciplina me exija diseñar con miras a la longevidad, reajustar el alcance de mis proyectos sobre la marcha y comprender cada componente de un sistema. Asimismo, a fin de reducir el coste de los tokens, he comenzado a alojar por mi cuenta modelos Qven cuantizados en una computadora personal en desuso, alimentada por paneles solares. Si bien la calidad del código que produce Qven aún no está a la altura de los modelos de frontera, saber que dispongo de un modelo personal de pesos abiertos, más económico y renovable, me colma de satisfacción.",
+        "image": "/assets/uploads/multimeter.jpg",
+        "image_alt": "",
+        "image_position": "right",
+        "more_images": [],
+        "link": "",
+        "motif": "muska",
+        "hidden": false
+      },
+      {
+        "date": "2025 - Actualidad",
+        "kind_label": "Trabajo",
+        "title": "El ingreso en el mundo laboral",
+        "org": "Chip Theory Games",
+        "body": "Desde mi graduación he seguido ampliando la experiencia profesional adquirida durante la universidad. Implanté sistemas automatizados para gestionar las consultas de atención al cliente, depuré sitios web de campañas políticas, completé unas prácticas de ingeniería frontend y obtuve un puesto de backend como Ingeniero de Sistemas en Chip Theory Games. Gracias a estas experiencias me he consolidado como un ingeniero full-stack nativo de la IA, familiarizado con todas las etapas del ciclo de vida de un producto, seguro de su oficio y capaz de anticipar las consecuencias de sus decisiones de diseño.",
+        "image": "/assets/uploads/almaty.png",
+        "image_alt": "",
+        "image_position": "left",
+        "more_images": [],
+        "link": "",
+        "motif": "yildiz",
+        "hidden": false
+      },
+      {
+        "date": "2025",
+        "kind_label": "Formación",
+        "title": "Graduación cum laude",
+        "org": "Los Ángeles, California",
+        "body": "En agosto de 2025 me gradué con una licenciatura (B.S.) en Ciencias de la Computación y Psicología y un promedio de 3.8 (GPA). Gracias a mi enfoque innovador para forjar comunidad en EurAsian Lions, mi club fue reconocido como el más prestigioso entre más de 200 organizaciones estudiantiles, recibió el New Outstanding Organization of the Year Award en 2024 y obtuvo el Practice Ignatian Values Award en 2025.",
+        "image": "/assets/uploads/award.jpg",
+        "image_alt": "",
+        "image_position": "right",
+        "more_images": [],
+        "link": "",
+        "motif": "goz",
+        "hidden": false
+      },
+      {
+        "date": "2021 - 2025",
+        "kind_label": "Formación",
+        "title": "Loyola Marymount University",
+        "org": "Los Ángeles, California",
+        "body": "Cuando ingresé en Loyola Marymount University no se ofrecía la carrera de Ciencias Cognitivas, de modo que opté por una doble titulación en Ciencias de la Computación y Psicología. Deseaba comprender cómo se desarrollan las inteligencias artificiales, cómo se diseñan los sistemas informáticos y de qué manera empleamos heurísticas para resolver problemas. Durante este período trabajé en un laboratorio de Psicología y desarrollé proyectos basados en simulaciones por computadora. Mis investigaciones examinaron cómo los entornos digitales inciden en la psique humana y cómo la psicología social puede contribuir a determinar la probabilidad de una guerra.\n\nEn mi tercer año detecté asimismo una carencia en la representación de diversas culturas entre los clubes universitarios. Por ello fundé EurAsian Lions, un club cultural que impartía conocimientos y organizaba actividades sobre las culturas de Europa del Este, Oriente Medio y Asia Central. Dictamos conferencias de una hora, jugamos al backgammon, preparamos café, aprendimos danzas, celebramos el Nowruz, montamos a caballo y organizamos veladas de cine al aire libre. Mediante colaboraciones multiculturales con otras organizaciones del campus, desplazamos la ventana de Overton hacia conversaciones más inclusivas e interseccionales.",
+        "image": "/assets/uploads/logo.jpg",
+        "image_alt": "",
+        "image_position": "left",
+        "more_images": [
+          {
+            "image": "/assets/uploads/dancing.png",
+            "alt": ""
+          }
+        ],
+        "link": "",
+        "motif": "koc_boynuzu",
+        "hidden": false
+      },
+      {
+        "date": "2014 - 2021",
+        "kind_label": "Fundamentos",
+        "title": "Traslado a Inglaterra",
+        "org": "Southampton, Reino Unido",
+        "body": "Tras las protestas de Gezi, mi madre, mi hermano y yo nos trasladamos al Reino Unido. Allí cursé estudios en Eggar's School, en Hampshire. Tras obtener calificaciones sobresalientes en los GCSE, tuve el privilegio de residir como interno en Peter Symonds Sixth Form College, el mayor del país, con un alumnado de más de 8000 estudiantes. Cuando estalló la pandemia de COVID-19 y la enseñanza pasó a impartirse en línea, dirigí una campaña íntegramente remota para resultar elegido presidente de la Student Union y colaboré con el profesorado en la reapertura del campus. Fue también en Peter Symonds College donde germinó mi pasión por los circuitos.",
+        "image": "/assets/uploads/flyer.jpg",
+        "image_alt": "",
+        "image_position": "right",
+        "more_images": [],
+        "link": "",
+        "motif": "pitrak",
+        "hidden": false
+      },
+      {
+        "date": "2002 - 2014",
+        "kind_label": "Fundamentos",
+        "title": "Nacimiento en Estambul",
+        "org": "Estambul, Turquía",
+        "body": "Nací en Estambul y asistí a Ozel Alev Okullari, donde aprendí alemán y desarrollé mi interés por las matemáticas.",
+        "image": "/assets/uploads/childhood.png",
+        "image_alt": "",
+        "image_position": "left",
+        "more_images": [],
+        "link": "",
+        "motif": "dogum",
+        "hidden": false
+      }
+    ]
   }
 }

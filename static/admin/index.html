@@ -7,19 +7,27 @@
   <title>Content manager · mechanical-turk.dev</title>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link href="/admin/config.yml" type="application/yaml" rel="cms-config-url">
-  <!-- Language strip: blue while editing English, red while editing Turkish, split when both panes are open. -->
+  <!-- Language strip: blue while editing English, red while editing Turkish, orange while editing Spanish, split when two panes are open. -->
   <style>
-    :root { --lang-en: #1d4ed8; --lang-tr: #e30a17; }
+    :root { --lang-en: #1d4ed8; --lang-tr: #e30a17; --lang-es: #f97316; }
     body:has(.content-editor .pane[data-mode="edit"])::before {
       content: ""; position: fixed; inset: 0 0 auto 0; height: 6px; z-index: 99999; pointer-events: none;
     }
     body:has(.content-editor .pane[data-mode="edit"][data-locale="en"])::before { background: var(--lang-en); }
     body:has(.content-editor .pane[data-mode="edit"][data-locale="tr"])::before { background: var(--lang-tr); }
+    body:has(.content-editor .pane[data-mode="edit"][data-locale="es"])::before { background: var(--lang-es); }
     body:has(.content-editor .pane[data-mode="edit"][data-locale="en"]):has(.content-editor .pane[data-mode="edit"][data-locale="tr"])::before {
       background: linear-gradient(to right, var(--lang-en) 50%, var(--lang-tr) 50%);
     }
+    body:has(.content-editor .pane[data-mode="edit"][data-locale="en"]):has(.content-editor .pane[data-mode="edit"][data-locale="es"])::before {
+      background: linear-gradient(to right, var(--lang-en) 50%, var(--lang-es) 50%);
+    }
+    body:has(.content-editor .pane[data-mode="edit"][data-locale="tr"]):has(.content-editor .pane[data-mode="edit"][data-locale="es"])::before {
+      background: linear-gradient(to right, var(--lang-tr) 50%, var(--lang-es) 50%);
+    }
     .content-editor .pane[data-mode="edit"][data-locale="en"] { box-shadow: inset 0 4px 0 var(--lang-en); }
     .content-editor .pane[data-mode="edit"][data-locale="tr"] { box-shadow: inset 0 4px 0 var(--lang-tr); }
+    .content-editor .pane[data-mode="edit"][data-locale="es"] { box-shadow: inset 0 4px 0 var(--lang-es); }
   </style>
 </head>
 <body>

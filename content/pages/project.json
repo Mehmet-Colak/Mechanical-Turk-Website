@@ -608,5 +608,310 @@
         ]
       }
     ]
+  },
+  "es": {
+    "permalink": "projects",
+    "title": "Proyectos personales",
+    "description": "",
+    "kicker": "",
+    "show_title": true,
+    "intro": "",
+    "show_divider": true,
+    "divider_motif": "",
+    "og_image": "",
+    "draft": false,
+    "blocks": [
+      {
+        "type": "cards",
+        "heading": "Robótica",
+        "hidden": false,
+        "intro": "",
+        "columns": "1",
+        "items": [
+          {
+            "title": "Fencing Target Robot",
+            "meta": "Elite Fencing Club",
+            "badge": "",
+            "body": "- Actualmente construyo un robot para entrenar el tiempo de reacción y la puntería en la esgrima de florete. Cuando se ilumina una zona de blanco, el deportista debe tocarla y, al concluir la sesión, obtiene su tiempo medio de reacción.\n- Si bien Favero es mi principal competidor en el mercado, considero factible ofrecer una alternativa más económica, de forma humanoide y con prestaciones más versátiles.\n- Para proteger los LED del blanco, creé moldes de plástico rígido a medida, capaces de resistir hasta 800 N de fuerza sobre una superficie de 38,5 mm².\n- Estoy añadiendo más secciones para ofrecer mayor variedad de zonas de ataque.\n- Con el tiempo, aspiro a incorporar ruedas y, posiblemente, un brazo robótico al maniquí de entrenamiento, a fin de mostrar cómo una determinada defensa puede dejar expuestas distintas partes del cuerpo.",
+            "tags": [
+              "Arduino",
+              "C++",
+              "Ingeniería eléctrica",
+              "Análisis DAFO",
+              "Diseño de circuitos",
+              "Impresión 3D",
+              "OnShape",
+              "Fabricación de moldes",
+              "Colada de resina epoxi"
+            ],
+            "links": [
+              {
+                "label": "Demostración",
+                "url": "https://youtube.com/shorts/gT84GApSMoY?feature=share",
+                "style": "secondary",
+                "new_tab": true
+              }
+            ],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Plant Watering Robot",
+            "meta": "Uso personal",
+            "badge": "",
+            "body": "- Construí un sistema autónomo alimentado por energía solar, con baterías externas de 10 W que abastecen sensores de humedad del suelo, módulos I2C, servomotores, bombas y un microcontrolador.\n- Desarrollé una interfaz de usuario intuitiva, con pantalla LCD y módulo de teclado, que permite programar ciclos regulares de riego, fijar la cantidad de agua y consultar la cuenta atrás hasta el siguiente riego.\n- Con este proyecto, mi objetivo no era tanto la eficiencia como aprender a integrar sistemas dispares en una misma base de código.",
+            "tags": [
+              "Arduino",
+              "C++",
+              "Energías renovables",
+              "Ingeniería mecánica",
+              "Resolución de problemas",
+              "Soldadura",
+              "Carpintería"
+            ],
+            "links": [
+              {
+                "label": "Demostración",
+                "url": "https://youtube.com/shorts/MjYnnWbauPA?feature=share",
+                "style": "secondary",
+                "new_tab": true
+              },
+              {
+                "label": "Sistema embebido",
+                "url": "https://youtube.com/shorts/-ecraDPek9Q",
+                "style": "secondary",
+                "new_tab": true
+              }
+            ],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "heading": "Inteligencia artificial",
+        "hidden": false,
+        "intro": "",
+        "columns": "1",
+        "items": [
+          {
+            "title": "Auto Dev. Env. (ADE)",
+            "meta": "Uso personal",
+            "badge": "",
+            "body": "- Construí un agente autónomo de programación que escribe, prueba y depura código localmente a partir de criterios de aceptación definidos por el usuario.\n- Desplegué localmente, mediante Ollama, un LLM cuantizado de 7B sobre un equipo de 8 GB de VRAM y 32 GB de RAM, con acceso SSH para el desarrollo remoto.\n- Hice funcionar toda la infraestructura física de cómputo con un conjunto solar autónomo de 400 W y un banco de baterías de 2000 Wh, a fin de eludir los costes de cómputo en la nube.",
+            "tags": [
+              "Ollama",
+              "OpenSSH",
+              "Dyad",
+              "IA agéntica"
+            ],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "heading": "Software",
+        "hidden": false,
+        "intro": "",
+        "columns": "1",
+        "items": [
+          {
+            "title": "Glendale Ready",
+            "meta": "Jewel City Hacks",
+            "badge": "1.er puesto",
+            "body": "- Obtuvimos el primer puesto entre más de 15 equipos, como dúo que desarrollaba directamente para el Glendale Fire Department.\n- Creé una herramienta de riesgo geolocalizada que superpone los datos de peligro de Cal Fire sobre Google Maps para mostrar las zonas de amenaza activa y las rutas de evacuación, con integración de Google Calendar para los recordatorios periódicos de simulacros de emergencia.",
+            "tags": [
+              "React",
+              "Node.js",
+              "Vercel v0",
+              "Google Maps API",
+              "Firebase"
+            ],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Fix-It-LA",
+            "meta": "Vision Hack",
+            "badge": "2.º puesto",
+            "body": "- Desarrollé una aplicación de denuncia cívica impulsada por IA que emplea Gemini Vision para clasificar incidencias de infraestructura a partir de las fotografías de los usuarios, dirigirlas al formulario pertinente de LA 311 y remitir los avisos directamente a la Alcaldía.\n- Extraje con Python los datos del portal 311 para cartografiar el esquema de sus formularios, lo que permitió generar dinámicamente los campos de las distintas categorías de solicitud.\n- Obtuvimos el segundo puesto entre unos 20 equipos (además de una mención de honor a la presentación), con una exposición en directo ante más de 100 asistentes, entre ellos inversores locales y representantes municipales.",
+            "tags": [
+              "React",
+              "Python",
+              "Node.js",
+              "Vercel v0",
+              "Gemini API"
+            ],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "heading": "Artículos de investigación",
+        "hidden": false,
+        "intro": "",
+        "columns": "1",
+        "items": [
+          {
+            "title": "Vertical Distance Estimation Study",
+            "meta": "Psicología",
+            "badge": "Publicación pendiente",
+            "body": "- Construí una simulación completa de realidad virtual en Unity / C# que reproducía entornos de altura reales, para un estudio controlado con más de 40 participantes.\n- Diseñé en Python un flujo de análisis estadístico de los datos de percepción de la altura, con el que obtuve resultados estadísticamente significativos.\n- Redacté un artículo académico sobre los hallazgos, en preparación para su publicación.",
+            "tags": [
+              "Unity",
+              "C#",
+              "Python",
+              "Diseño de investigación"
+            ],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Intergroup Conflict Calculator",
+            "meta": "Ciencias de la Computación",
+            "badge": "Publicación pendiente",
+            "body": "- Identifiqué una laguna en la metodología cuantitativa de predicción de conflictos, tomando como base específica la teoría del conflicto realista de Muzafer Sherif.\n- Concebí un marco matemático escalable, sustentado en 11 teorías de la psicología social, para calcular la probabilidad de conflicto entre dos grupos como un resultado probabilístico.\n- Diseñé una aplicación web full-stack en React (HTML, CSS, Firebase) que ofrece el modelo como una calculadora interactiva.\n- La desplegué en Firebase Hosting, con una capa de registro basada en Firestore para la analítica de uso.",
+            "tags": [
+              "React",
+              "Firebase",
+              "CSS",
+              "Diseño de investigación"
+            ],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "heading": "Videojuegos",
+        "hidden": false,
+        "intro": "",
+        "columns": "1",
+        "items": [
+          {
+            "title": "Hell Upon the Highest Tower",
+            "meta": "Demostración",
+            "badge": "Publicación pendiente",
+            "body": "- Diseñé la arquitectura de un motor de juego de cartas para 2 jugadores en Unity / C#, con un sistema de cartas orientado a datos (ScriptableObjects), lógica de turnos mediante máquina de estados y un backend de red local basado en Unity Netcode for GameObjects (modelo de autoridad cliente-servidor).\n- Concebí una arquitectura de entidades y componentes de uso eficiente de la memoria, compatible con más de 200 interacciones únicas entre cartas; perfilé y optimicé la presión sobre el recolector de basura para mantener 60 fps estables en equipos de gama media.\n- Publiqué el código fuente en GitHub, de modo que cualquiera pueda ejecutar la demostración localmente.",
+            "tags": [
+              "Unity",
+              "C#",
+              "Pruebas de jugabilidad"
+            ],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Proyecto secreto de Chip Theory Games",
+            "meta": "Demostración",
+            "badge": "En desarrollo",
+            "body": "- En fase exploratoria.\n- Sujeto a un acuerdo de confidencialidad (NDA).",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "heading": "Escritura creativa",
+        "hidden": false,
+        "intro": "",
+        "columns": "1",
+        "items": [
+          {
+            "title": "Without Feathers",
+            "meta": "Cuento",
+            "badge": "Publicación pendiente",
+            "body": "- Atípico relato de vaqueros ambientado en los desiertos de Turkmenistán durante la década de 1980.\n- Cuando un grupo de bandidos secuestra a su esposa, un líder rebelde local debe reunir a sus aliados y rescatarla para defender su honor.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "The Dybbuk and the Shaman",
+            "meta": "Cuento",
+            "badge": "Primer borrador",
+            "body": "- Relato de terror y de iniciación ambientado en la Finlandia de la década de 1940.\n- Una joven amputada y el sacerdote que la adoptó deben aunar fuerzas para desterrar a un letal dibuk antes de que siembre el caos entre la población local.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "The Divine Color",
+            "meta": "Cuento",
+            "badge": "Segundo borrador",
+            "body": "- Thriller de trasfondo religioso ambientado en la Etiopía actual.\n- Cuando unos soldados que aguardan su ejecución secuestran a un anciano de una aldea vecina, un pintor bondadoso, aunque inestable, de una ciudad cercana se convierte en la única esperanza de aquel hombre.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
+      }
+    ]
   }
 }

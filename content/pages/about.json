@@ -332,5 +332,172 @@
         ]
       }
     ]
+  },
+  "es": {
+    "permalink": "about",
+    "title": "Sobre mí",
+    "description": "La historia de cómo Mehmet Colakoglu llegó al software a través de la psicología, la investigación y los equipos.",
+    "kicker": "Sobre mí",
+    "show_title": true,
+    "intro": "Ingeniero, graduado en Psicología y, por lo general, quien termina organizando al equipo.",
+    "show_divider": true,
+    "divider_motif": "goz",
+    "og_image": "",
+    "draft": false,
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Llegué al software a través de las personas",
+        "image": "",
+        "image_alt": "",
+        "hidden": false,
+        "body": "En Loyola Marymount University cursé simultáneamente Ciencias de la Computación y Psicología, y me gradué cum laude en 2025 con un promedio de 3.8 (GPA). Ambas titulaciones mantuvieron entre sí una provechosa disputa. Las ciencias de la computación me enseñaron cómo se comportan los sistemas. La psicología me enseñó cómo se comportan las personas ante ellos, y que la segunda cuestión suele dirimir si la primera tiene alguna relevancia.\n\nDurante dos años fui asistente de investigación en el Departamento de Psicología de LMU. Escribí scripts en Python que depuraban y validaban los datos de más de 300 participantes, y desarrollé simulaciones tridimensionales en Unity para medir cómo perciben las personas el mundo que las rodea. Fue mi primera lección sobre la creación de herramientas al servicio de la labor ajena: los investigadores no querían código; querían experimentos que funcionaran.\n\nTras graduarme me incorporé a la industria y fui gravitando hacia los problemas situados _entre_ los equipos. En DJ League desarrollé interfaces de competición en tiempo real con React y Convex. En Incredible Dream Studios conecté herramientas de gestión de incidencias hechas a medida con la infraestructura web de la empresa, reduje los tiempos de resolución en un 82 % y redacté las especificaciones y propuestas de arquitectura en las que la dirección se basó para decidir qué construir a continuación. Hoy soy Ingeniero de Sistemas en Chip Theory Games, donde desarrollo una plataforma de gestión de proyectos compartida por cuatro departamentos y migro sistemas heredados a una arquitectura en la nube.\n\nLos hackatones son el ámbito en el que ejercito el liderazgo de equipos reducidos en entornos vertiginosos. Me enseñan a acotar el alcance, a asignar el trabajo según las fortalezas de cada persona y a presentar con solvencia lo construido. Así obtuvimos el primer puesto en Jewel City Hacks, con un desarrollo destinado al Glendale Fire Department, y el segundo puesto, junto con un premio a la presentación, en Demo Vision Hack, patrocinado por la Alcaldía.\n\nMi pasión actual es la robótica, que me permite conjugar mi formación en Ciencias de la Computación, Psicología y Física. Si bien resolver problemas de software resulta grato y estimulante en la justa medida, la robótica me permite sostener mi creación entre las manos, orientarme hacia una industria en vertiginoso crecimiento y construir sistemas que ayuden a las personas en pro del bien común.",
+        "as_card": true,
+        "show_band": true,
+        "image_position": "top",
+        "more_images": []
+      },
+      {
+        "type": "divider",
+        "motif": "goz"
+      },
+      {
+        "type": "cards",
+        "heading": "Más allá del trabajo",
+        "hidden": false,
+        "intro": "",
+        "columns": "2",
+        "items": [
+          {
+            "title": "Aprender robótica",
+            "meta": "Objetivo a largo plazo",
+            "badge": "",
+            "body": "Me apasiona diseñar circuitos complejos, soldar y trabajar con circuitería para emular el funcionamiento de las neuronas humanas. Disfruto calibrando sensores y trabajando con ellos; me deleita ver cómo los motores se mueven tal como me propongo, y tolero empalmar cables para conformar un sistema nervioso. En el software es posible editar y clonar el código con unos pocos comandos; en el hardware, modificar hasta el más mínimo detalle exige una planificación minuciosa y días de reestructuración. (Disculpen el desorden de cables: TinkerCAD no disponía de los componentes que necesitaba, ja, ja).",
+            "tags": [],
+            "links": [],
+            "gallery": [
+              {
+                "image": "/assets/uploads/messy wiring.png",
+                "alt": "",
+                "caption": ""
+              }
+            ],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Esgrima",
+            "meta": "Florete - Elite Fencing Club",
+            "badge": "",
+            "body": "Practico esgrima desde los 13 años. Aunque probé la espada, descubrí que disfruto más del florete, por ser más veloz y ofrecer mayor margen para el ensayo y error. La esgrima me permite observar a mi oponente y resolver problemas en tiempo real.",
+            "tags": [],
+            "links": [],
+            "gallery": [
+              {
+                "image": "/assets/uploads/fencing.png",
+                "alt": "",
+                "caption": ""
+              }
+            ],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Tiro con arco",
+            "meta": "Recurvo olímpico - Rancho Park Archers",
+            "badge": "",
+            "body": "Me inicié en el tiro con arco tras visitar Almaty, en Kazajistán. Practico principalmente el tiro al blanco con un arco ILF, a distancias de entre 18 y 28 metros. El tiro con arco es una experiencia sosegadora que me permite relajarme, apuntar con firmeza, cometer errores y diagnosticar el problema cuando mi técnica o mi equipo flaquean. Asimismo, me permite reencontrarme con mi herencia túrquica.",
+            "tags": [],
+            "links": [
+              {
+                "label": "Véame disparar",
+                "url": "https://youtube.com/shorts/mwmkznOFC1Y",
+                "style": "secondary",
+                "new_tab": true
+              }
+            ],
+            "gallery": [
+              {
+                "image": "/assets/uploads/first archery.png",
+                "alt": "",
+                "caption": ""
+              }
+            ],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Equitación",
+            "meta": "Monta western - Portuguese Bend Riding Club",
+            "badge": "",
+            "body": "Desde principios de 2026 tomo clases de equitación. Prefiero la monta western porque me resulta más utilitaria, liberadora y natural. Valoro enormemente el vínculo que he ido forjando con los animales del rancho, y aprender a confiar en el proceso en lugar de temer a mi «compañero» constituye una magnífica lección de vida. Y, una vez más, esto me ayuda a reencontrarme con mi herencia.",
+            "tags": [],
+            "links": [
+              {
+                "label": "Véame cabalgar",
+                "url": "https://youtube.com/shorts/WA6U7myg7ec",
+                "style": "secondary",
+                "new_tab": true
+              }
+            ],
+            "gallery": [
+              {
+                "image": "/assets/uploads/horse riding.png",
+                "alt": "",
+                "caption": ""
+              }
+            ],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Tiro con arco a caballo",
+            "meta": "Tensado asiático - Heather Horseback Archery",
+            "badge": "",
+            "body": "Ya captan la idea; huelga seguir «fustigando a un ya-saben-qué muerto».",
+            "tags": [],
+            "links": [],
+            "gallery": [
+              {
+                "image": "/assets/uploads/horseback archery.png",
+                "alt": "",
+                "caption": ""
+              }
+            ],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Escritura de ficción",
+            "meta": "",
+            "badge": "",
+            "body": "Escribo cuentos y guiones desde muy temprana edad. Me centro en la ciencia ficción y la fantasía, el drama y el terror. Me seducen la reinterpretación de los mitos y la incorporación de alegorías políticas. Mis relatos transcurren en escenarios muy diversos, como las selvas de México, las tierras altas de Etiopía, los archipiélagos de Indonesia, las ciénagas de Finlandia y los desiertos de Turkmenistán.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
+      }
+    ]
   }
 }

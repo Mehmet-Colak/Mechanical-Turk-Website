@@ -308,5 +308,160 @@
         ]
       }
     ]
+  },
+  "es": {
+    "permalink": "attributed-to-turkey",
+    "title": "Cosas atribuidas a Turquía",
+    "description": "El pavo, la turquesa, el steak tartar y mucho más: lo que es verdaderamente turco y lo que solo tomó prestado el nombre.",
+    "kicker": "Etimología y folclore",
+    "show_title": true,
+    "intro": "Europa pasó siglos bautizando con el nombre de los turcos todo cuanto le parecía exótico. He aquí lo que es verdaderamente turco y lo que solo tomó prestado el nombre.",
+    "divider_motif": "",
+    "og_image": "",
+    "draft": false,
+    "blocks": [
+      {
+        "type": "cards",
+        "heading": "",
+        "hidden": false,
+        "intro": "",
+        "columns": "2",
+        "items": [
+          {
+            "title": "El pavo (turkey)",
+            "meta": "Originario de América",
+            "badge": "No es turco",
+            "body": "En el siglo XVI, los angloparlantes confundieron esta ave americana con la gallina de Guinea, llegada a Europa por las rutas comerciales otomanas y ya denominada «turkey-cock»; de ahí su nombre en inglés, turkey. En turco, el ave se llama *hindi*, «la de la India», de modo que nadie quiso atribuírsela.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Turquesa",
+            "meta": "Del francés *pierre turquoise*",
+            "badge": "Debe su nombre a Turquía",
+            "body": "La «piedra turca» se extraía principalmente en Persia y el Sinaí. Llegó a los mercados europeos por las rutas comerciales turcas, y el nombre siguió a los mercaderes antes que a las minas.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Steak tartar",
+            "meta": "Debe su nombre a los tártaros",
+            "badge": "Una leyenda",
+            "body": "Cuenta la historia que los jinetes tártaros, un pueblo túrquico, ablandaban la carne cruda bajo sus sillas de montar. Es un mito. El plato tal como lo conocemos tomó forma en los restaurantes franceses, y su nombre es un guiño a la temible reputación de aquellos jinetes.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Tulipanes",
+            "meta": "A través del Imperio otomano",
+            "badge": "Mayormente cierto",
+            "body": "Los tulipanes llegaron a Europa occidental desde los jardines otomanos en el siglo XVI, mucho antes de que los neerlandeses les dieran fama. Es probable que la palabra se remonte al turco *tülbent*, «turbante», por la forma de la flor. Los otomanos llegaron a tener incluso una «Era de los Tulipanes» (1718–1730).",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "El cruasán",
+            "meta": "¿Viena, 1683?",
+            "badge": "Mito",
+            "body": "Cuenta la leyenda que los panaderos vieneses crearon un bollo en forma de media luna para celebrar la derrota del asedio otomano de 1683. Su antepasado, el *kipferl* austríaco, es anterior al asedio, y el cruasán propiamente dicho es una creación francesa del siglo XIX.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Delicia turca",
+            "meta": "Lokum",
+            "badge": "Verdaderamente turco",
+            "body": "Un clásico de la Estambul otomana, vendido por confiteros como Hacı Bekir desde finales del siglo XVIII. Los viajeros europeos llevaban cajas a sus países y le dieron su nombre en inglés, *Turkish delight*.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Café turco",
+            "meta": "El método, no el grano",
+            "badge": "Verdaderamente turco",
+            "body": "El café procede de Etiopía y Yemen, pero el estilo de molienda fina y cocción lenta, así como la cultura de las cafeterías, tomaron forma en el Imperio otomano. La UNESCO reconoce la cultura del café turco como patrimonio cultural inmaterial.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "The Mechanical Turk",
+            "meta": "Viena, 1770",
+            "badge": "Nada turco",
+            "body": "Construido en Austria por un ingeniero húngaro y simplemente ataviado como un turco. No obstante, es la razón por la que este sitio web se llama como se llama.",
+            "tags": [],
+            "links": [
+              {
+                "label": "Leer la historia",
+                "url": "mechanical-turk",
+                "style": "secondary",
+                "new_tab": false
+              }
+            ],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Islas Turcas y Caicos",
+            "meta": "",
+            "badge": "",
+            "body": "",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
+      }
+    ]
   }
 }

@@ -400,5 +400,206 @@
         ]
       }
     ]
+  },
+  "es": {
+    "permalink": "work",
+    "title": "Trayectoria",
+    "description": "Experiencia profesional, investigación, proyectos y labor cívica de Mehmet Colakoglu.",
+    "kicker": "Trayectoria",
+    "show_title": true,
+    "intro": "Dónde he construido, qué he aprendido y qué cambió como consecuencia.",
+    "show_divider": true,
+    "divider_motif": "",
+    "og_image": "",
+    "draft": false,
+    "blocks": [
+      {
+        "type": "cards",
+        "heading": "Experiencia",
+        "hidden": false,
+        "intro": "",
+        "columns": "1",
+        "items": [
+          {
+            "title": "Chip Theory Games",
+            "meta": "Ingeniero de Sistemas · sept. 2026 – actualidad",
+            "badge": "",
+            "body": "- Desarrollo una plataforma modular de gestión de proyectos (React, Node.js, MySQL) que centraliza los flujos de trabajo de **4 equipos**. El primer despliegue redujo el tiempo de preparación de pruebas de imprenta en un **40 %** y los traspasos de tareas en un **32 %**.\n- Migro tres aplicaciones heredadas locales a AWS, rediseñando su arquitectura para el acceso en la nube y un menor mantenimiento.",
+            "tags": [
+              "React",
+              "Node.js",
+              "MySQL",
+              "AWS"
+            ],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Incredible Dream Studios",
+            "meta": "Ingeniero de Tecnología y Automatización · mar. – sept. 2026",
+            "badge": "",
+            "body": "- Diseñé e implementé automatizaciones de cara al cliente para recopilar, clasificar y analizar datos operativos, con lo que reduje el tiempo de resolución de incidencias en un 82 % y optimicé la asignación de recursos internos.\n- Elaboré exhaustivos informes técnicos y analíticos que delimitaban el alcance de los proyectos, las restricciones presupuestarias y las directrices operativas para el CEO, el COO y el CCO, en apoyo de la toma de decisiones estratégicas.\n- Concebí flujos internos de cadena de suministro y de comunicación con Python, JavaScript y Zapier mediante API REST y webhooks, con lo que incrementé la eficiencia de la distribución en un 45 % y salvaguardé los intereses de las partes interesadas.",
+            "tags": [
+              "JavaScript",
+              "Webhooks",
+              "Zapier",
+              "Arquitectura"
+            ],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "DJ League",
+            "meta": "Becario de Ingeniería Frontend · feb. – abr. 2026",
+            "badge": "",
+            "body": "- Desarrollé componentes animados en React para competiciones en directo sobre la capa reactiva de WebSocket de Convex, con una latencia inferior a **50 ms** en más de 200 conexiones concurrentes.\n- Gestioné escrituras de alta frecuencia mediante suscripciones con debounce y actualizaciones optimistas para mantener **60 FPS** estables.",
+            "tags": [
+              "React",
+              "Convex",
+              "WebSockets"
+            ],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Departamento de Psicología de LMU",
+            "meta": "Asistente de investigación",
+            "badge": "",
+            "body": "- Concebí sólidos flujos de recopilación de datos para agregar y depurar grandes conjuntos de datos destinados a complejos scripts de análisis estadístico (Python), garantizando una rigurosa calidad, verificación y validación de los datos de más de 300 participantes.\n- Desarrollé herramientas de simulación escalables en Unity (C#) para extraer grandes conjuntos de datos de percepción humana y cartografiar complejas métricas conductuales destinadas a estudios de investigación avanzados.\n- Redacté exhaustivos artículos analíticos sustentados en datos, que traducían complejos resultados estadísticos en conclusiones diáfanas para lectores sin formación técnica.",
+            "tags": [
+              "Python",
+              "Unity",
+              "C#",
+              "Diseño de investigación"
+            ],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "G2 Esports",
+            "meta": "Becario de Marketing y Captación de Alianzas",
+            "badge": "",
+            "body": "- Llevé a cabo una exhaustiva investigación de mercado y una labor de captación de patrocinadores con Salesforce, Google Analytics y Microsoft Excel para evaluar oportunidades de colaboración, iniciativas comerciales y métricas de participación.\n- Amplié la presencia comercial en el mercado en un 34 % entre más de 200 corporaciones multinacionales mediante la creación de bases de datos orientadas por datos.\n- Clasifiqué y modelé la demografía de la audiencia y las tendencias geográficas para optimizar la captación de patrocinadores corporativos.\n- Presenté resultados cuantitativos e indicadores clave de rendimiento (KPI) a la alta dirección para orientar la estrategia de desarrollo de negocio, la monetización directa al consumidor (DTC) y las alianzas comerciales.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Departamento de Psicología de LMU",
+            "meta": "Miembro del Comité de Diversidad, Equidad e Inclusión (DEI)",
+            "badge": "",
+            "body": "- Empleé productos de Microsoft Office, Adobe Photoshop y HTML para investigar y elaborar reseñas históricas y recursos globales sobre las carreras en psicología para el sitio web de LMU. Mantuve una comunicación regular con el equipo a través de Outlook y Zoom, y coordiné grupos focales de estudiantes de último año con Workday.",
+            "tags": [
+              "Adobe Photoshop",
+              "Canva"
+            ],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "heading": "Liderazgo",
+        "hidden": false,
+        "intro": "",
+        "columns": "1",
+        "items": [
+          {
+            "title": "EurAsian Lions",
+            "meta": "Fundador, presidente y responsable de participación comunitaria",
+            "badge": "",
+            "body": "- Fundé un club para representar a los pueblos de Europa del Este, Oriente Medio, Asia Central y Siberia.\n- Llevé a cabo una extensa labor de indagación e impartí seminarios sobre la historia, las costumbres y las creencias de estas culturas.\n- Recaudé fondos, planifiqué y organicé paseos a caballo, proyecciones cinematográficas y visitas a museos, trabajando con Mazevo y Modern Campus CMS.\n- Mi universidad me otorgó el Practice Ignatian Values Award y el New Outstanding Student Organizations Award por mi enfoque innovador para tender puentes entre comunidades e inspirar a otros a implicarse a fondo con trayectorias diversas.",
+            "tags": [
+              "Mazevo CMS",
+              "Canva",
+              "Excel"
+            ],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "RAE For LA",
+            "meta": "Miembro del equipo tecnológico",
+            "badge": "",
+            "body": "- Diagnostiqué y subsané errores de frontend en el sitio web de la campaña, lo que elevó la conversión en un 12 % y el tráfico en un 27 %; automaticé flujos de datos con Airtable y Zapier en sustitución de los procesos manuales de seguimiento de voluntarios.\n- Instruí a un equipo de 30 personas en prácticas de depuración y en la arquitectura de sistemas del flujo de datos low-code de la campaña.",
+            "tags": [
+              "JavaScript",
+              "Zapier"
+            ],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Associated Students of Loyola Marymount University",
+            "meta": "Senador",
+            "badge": "",
+            "body": "- Representé a más de 9000 estudiantes.\n- Participé en reuniones quincenales de comité para abordar los asuntos en curso.\n- Aprobé resoluciones destinadas a mejorar la vida en el campus.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Peter Symonds College",
+            "meta": "Presidente de la Student Union",
+            "badge": "",
+            "body": "- Dirigí la Student Union, en representación de un alumnado de más de 8000 estudiantes.\n- Colaboré con el profesorado en la reintegración tras la COVID-19.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
+      }
+    ]
   }
 }

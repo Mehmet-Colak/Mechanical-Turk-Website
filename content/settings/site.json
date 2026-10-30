@@ -66,5 +66,39 @@
       "not_found_title": "Sayfa bulunamadı",
       "not_found_body": "Bu sayfa mevcut değil ya da taşınmış. [Ana sayfaya dön](/tr/)."
     }
+  },
+  "es": {
+    "owner_name": "Mehmet Nuri Colakoglu",
+    "role_line": "Ingeniero full-stack · Desarrollador de productos · Aspirante a roboticista",
+    "tagline": "Investigo. Construyo. Materializo.",
+    "status": "Ingeniero de Sistemas en **Chip Theory Games**",
+    "description": "Mehmet Colakoglu es un ingeniero full-stack con doble titulación en Ciencias de la Computación y Psicología que concibe productos y dirige equipos de desarrollo.",
+    "portrait": "/assets/uploads/headshot.png",
+    "portrait_alt": "Retrato de Mehmet Colakoglu",
+    "mark_motif": "koc_boynuzu",
+    "og_image": "",
+    "site_name": "mechanical-turk.dev",
+    "domain": "https://mechanical-turk.dev",
+    "footer_text": "© mechanical-turk.dev",
+    "show_border_symbols": true,
+    "show_motif_dividers": true,
+    "show_card_bands": true,
+    "divider_motif": "koc_boynuzu",
+    "skill_logo_style": "mono",
+    "ui": {
+      "skip_to_content": "Saltar al contenido",
+      "main_navigation": "Navegación principal",
+      "language": "Idioma",
+      "toggle_theme": "Alternar entre el tema claro y el oscuro",
+      "previous": "Imagen anterior",
+      "next": "Imagen siguiente",
+      "view_full": "Ver a tamaño completo",
+      "watch_video": "Ver el video",
+      "open_demo": "Abrir la simulación",
+      "close": "Cerrar",
+      "media_viewer": "Visor multimedia",
+      "not_found_title": "Página no encontrada",
+      "not_found_body": "Esta página no existe o ha sido trasladada. [Volver a la página de inicio](/es/)."
+    }
   }
 }

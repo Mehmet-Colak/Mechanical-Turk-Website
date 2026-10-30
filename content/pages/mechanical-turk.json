@@ -366,5 +366,189 @@
         ]
       }
     ]
+  },
+  "es": {
+    "permalink": "mechanical-turk",
+    "title": "¿Qué es un Mechanical Turk?",
+    "description": "La historia del Mechanical Turk, el autómata ajedrecista del siglo XVIII, y el motivo por el que este sitio lleva su nombre.",
+    "kicker": "Historia · 1770–1854",
+    "show_title": true,
+    "intro": "Esta máquina ajedrecista, ataviada con ropajes otomanos, es una de las demostraciones más engañosas jamás construidas, y embaucó a la aristocracia europea durante décadas.",
+    "show_divider": true,
+    "divider_motif": "",
+    "og_image": "",
+    "draft": false,
+    "blocks": [
+      {
+        "type": "image",
+        "image": "/assets/uploads/mech-turk.jpg",
+        "hidden": false,
+        "alt": "",
+        "caption": "",
+        "size": "medium",
+        "align": "center"
+      },
+      {
+        "type": "text",
+        "heading": "Un obsequio para una emperatriz",
+        "image": "",
+        "image_alt": "",
+        "hidden": false,
+        "body": "En 1770, Wolfgang von Kempelen, ingeniero de origen húngaro de la corte de los Habsburgo, presentó un autómata ante la emperatriz María Teresa en el palacio de Schönbrunn, en Viena. Una figura de tamaño natural, tocada con turbante y vestida con ropajes otomanos, se sentaba tras un gabinete de madera coronado por un tablero de ajedrez.\n\nAntes de cada partida, Kempelen abría una a una las puertas del gabinete para exhibir engranajes, cilindros y mecanismos de relojería. A continuación, daba cuerda a la máquina. El Turco alzaba el brazo, movía sus propias piezas, sacudía la cabeza ante las jugadas ilegales y, por lo general, vencía. También era capaz de trazar el recorrido del caballo, llevando esta pieza por cada casilla del tablero exactamente una vez.",
+        "as_card": true,
+        "show_band": true,
+        "image_position": "top",
+        "more_images": []
+      },
+      {
+        "type": "text",
+        "heading": "Cómo funcionaba en realidad",
+        "image": "",
+        "image_alt": "",
+        "hidden": false,
+        "body": "En su interior se ocultaba un consumado ajedrecista. El mecanismo de relojería exhibido ante el público era auténtico, pero no cumplía función alguna; el operador se deslizaba sobre un asiento móvil para permanecer oculto mientras se abría cada puerta. Unos imanes situados bajo las piezas atraían pequeños indicadores metálicos bajo el tablero, lo que permitía al operador seguir la partida. Un sistema de palancas accionaba el brazo del Turco, y una vela iluminaba el interior, cuyo humo escapaba por el turbante de la figura.",
+        "as_card": true,
+        "show_band": true,
+        "image_position": "top",
+        "more_images": []
+      },
+      {
+        "type": "text",
+        "heading": "Ochenta años de gira",
+        "image": "",
+        "image_alt": "",
+        "hidden": false,
+        "body": "El Turco recorrió Europa en la década de 1780, y se dice que Benjamin Franklin se enfrentó a él en París. Tras la muerte de Kempelen en 1804, lo adquirió el empresario de espectáculos Johann Nepomuk Mälzel. Según se cuenta, Napoleón jugó contra él en Schönbrunn en 1809, y Charles Babbage, quien más tarde diseñaría la Máquina Analítica, hizo lo propio en Londres en 1819.\n\nMälzel lo llevó a Estados Unidos en 1826. Edgar Allan Poe lo presenció y en 1836 publicó un ensayo en el que sostenía que en su interior debía de haber un ser humano. El Turco acabó en un museo de Filadelfia, donde un incendio lo destruyó en 1854.",
+        "as_card": true,
+        "show_band": true,
+        "image_position": "top",
+        "more_images": []
+      },
+      {
+        "type": "text",
+        "heading": "La posteridad de un nombre",
+        "image": "",
+        "image_alt": "",
+        "hidden": false,
+        "body": "En 2005, Amazon lanzó Mechanical Turk, un mercado en el que las personas realizan pequeñas tareas que a las computadoras aún se les resisten. El nombre arraigó como metonimia de todo sistema que aparenta ser automático pero se sustenta en un trabajo humano oculto, cuestión más pertinente que nunca en la inteligencia artificial actual.",
+        "as_card": true,
+        "show_band": true,
+        "image_position": "top",
+        "more_images": []
+      },
+      {
+        "type": "divider",
+        "motif": ""
+      },
+      {
+        "type": "text",
+        "heading": "Por qué mi sitio lleva su nombre",
+        "image": "",
+        "image_alt": "",
+        "hidden": false,
+        "body": "No somos impostores; no somos magia. Somos ingenieros y forjadores de sueños. Concibo la historia del Mechanical Turk no como una condena de la «superchería oriental», sino como la emulación de una idea extraordinaria que aún carecía del respaldo tecnológico necesario.\n\nY, puesto que se trataba de un «juguete» destinado al entretenimiento, no lo considero más malicioso que un truco de feria o un espectáculo de ilusionismo. Anhelamos que la magia sea real; queremos creer en el poder de las máquinas, pero estas todavía no han llegado a ese punto, de modo que nos conformamos con sus imitaciones.\n\nEl propósito de mi vida es hacer realidad esos sueños. Me propongo trabajar en el campo de la inteligencia artificial y la robótica durante el resto de mi vida, y construir un Mechanical Turk real y operativo antes de que concluya 2028. Así pues, sígame en LinkedIn y GitHub, y acompáñeme en esta travesía.",
+        "as_card": false,
+        "show_band": false,
+        "image_position": "top",
+        "more_images": []
+      },
+      {
+        "type": "divider",
+        "motif": ""
+      },
+      {
+        "type": "cards",
+        "heading": "Otras cosas que llevan el nombre de los turcos",
+        "hidden": false,
+        "intro": "",
+        "columns": "2",
+        "items": [
+          {
+            "title": "El pavo (turkey)",
+            "meta": "",
+            "badge": "",
+            "body": "En el siglo XVI, los angloparlantes confundieron esta ave americana con la gallina de Guinea, llegada a Europa por las rutas comerciales otomanas y ya denominada «turkey-cock»; de ahí su nombre en inglés, turkey. En turco, el ave se llama hindi, «la de la India», de modo que nadie quiso atribuírsela.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Steak tartar",
+            "meta": "",
+            "badge": "",
+            "body": "Cuenta la historia que los jinetes tártaros, un pueblo túrquico, ablandaban la carne cruda bajo sus sillas de montar. Es un mito. El plato tal como lo conocemos tomó forma en los restaurantes franceses, y su nombre es un guiño a la temible reputación de aquellos jinetes.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Turquesa",
+            "meta": "",
+            "badge": "",
+            "body": "La «piedra turca» se extraía principalmente en Persia y el Sinaí. Llegó a los mercados europeos por las rutas comerciales turcas, y el nombre siguió a los mercaderes antes que a las minas.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Islas Turcas y Caicos",
+            "meta": "",
+            "badge": "",
+            "body": "Se creyó que los cactus de la isla semejaban «turcos con turbante».",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Cruasán",
+            "meta": "",
+            "badge": "",
+            "body": "Cuenta la leyenda que los panaderos vieneses crearon un bollo en forma de media luna para celebrar la derrota del asedio otomano de 1683. Su antepasado, el kipferl austríaco, es anterior al asedio, y el cruasán propiamente dicho es una creación francesa del siglo XIX.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Tulipanes",
+            "meta": "",
+            "badge": "",
+            "body": "Los tulipanes llegaron a Europa occidental desde los jardines otomanos en el siglo XVI, mucho antes de que los neerlandeses les dieran fama. Es probable que la palabra se remonte al turco tülbent, «turbante», por la forma de la flor. Los otomanos llegaron a tener incluso una «Era de los Tulipanes» (1718–1730).",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
+      }
+    ]
   }
 }

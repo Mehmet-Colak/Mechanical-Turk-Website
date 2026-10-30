@@ -5,7 +5,7 @@ Portfolio of **Mehmet Colakoglu**. A static, multi-page site with a Git-based CM
 - **No dependencies.** `node build.mjs` turns the JSON in `content/` into HTML in `dist/`. Nothing to `npm install`, nothing to break.
 - **CMS:** [Sveltia CMS](https://github.com/sveltia/sveltia-cms) at `/admin`. Every save is a Git commit; Cloudflare rebuilds in about a minute. Free, serverless, versioned.
 - **Login:** a tiny GitHub OAuth handler in `worker/oauth/` runs in the site's Cloudflare Worker. No third-party auth service.
-- **Languages:** English (`/`) and Turkish (`/tr/`), ready for Spanish, Arabic (right-to-left), Russian and Chinese.
+- **Languages:** English (`/`), Turkish (`/tr/`) and Spanish (`/es/`), ready for Arabic (right-to-left), Russian and Chinese.
 
 ---
 
@@ -98,7 +98,8 @@ Only people with write access to the GitHub repo can save changes. Anyone else w
 |---|---|
 | **Add a page** | Pages → **New Page**. Set a URL slug (e.g. `talks`), title, then add Sections. Add it to the menu under Settings → Navigation. |
 | **Delete a page** | Open it → **Delete**. Also remove its menu item. Tick **Draft** instead to unpublish without deleting. |
-| **Edit a page** | Pages → pick it. English and Turkish appear as tabs/columns. |
+| **Edit a page** | Pages → pick it. English, Turkish and Spanish appear as tabs/columns; the strip at the top shows which one you’re editing (blue, red, orange). |
+| **Turn a language on or off** | Settings → Languages → open the language → **Published on the site**. Turning it off removes its pages and its switcher entry at the next build; its translations stay saved. |
 | **Add / remove cards** | Open the page → the *Cards* section → **Add Card** or the item menu → Remove. Drag to reorder. **Hide this card** keeps it saved but off the site. A section with no visible cards disappears. |
 | **Add external links** | Card → *Buttons / links*; a *Link list* section; or a menu item with a full `https://…` link. External links open in a new tab with ↗. |
 | **Add / remove nav headers** | Settings → Navigation menu. Add, delete, drag, or tick **Hide from menu**. |
@@ -119,13 +120,13 @@ Text fields use Markdown: `**bold**`, `*italic*`, `[link](https://…)`, `- bull
 
 ---
 
-## Adding a language (Spanish, Arabic, Russian, Chinese)
+## Adding a language (Arabic, Russian, Chinese)
 
-1. In `static/admin/config.yml`, add the code to `i18n → locales`, e.g. `locales: [en, tr, es]`. This is the one code edit.
+1. In `static/admin/config.yml`, add the code to `i18n → locales`, e.g. `locales: [en, tr, es, ar]`. This is the one code edit.
 2. In the CMS: Settings → Languages → tick **Published on the site** for that language. Arabic is already set to right-to-left, and Arabic, Russian and Chinese already have matching fonts configured.
 3. Translate pages in the new tab. Anything left untranslated falls back to English, field by field, so the site never shows blanks.
 
-The new language appears at `/es/`, `/ar/` etc., in the language switcher, and in `hreflang` tags for search engines.
+The new language appears at `/ar/` etc., in the language switcher, and in `hreflang` tags for search engines.
 
 ---
 
@@ -149,7 +150,7 @@ build.mjs              build script: content → dist/
 lib/render.mjs         page templates and section (block) renderers
 lib/markdown.mjs       small Markdown renderer (raw HTML is escaped)
 lib/symbols.mjs        kilim symbols as SVG (sprite, patterns, helpers)
-content/pages/*.json   one file per page (en + tr in each file)
+content/pages/*.json   one file per page (en + tr + es in each file)
 content/settings/      site, navigation, contact links, languages
 content/skills.json    skills grid
 content/timeline.json  timeline entries

@@ -194,5 +194,103 @@
         ]
       }
     ]
+  },
+  "es": {
+    "permalink": "home",
+    "title": "Inicio",
+    "description": "Mehmet Colakoglu: ingeniero full-stack que concibe productos y dirige equipos de desarrollo.",
+    "kicker": "",
+    "show_title": false,
+    "intro": "",
+    "show_divider": true,
+    "divider_motif": "",
+    "og_image": "",
+    "draft": false,
+    "blocks": [
+      {
+        "type": "hero",
+        "kicker": "Ingeniero full-stack · San Francisco/Los Ángeles",
+        "heading": "Gestor de producto. *Ingeniero.* Líder de equipos.",
+        "lead": "Aúno la pericia técnica de un programador con la honda comprensión del comportamiento humano propia de un psicólogo. Domino cada etapa del desarrollo, desde la arquitectura del backend hasta la creación de una experiencia de usuario impecable. Sobresalgo en la concepción de productos y en la dirección de equipos de desarrollo.\n\nPoseo una licenciatura (B.S.) en Ciencias de la Computación y Psicología, y recurro a ambas disciplinas a diario para resolver problemas y erradicar el tedio mediante la automatización.\n\nCuento con tres años de experiencia profesional y actualmente me desempeño como Ingeniero de Sistemas Internos en Chip Theory Games.",
+        "image": "",
+        "image_alt": "",
+        "buttons": [
+          {
+            "label": "Conozca mi trayectoria",
+            "url": "work",
+            "style": "primary",
+            "new_tab": false
+          },
+          {
+            "label": "Póngase en contacto",
+            "url": "contact",
+            "style": "secondary",
+            "new_tab": false
+          },
+          {
+            "label": "Currículum (PDF, en inglés)",
+            "url": "/assets/uploads/mehmet-colakoglu-resume.pdf",
+            "style": "secondary",
+            "new_tab": true
+          }
+        ],
+        "hidden": false
+      },
+      {
+        "type": "divider",
+        "motif": "elibelinde"
+      },
+      {
+        "type": "cards",
+        "heading": "Lo que aporto a un equipo",
+        "hidden": false,
+        "intro": "",
+        "columns": "1",
+        "items": [
+          {
+            "title": "Descubrir necesidades",
+            "meta": "Innovación",
+            "badge": "",
+            "body": "El estudio de la psicología me enseñó a discernir lo que las personas necesitan, además de lo que desean. Escucho a los usuarios para delimitar las funcionalidades imprescindibles, llevo a cabo exhaustivos análisis DAFO para comprender a la competencia y, a continuación, redacto especificaciones precisas en torno a las cuales mi equipo pueda construir.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Avanzar al unísono con un equipo",
+            "meta": "Liderazgo",
+            "badge": "",
+            "body": "He organizado numerosos eventos interdisciplinarios; he redactado propuestas de arquitectura para la alta dirección, ponencias para congresos y conferencias rigurosamente documentadas para mis pares; y he conducido al éxito a equipos de hackatón con mi visión.\n\nDescompongo mis proyectos en módulos específicos para cada departamento, identifico los cuellos de botella técnicos de cada fragmento independiente y, después, amplío las funcionalidades horizontalmente. Asigno el trabajo en función de las fortalezas y las competencias transferibles de mis compañeros. Durante el desarrollo suelo emplear sprints de una semana, mantengo plazos realistas y, al dialogar con las partes interesadas, siempre esbozo objetivos ambiciosos (stretch goals) para mostrar todo el potencial del proyecto.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Una ingeniería de la que me enorgullezco",
+            "meta": "Full-stack",
+            "badge": "",
+            "body": "A los ingenieros romanos se los obligaba a situarse bajo sus puentes cuando se retiraba el andamiaje; yo trato mis sistemas técnicos con idéntico rigor.\n\nLa protección de los datos sensibles de los usuarios reviste para mí una importancia capital, por lo que realizo pruebas exhaustivas y someto el código a revisión por pares. Recurro a la IA generativa para la redacción de borradores y de código repetitivo (boilerplate), pero mantengo salvaguardas estrictas y jamás delego algoritmos que no alcance a comprender por completo.\n\nAtesoro una década de experiencia en Python, JavaScript, C++, SQL, infraestructura en la nube y ejecución de LLM locales optimizados, lo cual me convierte en un revisor competente y en un depurador eficaz.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
+      }
+    ]
   }
 }

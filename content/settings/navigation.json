@@ -102,5 +102,63 @@
         "hidden": false
       }
     ]
+  },
+  "es": {
+    "items": [
+      {
+        "label": "Inicio",
+        "link": "home",
+        "new_tab": false,
+        "hidden": false
+      },
+      {
+        "label": "Sobre mí",
+        "link": "about",
+        "new_tab": false,
+        "hidden": false
+      },
+      {
+        "label": "Trayectoria",
+        "link": "work",
+        "new_tab": false,
+        "hidden": false
+      },
+      {
+        "label": "Proyectos personales",
+        "link": "projects",
+        "new_tab": false,
+        "hidden": false
+      },
+      {
+        "label": "Competencias",
+        "link": "skills",
+        "new_tab": false,
+        "hidden": false
+      },
+      {
+        "label": "Cronología",
+        "link": "timeline",
+        "new_tab": false,
+        "hidden": false
+      },
+      {
+        "label": "The Mechanical Turk",
+        "link": "mechanical-turk",
+        "new_tab": false,
+        "hidden": false
+      },
+      {
+        "label": "Atribuido a Turquía",
+        "link": "attributed-to-turkey",
+        "new_tab": false,
+        "hidden": true
+      },
+      {
+        "label": "Contacto",
+        "link": "contact",
+        "new_tab": false,
+        "hidden": false
+      }
+    ]
   }
 }

@@ -54,5 +54,33 @@
         "hidden": false
       }
     ]
+  },
+  "es": {
+    "items": [
+      {
+        "label": "Correo electrónico",
+        "value": "mehmetnuri.colakoglu@gmail.com",
+        "url": "mailto:mehmetnuri.colakoglu@gmail.com",
+        "hidden": false
+      },
+      {
+        "label": "Calendly",
+        "value": "Concertar una reunión introductoria",
+        "url": "https://calendly.com/mehmetnuri-colakoglu/intro-call",
+        "hidden": false
+      },
+      {
+        "label": "LinkedIn",
+        "value": "mehmet-colakoglu",
+        "url": "https://www.linkedin.com/in/mehmet-colakoglu/",
+        "hidden": false
+      },
+      {
+        "label": "GitHub",
+        "value": "Mehmet-Colak",
+        "url": "https://github.com/Mehmet-Colak",
+        "hidden": false
+      }
+    ]
   }
 }
