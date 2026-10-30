@@ -558,16 +558,16 @@
       },
       {
         "type": "cards",
-        "heading": "",
+        "heading": "Yaratıcı Yazarlık",
         "hidden": false,
         "intro": "",
         "columns": "1",
         "items": [
           {
             "title": "Cavlak",
-            "meta": "Kisa Hikaye",
-            "badge": "",
-            "body": "",
+            "meta": "Kısa Öykü",
+            "badge": "Yayın Aşamasında",
+            "body": "- 1980'lerde Türkmenistan çöllerinde geçen, alışılmışın dışında bir kovboy hikâyesi.\n- Karısı bir grup haydut tarafından kaçırılan yerel bir isyancı lider, onurunu korumak için müttefiklerini bir araya getirip onu kurtarmak zorundadır.",
             "tags": [],
             "links": [],
             "gallery": [],
@@ -578,10 +578,10 @@
             "hidden": false
           },
           {
-            "title": "The Dybbuk and the Shaman",
+            "title": "Dybbük ve Șaman",
             "meta": "",
             "badge": "",
-            "body": "",
+            "body": "- 1940'larda Finlandiya'da geçen bir korku ve büyüme (coming-of-age) hikâyesi.\n- Uzuv kaybı yaşamış genç bir kız ve onu evlat edinen rahip, ölümcül bir Dybbuk yerel halkı kasıp kavurmadan önce onu kovmak için güçlerini birleştirmek zorundadır.",
             "tags": [],
             "links": [],
             "gallery": [],
@@ -592,10 +592,10 @@
             "hidden": false
           },
           {
-            "title": "The Divine Color",
-            "meta": "",
-            "badge": "",
-            "body": "",
+            "title": "Kutsal Renk",
+            "meta": "Kısa Öykü",
+            "badge": "İkinci Taslak",
+            "body": "- Günümüz Etiyopya'sında geçen, dini alt metinlere sahip bir gerilim hikâyesi.\n- Bir köyden yaşlı bir adam, idamını bekleyen askerler tarafından kaçırıldığında, yakındaki bir şehirde yaşayan iyi kalpli ama dengesiz bir ressam, bu adamın tek umudu olur.",
             "tags": [],
             "links": [],
             "gallery": [],
