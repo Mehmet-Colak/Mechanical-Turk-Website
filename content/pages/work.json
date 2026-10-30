@@ -338,7 +338,7 @@
             "title": "EurAsian Lions",
             "meta": "Kurucu, Başkan ve Topluluk Katılımı Sorumlusu",
             "badge": "",
-            "body": "",
+            "body": "- Doğu Avrupa, Orta Doğu, Orta Asya ve Sibirya halklarını temsil eden bir kulüp kurdum.\n- Bu kültürlerin tarihi, gelenekleri ve inançları üzerine kapsamlı incelemeler yürüttüm ve seminerler verdim.\n- Mazevo ve Modern Campus CMS ile çalışarak bağış topladım; at binme etkinlikleri, film gösterimleri ve müze gezileri planlayıp düzenledim.\n- Toplulukları birbirine bağlayan ve başkalarını farklı kültürel geçmişlerle derinlemesine etkileşime teşvik eden yenilikçi yaklaşımım nedeniyle üniversitemden Practice Ignatian Values ve New Outstanding Student Organizations ödüllerini aldım.",
             "tags": [
               "Mazevo CMS",
               "Canva",
@@ -354,9 +354,9 @@
           },
           {
             "title": "RAE For LA",
-            "meta": "Rol · tarihler",
+            "meta": "Teknoloji Ekibi Üyesi",
             "badge": "",
-            "body": "Bu kart gizli. CMS’te düzenle ve bölümü yayınlamak için “Bu kartı gizle” seçeneğini kapat.",
+            "body": "- Kampanya web sitesindeki frontend hatalarını teşhis edip gidererek dönüşüm oranını %12, trafiği ise %27 artırdım; manuel gönüllü takip süreçlerinin yerini alacak şekilde Airtable ve Zapier ile veri iş akışlarını otomatikleştirdim.\n- 30 kişilik bir ekibe, hata ayıklama pratikleri ve kampanyanın low-code veri hattının sistem mimarisi konusunda koçluk yaptım.",
             "tags": [
               "Javascript",
               "Zapier"
