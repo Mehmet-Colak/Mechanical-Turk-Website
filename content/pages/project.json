@@ -1,7 +1,7 @@
 {
   "en": {
     "permalink": "projects",
-    "title": "Personal Projects",
+    "title": "Kişisel Projeler",
     "description": "",
     "kicker": "",
     "show_title": true,
@@ -13,16 +13,16 @@
     "blocks": [
       {
         "type": "cards",
-        "heading": "Robotics",
+        "heading": "Robotik",
         "hidden": false,
         "intro": "",
         "columns": "1",
         "items": [
           {
-            "title": "Fencing Target Robot",
+            "title": "Eskrim Hedef Robotu",
             "meta": "Elite Fencing Club",
             "badge": "",
-            "body": "- Currently building a Robot to train reaction time and aim for foil fencing. When a target area glows, the trainee is supposed to hit that area and get an average reaction time at the end of their session.\n- While Favero is my biggest competitor in the market, I believe I can produce a cheaper alternative with a humanoid shape and more versatile features.\n- To protect the target's LEDs, I created custom hard-plastic molds to withstand up to 800 N of force over an area of 38.5 mm².\n- I am adding more sections to give trainees more variation in where to attack.\n- Eventually, I would like to add wheels and possibly a robotic arm to the training dummy to show how a given defense might expose different body sections.",
+            "body": "- Flöre eskriminde reaksiyon süresini ve isabeti geliştirmeye yönelik bir robot inşa ediyorum. Bir hedef bölgesi ışıldadığında sporcunun o bölgeye isabet ettirmesi gerekiyor; seansın sonunda ise ortalama reaksiyon süresi raporlanıyor.\n- Pazardaki en büyük rakibim Favero olsa da insansı bir forma ve çok daha çok yönlü özelliklere sahip, daha uygun maliyetli bir alternatif üretebileceğime inanıyorum.\n- Hedefin LED'lerini korumak amacıyla, 38,5 mm²'lik bir yüzeye uygulanan 800 N'a kadar kuvvete dayanabilen özel sert plastik kalıplar tasarladım.\n- Sporculara hücum noktalarında daha fazla çeşitlilik sunmak için yeni bölgeler ekliyorum.\n- Nihai hedefim, belirli bir savunma pozisyonunun vücudun hangi bölgelerini açıkta bıraktığını gösterebilmek için antrenman mankenine tekerlekler ve muhtemelen bir robotik kol eklemek.",
             "tags": [
               "Arduino",
               "C++",
@@ -36,7 +36,7 @@
             ],
             "links": [
               {
-                "label": "Demonstration",
+                "label": "Tanıtım",
                 "url": "https://youtube.com/shorts/gT84GApSMoY?feature=share",
                 "style": "secondary",
                 "new_tab": true
@@ -50,10 +50,10 @@
             "hidden": false
           },
           {
-            "title": "Plant Watering Robot",
-            "meta": "Personal Use",
+            "title": "Bitki Sulama Robotu",
+            "meta": "Kişisel Kullanım",
             "badge": "",
-            "body": "- Built a solar-powered autonomous system using 10W external batteries to power soil moisture sensors, I2C modules, servo motors, pumps, and a microcontroller.\n- Built an intuitive user interface with an LCD display and keypad module that lets users schedule regular watering cycles, set the amount of water to pour, and see the countdown to watering.\n- With this project, my goal wasn't efficiency so much as learning how to integrate different systems into the same codebase.",
+            "body": "- Toprak nem sensörlerini, I2C modüllerini, servo motorları, pompaları ve bir mikrodenetleyiciyi 10W harici bataryalarla besleyen, güneş enerjili otonom bir sistem inşa ettim.\n- Kullanıcıların düzenli sulama döngüleri planlamasına, verilecek su miktarını belirlemesine ve sulamaya kalan süreyi takip etmesine olanak tanıyan, LCD ekran ve tuş takımı modülünden oluşan sezgisel bir kullanıcı arayüzü geliştirdim.\n- Bu projedeki amacım verimlilikten ziyade farklı sistemleri aynı kod tabanına entegre etmeyi öğrenmekti.",
             "tags": [
               "Arduino",
               "C++",
