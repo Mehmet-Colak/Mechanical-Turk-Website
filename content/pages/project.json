@@ -65,13 +65,13 @@
             ],
             "links": [
               {
-                "label": "Demonstration",
+                "label": "Tanıtım",
                 "url": "https://youtube.com/shorts/MjYnnWbauPA?feature=share",
                 "style": "secondary",
                 "new_tab": true
               },
               {
-                "label": "Embedded System",
+                "label": "Gömülü Sistem",
                 "url": "https://youtube.com/shorts/-ecraDPek9Q",
                 "style": "secondary",
                 "new_tab": true
