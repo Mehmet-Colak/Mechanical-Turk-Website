@@ -35,12 +35,12 @@
   },
   "tr": {
     "owner_name": "Mehmet Nuri Colakoglu",
-    "role_line": "Full-stack mühendis · Ürün · Ekipler",
-    "tagline": "Bir ürünün her katmanını anlarım. En iyi işimi ürünü tasarlarken ve onu inşa eden ekibe liderlik ederken çıkarırım.",
+    "role_line": "Full-stack Mühendis · Ürün Geliştirici · Robotik Tutkunu",
+    "tagline": "Araştırırım. Üretirim. Teslim ederim.",
     "status": "**Chip Theory Games**’te Sistem Mühendisi",
-    "description": "Mehmet Colakoglu, Bilgisayar Bilimi ve Psikoloji çift anadal mezunu, ürün tasarlayan ve geliştirici ekiplerine liderlik eden bir full-stack mühendistir.",
+    "description": "Mehmet Çolakoğlu, Bilgisayar Bilimleri ve Psikoloji alanlarında çift anadal derecesine sahip, ürünler tasarlayan ve üretken ekiplere liderlik eden bir full-stack mühendistir.",
     "portrait": "/assets/uploads/headshot.png",
-    "portrait_alt": "Mehmet Colakoglu’nun portresi",
+    "portrait_alt": "Mehmet Çolakoğlu'nun portresi",
     "mark_motif": "koc_boynuzu",
     "og_image": "",
     "site_name": "mechanical-turk.dev",
@@ -53,7 +53,7 @@
     "skill_logo_style": "mono",
     "ui": {
       "skip_to_content": "İçeriğe geç",
-      "main_navigation": "Ana menü",
+      "main_navigation": "Ana gezinme menüsü",
       "language": "Dil",
       "toggle_theme": "Açık ve koyu tema arasında geçiş yap",
       "previous": "Önceki görsel",
@@ -64,7 +64,7 @@
       "close": "Kapat",
       "media_viewer": "Medya görüntüleyici",
       "not_found_title": "Sayfa bulunamadı",
-      "not_found_body": "Bu sayfa yok ya da taşındı. [Ana sayfaya dön](/tr/)."
+      "not_found_body": "Bu sayfa mevcut değil ya da taşınmış. [Ana sayfaya dön](/tr/)."
     }
   }
 }
