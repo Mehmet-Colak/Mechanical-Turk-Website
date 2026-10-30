@@ -259,9 +259,9 @@
           },
           {
             "title": "DJ League",
-            "meta": "Frontend Mühendisliği Stajyeri · Şub – Nis 2026",
+            "meta": "Frontend Mühendisliği Stajyeri · Şubat – Nisan 2026",
             "badge": "",
-            "body": "- Convex’in reaktif WebSocket katmanı üzerinde canlı yarışmalar için animasyonlu React bileşenleri geliştirdim; 200’den fazla eşzamanlı bağlantıda gecikmeyi **50 ms** altında tuttum.\n- Yüksek frekanslı yazmaları gecikmeli abonelikler ve iyimser arayüz güncellemeleriyle yöneterek akıcı **60 FPS** sağladım.",
+            "body": "- Canlı yarışmalar için, Convex'in reaktif WebSocket katmanı üzerinde çalışan animasyonlu React bileşenleri geliştirdim; 200'ü aşkın eşzamanlı bağlantıda gecikmeyi \\*\\*50 ms\\*\\*'nin altında tuttum.\n- Yüksek frekanslı yazma işlemlerini debounce uygulanmış abonelikler ve iyimser güncellemelerle (optimistic updates) yöneterek kararlı \\*\\*60 FPS\\*\\* performansını korudum.",
             "tags": [
               "React",
               "Convex",
