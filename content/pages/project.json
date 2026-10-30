@@ -393,16 +393,16 @@
       },
       {
         "type": "cards",
-        "heading": "",
+        "heading": "Yapay Zekâ",
         "hidden": false,
         "intro": "",
         "columns": "1",
         "items": [
           {
-            "title": "ADE",
-            "meta": "",
+            "title": "Auto Dev. Env. (ADE)",
+            "meta": "Kişisel Kullanım",
             "badge": "",
-            "body": "",
+            "body": "- Kullanıcı tanımlı kabul kriterlerine dayanarak yerel ortamda kod yazan, test eden ve hata ayıklayan otonom bir kodlama ajanı geliştirdim.\n- Kuantize edilmiş 7B parametreli bir büyük dil modelini, uzaktan geliştirme için SSH erişimli, 8GB VRAM / 32GB RAM'e sahip bir donanım üzerinde Ollama aracılığıyla yerel olarak devreye aldım.\n- Bulut bilişim maliyetlerinden kurtulmak için tüm fiziksel işlem altyapısını şebekeden bağımsız 400W'lık bir güneş paneli dizisi ve 2000Wh'lik bir batarya sistemiyle çalıştırdım.",
             "tags": [
               "Ollama",
               "OpenSSH",
@@ -421,16 +421,16 @@
       },
       {
         "type": "cards",
-        "heading": "",
+        "heading": "Yazılım",
         "hidden": false,
         "intro": "",
         "columns": "1",
         "items": [
           {
-            "title": "Glendale Hazir",
-            "meta": "",
-            "badge": "",
-            "body": "",
+            "title": "Glendale Ready",
+            "meta": "Jewel City Hacks",
+            "badge": "Birincilik",
+            "body": "- Doğrudan Glendale Fire Department için geliştirdiğimiz projeyle, iki kişilik bir ekip olarak 15'i aşkın takım arasından birinciliğe layık görüldük.\n- Cal Fire tehlike verilerini Google Maps üzerine yansıtarak aktif tehdit bölgelerini ve tahliye güzergâhlarını gösteren, konum tabanlı bir risk analiz aracı geliştirdim; periyodik acil durum tatbikatı hatırlatıcıları için de Google Calendar entegrasyonunu sisteme dahil ettim.",
             "tags": [
               "React",
               "Node.js",
@@ -448,9 +448,9 @@
           },
           {
             "title": "Fix-It-LA",
-            "meta": "",
-            "badge": "",
-            "body": "",
+            "meta": "Vision Hack",
+            "badge": "İkincilik",
+            "body": "- Kullanıcı fotoğraflarından altyapı sorunlarını sınıflandırmak, bunları doğru LA 311 formuna yönlendirmek ve talepleri doğrudan Belediye Başkanlığı'na iletmek için Gemini Vision'dan yararlanan, yapay zekâ destekli bir kentsel bildirim uygulaması geliştirdim.\n- Form şemasını haritalandırmak amacıyla 311 portalından Python ile veri kazıdım (scraping); bu sayede farklı talep kategorileri için dinamik alan üretimini mümkün kıldım.\n- Aralarında yerel yatırımcıların ve belediye temsilcilerinin de bulunduğu 100'ü aşkın katılımcıya canlı sunum yaparak \\~20 takım arasından ikinciliği (ve sunum dalında bir başarı ödülünü) elde ettik.",
             "tags": [
               "React",
               "Python",
@@ -470,16 +470,16 @@
       },
       {
         "type": "cards",
-        "heading": "",
+        "heading": "Araştırma Makaleleri",
         "hidden": false,
         "intro": "",
         "columns": "1",
         "items": [
           {
-            "title": "Dusme Makalesi",
-            "meta": "",
-            "badge": "",
-            "body": "",
+            "title": "Dikey Mesafe Tahmini Çalışması",
+            "meta": "Psikoloji",
+            "badge": "Yayın Aşamasında",
+            "body": "- 40'ı aşkın katılımcıyla yürütülen kontrollü bir çalışma için gerçek dünyadaki yükseklik ortamlarını birebir yansıtan, tam ölçekli bir Unity / C# sanal gerçeklik simülasyonu geliştirdim.\n- Yükseklik algısı verileri üzerinde istatistiksel olarak anlamlı sonuçlar elde etmek için Python ile bir istatistiksel analiz hattı (pipeline) tasarladım.\n- Bulgulara ilişkin, yayına hazırlanmakta olan akademik bir makale kaleme aldım.",
             "tags": [
               "Unity",
               "C#",
@@ -495,10 +495,10 @@
             "hidden": false
           },
           {
-            "title": "Intergroup Conflict Theory",
-            "meta": "",
-            "badge": "",
-            "body": "",
+            "title": "Gruplar Arası Çatışma Hesaplayıcısı",
+            "meta": "Bilgisayar Bilimleri",
+            "badge": "Yayın Aşamasında",
+            "body": "- Nicel çatışma öngörüsü metodolojisindeki bir boşluğu tespit ettim. Çalışmayı özellikle Muzaffer Şerif'in Gerçekçi Çatışma Kuramı üzerine inşa ettim.\n- İki grup arasındaki çatışma olasılığını olasılıksal bir çıktı olarak hesaplamak için 11 sosyal psikoloji kuramından beslenen, ölçeklenebilir bir matematiksel çerçeve geliştirdim.\n- Modeli etkileşimli bir hesaplayıcı olarak sunan full-stack bir React web uygulamasının (HTML, CSS, Firebase) mimarisini tasarladım.\n- Uygulamayı, kullanım analitiği için Firestore tabanlı bir kayıt katmanıyla birlikte Firebase Hosting üzerinde yayına aldım.",
             "tags": [
               "React",
               "Firebase",
@@ -517,16 +517,16 @@
       },
       {
         "type": "cards",
-        "heading": "",
+        "heading": "Video Oyunları",
         "hidden": false,
         "intro": "",
         "columns": "1",
         "items": [
           {
-            "title": "En Yuksek Kuledeki Cehennem",
-            "meta": "",
-            "badge": "",
-            "body": "",
+            "title": "Hell Upon the Highest Tower",
+            "meta": "Demo",
+            "badge": "Yayın Aşamasında",
+            "body": "- Unity / C# ile veri güdümlü bir kart sistemine (ScriptableObjects), durum makinesi tabanlı tur mantığına ve Unity Netcode for GameObjects kullanan yerel ağ altyapısına (istemci-sunucu otorite modeli) sahip, iki oyunculu bir kart oyunu motorunun mimarisini tasarladım.\n- 200'ü aşkın benzersiz kart etkileşimini destekleyen, bellek açısından verimli bir varlık-bileşen (entity-component) mimarisi tasarladım; orta segment donanımlarda kararlı 60 fps'yi korumak için çöp toplayıcı (GC) yükünü profilleyip optimize ettim.\n- Kaynak kodunu GitHub'da yayımlayarak demoyu herkesin yerel ortamda çalıştırabilmesine olanak tanıdım.",
             "tags": [
               "Unity",
               "C#",
