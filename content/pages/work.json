@@ -1,11 +1,11 @@
 {
   "en": {
     "permalink": "work",
-    "title": "Work",
-    "description": "Work experience, research, projects and civic work by Mehmet Colakoglu.",
-    "kicker": "Work",
+    "title": "Deneyim",
+    "description": "Mehmet Çolakoğlu'nun iş deneyimi, araştırmaları, projeleri ve toplumsal çalışmaları.",
+    "kicker": "work",
     "show_title": true,
-    "intro": "Where I’ve built, what I learned, and what changed because of it.",
+    "intro": "Nerelerde inşa ettiğim, neler öğrendiğim ve bunun sonucunda nelerin değiştiği.",
     "show_divider": true,
     "divider_motif": "",
     "og_image": "",
