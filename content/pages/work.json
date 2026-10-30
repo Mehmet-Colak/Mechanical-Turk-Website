@@ -223,7 +223,7 @@
             "title": "Chip Theory Games",
             "meta": "Sistem Mühendisi · Eylül 2026 – Günümüz",
             "badge": "",
-            "body": "- \\*\\*4 ekibin\\*\\* iş akışlarını tek bir merkezde toplayan modüler bir proje yönetim platformu (React, Node.js, MySQL) geliştiriyorum. İlk sürüm, baskı öncesi prova hazırlık süresini \\*\\*%40\\*\\*, görev devir süreçlerini ise \\*\\*%32\\*\\* oranında azalttı.\n- Kurum içi sunucularda çalışan üç eski (legacy) uygulamayı, bulut erişimine uygun ve bakım yükü daha düşük olacak şekilde yeniden yapılandırarak AWS'ye taşıyorum.",
+            "body": "- **4 ekibin** iş akışlarını tek bir merkezde toplayan modüler bir proje yönetim platformu (React, Node.js, MySQL) geliştiriyorum. İlk sürüm, baskı öncesi prova hazırlık süresini **%40**, görev devir süreçlerini ise **%32** oranında azalttı.\n- Kurum içi sunucularda çalışan üç eski (legacy) uygulamayı, bulut erişimine uygun ve bakım yükü daha düşük olacak şekilde yeniden yapılandırarak AWS'ye taşıyorum.",
             "tags": [
               "React",
               "Node.js",
@@ -242,7 +242,7 @@
             "title": "Incredible Dream Studios",
             "meta": "Teknoloji ve Otomasyon Mühendisi · Mart – Eylül 2026",
             "badge": "",
-            "body": "- Operasyonel verileri toplayan, sınıflandıran ve analiz eden müşteriye dönük otomasyonlar tasarlayıp hayata geçirdim; bu sayede destek talebi çözüm süresini %82 oranında kısalttım ve kurum içi kaynak tahsisini optimize ettim.\n- CEO, COO ve CCO'nun stratejik karar alma süreçlerini desteklemek amacıyla proje kapsamını, bütçe kısıtlarını ve operasyonel yönergeleri ortaya koyan kapsamlı teknik ve analitik raporlar hazırladım.\n- Python, JavaScript ve Zapier ile REST API'ler ve Webhook'lar aracılığıyla kurum içi tedarik zinciri ve iletişim iş akışları geliştirdim; paydaş çıkarlarını gözetirken dağıtım verimliliğini %45 oranında artırdım.",
+            "body": "- Operasyonel verileri toplayan, sınıflandıran ve analiz eden müşteriye dönük otomasyonlar tasarlayıp hayata geçirdim; bu sayede destek talebi çözüm süresini **%82** oranında kısalttım ve kurum içi kaynak tahsisini optimize ettim.\n- **CEO**, **COO** ve **CCO**'nun stratejik karar alma süreçlerini desteklemek amacıyla proje kapsamını, bütçe kısıtlarını ve operasyonel yönergeleri ortaya koyan kapsamlı teknik ve analitik raporlar hazırladım.\n- Python, JavaScript ve Zapier ile REST API'ler ve Webhook'lar aracılığıyla kurum içi tedarik zinciri ve iletişim iş akışları geliştirdim; paydaş çıkarlarını gözetirken dağıtım verimliliğini **%45** oranında artırdım.",
             "tags": [
               "JavaScript",
               "Webhooks",
