@@ -9,7 +9,6 @@
   },
   "scripts": {
     "build": "node build.mjs",
-    "dev": "node scripts/dev.mjs",
-    "export": "node scripts/export-page.mjs"
+    "dev": "node scripts/dev.mjs"
   }
 }
