@@ -95,11 +95,11 @@
   "tr": {
     "entries": [
       {
-        "date": "Ağu 2023",
-        "kind_label": "Araştırma",
-        "title": "Araştırma Asistanı",
-        "org": "LMU Psikoloji Bölümü",
-        "body": "300’den fazla katılımcının verisi için temizleme sürecini otomatikleştirdim; algı araştırmaları için davranışsal ölçüm yapan Unity simülasyonları geliştirdim.",
+        "date": "2026 - Günümüz",
+        "kind_label": "Keşif",
+        "title": "Robotik Öğrenmek ve Yapay Zekâ ile Çalışmak",
+        "org": "San Francisco, CA",
+        "body": "Bu yılın haziran ayından itibaren, makerspace'imdeki harika insanların desteğiyle robotiği kendi kendime öğrenmeye tutkuyla bağlandım. Robotiğin beni uzun ömürlü tasarımlar yapmaya, proje kapsamını süreç içinde yeniden şekillendirmeye ve bir sistemin her bileşenini kavramaya zorlamasına bayılıyorum. Benzer şekilde, token maliyetlerinden tasarruf etmek amacıyla, güneş panelleriyle beslenen ve atıl durumdaki kişisel bilgisayarımda kendi kuantize Qwen modellerimi barındırmaya başladım. Qwen'in ürettiği kodun kalitesi henüz öncü (frontier) modellerle boy ölçüşecek düzeyde olmasa da, daha ekonomik ve yenilenebilir enerjiyle çalışan, bana ait açık ağırlıklı (open-weight) bir modele sahip olmak bana büyük bir mutluluk veriyor.",
         "image": "/assets/uploads/multimeter.jpg",
         "image_alt": "",
         "image_position": "right",
@@ -109,11 +109,11 @@
         "hidden": false
       },
       {
-        "date": "Eyl 2026",
+        "date": "2025 - Günümüz",
         "kind_label": "İş",
-        "title": "Sistem Mühendisi",
+        "title": "İş Hayatına Atılmak",
         "org": "Chip Theory Games",
-        "body": "Dört departmanın ortak kullandığı bir proje yönetim platformu geliştiriyor ve eski sistemleri AWS’ye taşıyorum.",
+        "body": "Mezuniyetimden bu yana üniversite yıllarında edindiğim iş tecrübesinin üzerine inşa etmeyi sürdürdüm. Müşteri destek taleplerini karşılayan otomasyon sistemleri kurdum, siyasi kampanya web sitelerindeki hataları giderdim, bir frontend mühendisliği stajını tamamladım ve Chip Theory Games'te Sistem Mühendisi olarak backend odaklı bir pozisyon elde ettim. Bu deneyimler sayesinde, bir ürünün yaşam döngüsünün tüm aşamalarına hâkim, zanaatına güvenen ve tasarım kararlarının sonuçlarını öngörebilen, yapay zekâyı iş akışının ayrılmaz bir parçası hâline getirmiş (AI-native) bir full-stack mühendise dönüştüm.",
         "image": "/assets/uploads/almaty.png",
         "image_alt": "",
         "image_position": "left",
@@ -123,11 +123,11 @@
         "hidden": false
       },
       {
-        "date": "Ağu 2025",
+        "date": "2025",
         "kind_label": "Eğitim",
-        "title": "Onur derecesiyle (cum laude) mezun oldum",
-        "org": "Bilgisayar Bilimi ve Psikoloji lisans · 3.8 not ortalaması",
-        "body": "",
+        "title": "Cum Laude Derecesiyle Mezuniyet",
+        "org": "Los Angeles, CA",
+        "body": "Ağustos 2025'te Bilgisayar Bilimleri ve Psikoloji alanlarında lisans (B.S.) derecemi 3.8 not ortalamasıyla aldım. EurAsian Lions'ta topluluk inşasına getirdiğim yenilikçi yaklaşım sayesinde kulübümüz, 200'ü aşkın öğrenci topluluğu arasında en prestijlisi olarak tanındı; 2024'te New Outstanding Organization of the Year, 2025'te ise Practice Ignatian Values ödülüne layık görüldü.",
         "image": "/assets/uploads/award.jpg",
         "image_alt": "",
         "image_position": "right",
@@ -137,11 +137,11 @@
         "hidden": false
       },
       {
-        "date": "Ağu 2021",
+        "date": "2021 - 2025",
         "kind_label": "Eğitim",
-        "title": "Loyola Marymount Üniversitesi’nde başladım",
-        "org": "Los Angeles, Kaliforniya",
-        "body": "Bilgisayar Bilimi ve Psikoloji çift anadalını seçtim: sistemler nasıl çalışır ve insanlar onlarla nasıl çalışır.",
+        "title": "Loyola Marymount Üniversitesi",
+        "org": "Los Angeles, CA",
+        "body": "Loyola Marymount University'ye geldiğimde Bilişsel Bilim programı mevcut değildi; bu yüzden Bilgisayar Bilimleri ve Psikoloji alanlarında çift anadal yapmayı tercih ettim. Yapay zekâların nasıl geliştirildiğini, insanların bilgisayar sistemlerini nasıl tasarladığını ve problem çözerken sezgisel yöntemlerden (heuristics) nasıl yararlandığımızı öğrenmek istiyordum. Bu dönemde bir Psikoloji Laboratuvarı'nda çalıştım ve bilgisayar simülasyonları etrafında şekillenen projeler geliştirdim. Çalışmalarım, dijital ortamların insan ruhunu nasıl etkilediğini ve sosyal psikolojinin savaş olasılığını öngörmeye nasıl katkı sağlayabileceğini inceliyordu.\n\nÜçüncü sınıfta, çeşitli kültürel kulüplerin temsilinde bir boşluk olduğunu fark ettim. Bu nedenle Doğu Avrupa, Orta Doğu ve Orta Asya kültürlerini tanıtan ve bu kültürlere yönelik etkinlikler düzenleyen EurAsian Lions adlı kültür kulübünü kurdum. Bir saatlik seminerler verdik, tavla oynadık, kahve pişirdik, halk dansları öğrendik, Nevruz'u kutladık, ata bindik ve açık hava film geceleri düzenledik. Kampüsteki diğer öğrenci topluluklarıyla yürüttüğümüz çok kültürlü iş birlikleri sayesinde Overton Penceresi'ni daha kapsayıcı ve kesişimsel tartışmalara doğru kaydırdık.",
         "image": "/assets/uploads/logo.jpg",
         "image_alt": "",
         "image_position": "left",
@@ -156,11 +156,11 @@
         "hidden": false
       },
       {
-        "date": "Ingiltereye Tasindim",
-        "kind_label": "",
-        "title": "Dünyayı Kasıp Kavuran Kimse",
-        "org": "",
-        "body": "",
+        "date": "2014 - 2021",
+        "kind_label": "Temeller",
+        "title": "İngiltere'ye Taşınma",
+        "org": "Southampton, Birleşik Krallık",
+        "body": "Gezi Parkı protestolarının ardından annem, kardeşim ve ben Birleşik Krallık'a taşındık. Orada Hampshire'daki Eggar's School'a devam ettim. GCSE sınavlarını üstün başarıyla tamamladıktan sonra, 8.000'i aşkın öğrencisiyle ülkenin en büyük kolejlerinden biri olan Peter Symonds Sixth Form College'da yatılı okuma ayrıcalığına eriştim. COVID-19 pandemisi patlak verip uzaktan eğitime geçtiğimizde, tamamen çevrim içi yürüttüğüm bir kampanyayla Öğrenci Birliği Başkanı seçildim ve kampüsün yeniden açılması sürecinde akademik kadroyla birlikte çalıştım. Devrelere olan tutkum da yine Peter Symonds College'da filizlendi.",
         "image": "/assets/uploads/flyer.jpg",
         "image_alt": "",
         "image_position": "right",
@@ -170,11 +170,11 @@
         "hidden": false
       },
       {
-        "date": "Istanbul'da Dogdum, Alev Okullarina Gittim",
-        "kind_label": "",
-        "title": "Cocuk",
-        "org": "",
-        "body": "",
+        "date": "2002 - 2014",
+        "kind_label": "Temeller",
+        "title": "İstanbul'da Doğdum",
+        "org": "İstanbul, Türkiye",
+        "body": "İstanbul'da doğdum ve Almanca konuşmayı öğrendiğim, matematiğe ilgi duymaya başladığım Özel Alev Okulları'nda okudum.",
         "image": "/assets/uploads/childhood.png",
         "image_alt": "",
         "image_position": "left",
