@@ -100,7 +100,7 @@
   "tr": {
     "permalink": "home",
     "title": "Ana sayfa",
-    "description": "Mehmet Colakoglu: ürün tasarlayan ve geliştirici ekiplerine liderlik eden full-stack mühendis.",
+    "description": "Mehmet Çolakoğlu: ürünler tasarlayan ve üretken ekiplere liderlik eden full-stack mühendis.",
     "kicker": "",
     "show_title": false,
     "intro": "",
@@ -111,7 +111,7 @@
     "blocks": [
       {
         "type": "hero",
-        "kicker": "Full-stack mühendisi · San Francisco/Los Angeles",
+        "kicker": "**Ürün Yöneticisi. *Mühendis.* Ekip Lideri.**",
         "heading": "Kodu yazarım. Onu hayata geçiren *ekibe liderlik ederim.*",
         "lead": "Bir yazılımcının teknik becerilerine sahibim ve veritabanı şemasından canlıya almaya kadar sürecin her adımını anlıyorum. Asıl fark yarattığım yer ürün tasarlamak ve geliştirici ekiplerine liderlik etmek. Bilgisayar Bilimi ve Psikolojiyi aynı anda okudum; ikisini de her gün kullanıyorum.",
         "image": "",
