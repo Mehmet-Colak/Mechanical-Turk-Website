@@ -125,7 +125,7 @@
             "title": "Glendale Ready",
             "meta": "Jewel City Hacks",
             "badge": "1st Place",
-            "body": "- Built an AI-powered civic reporting app using Gemini Vision to classify infrastructure issues from user photos, route them to the correct LA 311 form, and submit tickets directly to the Mayor’s Office.\n- Scraped the 311 portal with Python to map its form schema, enabling dynamic field generation for different request categories.\n- Took 2nd place out of \\~20 teams (plus a distinction award for presentation) pitching live to 100+ attendees, including local investors and city representatives.",
+            "body": "- Awarded 1st place out of 15+ teams as a two-person team building directly for the Glendale Fire Department.\n- Created a location-based risk tool overlaying Cal Fire hazard data onto Google Maps to show active threat zones and evacuation routes, incorporating Google Calendar integration for recurring emergency drill reminders.",
             "tags": [
               "React",
               "Node.js",
