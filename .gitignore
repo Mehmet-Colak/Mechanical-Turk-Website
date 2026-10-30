@@ -4,3 +4,4 @@ dist/
 .dev.vars
 .wrangler/
 scripts/export-page.mjs
+exports/
