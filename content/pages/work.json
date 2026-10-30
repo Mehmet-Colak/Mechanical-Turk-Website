@@ -203,7 +203,7 @@
   "tr": {
     "permalink": "work",
     "title": "Çalışmalarım",
-    "description": "Mehmet Çolakoğlu’nun iş deneyimi, araştırmaları, projeleri ve sivil toplum çalışmaları.",
+    "description": "Mehmet Çolakoğlu’nun iş deneyimi, araştırmaları, projeleri ve sosyal başarıları.",
     "kicker": "work",
     "show_title": true,
     "intro": "Nerede neler inşa ettim, ne öğrendim ve bunun sonucunda ne değişti.",
@@ -214,7 +214,7 @@
     "blocks": [
       {
         "type": "cards",
-        "heading": "Deneyim",
+        "heading": "İş Deneyimi",
         "hidden": false,
         "intro": "",
         "columns": "1",
