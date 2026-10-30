@@ -2,52 +2,46 @@
   "en": {
     "items": [
       {
-        "label": "Home",
+        "label": "Ana Sayfa",
         "link": "home",
         "new_tab": false,
         "hidden": false
       },
       {
-        "label": "About me",
+        "label": "Hakkımda",
         "link": "about",
         "new_tab": false,
         "hidden": false
       },
       {
-        "label": "Work",
+        "label": "Deneyim",
         "link": "work",
         "new_tab": false,
         "hidden": false
       },
       {
-        "label": "Personal Projects",
+        "label": "Kişisel Projeler",
         "link": "projects",
         "new_tab": false,
         "hidden": false
       },
       {
-        "label": "Skills",
+        "label": "Yetkinlikler",
         "link": "skills",
         "new_tab": false,
         "hidden": false
       },
       {
-        "label": "Timeline",
+        "label": "Zaman Çizelgesi",
         "link": "timeline",
         "new_tab": false,
         "hidden": false
       },
       {
-        "label": "The Mechanical Turk",
+        "label": "Mechanical Turk",
         "link": "mechanical-turk",
         "new_tab": false,
         "hidden": false
-      },
-      {
-        "label": "Attributed to Turkey",
-        "link": "attributed-to-turkey",
-        "new_tab": false,
-        "hidden": true
       },
       {
         "label": "Contact",
@@ -72,25 +66,25 @@
         "hidden": false
       },
       {
-        "label": "Is Tecrubelerim",
+        "label": "Deneyim",
         "link": "work",
         "new_tab": false,
         "hidden": false
       },
       {
-        "label": "Projelerim",
+        "label": "Kişisel Projeler",
         "link": "projects",
         "new_tab": false,
         "hidden": false
       },
       {
-        "label": "Yetenekler",
+        "label": "Yetkinlikler",
         "link": "skills",
         "new_tab": false,
         "hidden": false
       },
       {
-        "label": "Zaman çizelgesi",
+        "label": "Zaman Çizelgesi",
         "link": "timeline",
         "new_tab": false,
         "hidden": false
@@ -100,12 +94,6 @@
         "link": "mechanical-turk",
         "new_tab": false,
         "hidden": false
-      },
-      {
-        "label": "Türk’e mal edilenler",
-        "link": "attributed-to-turkey",
-        "new_tab": false,
-        "hidden": true
       },
       {
         "label": "İletişim",
