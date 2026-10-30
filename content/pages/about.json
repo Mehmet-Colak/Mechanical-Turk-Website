@@ -6,6 +6,7 @@
     "kicker": "About me",
     "show_title": true,
     "intro": "Engineer, psychology graduate, and usually the person who ends up organizing the team.",
+    "show_divider": true,
     "divider_motif": "goz",
     "og_image": "",
     "draft": false,
@@ -19,7 +20,8 @@
         "body": "At Loyola Marymount University, I studied Computer Science and Psychology at the same time and graduated cum laude with a 3.8 GPA in 2025. The two degrees argued with each other in useful ways. Computer science taught me how systems behave. Psychology taught me how people behave around systems, and that the second question usually decides whether the first one matters.\n\nFor two years I was a research assistant in LMU’s Psychology Department. I wrote Python scripts that cleaned and validated data for more than 300 participants, and built 3D simulations in Unity to measure how people perceive the world around them. It was my first lesson in building tools for someone else’s work: researchers didn’t want code; they wanted experiments that ran.\n\nAfter graduating, I went into industry and kept drifting toward the problems _between_ teams. At DJ League, I built real-time competition interfaces in React and Convex. At Incredible Dream Studios, I connected bespoke ticketing tools to the company’s web infrastructure, cut resolution times by 82%, and wrote the specs and architecture proposals leadership used to decide what to build next. Today I’m a Systems Engineer at Chip Theory Games, building a project management platform that four departments share and moving legacy systems to Cloud Architecture.\n\nHackathons are where I practice leading small teams in rapid environments. They teach me to cut scope, assign work to people's strengths, and pitch what we have built. That’s how we took first place at Jewel City Hacks, building for the Glendale Fire Department, and second place plus a presentation award at Demo Vision Hack, which was sponsored by the Mayor's office.\n\nMy current passion is robotics, which has allowed me to combine my training in Computer Science, Psychology, and Physics. While solving problems in Software is fun and challenging in all the right ways, robotics lets me hold my creation in my hands, pivot toward a rapidly growing industry, and build systems that help people for the common good.",
         "as_card": true,
         "show_band": true,
-        "image_position": "top"
+        "image_position": "top",
+        "more_images": []
       },
       {
         "type": "divider",
@@ -170,21 +172,23 @@
     "description": "Mehmet Colakoglu’nun psikoloji, araştırma ve ekipler üzerinden yazılıma uzanan hikâyesi.",
     "kicker": "Hakkımda",
     "show_title": true,
-    "intro": "Mühendis, psikoloji mezunu ve genellikle ekibi organize eden kişi.",
+    "intro": "Mehmet Colakoglu'nun psikoloji, araştırma ve ekipler aracılığıyla yazılıma uzanan yolculuğunun hikâyesi. Mühendis, psikoloji mezunu ve çoğu zaman ekibi örgütleme vazifesi kendisine kalan kişi.",
+    "show_divider": true,
     "divider_motif": "goz",
     "og_image": "",
     "draft": false,
     "blocks": [
       {
         "type": "text",
-        "heading": "Yazılıma insanlar üzerinden geldim",
+        "heading": "Yazılıma insanlar aracılığıyla geldim",
         "image": "",
         "image_alt": "",
         "hidden": false,
-        "body": "Loyola Marymount Üniversitesi’nde Bilgisayar Bilimi ve Psikolojiyi aynı anda okudum ve 2025’te 3.8 not ortalamasıyla onur derecesiyle (cum laude) mezun oldum. İki bölüm birbiriyle verimli bir şekilde tartıştı. Bilgisayar bilimi bana sistemlerin nasıl davrandığını öğretti. Psikoloji ise insanların sistemler karşısında nasıl davrandığını ve çoğu zaman asıl belirleyici sorunun bu olduğunu.\n\nİki yıl boyunca LMU Psikoloji Bölümü’nde araştırma asistanı olarak çalıştım. 300’den fazla katılımcının verisini temizleyip doğrulayan Python betikleri yazdım ve insanların çevrelerini nasıl algıladığını ölçmek için Unity’de 3B simülasyonlar geliştirdim. Başkalarının işi için araç yapmaya dair ilk dersimdi: araştırmacılar kod istemiyordu, sorunsuz çalışan deneyler istiyordu.\n\nMezun olduktan sonra sektöre geçtim ve hep ekiplerin *arasındaki* sorunlara yöneldim. DJ League’de React ve Convex ile gerçek zamanlı yarışma arayüzleri geliştirdim. Incredible Dream Studios’ta destek talebi araçlarını şirketin web altyapısına bağladım, çözüm sürelerini %82 kısalttım ve yönetimin neyi inşa edeceğine karar verirken kullandığı şartnameleri ve mimari önerileri yazdım. Bugün Chip Theory Games’te Sistem Mühendisiyim; dört departmanın ortak kullandığı bir proje yönetim platformu geliştiriyor ve eski sistemleri AWS’ye taşıyorum.\n\nLiderliği hackathonlarda pratik ediyorum. Küçük bir ekip ve zorlu bir teslim tarihi; kapsamı daraltmayı, işi insanların güçlü yönlerine göre dağıtmayı ve yaptığını sunmayı çabucak öğretiyor. Glendale İtfaiyesi için geliştirdiğimiz projeyle Jewel City Hacks’te birinci, Demo Vision Hack’te ise ikinci olup sunum ödülünü de bu şekilde aldık.\n\nSırada robotik var. Bu alanda yeniyim ve ona psikolojiye yaklaştığım gibi yaklaşıyorum: temelleri doğru öğrenmek, küçük ama gerçek şeyler yapmak ve benden daha çok bilen insanlara yakın durmak.",
+        "body": "Loyola Marymount University'de Bilgisayar Bilimleri ve Psikoloji'yi eşzamanlı olarak tahsil ettim ve 2025 yılında 3.8 not ortalamasıyla cum laude derecesiyle mezun oldum. Bu iki disiplin birbiriyle son derece verimli biçimlerde münakaşa etti. Bilgisayar bilimleri bana sistemlerin nasıl davrandığını öğretti. Psikoloji ise insanların sistemler karşısında nasıl davrandığını ve ilk sorunun bir anlam taşıyıp taşımadığını çoğunlukla ikinci sorunun belirlediğini öğretti.\n\nİki yıl boyunca LMU Psikoloji Bölümü'nde araştırma asistanı olarak görev yaptım. 300'ü aşkın katılımcıya ait verileri temizleyen ve doğrulayan Python betikleri yazdım; insanların çevrelerindeki dünyayı nasıl algıladığını ölçmek amacıyla Unity'de üç boyutlu simülasyonlar geliştirdim. Bu, başkalarının mesaisine hizmet eden araçlar inşa etmeye dair ilk dersimdi: Araştırmacılar kod istemiyordu; sorunsuz işleyen deneyler istiyorlardı.\n\nMezuniyetimin ardından sektöre adım attım ve kendimi giderek ekipler \\_arasındaki\\_ sorunlara yönelirken buldum. DJ League'de React ve Convex ile gerçek zamanlı yarışma arayüzleri geliştirdim. Incredible Dream Studios'ta kuruma özgü destek talebi (ticketing) araçlarını şirketin web altyapısına entegre ettim, çözüm sürelerini %82 oranında kısalttım ve yönetimin bir sonraki adımda neyin inşa edileceğine karar verirken başvurduğu teknik şartnameleri ve mimari önerileri kaleme aldım. Bugün Chip Theory Games'te Sistem Mühendisi olarak dört departmanın ortaklaşa kullandığı bir proje yönetim platformu geliştiriyor ve eski (legacy) sistemleri bulut mimarisine taşıyorum.\n\nHackathon'lar, süratle değişen ortamlarda küçük ekiplere liderlik etmeyi tecrübe ettiğim mecralardır. Bana kapsamı daraltmayı, işleri ekip üyelerinin güçlü yönlerine göre dağıtmayı ve ortaya koyduğumuz ürünü ikna edici biçimde sunmayı öğretiyorlar. Glendale Fire Department için geliştirdiğimiz projeyle Jewel City Hacks'te birinciliği, Belediye Başkanlığı'nın sponsorluğundaki Demo Vision Hack'te ise ikinciliği ve sunum ödülünü bu sayede elde ettik.\n\nŞu anki tutkum robotik; zira bu alan, Bilgisayar Bilimleri, Psikoloji ve Fizik alanlarındaki birikimimi bir araya getirmeme imkân tanıyor. Yazılımda problem çözmek her bakımdan keyifli ve tam da olması gerektiği kadar zorlayıcı olsa da robotik; yarattığım şeyi ellerimde tutmamı, hızla büyüyen bir sektöre yönelmemi ve kamu yararına, insanlara fayda sağlayan sistemler inşa etmemi mümkün kılıyor.",
         "as_card": true,
         "show_band": true,
-        "image_position": "top"
+        "image_position": "top",
+        "more_images": []
       },
       {
         "type": "divider",
