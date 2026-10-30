@@ -88,16 +88,16 @@
       },
       {
         "type": "cards",
-        "heading": "AI",
+        "heading": "Yapay Zekâ",
         "hidden": false,
         "intro": "",
         "columns": "1",
         "items": [
           {
             "title": "Auto Dev. Env. (ADE)",
-            "meta": "Personal Use",
+            "meta": "Kişisel Kullanım",
             "badge": "",
-            "body": "- Built an autonomous coding agent that writes, tests, and debugs code locally based on user-defined acceptance criteria.\n- Deployed a quantized 7B LLM locally via Ollama on an 8GB VRAM / 32GB RAM hardware setup with SSH access for remote dev work.\n- Ran the entire physical compute setup off an off-grid 400W solar array and 2000Wh battery rig to bypass cloud compute costs.",
+            "body": "- Kullanıcı tanımlı kabul kriterlerine dayanarak yerel ortamda kod yazan, test eden ve hata ayıklayan otonom bir kodlama ajanı geliştirdim.\n- Kuantize edilmiş 7B parametreli bir büyük dil modelini, uzaktan geliştirme için SSH erişimli, 8GB VRAM / 32GB RAM'e sahip bir donanım üzerinde Ollama aracılığıyla yerel olarak devreye aldım.\n- Bulut bilişim maliyetlerinden kurtulmak için tüm fiziksel işlem altyapısını şebekeden bağımsız 400W'lık bir güneş paneli dizisi ve 2000Wh'lik bir batarya sistemiyle çalıştırdım.",
             "tags": [
               "Ollama",
               "OpenSSH",
@@ -116,7 +116,7 @@
       },
       {
         "type": "cards",
-        "heading": "Software",
+        "heading": "Yazılım",
         "hidden": false,
         "intro": "",
         "columns": "1",
@@ -124,7 +124,7 @@
           {
             "title": "Glendale Ready",
             "meta": "Jewel City Hacks",
-            "badge": "1st Place",
+            "badge": "Birincilik",
             "body": "- Built an AI-powered civic reporting app using Gemini Vision to classify infrastructure issues from user photos, route them to the correct LA 311 form, and submit tickets directly to the Mayor’s Office.\n- Scraped the 311 portal with Python to map its form schema, enabling dynamic field generation for different request categories.\n- Took 2nd place out of \\~20 teams (plus a distinction award for presentation) pitching live to 100+ attendees, including local investors and city representatives.",
             "tags": [
               "React",
