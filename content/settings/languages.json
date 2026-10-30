@@ -20,7 +20,7 @@
       "code": "es",
       "name": "Español",
       "dir": "ltr",
-      "enabled": false,
+      "enabled": true,
       "default": false,
       "font_url": ""
     },
