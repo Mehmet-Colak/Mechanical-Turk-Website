@@ -261,7 +261,7 @@
             "title": "DJ League",
             "meta": "Frontend Mühendisliği Stajyeri · Şubat – Nisan 2026",
             "badge": "",
-            "body": "- Canlı yarışmalar için, Convex'in reaktif WebSocket katmanı üzerinde çalışan animasyonlu React bileşenleri geliştirdim; 200'ü aşkın eşzamanlı bağlantıda gecikmeyi \\*\\*50 ms\\*\\*'nin altında tuttum.\n- Yüksek frekanslı yazma işlemlerini debounce uygulanmış abonelikler ve iyimser güncellemelerle (optimistic updates) yöneterek kararlı \\*\\*60 FPS\\*\\* performansını korudum.",
+            "body": "- Canlı yarışmalar için, Convex'in reaktif WebSocket katmanı üzerinde çalışan animasyonlu React bileşenleri geliştirdim; 200'ü aşkın eşzamanlı bağlantıda gecikmeyi **50 ms**'nin altında tuttum.\n- Yüksek frekanslı yazma işlemlerini debounce uygulanmış abonelikler ve iyimser güncellemelerle (optimistic updates) yöneterek kararlı **60 FPS** performansını korudum.",
             "tags": [
               "React",
               "Convex",
@@ -298,7 +298,7 @@
             "title": "G2 Esports",
             "meta": "Pazarlama ve Ortaklık Edinimi Stajyeri",
             "badge": "",
-            "body": "- Ortaklık fırsatlarını, ticari girişimleri ve etkileşim metriklerini değerlendirmek amacıyla Salesforce, Google Analytics ve Microsoft Excel kullanarak kapsamlı pazar araştırmaları ve sponsor erişim çalışmaları yürüttüm.\n- Veriye dayalı veritabanları oluşturarak 200'ü aşkın çok uluslu şirket nezdinde ticari pazar etki alanını %34 oranında genişlettim.\n- Kurumsal sponsor edinimini optimize etmek için izleyici demografisini ve coğrafi eğilimleri sınıflandırıp modelledim.\n- İş geliştirme stratejisine, doğrudan tüketiciye (DTC) gelir modeli çalışmalarına ve ticari ortaklıklara yön vermek amacıyla nicel bulguları ve performans göstergelerini (KPI) üst yönetime sundum.",
+            "body": "- Ortaklık fırsatlarını, ticari girişimleri ve etkileşim metriklerini değerlendirmek amacıyla Salesforce, Google Analytics ve Microsoft Excel kullanarak kapsamlı pazar araştırmaları ve sponsor erişim çalışmaları yürüttüm.\n- Veriye dayalı veritabanları oluşturarak 200'ü aşkın çok uluslu şirket nezdinde ticari pazar etki alanını **%34** oranında genişlettim.\n- Kurumsal sponsor edinimini optimize etmek için izleyici demografisini ve coğrafi eğilimleri sınıflandırıp modelledim.\n- İş geliştirme stratejisine, doğrudan tüketiciye (DTC) gelir modeli çalışmalarına ve ticari ortaklıklara yön vermek amacıyla nicel bulguları ve performans göstergelerini (KPI) üst yönetime sundum.",
             "tags": [],
             "links": [],
             "gallery": [],
