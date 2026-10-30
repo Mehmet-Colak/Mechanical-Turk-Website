@@ -306,7 +306,7 @@
   },
   "tr": {
     "permalink": "projects",
-    "title": "Personal Projelerim",
+    "title": "Kişisel Projeler",
     "description": "",
     "kicker": "",
     "show_title": true,
@@ -318,7 +318,7 @@
     "blocks": [
       {
         "type": "cards",
-        "heading": "",
+        "heading": "Robotik",
         "hidden": false,
         "intro": "",
         "columns": "1",
