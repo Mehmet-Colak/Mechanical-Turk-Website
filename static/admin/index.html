@@ -7,9 +7,9 @@
   <title>Content manager · mechanical-turk.dev</title>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link href="/admin/config.yml" type="application/yaml" rel="cms-config-url">
-  <!-- Language strip: blue English, red Turkish, orange Spanish, green Arabic, purple Russian, gold Chinese. Split when two panes are open. -->
+  <!-- Language strip: purple English, red Turkish, orange Spanish, green Arabic, blue Russian, yellow Chinese. Split when two panes are open. -->
   <style>
-    :root { --lang-en: #1d4ed8; --lang-tr: #e30a17; --lang-es: #f97316; --lang-ar: #15803d; --lang-ru: #7c3aed; --lang-zh: #facc15; }
+    :root { --lang-en: #7c3aed; --lang-tr: #e30a17; --lang-es: #f97316; --lang-ar: #15803d; --lang-ru: #1d4ed8; --lang-zh: #facc15; }
     /* Later rules win: --strip-end ends up as the last open language, --strip-start as the first. With one pane they match. */
     body:has(.content-editor .pane[data-mode="edit"][data-locale="en"]) { --strip-end: var(--lang-en); }
     body:has(.content-editor .pane[data-mode="edit"][data-locale="tr"]) { --strip-end: var(--lang-tr); }

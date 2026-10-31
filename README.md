@@ -98,7 +98,7 @@ Only people with write access to the GitHub repo can save changes. Anyone else w
 |---|---|
 | **Add a page** | Pages → **New Page**. Set a URL slug (e.g. `talks`), title, then add Sections. Add it to the menu under Settings → Navigation. |
 | **Delete a page** | Open it → **Delete**. Also remove its menu item. Tick **Draft** instead to unpublish without deleting. |
-| **Edit a page** | Pages → pick it. Each language appears as a tab/column; the strip at the top shows which one you’re editing (blue English, red Turkish, orange Spanish, green Arabic, purple Russian, gold Chinese). |
+| **Edit a page** | Pages → pick it. Each language appears as a tab/column; the strip at the top shows which one you’re editing (purple English, red Turkish, orange Spanish, green Arabic, blue Russian, yellow Chinese). |
 | **Turn a language on or off** | Settings → Languages → open the language → **Published on the site**. Turning it off removes its pages and its switcher entry at the next build; its translations stay saved. |
 | **Add / remove cards** | Open the page → the *Cards* section → **Add Card** or the item menu → Remove. Drag to reorder. **Hide this card** keeps it saved but off the site. A section with no visible cards disappears. |
 | **Add external links** | Card → *Buttons / links*; a *Link list* section; or a menu item with a full `https://…` link. External links open in a new tab with ↗. |
