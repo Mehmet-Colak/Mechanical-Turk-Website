@@ -123,7 +123,8 @@ function SitePreview({ entry }) {
     h("div", { style: { display: "flex", gap: 6, alignItems: "center" } },
       tab("desktop", "Desktop"), tab("phone", "Phone"),
       h("span", { style: { fontSize: 12, opacity: 0.7, marginInlineStart: "auto" } }, "Live preview · not yet published")),
-    h("div", { ref: box, style: { width: "100%", height, overflow: "hidden", border: "1px solid rgba(127,127,127,.35)", display: "flex", justifyContent: "center" } },
+    // direction: ltr keeps the scaled frame in place when the pane is RTL (Arabic); the page inside sets its own dir.
+    h("div", { ref: box, style: { width: "100%", height, overflow: "hidden", border: "1px solid rgba(127,127,127,.35)", display: "flex", justifyContent: "center", direction: "ltr" } },
       h("iframe", {
         ref: frame, title: "Page preview",
         style: device === "desktop"
