@@ -163,6 +163,10 @@
             "hidden": false
           }
         ]
+      },
+      {
+        "type": "divider",
+        "motif": "goz"
       }
     ]
   },
@@ -330,6 +334,10 @@
             "hidden": false
           }
         ]
+      },
+      {
+        "type": "divider",
+        "motif": "goz"
       }
     ]
   },
@@ -497,6 +505,10 @@
             "hidden": false
           }
         ]
+      },
+      {
+        "type": "divider",
+        "motif": "goz"
       }
     ]
   },
@@ -664,6 +676,10 @@
             "hidden": false
           }
         ]
+      },
+      {
+        "type": "divider",
+        "motif": "goz"
       }
     ]
   },
@@ -831,6 +847,10 @@
             "hidden": false
           }
         ]
+      },
+      {
+        "type": "divider",
+        "motif": "goz"
       }
     ]
   },
@@ -998,6 +1018,10 @@
             "hidden": false
           }
         ]
+      },
+      {
+        "type": "divider",
+        "motif": "goz"
       }
     ]
   }
