@@ -7,7 +7,7 @@
     "show_title": true,
     "intro": "Where I’ve built, what I learned, and what changed because of it.",
     "show_divider": true,
-    "divider_motif": "",
+    "divider_motif": "pitrak",
     "og_image": "",
     "draft": false,
     "blocks": [
@@ -127,6 +127,10 @@
         ]
       },
       {
+        "type": "divider",
+        "motif": "pitrak"
+      },
+      {
         "type": "cards",
         "heading": "Leadership",
         "hidden": false,
@@ -197,6 +201,10 @@
             "hidden": false
           }
         ]
+      },
+      {
+        "type": "divider",
+        "motif": "pitrak"
       }
     ]
   },
@@ -208,7 +216,7 @@
     "show_title": true,
     "intro": "Nerelerde inşa ettiğim, neler öğrendiğim ve bunun sonucunda nelerin değiştiği.",
     "show_divider": true,
-    "divider_motif": "",
+    "divider_motif": "pitrak",
     "og_image": "",
     "draft": false,
     "blocks": [
@@ -328,6 +336,10 @@
         ]
       },
       {
+        "type": "divider",
+        "motif": "pitrak"
+      },
+      {
         "type": "cards",
         "heading": "Liderlik",
         "hidden": false,
@@ -398,6 +410,10 @@
             "hidden": false
           }
         ]
+      },
+      {
+        "type": "divider",
+        "motif": "pitrak"
       }
     ]
   },
@@ -409,7 +425,7 @@
     "show_title": true,
     "intro": "Dónde he construido, qué he aprendido y qué cambió como consecuencia.",
     "show_divider": true,
-    "divider_motif": "",
+    "divider_motif": "pitrak",
     "og_image": "",
     "draft": false,
     "blocks": [
@@ -529,6 +545,10 @@
         ]
       },
       {
+        "type": "divider",
+        "motif": "pitrak"
+      },
+      {
         "type": "cards",
         "heading": "Liderazgo",
         "hidden": false,
@@ -599,6 +619,10 @@
             "hidden": false
           }
         ]
+      },
+      {
+        "type": "divider",
+        "motif": "pitrak"
       }
     ]
   },
@@ -610,7 +634,7 @@
     "show_title": true,
     "intro": "أين بنيت، وماذا تعلمت، وما الذي تغيّر نتيجة لذلك.",
     "show_divider": true,
-    "divider_motif": "",
+    "divider_motif": "pitrak",
     "og_image": "",
     "draft": false,
     "blocks": [
@@ -730,6 +754,10 @@
         ]
       },
       {
+        "type": "divider",
+        "motif": "pitrak"
+      },
+      {
         "type": "cards",
         "heading": "القيادة",
         "hidden": false,
@@ -800,6 +828,10 @@
             "hidden": false
           }
         ]
+      },
+      {
+        "type": "divider",
+        "motif": "pitrak"
       }
     ]
   },
@@ -811,7 +843,7 @@
     "show_title": true,
     "intro": "Где я созидал, чему научился и что изменилось в результате.",
     "show_divider": true,
-    "divider_motif": "",
+    "divider_motif": "pitrak",
     "og_image": "",
     "draft": false,
     "blocks": [
@@ -931,6 +963,10 @@
         ]
       },
       {
+        "type": "divider",
+        "motif": "pitrak"
+      },
+      {
         "type": "cards",
         "heading": "Лидерство",
         "hidden": false,
@@ -1001,6 +1037,10 @@
             "hidden": false
           }
         ]
+      },
+      {
+        "type": "divider",
+        "motif": "pitrak"
       }
     ]
   },
@@ -1012,7 +1052,7 @@
     "show_title": true,
     "intro": "我在何处构建，学到了什么，又因此改变了什么。",
     "show_divider": true,
-    "divider_motif": "",
+    "divider_motif": "pitrak",
     "og_image": "",
     "draft": false,
     "blocks": [
@@ -1132,6 +1172,10 @@
         ]
       },
       {
+        "type": "divider",
+        "motif": "pitrak"
+      },
+      {
         "type": "cards",
         "heading": "领导经历",
         "hidden": false,
@@ -1202,6 +1246,10 @@
             "hidden": false
           }
         ]
+      },
+      {
+        "type": "divider",
+        "motif": "pitrak"
       }
     ]
   }
