@@ -7,7 +7,7 @@
     "show_title": true,
     "intro": "",
     "show_divider": true,
-    "divider_motif": "",
+    "divider_motif": "goz",
     "og_image": "",
     "draft": false,
     "blocks": [
@@ -87,6 +87,10 @@
         ]
       },
       {
+        "type": "divider",
+        "motif": "goz"
+      },
+      {
         "type": "cards",
         "heading": "AI",
         "hidden": false,
@@ -113,6 +117,10 @@
             "hidden": false
           }
         ]
+      },
+      {
+        "type": "divider",
+        "motif": "goz"
       },
       {
         "type": "cards",
@@ -164,6 +172,10 @@
         ]
       },
       {
+        "type": "divider",
+        "motif": "goz"
+      },
+      {
         "type": "cards",
         "heading": "Research Papers",
         "hidden": false,
@@ -211,6 +223,10 @@
         ]
       },
       {
+        "type": "divider",
+        "motif": "goz"
+      },
+      {
         "type": "cards",
         "heading": "Video Games",
         "hidden": false,
@@ -250,6 +266,10 @@
             "hidden": false
           }
         ]
+      },
+      {
+        "type": "divider",
+        "motif": "goz"
       },
       {
         "type": "cards",
@@ -301,6 +321,10 @@
             "hidden": false
           }
         ]
+      },
+      {
+        "type": "divider",
+        "motif": "goz"
       }
     ]
   },
@@ -312,7 +336,7 @@
     "show_title": true,
     "intro": "",
     "show_divider": true,
-    "divider_motif": "",
+    "divider_motif": "goz",
     "og_image": "",
     "draft": false,
     "blocks": [
@@ -392,6 +416,10 @@
         ]
       },
       {
+        "type": "divider",
+        "motif": "goz"
+      },
+      {
         "type": "cards",
         "heading": "Yapay Zekâ",
         "hidden": false,
@@ -418,6 +446,10 @@
             "hidden": false
           }
         ]
+      },
+      {
+        "type": "divider",
+        "motif": "goz"
       },
       {
         "type": "cards",
@@ -469,6 +501,10 @@
         ]
       },
       {
+        "type": "divider",
+        "motif": "goz"
+      },
+      {
         "type": "cards",
         "heading": "Araştırma Makaleleri",
         "hidden": false,
@@ -516,6 +552,10 @@
         ]
       },
       {
+        "type": "divider",
+        "motif": "goz"
+      },
+      {
         "type": "cards",
         "heading": "Video Oyunları",
         "hidden": false,
@@ -555,6 +595,10 @@
             "hidden": false
           }
         ]
+      },
+      {
+        "type": "divider",
+        "motif": "goz"
       },
       {
         "type": "cards",
@@ -606,6 +650,10 @@
             "hidden": false
           }
         ]
+      },
+      {
+        "type": "divider",
+        "motif": "goz"
       }
     ]
   },
@@ -617,7 +665,7 @@
     "show_title": true,
     "intro": "",
     "show_divider": true,
-    "divider_motif": "",
+    "divider_motif": "goz",
     "og_image": "",
     "draft": false,
     "blocks": [
@@ -697,6 +745,10 @@
         ]
       },
       {
+        "type": "divider",
+        "motif": "goz"
+      },
+      {
         "type": "cards",
         "heading": "Inteligencia artificial",
         "hidden": false,
@@ -723,6 +775,10 @@
             "hidden": false
           }
         ]
+      },
+      {
+        "type": "divider",
+        "motif": "goz"
       },
       {
         "type": "cards",
@@ -774,6 +830,10 @@
         ]
       },
       {
+        "type": "divider",
+        "motif": "goz"
+      },
+      {
         "type": "cards",
         "heading": "Artículos de investigación",
         "hidden": false,
@@ -821,6 +881,10 @@
         ]
       },
       {
+        "type": "divider",
+        "motif": "goz"
+      },
+      {
         "type": "cards",
         "heading": "Videojuegos",
         "hidden": false,
@@ -860,6 +924,10 @@
             "hidden": false
           }
         ]
+      },
+      {
+        "type": "divider",
+        "motif": "goz"
       },
       {
         "type": "cards",
@@ -911,6 +979,10 @@
             "hidden": false
           }
         ]
+      },
+      {
+        "type": "divider",
+        "motif": "goz"
       }
     ]
   },
@@ -922,7 +994,7 @@
     "show_title": true,
     "intro": "",
     "show_divider": true,
-    "divider_motif": "",
+    "divider_motif": "goz",
     "og_image": "",
     "draft": false,
     "blocks": [
@@ -1002,6 +1074,10 @@
         ]
       },
       {
+        "type": "divider",
+        "motif": "goz"
+      },
+      {
         "type": "cards",
         "heading": "الذكاء الاصطناعي",
         "hidden": false,
@@ -1028,6 +1104,10 @@
             "hidden": false
           }
         ]
+      },
+      {
+        "type": "divider",
+        "motif": "goz"
       },
       {
         "type": "cards",
@@ -1079,6 +1159,10 @@
         ]
       },
       {
+        "type": "divider",
+        "motif": "goz"
+      },
+      {
         "type": "cards",
         "heading": "الأوراق البحثية",
         "hidden": false,
@@ -1126,6 +1210,10 @@
         ]
       },
       {
+        "type": "divider",
+        "motif": "goz"
+      },
+      {
         "type": "cards",
         "heading": "ألعاب الفيديو",
         "hidden": false,
@@ -1165,6 +1253,10 @@
             "hidden": false
           }
         ]
+      },
+      {
+        "type": "divider",
+        "motif": "goz"
       },
       {
         "type": "cards",
@@ -1216,6 +1308,10 @@
             "hidden": false
           }
         ]
+      },
+      {
+        "type": "divider",
+        "motif": "goz"
       }
     ]
   },
@@ -1227,7 +1323,7 @@
     "show_title": true,
     "intro": "",
     "show_divider": true,
-    "divider_motif": "",
+    "divider_motif": "goz",
     "og_image": "",
     "draft": false,
     "blocks": [
@@ -1307,6 +1403,10 @@
         ]
       },
       {
+        "type": "divider",
+        "motif": "goz"
+      },
+      {
         "type": "cards",
         "heading": "Искусственный интеллект",
         "hidden": false,
@@ -1333,6 +1433,10 @@
             "hidden": false
           }
         ]
+      },
+      {
+        "type": "divider",
+        "motif": "goz"
       },
       {
         "type": "cards",
@@ -1384,6 +1488,10 @@
         ]
       },
       {
+        "type": "divider",
+        "motif": "goz"
+      },
+      {
         "type": "cards",
         "heading": "Научные работы",
         "hidden": false,
@@ -1431,6 +1539,10 @@
         ]
       },
       {
+        "type": "divider",
+        "motif": "goz"
+      },
+      {
         "type": "cards",
         "heading": "Видеоигры",
         "hidden": false,
@@ -1470,6 +1582,10 @@
             "hidden": false
           }
         ]
+      },
+      {
+        "type": "divider",
+        "motif": "goz"
       },
       {
         "type": "cards",
@@ -1521,6 +1637,10 @@
             "hidden": false
           }
         ]
+      },
+      {
+        "type": "divider",
+        "motif": "goz"
       }
     ]
   },
@@ -1532,7 +1652,7 @@
     "show_title": true,
     "intro": "",
     "show_divider": true,
-    "divider_motif": "",
+    "divider_motif": "goz",
     "og_image": "",
     "draft": false,
     "blocks": [
@@ -1612,6 +1732,10 @@
         ]
       },
       {
+        "type": "divider",
+        "motif": "goz"
+      },
+      {
         "type": "cards",
         "heading": "人工智能",
         "hidden": false,
@@ -1638,6 +1762,10 @@
             "hidden": false
           }
         ]
+      },
+      {
+        "type": "divider",
+        "motif": "goz"
       },
       {
         "type": "cards",
@@ -1689,6 +1817,10 @@
         ]
       },
       {
+        "type": "divider",
+        "motif": "goz"
+      },
+      {
         "type": "cards",
         "heading": "研究论文",
         "hidden": false,
@@ -1736,6 +1868,10 @@
         ]
       },
       {
+        "type": "divider",
+        "motif": "goz"
+      },
+      {
         "type": "cards",
         "heading": "电子游戏",
         "hidden": false,
@@ -1775,6 +1911,10 @@
             "hidden": false
           }
         ]
+      },
+      {
+        "type": "divider",
+        "motif": "goz"
       },
       {
         "type": "cards",
@@ -1826,6 +1966,10 @@
             "hidden": false
           }
         ]
+      },
+      {
+        "type": "divider",
+        "motif": "goz"
       }
     ]
   }
