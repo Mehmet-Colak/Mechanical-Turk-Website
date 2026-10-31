@@ -141,6 +141,7 @@ h1, h2, h3, h4, h5 { font-family: var(--font-display); line-height: 1.15; font-w
   position: absolute; left: 50%; z-index: 2;
   display: flex; align-items: center; gap: 2px;
   padding-inline: 12px; background: var(--bg);
+  direction: ltr; /* The copies face outward, so RTL must not swap the two halves. */
 }
 .border-symbols--header { bottom: calc(var(--border) / -2); transform: translate(-50%, 50%); }
 .border-symbols--footer { top: calc(var(--border) / -2); transform: translate(-50%, -50%); }
