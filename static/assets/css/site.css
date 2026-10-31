@@ -34,9 +34,9 @@
 
   --border: 4px;
   --border-thin: 3px;
-  --font-display: "Zilla Slab", "IBM Plex Serif", serif;
+  --font-display: "Zilla Slab", "IBM Plex Serif", "IBM Plex Sans Arabic", "Noto Serif SC", serif;
   --font-body: "IBM Plex Sans", "IBM Plex Sans Arabic", "Noto Sans SC", sans-serif;
-  --font-mono: "IBM Plex Mono", monospace;
+  --font-mono: "IBM Plex Mono", "IBM Plex Sans Arabic", "Noto Sans SC", monospace;
   color-scheme: light;
 }
 
@@ -461,3 +461,6 @@ h1, h2, h3, h4, h5 { font-family: var(--font-display); line-height: 1.15; font-w
   .skills { grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); }
   .skill__link, .skill { min-height: 112px; padding: 16px 6px 14px; }
 }
+
+/* Arabic and Chinese have no true italics; slanted glyphs read badly, so emphasis is weight only. */
+:lang(ar) em, :lang(zh) em { font-style: normal; font-weight: 600; }

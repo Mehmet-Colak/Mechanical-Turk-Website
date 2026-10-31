@@ -148,13 +148,163 @@
         "hidden": false
       },
       {
-        "label": "Atribuido a Turquía",
-        "link": "attributed-to-turkey",
+        "label": "Contacto",
+        "link": "contact",
         "new_tab": false,
-        "hidden": true
+        "hidden": false
+      }
+    ]
+  },
+  "ar": {
+    "items": [
+      {
+        "label": "الرئيسية",
+        "link": "home",
+        "new_tab": false,
+        "hidden": false
       },
       {
-        "label": "Contacto",
+        "label": "نبذة عني",
+        "link": "about",
+        "new_tab": false,
+        "hidden": false
+      },
+      {
+        "label": "المسيرة المهنية",
+        "link": "work",
+        "new_tab": false,
+        "hidden": false
+      },
+      {
+        "label": "المشاريع الشخصية",
+        "link": "projects",
+        "new_tab": false,
+        "hidden": false
+      },
+      {
+        "label": "الكفاءات",
+        "link": "skills",
+        "new_tab": false,
+        "hidden": false
+      },
+      {
+        "label": "التسلسل الزمني",
+        "link": "timeline",
+        "new_tab": false,
+        "hidden": false
+      },
+      {
+        "label": "The Mechanical Turk",
+        "link": "mechanical-turk",
+        "new_tab": false,
+        "hidden": false
+      },
+      {
+        "label": "التواصل",
+        "link": "contact",
+        "new_tab": false,
+        "hidden": false
+      }
+    ]
+  },
+  "ru": {
+    "items": [
+      {
+        "label": "Главная",
+        "link": "home",
+        "new_tab": false,
+        "hidden": false
+      },
+      {
+        "label": "Обо мне",
+        "link": "about",
+        "new_tab": false,
+        "hidden": false
+      },
+      {
+        "label": "Карьера",
+        "link": "work",
+        "new_tab": false,
+        "hidden": false
+      },
+      {
+        "label": "Личные проекты",
+        "link": "projects",
+        "new_tab": false,
+        "hidden": false
+      },
+      {
+        "label": "Компетенции",
+        "link": "skills",
+        "new_tab": false,
+        "hidden": false
+      },
+      {
+        "label": "Хронология",
+        "link": "timeline",
+        "new_tab": false,
+        "hidden": false
+      },
+      {
+        "label": "The Mechanical Turk",
+        "link": "mechanical-turk",
+        "new_tab": false,
+        "hidden": false
+      },
+      {
+        "label": "Контакты",
+        "link": "contact",
+        "new_tab": false,
+        "hidden": false
+      }
+    ]
+  },
+  "zh": {
+    "items": [
+      {
+        "label": "首页",
+        "link": "home",
+        "new_tab": false,
+        "hidden": false
+      },
+      {
+        "label": "关于我",
+        "link": "about",
+        "new_tab": false,
+        "hidden": false
+      },
+      {
+        "label": "职业经历",
+        "link": "work",
+        "new_tab": false,
+        "hidden": false
+      },
+      {
+        "label": "个人项目",
+        "link": "projects",
+        "new_tab": false,
+        "hidden": false
+      },
+      {
+        "label": "专业技能",
+        "link": "skills",
+        "new_tab": false,
+        "hidden": false
+      },
+      {
+        "label": "时间线",
+        "link": "timeline",
+        "new_tab": false,
+        "hidden": false
+      },
+      {
+        "label": "The Mechanical Turk",
+        "link": "mechanical-turk",
+        "new_tab": false,
+        "hidden": false
+      },
+      {
+        "label": "联系方式",
         "link": "contact",
         "new_tab": false,
         "hidden": false

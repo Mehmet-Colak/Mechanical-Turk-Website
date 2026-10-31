@@ -56,6 +56,67 @@
         "hidden": false,
         "intro": ""
       }
+    ],
+    "show_divider": true
+  },
+  "ar": {
+    "permalink": "skills",
+    "title": "الكفاءات",
+    "description": "اللغات وأطر العمل وأدوات الحوسبة السحابية والذكاء الاصطناعي التي يعمل بها Mehmet Colakoglu.",
+    "kicker": "الكفاءات",
+    "show_title": true,
+    "intro": "هذه هي الأدوات التي أبني بها. أفضّل لغات البرمجة النصية، لكنني أمتلك خبرة واسعة في اللغات المترجَمة.",
+    "show_divider": true,
+    "divider_motif": "",
+    "og_image": "",
+    "draft": false,
+    "blocks": [
+      {
+        "type": "skills",
+        "heading": "",
+        "hidden": false,
+        "intro": ""
+      }
+    ]
+  },
+  "ru": {
+    "permalink": "skills",
+    "title": "Компетенции",
+    "description": "Языки, фреймворки, облачные технологии и инструменты ИИ, с которыми работает Mehmet Colakoglu.",
+    "kicker": "Компетенции",
+    "show_title": true,
+    "intro": "Это инструменты, с помощью которых я созидаю. Я предпочитаю скриптовые языки, но обладаю обширным опытом работы и с компилируемыми.",
+    "show_divider": true,
+    "divider_motif": "",
+    "og_image": "",
+    "draft": false,
+    "blocks": [
+      {
+        "type": "skills",
+        "heading": "",
+        "hidden": false,
+        "intro": ""
+      }
+    ]
+  },
+  "zh": {
+    "permalink": "skills",
+    "title": "专业技能",
+    "description": "Mehmet Colakoglu 使用的编程语言、框架、云计算及人工智能工具。",
+    "kicker": "专业技能",
+    "show_title": true,
+    "intro": "这些是我用以构建的工具。我偏爱脚本语言，但在编译型语言方面也拥有丰富经验。",
+    "show_divider": true,
+    "divider_motif": "",
+    "og_image": "",
+    "draft": false,
+    "blocks": [
+      {
+        "type": "skills",
+        "heading": "",
+        "hidden": false,
+        "intro": ""
+      }
     ]
   }
 }

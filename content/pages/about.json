@@ -351,7 +351,7 @@
         "image": "",
         "image_alt": "",
         "hidden": false,
-        "body": "En Loyola Marymount University cursé simultáneamente Ciencias de la Computación y Psicología, y me gradué cum laude en 2025 con un promedio de 3.8 (GPA). Ambas titulaciones mantuvieron entre sí una provechosa disputa. Las ciencias de la computación me enseñaron cómo se comportan los sistemas. La psicología me enseñó cómo se comportan las personas ante ellos, y que la segunda cuestión suele dirimir si la primera tiene alguna relevancia.\n\nDurante dos años fui asistente de investigación en el Departamento de Psicología de LMU. Escribí scripts en Python que depuraban y validaban los datos de más de 300 participantes, y desarrollé simulaciones tridimensionales en Unity para medir cómo perciben las personas el mundo que las rodea. Fue mi primera lección sobre la creación de herramientas al servicio de la labor ajena: los investigadores no querían código; querían experimentos que funcionaran.\n\nTras graduarme me incorporé a la industria y fui gravitando hacia los problemas situados _entre_ los equipos. En DJ League desarrollé interfaces de competición en tiempo real con React y Convex. En Incredible Dream Studios conecté herramientas de gestión de incidencias hechas a medida con la infraestructura web de la empresa, reduje los tiempos de resolución en un 82 % y redacté las especificaciones y propuestas de arquitectura en las que la dirección se basó para decidir qué construir a continuación. Hoy soy Ingeniero de Sistemas en Chip Theory Games, donde desarrollo una plataforma de gestión de proyectos compartida por cuatro departamentos y migro sistemas heredados a una arquitectura en la nube.\n\nLos hackatones son el ámbito en el que ejercito el liderazgo de equipos reducidos en entornos vertiginosos. Me enseñan a acotar el alcance, a asignar el trabajo según las fortalezas de cada persona y a presentar con solvencia lo construido. Así obtuvimos el primer puesto en Jewel City Hacks, con un desarrollo destinado al Glendale Fire Department, y el segundo puesto, junto con un premio a la presentación, en Demo Vision Hack, patrocinado por la Alcaldía.\n\nMi pasión actual es la robótica, que me permite conjugar mi formación en Ciencias de la Computación, Psicología y Física. Si bien resolver problemas de software resulta grato y estimulante en la justa medida, la robótica me permite sostener mi creación entre las manos, orientarme hacia una industria en vertiginoso crecimiento y construir sistemas que ayuden a las personas en pro del bien común.",
+        "body": "En Loyola Marymount University cursé simultáneamente Ciencias de la Computación y Psicología, y me gradué cum laude en 2025 con un promedio de 3.8 (GPA). Ambas titulaciones mantuvieron entre sí una provechosa disputa. Las ciencias de la computación me enseñaron cómo se comportan los sistemas. La psicología me enseñó cómo se comportan las personas ante ellos, y que la segunda cuestión suele dirimir si la primera tiene alguna relevancia.\n\nDurante dos años fui asistente de investigación en el Departamento de Psicología de LMU. Escribí scripts en Python que depuraban y validaban los datos de más de 300 participantes, y desarrollé simulaciones tridimensionales en Unity para medir cómo perciben las personas el mundo que las rodea. Fue mi primera lección sobre la creación de herramientas al servicio de la labor ajena: los investigadores no querían código; querían experimentos que funcionaran.\n\nTras graduarme me incorporé a la industria y fui gravitando hacia los problemas situados _entre_ los equipos. En DJ League desarrollé interfaces de competición en tiempo real con React y Convex. En Incredible Dream Studios conecté herramientas de gestión de incidencias hechas a medida con la infraestructura web de la empresa, reduje los tiempos de resolución en un 82 % y redacté las especificaciones y propuestas de arquitectura en las que la dirección se basó para decidir qué construir a continuación. Hoy soy Ingeniero de Sistemas en Chip Theory Games, donde desarrollo una plataforma de gestión de proyectos compartida por cuatro departamentos y migro sistemas heredados a una arquitectura en la nube.\n\nLos hackatones son el ámbito en el que ejercito el liderazgo de equipos reducidos en entornos vertiginosos. Me enseñan a acotar el alcance, a asignar el trabajo según las fortalezas de cada persona y a presentar con solvencia lo construido. Así obtuvimos el primer puesto en Jewel City Hacks, con un desarrollo destinado al Glendale Fire Department, y el segundo puesto, junto con un premio a la presentación, en Demo Vision Hack, patrocinado por la Alcaldía.\n\nMi pasión actual es la robótica, que me permite conjugar mi formación en Ciencias de la Computación, Psicología y Física. Si bien resolver problemas de software resulta grato y estimulante en la justa medida, la robótica me permite sostener mi creación entre las manos, orientarme hacia una industria en vertiginoso crecimiento y construir sistemas que ayuden a las personas en pro del bien común.",
         "as_card": true,
         "show_band": true,
         "image_position": "top",
@@ -487,6 +487,507 @@
             "meta": "",
             "badge": "",
             "body": "Escribo cuentos y guiones desde muy temprana edad. Me centro en la ciencia ficción y la fantasía, el drama y el terror. Me seducen la reinterpretación de los mitos y la incorporación de alegorías políticas. Mis relatos transcurren en escenarios muy diversos, como las selvas de México, las tierras altas de Etiopía, los archipiélagos de Indonesia, las ciénagas de Finlandia y los desiertos de Turkmenistán.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
+      }
+    ]
+  },
+  "ar": {
+    "permalink": "about",
+    "title": "نبذة عني",
+    "description": "قصة وصول Mehmet Colakoglu إلى البرمجيات عبر علم النفس والبحث العلمي والعمل مع الفرق.",
+    "kicker": "نبذة عني",
+    "show_title": true,
+    "intro": "مهندس، وخريج علم نفس، وعادةً ما ينتهي بي الأمر إلى تنظيم الفريق.",
+    "show_divider": true,
+    "divider_motif": "goz",
+    "og_image": "",
+    "draft": false,
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "وصلت إلى البرمجيات عبر الناس",
+        "image": "",
+        "image_alt": "",
+        "hidden": false,
+        "body": "درست علوم الحاسوب وعلم النفس في آنٍ واحد في Loyola Marymount University، وتخرجت بمرتبة الشرف (cum laude) عام 2025 بمعدل تراكمي 3.8 (GPA). وقد تجادلت الشهادتان فيما بينهما على نحو مثمر. فقد علّمتني علوم الحاسوب كيف تسلك الأنظمة، وعلّمني علم النفس كيف يسلك الناس حيالها، وأن السؤال الثاني هو الذي يحسم عادةً ما إذا كان للأول أي أهمية.\n\nعملت طوال عامين مساعد باحث في قسم علم النفس في LMU، فكتبت نصوصًا برمجية بلغة Python لتنقية بيانات أكثر من 300 مشارك والتحقق منها، وبنيت محاكاة ثلاثية الأبعاد في Unity لقياس كيفية إدراك الناس للعالم من حولهم. وكان ذلك أول درس لي في بناء الأدوات لخدمة عمل الآخرين: لم يكن الباحثون يريدون شيفرة، بل تجارب تعمل.\n\nبعد التخرج، دخلت عالم الصناعة وظللت أنجذب إلى المشكلات الواقعة _بين_ الفرق. ففي DJ League، بنيت واجهات منافسات آنية باستخدام React وConvex. وفي Incredible Dream Studios، ربطت أدوات مخصصة لإدارة التذاكر بالبنية التحتية للشركة على الويب، وقلّصت أوقات الحل بنسبة 82%، وكتبت المواصفات والمقترحات المعمارية التي استندت إليها القيادة في تقرير ما يُبنى لاحقًا. وأنا اليوم مهندس أنظمة في Chip Theory Games، أبني منصة لإدارة المشاريع تتشاركها أربعة أقسام، وأنقل الأنظمة القديمة إلى بنية سحابية.\n\nأما الهاكاثونات فهي الميدان الذي أتمرس فيه على قيادة الفرق الصغيرة في بيئات سريعة الإيقاع؛ إذ تعلمني تقليص النطاق، وتوزيع العمل وفق مواطن قوة الأفراد، وعرض ما بنيناه عرضًا مقنعًا. وبذلك أحرزنا المركز الأول في Jewel City Hacks بمشروع أُعدّ لـGlendale Fire Department، والمركز الثاني إضافة إلى جائزة العرض في Demo Vision Hack، الذي رعاه مكتب العمدة.\n\nشغفي الحالي هو علم الروبوتات، الذي أتاح لي الجمع بين تكويني في علوم الحاسوب وعلم النفس والفيزياء. وعلى ما في حل مشكلات البرمجيات من متعة وتحدٍّ محمود، فإن الروبوتات تتيح لي أن أمسك إبداعي بيديّ، وأن أتجه نحو صناعة سريعة النمو، وأن أبني أنظمة تعين الناس خدمةً للصالح العام.",
+        "as_card": true,
+        "show_band": true,
+        "image_position": "top",
+        "more_images": []
+      },
+      {
+        "type": "divider",
+        "motif": "goz"
+      },
+      {
+        "type": "cards",
+        "heading": "خارج نطاق العمل",
+        "hidden": false,
+        "intro": "",
+        "columns": "2",
+        "items": [
+          {
+            "title": "تعلّم علم الروبوتات",
+            "meta": "هدف بعيد المدى",
+            "badge": "",
+            "body": "أهوى تصميم الدوائر المعقدة واللحام والعمل على الدوائر الكهربائية لمحاكاة طريقة عمل العصبونات البشرية. أحب ضبط أجهزة الاستشعار والعمل معها، وأستمتع برؤية المحركات تتحرك كما أردت، وأحتمل وصل الأسلاك بعضها ببعض لتشكيل جهاز عصبي. ففي البرمجيات يمكنك تعديل الشيفرة واستنساخها ببضعة أوامر، أما في العتاد فإن تغيير أدق التفاصيل يستلزم تخطيطًا متأنيًا وأيامًا من إعادة الهيكلة. (لا تكترثوا بفوضى الأسلاك؛ فلم يكن في TinkerCAD ما أحتاجه من مكونات، هاها.)",
+            "tags": [],
+            "links": [],
+            "gallery": [
+              {
+                "image": "/assets/uploads/messy wiring.png",
+                "alt": "",
+                "caption": ""
+              }
+            ],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "المبارزة بالسيف",
+            "meta": "سلاح الشيش - Elite Fencing Club",
+            "badge": "",
+            "body": "أمارس المبارزة منذ الثالثة عشرة من عمري. ورغم أنني جرّبت سلاح الإيبيه، وجدت متعة أكبر في الشيش لأنه أسرع ويتيح مجالًا أوسع للتجربة والخطأ. وتتيح لي المبارزة مراقبة خصمي وحل المشكلات في الوقت الفعلي.",
+            "tags": [],
+            "links": [],
+            "gallery": [
+              {
+                "image": "/assets/uploads/fencing.png",
+                "alt": "",
+                "caption": ""
+              }
+            ],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "الرماية بالقوس",
+            "meta": "القوس الأولمبي المنحني - Rancho Park Archers",
+            "badge": "",
+            "body": "بدأت الرماية بالقوس بعد زيارتي ألماتي في كازاخستان. وأمارس في الغالب الرماية على الأهداف بقوس ILF من مسافات تتراوح بين 18 و28 مترًا. إنها تجربة باعثة على السكينة تتيح لي الاسترخاء، والتصويب بثبات، وارتكاب الأخطاء، وتشخيص الخلل حين يتعثر أسلوبي أو عتادي. كما تتيح لي الرماية إعادة الوصل بتراثي التركي.",
+            "tags": [],
+            "links": [
+              {
+                "label": "شاهدوني أرمي",
+                "url": "https://youtube.com/shorts/mwmkznOFC1Y",
+                "style": "secondary",
+                "new_tab": true
+              }
+            ],
+            "gallery": [
+              {
+                "image": "/assets/uploads/first archery.png",
+                "alt": "",
+                "caption": ""
+              }
+            ],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "ركوب الخيل",
+            "meta": "الأسلوب الغربي - Portuguese Bend Riding Club",
+            "badge": "",
+            "body": "منذ مطلع عام 2026 وأنا آخذ دروسًا في ركوب الخيل. وأفضّل الأسلوب الغربي لأنه أقرب إلى العملية والتحرر والطبيعية. وأعتز بالرابطة التي أنسجها مع الحيوانات في المزرعة، وإن تعلّم الثقة بالعملية بدلًا من الخوف من «شريكي» لهو درس حياتي ثمين. وهذا أيضًا يعينني على إعادة الوصل بتراثي.",
+            "tags": [],
+            "links": [
+              {
+                "label": "شاهدوني أركب",
+                "url": "https://youtube.com/shorts/WA6U7myg7ec",
+                "style": "secondary",
+                "new_tab": true
+              }
+            ],
+            "gallery": [
+              {
+                "image": "/assets/uploads/horse riding.png",
+                "alt": "",
+                "caption": ""
+              }
+            ],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "الرماية من على ظهر الخيل",
+            "meta": "السحب الآسيوي - Heather Horseback Archery",
+            "badge": "",
+            "body": "لقد أدركتم الفكرة؛ فلا طائل من «جلد ذلك الذي تعرفونه وقد مات».",
+            "tags": [],
+            "links": [],
+            "gallery": [
+              {
+                "image": "/assets/uploads/horseback archery.png",
+                "alt": "",
+                "caption": ""
+              }
+            ],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "كتابة الأدب الخيالي",
+            "meta": "",
+            "badge": "",
+            "body": "أكتب القصص القصيرة والسيناريوهات منذ نعومة أظفاري، مركزًا على الخيال العلمي والفانتازيا والدراما والرعب. وتستهويني إعادة تأويل الأساطير وتضمين الرموز السياسية. وتدور قصصي في أماكن شتى، كأدغال المكسيك ومرتفعات إثيوبيا وأرخبيلات إندونيسيا ومستنقعات فنلندا وصحارى تركمانستان.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
+      }
+    ]
+  },
+  "ru": {
+    "permalink": "about",
+    "title": "Обо мне",
+    "description": "История о том, как Mehmet Colakoglu пришёл к программному обеспечению через психологию, исследования и работу в командах.",
+    "kicker": "Обо мне",
+    "show_title": true,
+    "intro": "Инженер, выпускник-психолог и, как правило, тот, кому в итоге выпадает организовывать команду.",
+    "show_divider": true,
+    "divider_motif": "goz",
+    "og_image": "",
+    "draft": false,
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "К программному обеспечению я пришёл через людей",
+        "image": "",
+        "image_alt": "",
+        "hidden": false,
+        "body": "В Loyola Marymount University я одновременно изучал компьютерные науки и психологию и в 2025 году окончил университет с отличием (cum laude), со средним баллом 3.8 (GPA). Обе специальности вели между собой весьма плодотворный спор. Компьютерные науки научили меня тому, как ведут себя системы. Психология научила тому, как ведут себя люди рядом с системами, и тому, что именно второй вопрос обычно определяет, имеет ли значение первый.\n\nДва года я работал научным ассистентом на факультете психологии LMU. Я писал скрипты на Python, очищавшие и проверявшие данные более чем 300 участников, и создавал трёхмерные симуляции в Unity, позволявшие измерить, как люди воспринимают окружающий мир. Это стало моим первым уроком создания инструментов для чужой работы: исследователям был нужен не код, а работающие эксперименты.\n\nПосле выпуска я пришёл в индустрию, и меня всё сильнее влекли проблемы, возникающие _между_ командами. В DJ League я создавал интерфейсы для соревнований в реальном времени на React и Convex. В Incredible Dream Studios я связал специализированные инструменты обработки обращений с веб-инфраструктурой компании, сократил время их разрешения на 82 % и написал спецификации и архитектурные предложения, на основании которых руководство решало, что создавать дальше. Сегодня я системный инженер в Chip Theory Games: разрабатываю платформу управления проектами, которой совместно пользуются четыре отдела, и перевожу устаревшие системы на облачную архитектуру.\n\nХакатоны — это та среда, где я оттачиваю руководство небольшими командами в условиях стремительных перемен. Они учат меня сужать рамки задачи, распределять работу с учётом сильных сторон людей и убедительно представлять созданное. Так мы заняли первое место на Jewel City Hacks, работая для Glendale Fire Department, и второе место, а также приз за презентацию, на Demo Vision Hack, проходившем при поддержке мэрии.\n\nМоя нынешняя страсть — робототехника, позволяющая соединить мою подготовку в компьютерных науках, психологии и физике. Хотя решение задач в области программного обеспечения увлекательно и бросает вызов именно так, как следует, робототехника позволяет мне держать своё творение в руках, обратиться к стремительно растущей отрасли и создавать системы, помогающие людям во имя общего блага.",
+        "as_card": true,
+        "show_band": true,
+        "image_position": "top",
+        "more_images": []
+      },
+      {
+        "type": "divider",
+        "motif": "goz"
+      },
+      {
+        "type": "cards",
+        "heading": "Вне работы",
+        "hidden": false,
+        "intro": "",
+        "columns": "2",
+        "items": [
+          {
+            "title": "Изучение робототехники",
+            "meta": "Долгосрочная цель",
+            "badge": "",
+            "body": "Я люблю проектировать сложные схемы, паять и работать со схемотехникой, воспроизводящей принципы действия человеческих нейронов. Мне нравится настраивать датчики и работать с ними; я с удовольствием наблюдаю, как двигатели движутся именно так, как я задумал, и терпеливо сращиваю провода в подобие нервной системы. В программном обеспечении код можно отредактировать и клонировать несколькими командами; в аппаратуре же малейшее изменение требует тщательного планирования и многодневной перестройки. (Не обращайте внимания на беспорядок в проводах: в TinkerCAD не нашлось нужных мне компонентов, ха-ха.)",
+            "tags": [],
+            "links": [],
+            "gallery": [
+              {
+                "image": "/assets/uploads/messy wiring.png",
+                "alt": "",
+                "caption": ""
+              }
+            ],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Фехтование",
+            "meta": "Рапира - Elite Fencing Club",
+            "badge": "",
+            "body": "Я занимаюсь фехтованием с 13 лет. Хотя я пробовал шпагу, мне больше по душе рапира: она стремительнее и оставляет больше простора для проб и ошибок. Фехтование позволяет мне наблюдать за соперником и решать задачи в реальном времени.",
+            "tags": [],
+            "links": [],
+            "gallery": [
+              {
+                "image": "/assets/uploads/fencing.png",
+                "alt": "",
+                "caption": ""
+              }
+            ],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Стрельба из лука",
+            "meta": "Олимпийский классический лук - Rancho Park Archers",
+            "badge": "",
+            "body": "Я занялся стрельбой из лука после поездки в Алматы, Казахстан. В основном я стреляю по мишеням из лука ILF на дистанциях от 18 до 28 метров. Это умиротворяющее занятие позволяет мне расслабиться, твёрдо прицелиться, ошибаться и искать причину, когда подводит техника или снаряжение. Кроме того, стрельба из лука помогает мне вновь соприкоснуться с тюркским наследием.",
+            "tags": [],
+            "links": [
+              {
+                "label": "Посмотреть, как я стреляю",
+                "url": "https://youtube.com/shorts/mwmkznOFC1Y",
+                "style": "secondary",
+                "new_tab": true
+              }
+            ],
+            "gallery": [
+              {
+                "image": "/assets/uploads/first archery.png",
+                "alt": "",
+                "caption": ""
+              }
+            ],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Верховая езда",
+            "meta": "Вестерн - Portuguese Bend Riding Club",
+            "badge": "",
+            "body": "С начала 2026 года я беру уроки верховой езды. Я предпочитаю стиль вестерн: он кажется мне более утилитарным, раскрепощающим и естественным. Мне дорога связь, которая складывается у меня с животными на ранчо, а умение доверять процессу вместо того, чтобы бояться своего «партнёра», — превосходный жизненный урок. И, опять же, это помогает мне вновь соприкоснуться с моим наследием.",
+            "tags": [],
+            "links": [
+              {
+                "label": "Посмотреть, как я езжу верхом",
+                "url": "https://youtube.com/shorts/WA6U7myg7ec",
+                "style": "secondary",
+                "new_tab": true
+              }
+            ],
+            "gallery": [
+              {
+                "image": "/assets/uploads/horse riding.png",
+                "alt": "",
+                "caption": ""
+              }
+            ],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Конная стрельба из лука",
+            "meta": "Азиатское натяжение - Heather Horseback Archery",
+            "badge": "",
+            "body": "Суть Вы уловили; незачем «хлестать мёртвого сами-знаете-кого».",
+            "tags": [],
+            "links": [],
+            "gallery": [
+              {
+                "image": "/assets/uploads/horseback archery.png",
+                "alt": "",
+                "caption": ""
+              }
+            ],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Художественная проза",
+            "meta": "",
+            "badge": "",
+            "body": "Я пишу рассказы и сценарии с самого раннего возраста. Меня занимают фантастика и фэнтези, драма и хоррор. Мне по душе переосмысление мифов и использование политических аллегорий. Действие моих историй разворачивается в самых разных местах: в джунглях Мексики, на высокогорьях Эфиопии, на архипелагах Индонезии, на болотах Финляндии и в пустынях Туркменистана.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
+      }
+    ]
+  },
+  "zh": {
+    "permalink": "about",
+    "title": "关于我",
+    "description": "Mehmet Colakoglu 如何经由心理学、研究和团队协作走向软件的故事。",
+    "kicker": "关于我",
+    "show_title": true,
+    "intro": "工程师，心理学毕业生，也往往是最终负责组织团队的那个人。",
+    "show_divider": true,
+    "divider_motif": "goz",
+    "og_image": "",
+    "draft": false,
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "我经由人走向软件",
+        "image": "",
+        "image_alt": "",
+        "hidden": false,
+        "body": "我在 Loyola Marymount University 同时修读计算机科学与心理学，并于 2025 年以平均绩点 3.8 的优等成绩（cum laude）毕业。这两个学位以颇有助益的方式彼此辩驳。计算机科学教会我系统如何运作；心理学则教会我人在系统面前如何行事，而后一问题往往决定前一问题是否重要。\n\n我曾在 LMU 心理学系担任两年研究助理，编写 Python 脚本为 300 余名参与者清理和校验数据，并在 Unity 中构建三维模拟，以测量人们如何感知周遭世界。这是我为他人工作打造工具的第一课：研究者要的不是代码，而是能够顺利运行的实验。\n\n毕业后，我投身业界，并逐渐被团队*之间*的问题所吸引。在 DJ League，我使用 React 和 Convex 构建实时竞赛界面。在 Incredible Dream Studios，我将定制工单工具接入公司的网络基础设施，把解决时间缩短 82%，并撰写规格说明和架构提案，供管理层决定下一步构建方向。如今，我在 Chip Theory Games 担任系统工程师，构建由四个部门共用的项目管理平台，并将遗留系统迁移至云架构。\n\n黑客马拉松是我在瞬息万变的环境中磨炼小型团队领导力的场所。它们教会我削减范围，依据众人所长分配工作，并有力地展示所建之物。正因如此，我们为 Glendale Fire Department 开发项目，在 Jewel City Hacks 夺得第一名；又在市长办公室赞助的 Demo Vision Hack 中获得第二名和一项演示奖。\n\n我当下的热情所在是机器人技术，它让我得以融汇计算机科学、心理学和物理学的训练。软件中的问题求解固然饶有趣味且恰到好处地富于挑战，但机器人技术让我能将自己的创造握在手中，转向一个迅猛增长的行业，并构建造福大众、助益于人的系统。",
+        "as_card": true,
+        "show_band": true,
+        "image_position": "top",
+        "more_images": []
+      },
+      {
+        "type": "divider",
+        "motif": "goz"
+      },
+      {
+        "type": "cards",
+        "heading": "工作之外",
+        "hidden": false,
+        "intro": "",
+        "columns": "2",
+        "items": [
+          {
+            "title": "学习机器人技术",
+            "meta": "长期目标",
+            "badge": "",
+            "body": "我热爱设计复杂电路、焊接，以及运用电路模拟人类神经元的工作方式。我喜欢调试传感器；乐于看到电机依我的意图运转；至于将导线接合成一套神经系统，我也甘愿忍受。在软件中，几条命令便可编辑和克隆代码；在硬件上，哪怕最细微的改动也需要周密规划和数日的重新构建。（请忽略凌乱的接线；TinkerCAD 中没有我需要的元件，哈哈。）",
+            "tags": [],
+            "links": [],
+            "gallery": [
+              {
+                "image": "/assets/uploads/messy wiring.png",
+                "alt": "",
+                "caption": ""
+              }
+            ],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "击剑",
+            "meta": "花剑 - Elite Fencing Club",
+            "badge": "",
+            "body": "我自 13 岁起练习击剑。虽也尝试过重剑，但我发现自己更喜欢花剑，因为它节奏更快，也为反复试错留下更多空间。击剑让我得以观察对手，并实时解决问题。",
+            "tags": [],
+            "links": [],
+            "gallery": [
+              {
+                "image": "/assets/uploads/fencing.png",
+                "alt": "",
+                "caption": ""
+              }
+            ],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "射箭",
+            "meta": "奥林匹克反曲弓 - Rancho Park Archers",
+            "badge": "",
+            "body": "我在造访哈萨克斯坦阿拉木图后开始射箭，主要使用 ILF 弓在 18 至 28 米的距离进行靶射。射箭是一种令人宁静的体验，让我放松身心、稳稳瞄准、容许失误，并在姿势或装备出现问题时排查原因。射箭也让我得以重新连接自己的突厥传统。",
+            "tags": [],
+            "links": [
+              {
+                "label": "观看我射箭",
+                "url": "https://youtube.com/shorts/mwmkznOFC1Y",
+                "style": "secondary",
+                "new_tab": true
+              }
+            ],
+            "gallery": [
+              {
+                "image": "/assets/uploads/first archery.png",
+                "alt": "",
+                "caption": ""
+              }
+            ],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "马术",
+            "meta": "西部骑乘 - Portuguese Bend Riding Club",
+            "badge": "",
+            "body": "自 2026 年初以来，我一直在上马术课。我更喜欢西部骑乘，因为它更为实用、自在且自然。我珍视自己与牧场动物之间日渐加深的情谊；学会信任过程，而非畏惧我的“搭档”，亦是极好的人生一课。同样，这也帮助我重新连接自己的传统。",
+            "tags": [],
+            "links": [
+              {
+                "label": "观看我骑马",
+                "url": "https://youtube.com/shorts/WA6U7myg7ec",
+                "style": "secondary",
+                "new_tab": true
+              }
+            ],
+            "gallery": [
+              {
+                "image": "/assets/uploads/horse riding.png",
+                "alt": "",
+                "caption": ""
+              }
+            ],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "骑射",
+            "meta": "亚洲式拉弦 - Heather Horseback Archery",
+            "badge": "",
+            "body": "您已明白要义，无须再“鞭打那匹已死的你懂的”。",
+            "tags": [],
+            "links": [],
+            "gallery": [
+              {
+                "image": "/assets/uploads/horseback archery.png",
+                "alt": "",
+                "caption": ""
+              }
+            ],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "虚构文学创作",
+            "meta": "",
+            "badge": "",
+            "body": "我自幼便开始创作短篇小说和剧本，专注于科幻与奇幻、剧情和恐怖题材。我喜欢重新诠释神话，并融入政治寓言。我的故事背景丰富多样，如墨西哥的丛林、埃塞俄比亚的高原、印度尼西亚的群岛、芬兰的沼泽和土库曼斯坦的沙漠。",
             "tags": [],
             "links": [],
             "gallery": [],

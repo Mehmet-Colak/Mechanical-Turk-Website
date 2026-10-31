@@ -191,7 +191,7 @@
         "date": "2026 - Actualidad",
         "kind_label": "Exploración",
         "title": "El aprendizaje de la robótica y el trabajo con inteligencia artificial",
-        "org": "",
+        "org": "San Francisco, California",
         "body": "Desde junio de este año me cautiva el autoaprendizaje de la robótica, con la ayuda de personas extraordinarias de mi makerspace. Me apasiona que esta disciplina me exija diseñar con miras a la longevidad, reajustar el alcance de mis proyectos sobre la marcha y comprender cada componente de un sistema. Asimismo, a fin de reducir el coste de los tokens, he comenzado a alojar por mi cuenta modelos Qven cuantizados en una computadora personal en desuso, alimentada por paneles solares. Si bien la calidad del código que produce Qven aún no está a la altura de los modelos de frontera, saber que dispongo de un modelo personal de pesos abiertos, más económico y renovable, me colma de satisfacción.",
         "image": "/assets/uploads/multimeter.jpg",
         "image_alt": "",
@@ -268,6 +268,285 @@
         "title": "Nacimiento en Estambul",
         "org": "Estambul, Turquía",
         "body": "Nací en Estambul y asistí a Ozel Alev Okullari, donde aprendí alemán y desarrollé mi interés por las matemáticas.",
+        "image": "/assets/uploads/childhood.png",
+        "image_alt": "",
+        "image_position": "left",
+        "more_images": [],
+        "link": "",
+        "motif": "dogum",
+        "hidden": false
+      }
+    ]
+  },
+  "ar": {
+    "entries": [
+      {
+        "date": "2026 - حتى الآن",
+        "kind_label": "استكشاف",
+        "title": "تعلّم علم الروبوتات والعمل مع الذكاء الاصطناعي",
+        "org": "سان فرانسيسكو، كاليفورنيا",
+        "body": "منذ يونيو من هذا العام، شُغفت بتعلّم علم الروبوتات ذاتيًا بمساعدة أشخاص رائعين في مساحة الصنّاع التي أرتادها. يروق لي أن هذا المجال يُلزمني بالتصميم مع مراعاة طول العمر، وبتعديل نطاق مشروعي أثناء العمل، وبفهم كل جزء من أجزاء النظام. وعلى المنوال نفسه، وتوفيرًا لتكاليف الرموز (Tokens)، شرعت في استضافة نماذج Qven مكمَّمة بنفسي على حاسوب شخصي غير مستخدم يعمل بالألواح الشمسية. ومع أن جودة الشيفرة التي يولّدها Qven لم ترقَ بعد إلى مستوى النماذج الرائدة، فإن امتلاكي نموذجًا شخصيًا مفتوح الأوزان، أقل كلفة ومتجدد الطاقة، يملؤني بهجة.",
+        "image": "/assets/uploads/multimeter.jpg",
+        "image_alt": "",
+        "image_position": "right",
+        "more_images": [],
+        "link": "",
+        "motif": "muska",
+        "hidden": false
+      },
+      {
+        "date": "2025 - حتى الآن",
+        "kind_label": "عمل",
+        "title": "دخول سوق العمل",
+        "org": "Chip Theory Games",
+        "body": "منذ تخرجي، واصلت البناء على خبرتي العملية الجامعية؛ فأنشأت أنظمة مؤتمتة لمعالجة استفسارات دعم العملاء، وصحّحت أخطاء مواقع حملات سياسية، وأتممت تدريبًا في هندسة الواجهات الأمامية، ثم نلت منصبًا في الواجهات الخلفية بصفتي مهندس أنظمة في Chip Theory Games. ومن خلال هذه التجارب، غدوت مهندسًا متكاملًا متأصلًا في عصر الذكاء الاصطناعي، ملمًّا بجميع مراحل دورة حياة المنتج، واثقًا من حرفتي، وقادرًا على استشراف عواقب قراراتي التصميمية.",
+        "image": "/assets/uploads/almaty.png",
+        "image_alt": "",
+        "image_position": "left",
+        "more_images": [],
+        "link": "",
+        "motif": "yildiz",
+        "hidden": false
+      },
+      {
+        "date": "2025",
+        "kind_label": "التعليم",
+        "title": "التخرج بمرتبة الشرف (cum laude)",
+        "org": "لوس أنجلوس، كاليفورنيا",
+        "body": "في أغسطس 2025، تخرجت حاصلًا على درجة البكالوريوس (B.S.) في علوم الحاسوب وعلم النفس بمعدل تراكمي 3.8 (GPA). وبفضل نهجي المبتكر في بناء المجتمع داخل EurAsian Lions، حظي نادينا بالاعتراف بوصفه الأرفع مكانة بين أكثر من 200 منظمة طلابية، ونال New Outstanding Organization of the Year Award عام 2024، وPractice Ignatian Values Award عام 2025.",
+        "image": "/assets/uploads/award.jpg",
+        "image_alt": "",
+        "image_position": "right",
+        "more_images": [],
+        "link": "",
+        "motif": "goz",
+        "hidden": false
+      },
+      {
+        "date": "2021 - 2025",
+        "kind_label": "التعليم",
+        "title": "Loyola Marymount University",
+        "org": "لوس أنجلوس، كاليفورنيا",
+        "body": "لم يكن تخصص العلوم المعرفية متاحًا حين التحقت بـLoyola Marymount University، فاخترت تخصصًا مزدوجًا في علوم الحاسوب وعلم النفس. كنت أنشد معرفة كيفية تطوير أنظمة الذكاء الاصطناعي، وكيف يصمم البشر الأنظمة الحاسوبية، وكيف نوظف الأساليب الاستدلالية في حل المشكلات. وخلال تلك الفترة، عملت في مختبر لعلم النفس وأنجزت مشاريع قوامها المحاكاة الحاسوبية، وتناولت في أبحاثي كيفية تأثير البيئات الرقمية في النفس البشرية، وكيف يسهم علم النفس الاجتماعي في تحديد احتمال نشوب الحروب.\n\nوفي سنتي الثالثة، تبيّن لي قصور في تمثيل الثقافات المختلفة بين النوادي الجامعية؛ ولهذا أسست EurAsian Lions، وهو نادٍ ثقافي يعرّف بثقافات أوروبا الشرقية والشرق الأوسط وآسيا الوسطى وينظم فعاليات خاصة بها. ألقينا محاضرات تمتد ساعة كاملة، ولعبنا طاولة الزهر، وأعددنا القهوة، وتعلمنا الرقصات، واحتفلنا بعيد النوروز، وامتطينا الخيل، ونظمنا أمسيات سينمائية في الهواء الطلق. ومن خلال التعاون متعدد الثقافات مع منظمات أخرى في الحرم الجامعي، أزحنا نافذة أوفرتون نحو حوارات أكثر شمولًا وتقاطعية.",
+        "image": "/assets/uploads/logo.jpg",
+        "image_alt": "",
+        "image_position": "left",
+        "more_images": [
+          {
+            "image": "/assets/uploads/dancing.png",
+            "alt": ""
+          }
+        ],
+        "link": "",
+        "motif": "koc_boynuzu",
+        "hidden": false
+      },
+      {
+        "date": "2014 - 2021",
+        "kind_label": "الجذور",
+        "title": "الانتقال إلى إنجلترا",
+        "org": "ساوثهامبتون، المملكة المتحدة",
+        "body": "بعد احتجاجات غيزي، انتقلت مع أمي وأخي إلى المملكة المتحدة، حيث التحقت بـEggar's School في مقاطعة هامبشاير. وبعد تفوقي في امتحانات GCSE، حظيت بشرف الإقامة والدراسة في Peter Symonds Sixth Form College، وهي الكبرى في البلاد، إذ يربو عدد طلابها على 8000 طالب. وحين اجتاحت جائحة كوفيد-19 العالم وانتقلنا إلى التعليم عن بُعد، قدت حملة انتخابية جرت بالكامل عن بُعد لأُنتخب رئيسًا لـStudent Union، وعملت مع الهيئة التدريسية على إعادة فتح الحرم الجامعي. وفي Peter Symonds College أيضًا نشأ ولعي بالدوائر الكهربائية.",
+        "image": "/assets/uploads/flyer.jpg",
+        "image_alt": "",
+        "image_position": "right",
+        "more_images": [],
+        "link": "",
+        "motif": "pitrak",
+        "hidden": false
+      },
+      {
+        "date": "2002 - 2014",
+        "kind_label": "الجذور",
+        "title": "المولد في إسطنبول",
+        "org": "إسطنبول، تركيا",
+        "body": "وُلدت في إسطنبول والتحقت بـOzel Alev Okullari، حيث تعلمت الألمانية ونما اهتمامي بالرياضيات.",
+        "image": "/assets/uploads/childhood.png",
+        "image_alt": "",
+        "image_position": "left",
+        "more_images": [],
+        "link": "",
+        "motif": "dogum",
+        "hidden": false
+      }
+    ]
+  },
+  "ru": {
+    "entries": [
+      {
+        "date": "2026 - настоящее время",
+        "kind_label": "Исследование",
+        "title": "Изучение робототехники и работа с искусственным интеллектом",
+        "org": "Сан-Франциско, Калифорния",
+        "body": "С июня этого года я увлечён самостоятельным освоением робототехники при содействии замечательных людей из моего мейкерспейса. Мне импонирует, что эта дисциплина вынуждает проектировать с расчётом на долговечность, корректировать рамки проекта на ходу и понимать каждую составляющую системы. Кроме того, ради сокращения расходов на токены я начал самостоятельно размещать квантованные модели Qven на неиспользуемом персональном компьютере, питаемом от солнечных панелей. Хотя качество кода, порождаемого Qven, пока уступает передовым моделям, осознание того, что в моём распоряжении есть собственная модель с открытыми весами — более дешёвая и работающая на возобновляемой энергии, — доставляет мне немалую радость.",
+        "image": "/assets/uploads/multimeter.jpg",
+        "image_alt": "",
+        "image_position": "right",
+        "more_images": [],
+        "link": "",
+        "motif": "muska",
+        "hidden": false
+      },
+      {
+        "date": "2025 - настоящее время",
+        "kind_label": "Работа",
+        "title": "Начало профессиональной деятельности",
+        "org": "Chip Theory Games",
+        "body": "После выпуска я продолжил развивать опыт, приобретённый в университетские годы. Я внедрил автоматизированные системы обработки обращений в службу поддержки, занимался отладкой сайтов политических кампаний, прошёл стажировку по фронтенд-разработке и получил бэкенд-должность системного инженера в Chip Theory Games. Благодаря этому опыту я сформировался как full-stack-инженер, для которого работа с ИИ естественна: я знаком со всеми этапами жизненного цикла продукта, уверен в своём ремесле и способен предвидеть последствия собственных проектных решений.",
+        "image": "/assets/uploads/almaty.png",
+        "image_alt": "",
+        "image_position": "left",
+        "more_images": [],
+        "link": "",
+        "motif": "yildiz",
+        "hidden": false
+      },
+      {
+        "date": "2025",
+        "kind_label": "Образование",
+        "title": "Выпуск с отличием (cum laude)",
+        "org": "Лос-Анджелес, Калифорния",
+        "body": "В августе 2025 года я окончил университет со степенью бакалавра (B.S.) в области компьютерных наук и психологии и средним баллом 3.8 (GPA). Благодаря моему новаторскому подходу к формированию сообщества в EurAsian Lions мой клуб был признан самым престижным из более чем 200 студенческих организаций, получил New Outstanding Organization of the Year Award в 2024 году и Practice Ignatian Values Award в 2025 году.",
+        "image": "/assets/uploads/award.jpg",
+        "image_alt": "",
+        "image_position": "right",
+        "more_images": [],
+        "link": "",
+        "motif": "goz",
+        "hidden": false
+      },
+      {
+        "date": "2021 - 2025",
+        "kind_label": "Образование",
+        "title": "Loyola Marymount University",
+        "org": "Лос-Анджелес, Калифорния",
+        "body": "Когда я поступил в Loyola Marymount University, когнитивистика там не преподавалась, поэтому я избрал двойную специализацию: компьютерные науки и психология. Я стремился узнать, как создаются системы искусственного интеллекта, как проектируются компьютерные системы и как мы применяем эвристики для решения задач. В этот период я работал в психологической лаборатории и создавал проекты на основе компьютерного моделирования. Мои исследования были посвящены тому, как цифровая среда воздействует на человеческую психику и как социальная психология помогает определить вероятность войны.\n\nНа третьем курсе я также обнаружил пробел в представленности различных культур среди университетских клубов. Поэтому я основал EurAsian Lions — культурный клуб, просвещавший студентов и проводивший мероприятия, посвящённые культурам Восточной Европы, Ближнего Востока и Центральной Азии. Мы читали часовые лекции, играли в нарды, варили кофе, разучивали танцы, отмечали Навруз, ездили верхом и устраивали кинопоказы под открытым небом. Благодаря мультикультурному сотрудничеству с другими организациями кампуса мы сместили окно Овертона в сторону более инклюзивного и интерсекционального диалога.",
+        "image": "/assets/uploads/logo.jpg",
+        "image_alt": "",
+        "image_position": "left",
+        "more_images": [
+          {
+            "image": "/assets/uploads/dancing.png",
+            "alt": ""
+          }
+        ],
+        "link": "",
+        "motif": "koc_boynuzu",
+        "hidden": false
+      },
+      {
+        "date": "2014 - 2021",
+        "kind_label": "Истоки",
+        "title": "Переезд в Англию",
+        "org": "Саутгемптон, Великобритания",
+        "body": "После протестов в парке Гези мы с мамой и братом переехали в Великобританию. Там я учился в Eggar's School в графстве Хэмпшир. Блестяще сдав экзамены GCSE, я удостоился возможности жить и учиться в Peter Symonds Sixth Form College — крупнейшем колледже страны, насчитывающем более 8000 учащихся. Когда разразилась пандемия COVID-19 и обучение перешло в онлайн, я провёл полностью дистанционную кампанию, был избран президентом Student Union и совместно с преподавателями содействовал возобновлению работы кампуса. Именно в Peter Symonds College зародилась и моя любовь к электрическим схемам.",
+        "image": "/assets/uploads/flyer.jpg",
+        "image_alt": "",
+        "image_position": "right",
+        "more_images": [],
+        "link": "",
+        "motif": "pitrak",
+        "hidden": false
+      },
+      {
+        "date": "2002 - 2014",
+        "kind_label": "Истоки",
+        "title": "Рождение в Стамбуле",
+        "org": "Стамбул, Турция",
+        "body": "Я родился в Стамбуле и учился в Ozel Alev Okullari, где овладел немецким языком и проникся интересом к математике.",
+        "image": "/assets/uploads/childhood.png",
+        "image_alt": "",
+        "image_position": "left",
+        "more_images": [],
+        "link": "",
+        "motif": "dogum",
+        "hidden": false
+      }
+    ]
+  },
+  "zh": {
+    "entries": [
+      {
+        "date": "2026 年 - 至今",
+        "kind_label": "探索",
+        "title": "自学机器人技术与人工智能实践",
+        "org": "加利福尼亚州旧金山",
+        "body": "自今年 6 月起，在创客空间诸位良师益友的帮助下，我潜心自学机器人技术。我钟爱这门学科，因为它要求我着眼长久地进行设计，随时调整项目范围，并透彻理解系统的每一个组成部分。同样，为节约令牌成本，我开始在一台闲置的、由太阳能电池板供电的个人电脑上自行托管量化后的 Qven 模型。尽管 Qven 生成的代码质量尚不及前沿模型，但拥有一个成本更低、依靠可再生能源运行的个人开放权重模型，令我倍感欣慰。",
+        "image": "/assets/uploads/multimeter.jpg",
+        "image_alt": "",
+        "image_position": "right",
+        "more_images": [],
+        "link": "",
+        "motif": "muska",
+        "hidden": false
+      },
+      {
+        "date": "2025 年 - 至今",
+        "kind_label": "工作",
+        "title": "步入职场",
+        "org": "Chip Theory Games",
+        "body": "毕业以来，我持续深化大学期间积累的工作经验：搭建自动化系统处理客户支持咨询，调试政治竞选网站，完成前端工程实习，并在 Chip Theory Games 获得后端方向的系统工程师职位。通过这些历练，我成长为一名原生运用 AI 的全栈工程师，熟悉产品生命周期的各个环节，对自身技艺充满信心，并能预判设计决策的后果。",
+        "image": "/assets/uploads/almaty.png",
+        "image_alt": "",
+        "image_position": "left",
+        "more_images": [],
+        "link": "",
+        "motif": "yildiz",
+        "hidden": false
+      },
+      {
+        "date": "2025 年",
+        "kind_label": "教育",
+        "title": "以优等成绩（cum laude）毕业",
+        "org": "加利福尼亚州洛杉矶",
+        "body": "2025 年 8 月，我获得计算机科学与心理学理学学士学位（B.S.），平均绩点（GPA）为 3.8。凭借我在 EurAsian Lions 中构建社群的创新方式，我的社团在 200 多个学生组织中被评为最负盛名者，于 2024 年荣获 New Outstanding Organization of the Year Award，并于 2025 年获得 Practice Ignatian Values Award。",
+        "image": "/assets/uploads/award.jpg",
+        "image_alt": "",
+        "image_position": "right",
+        "more_images": [],
+        "link": "",
+        "motif": "goz",
+        "hidden": false
+      },
+      {
+        "date": "2021 - 2025",
+        "kind_label": "教育",
+        "title": "Loyola Marymount University",
+        "org": "加利福尼亚州洛杉矶",
+        "body": "我进入 Loyola Marymount University 时，该校尚未开设认知科学专业，于是我选择了计算机科学与心理学双专业。我希望了解人工智能如何开发、人们如何设计计算机系统，以及我们如何运用启发式方法解决问题。其间，我在心理学实验室工作，并开展以计算机模拟为核心的项目，探究数字环境如何影响人类心理，以及社会心理学如何帮助判断战争爆发的可能性。\n\n大三时，我还发现各类文化社团的代表性存在空白，因此创立了 EurAsian Lions。这一文化社团讲授东欧、中东和中亚的文化，并举办相关活动。我们开设长达一小时的讲座，对弈双陆棋，冲煮咖啡，学习舞蹈，庆祝诺鲁孜节，骑马，并举办露天电影之夜。通过与校园其他组织的多元文化合作，我们推动奥弗顿之窗（Overton Window）朝向更具包容性和交叉性的对话移动。",
+        "image": "/assets/uploads/logo.jpg",
+        "image_alt": "",
+        "image_position": "left",
+        "more_images": [
+          {
+            "image": "/assets/uploads/dancing.png",
+            "alt": ""
+          }
+        ],
+        "link": "",
+        "motif": "koc_boynuzu",
+        "hidden": false
+      },
+      {
+        "date": "2014 - 2021",
+        "kind_label": "根基",
+        "title": "移居英格兰",
+        "org": "英国南安普敦",
+        "body": "格济公园抗议之后，我与母亲和兄弟移居英国，就读于汉普郡的 Eggar's School。在 GCSE 考试中取得优异成绩后，我有幸寄宿于全国规模最大、学生逾 8000 人的 Peter Symonds Sixth Form College。新冠疫情暴发、教学转为线上之际，我领导了一场全程远程的竞选，当选 Student Union 主席，并与教职员工协作推动校园重新开放。我对电路的热爱也正是在 Peter Symonds College 萌发的。",
+        "image": "/assets/uploads/flyer.jpg",
+        "image_alt": "",
+        "image_position": "right",
+        "more_images": [],
+        "link": "",
+        "motif": "pitrak",
+        "hidden": false
+      },
+      {
+        "date": "2002 - 2014",
+        "kind_label": "根基",
+        "title": "生于伊斯坦布尔",
+        "org": "土耳其伊斯坦布尔",
+        "body": "我出生于伊斯坦布尔，就读于 Ozel Alev Okullari，在那里学会了德语，并培养起对数学的兴趣。",
         "image": "/assets/uploads/childhood.png",
         "image_alt": "",
         "image_position": "left",

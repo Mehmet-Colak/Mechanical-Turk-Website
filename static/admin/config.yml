@@ -23,11 +23,11 @@ logo_url: /favicon.svg
 media_folder: static/assets/uploads
 public_folder: /assets/uploads
 
-# Languages shown as tabs in the editor. To add Arabic, Russian or Chinese:
+# Languages shown as tabs in the editor. To add another language:
 # 1) add its code here, 2) enable it in Settings → Languages. (README → “Adding a language”)
 i18n:
   structure: single_file
-  locales: [en, tr, es]
+  locales: [en, tr, es, ar, ru, zh]
   default_locale: en
 
 # ---------------------------------------------------------------------------

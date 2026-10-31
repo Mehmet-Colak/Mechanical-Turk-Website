@@ -58,5 +58,65 @@
         "intro": ""
       }
     ]
+  },
+  "ar": {
+    "permalink": "timeline",
+    "title": "التسلسل الزمني",
+    "description": "محطات بارزة في تعليم Mehmet Colakoglu ومسيرته المهنية.",
+    "kicker": "التسلسل الزمني",
+    "show_title": true,
+    "intro": "مهندس في الصميم، لكنه مهتدٍ بالمجتمع.",
+    "show_divider": true,
+    "divider_motif": "",
+    "og_image": "",
+    "draft": false,
+    "blocks": [
+      {
+        "type": "timeline",
+        "heading": "",
+        "hidden": false,
+        "intro": ""
+      }
+    ]
+  },
+  "ru": {
+    "permalink": "timeline",
+    "title": "Хронология",
+    "description": "Вехи образования и карьеры Mehmet Colakoglu.",
+    "kicker": "Хронология",
+    "show_title": true,
+    "intro": "Инженер по призванию, но руководствующийся интересами сообщества.",
+    "show_divider": true,
+    "divider_motif": "",
+    "og_image": "",
+    "draft": false,
+    "blocks": [
+      {
+        "type": "timeline",
+        "heading": "",
+        "hidden": false,
+        "intro": ""
+      }
+    ]
+  },
+  "zh": {
+    "permalink": "timeline",
+    "title": "时间线",
+    "description": "Mehmet Colakoglu 教育与职业生涯中的重要里程碑。",
+    "kicker": "时间线",
+    "show_title": true,
+    "intro": "本心是工程师，但以社群为指引。",
+    "show_divider": true,
+    "divider_motif": "",
+    "og_image": "",
+    "draft": false,
+    "blocks": [
+      {
+        "type": "timeline",
+        "heading": "",
+        "hidden": false,
+        "intro": ""
+      }
+    ]
   }
 }

@@ -607,5 +607,614 @@
         ]
       }
     ]
+  },
+  "ar": {
+    "groups": [
+      {
+        "name": "لغات البرمجة",
+        "hidden": false,
+        "items": [
+          {
+            "name": "Python",
+            "icon": "devicon:python",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "JavaScript",
+            "icon": "devicon:javascript",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "TypeScript",
+            "icon": "devicon:typescript",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "C++‎",
+            "icon": "devicon:cplusplus",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "C#‎",
+            "icon": "devicon:csharp",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Rust",
+            "icon": "si:rust",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "PHP",
+            "icon": "devicon:php",
+            "image": "",
+            "short": "PHP",
+            "url": ""
+          },
+          {
+            "name": "SQL",
+            "icon": "devicon:azuresqldatabase",
+            "image": "",
+            "short": "SQL",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "name": "أطر العمل والأدوات",
+        "hidden": false,
+        "items": [
+          {
+            "name": "React",
+            "icon": "devicon:react/react-original",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Node.js",
+            "icon": "devicon:nodejs",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Unity",
+            "icon": "devicon:unity/unity-original",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Arduino",
+            "icon": "si:arduino",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Firebase",
+            "icon": "devicon:firebase",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "MySQL",
+            "icon": "devicon:mysql/mysql-original",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Git",
+            "icon": "devicon:git",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Convex",
+            "icon": "si:convex",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Zapier",
+            "icon": "si:zapier",
+            "image": "",
+            "short": "",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "name": "الحوسبة السحابية والذكاء الاصطناعي",
+        "hidden": false,
+        "items": [
+          {
+            "name": "AWS",
+            "icon": "devicon:amazonwebservices/amazonwebservices-plain-wordmark",
+            "image": "",
+            "short": "AWS",
+            "url": ""
+          },
+          {
+            "name": "Google Cloud",
+            "icon": "devicon:googlecloud",
+            "image": "",
+            "short": "GCP",
+            "url": ""
+          },
+          {
+            "name": "Ollama",
+            "icon": "si:ollama",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "تكامل الذكاء الاصطناعي",
+            "icon": "si:googlegemini",
+            "image": "",
+            "short": "Gem",
+            "url": ""
+          },
+          {
+            "name": "نماذج LLM المحلية",
+            "icon": "",
+            "image": "",
+            "short": "LLM",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "name": "اللغات التي أتحدثها",
+        "hidden": false,
+        "items": [
+          {
+            "name": "الإنجليزية",
+            "icon": "",
+            "image": "",
+            "short": "EN",
+            "url": ""
+          },
+          {
+            "name": "التركية",
+            "icon": "",
+            "image": "",
+            "short": "TR",
+            "url": ""
+          },
+          {
+            "name": "الإسبانية",
+            "icon": "",
+            "image": "",
+            "short": "ES",
+            "url": ""
+          }
+        ]
+      }
+    ]
+  },
+  "ru": {
+    "groups": [
+      {
+        "name": "Языки программирования",
+        "hidden": false,
+        "items": [
+          {
+            "name": "Python",
+            "icon": "devicon:python",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "JavaScript",
+            "icon": "devicon:javascript",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "TypeScript",
+            "icon": "devicon:typescript",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "C++",
+            "icon": "devicon:cplusplus",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "C#",
+            "icon": "devicon:csharp",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Rust",
+            "icon": "si:rust",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "PHP",
+            "icon": "devicon:php",
+            "image": "",
+            "short": "PHP",
+            "url": ""
+          },
+          {
+            "name": "SQL",
+            "icon": "devicon:azuresqldatabase",
+            "image": "",
+            "short": "SQL",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "name": "Фреймворки и инструменты",
+        "hidden": false,
+        "items": [
+          {
+            "name": "React",
+            "icon": "devicon:react/react-original",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Node.js",
+            "icon": "devicon:nodejs",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Unity",
+            "icon": "devicon:unity/unity-original",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Arduino",
+            "icon": "si:arduino",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Firebase",
+            "icon": "devicon:firebase",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "MySQL",
+            "icon": "devicon:mysql/mysql-original",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Git",
+            "icon": "devicon:git",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Convex",
+            "icon": "si:convex",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Zapier",
+            "icon": "si:zapier",
+            "image": "",
+            "short": "",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "name": "Облачные технологии и ИИ",
+        "hidden": false,
+        "items": [
+          {
+            "name": "AWS",
+            "icon": "devicon:amazonwebservices/amazonwebservices-plain-wordmark",
+            "image": "",
+            "short": "AWS",
+            "url": ""
+          },
+          {
+            "name": "Google Cloud",
+            "icon": "devicon:googlecloud",
+            "image": "",
+            "short": "GCP",
+            "url": ""
+          },
+          {
+            "name": "Ollama",
+            "icon": "si:ollama",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Интеграции ИИ",
+            "icon": "si:googlegemini",
+            "image": "",
+            "short": "Gem",
+            "url": ""
+          },
+          {
+            "name": "Локальные LLM",
+            "icon": "",
+            "image": "",
+            "short": "LLM",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "name": "Владение языками",
+        "hidden": false,
+        "items": [
+          {
+            "name": "Английский",
+            "icon": "",
+            "image": "",
+            "short": "EN",
+            "url": ""
+          },
+          {
+            "name": "Турецкий",
+            "icon": "",
+            "image": "",
+            "short": "TR",
+            "url": ""
+          },
+          {
+            "name": "Испанский",
+            "icon": "",
+            "image": "",
+            "short": "ES",
+            "url": ""
+          }
+        ]
+      }
+    ]
+  },
+  "zh": {
+    "groups": [
+      {
+        "name": "编程语言",
+        "hidden": false,
+        "items": [
+          {
+            "name": "Python",
+            "icon": "devicon:python",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "JavaScript",
+            "icon": "devicon:javascript",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "TypeScript",
+            "icon": "devicon:typescript",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "C++",
+            "icon": "devicon:cplusplus",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "C#",
+            "icon": "devicon:csharp",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Rust",
+            "icon": "si:rust",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "PHP",
+            "icon": "devicon:php",
+            "image": "",
+            "short": "PHP",
+            "url": ""
+          },
+          {
+            "name": "SQL",
+            "icon": "devicon:azuresqldatabase",
+            "image": "",
+            "short": "SQL",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "name": "框架与工具",
+        "hidden": false,
+        "items": [
+          {
+            "name": "React",
+            "icon": "devicon:react/react-original",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Node.js",
+            "icon": "devicon:nodejs",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Unity",
+            "icon": "devicon:unity/unity-original",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Arduino",
+            "icon": "si:arduino",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Firebase",
+            "icon": "devicon:firebase",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "MySQL",
+            "icon": "devicon:mysql/mysql-original",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Git",
+            "icon": "devicon:git",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Convex",
+            "icon": "si:convex",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "Zapier",
+            "icon": "si:zapier",
+            "image": "",
+            "short": "",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "name": "云计算与人工智能",
+        "hidden": false,
+        "items": [
+          {
+            "name": "AWS",
+            "icon": "devicon:amazonwebservices/amazonwebservices-plain-wordmark",
+            "image": "",
+            "short": "AWS",
+            "url": ""
+          },
+          {
+            "name": "Google Cloud",
+            "icon": "devicon:googlecloud",
+            "image": "",
+            "short": "GCP",
+            "url": ""
+          },
+          {
+            "name": "Ollama",
+            "icon": "si:ollama",
+            "image": "",
+            "short": "",
+            "url": ""
+          },
+          {
+            "name": "AI 集成",
+            "icon": "si:googlegemini",
+            "image": "",
+            "short": "Gem",
+            "url": ""
+          },
+          {
+            "name": "本地大语言模型",
+            "icon": "",
+            "image": "",
+            "short": "LLM",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "name": "语言能力",
+        "hidden": false,
+        "items": [
+          {
+            "name": "英语",
+            "icon": "",
+            "image": "",
+            "short": "EN",
+            "url": ""
+          },
+          {
+            "name": "土耳其语",
+            "icon": "",
+            "image": "",
+            "short": "TR",
+            "url": ""
+          },
+          {
+            "name": "西班牙语",
+            "icon": "",
+            "image": "",
+            "short": "ES",
+            "url": ""
+          }
+        ]
+      }
+    ]
   }
 }

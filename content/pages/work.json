@@ -424,7 +424,7 @@
             "title": "Chip Theory Games",
             "meta": "Ingeniero de Sistemas · sept. 2026 – actualidad",
             "badge": "",
-            "body": "- Desarrollo una plataforma modular de gestión de proyectos (React, Node.js, MySQL) que centraliza los flujos de trabajo de **4 equipos**. El primer despliegue redujo el tiempo de preparación de pruebas de imprenta en un **40 %** y los traspasos de tareas en un **32 %**.\n- Migro tres aplicaciones heredadas locales a AWS, rediseñando su arquitectura para el acceso en la nube y un menor mantenimiento.",
+            "body": "- Desarrollo una plataforma modular de gestión de proyectos (React, Node.js, MySQL) que centraliza los flujos de trabajo de **4 equipos**. El primer despliegue redujo el tiempo de preparación de pruebas de imprenta en un **40 %** y los traspasos de tareas en un **32 %**.\n- Migro tres aplicaciones heredadas locales a AWS, rediseñando su arquitectura para el acceso en la nube y un menor mantenimiento.",
             "tags": [
               "React",
               "Node.js",
@@ -443,7 +443,7 @@
             "title": "Incredible Dream Studios",
             "meta": "Ingeniero de Tecnología y Automatización · mar. – sept. 2026",
             "badge": "",
-            "body": "- Diseñé e implementé automatizaciones de cara al cliente para recopilar, clasificar y analizar datos operativos, con lo que reduje el tiempo de resolución de incidencias en un 82 % y optimicé la asignación de recursos internos.\n- Elaboré exhaustivos informes técnicos y analíticos que delimitaban el alcance de los proyectos, las restricciones presupuestarias y las directrices operativas para el CEO, el COO y el CCO, en apoyo de la toma de decisiones estratégicas.\n- Concebí flujos internos de cadena de suministro y de comunicación con Python, JavaScript y Zapier mediante API REST y webhooks, con lo que incrementé la eficiencia de la distribución en un 45 % y salvaguardé los intereses de las partes interesadas.",
+            "body": "- Diseñé e implementé automatizaciones de cara al cliente para recopilar, clasificar y analizar datos operativos, con lo que reduje el tiempo de resolución de incidencias en un **82 %** y optimicé la asignación de recursos internos.\n- Elaboré exhaustivos informes técnicos y analíticos que delimitaban el alcance de los proyectos, las restricciones presupuestarias y las directrices operativas para el **CEO**, el **COO** y el **CCO**, en apoyo de la toma de decisiones estratégicas.\n- Concebí flujos internos de cadena de suministro y de comunicación con Python, JavaScript y Zapier mediante API REST y webhooks, con lo que incrementé la eficiencia de la distribución en un **45 %** y salvaguardé los intereses de las partes interesadas.",
             "tags": [
               "JavaScript",
               "Webhooks",
@@ -499,7 +499,7 @@
             "title": "G2 Esports",
             "meta": "Becario de Marketing y Captación de Alianzas",
             "badge": "",
-            "body": "- Llevé a cabo una exhaustiva investigación de mercado y una labor de captación de patrocinadores con Salesforce, Google Analytics y Microsoft Excel para evaluar oportunidades de colaboración, iniciativas comerciales y métricas de participación.\n- Amplié la presencia comercial en el mercado en un 34 % entre más de 200 corporaciones multinacionales mediante la creación de bases de datos orientadas por datos.\n- Clasifiqué y modelé la demografía de la audiencia y las tendencias geográficas para optimizar la captación de patrocinadores corporativos.\n- Presenté resultados cuantitativos e indicadores clave de rendimiento (KPI) a la alta dirección para orientar la estrategia de desarrollo de negocio, la monetización directa al consumidor (DTC) y las alianzas comerciales.",
+            "body": "- Llevé a cabo una exhaustiva investigación de mercado y una labor de captación de patrocinadores con Salesforce, Google Analytics y Microsoft Excel para evaluar oportunidades de colaboración, iniciativas comerciales y métricas de participación.\n- Amplié la presencia comercial en el mercado en un **34 %** entre **más de 200** corporaciones multinacionales mediante la creación de bases de datos orientadas por datos.\n- Clasifiqué y modelé la demografía de la audiencia y las tendencias geográficas para optimizar la captación de patrocinadores corporativos.\n- Presenté resultados cuantitativos e indicadores clave de rendimiento (KPI) a la alta dirección para orientar la estrategia de desarrollo de negocio, la monetización directa al consumidor (DTC) y las alianzas comerciales.",
             "tags": [],
             "links": [],
             "gallery": [],
@@ -557,7 +557,7 @@
             "title": "RAE For LA",
             "meta": "Miembro del equipo tecnológico",
             "badge": "",
-            "body": "- Diagnostiqué y subsané errores de frontend en el sitio web de la campaña, lo que elevó la conversión en un 12 % y el tráfico en un 27 %; automaticé flujos de datos con Airtable y Zapier en sustitución de los procesos manuales de seguimiento de voluntarios.\n- Instruí a un equipo de 30 personas en prácticas de depuración y en la arquitectura de sistemas del flujo de datos low-code de la campaña.",
+            "body": "- Diagnostiqué y subsané errores de frontend en el sitio web de la campaña, lo que elevó la conversión en un 12 % y el tráfico en un 27 %; automaticé flujos de datos con Airtable y Zapier en sustitución de los procesos manuales de seguimiento de voluntarios.\n- Instruí a un equipo de 30 personas en prácticas de depuración y en la arquitectura de sistemas del flujo de datos low-code de la campaña.",
             "tags": [
               "JavaScript",
               "Zapier"
@@ -589,6 +589,609 @@
             "meta": "Presidente de la Student Union",
             "badge": "",
             "body": "- Dirigí la Student Union, en representación de un alumnado de más de 8000 estudiantes.\n- Colaboré con el profesorado en la reintegración tras la COVID-19.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
+      }
+    ]
+  },
+  "ar": {
+    "permalink": "work",
+    "title": "المسيرة المهنية",
+    "description": "الخبرة العملية والأبحاث والمشاريع والعمل المدني لـMehmet Colakoglu.",
+    "kicker": "المسيرة المهنية",
+    "show_title": true,
+    "intro": "أين بنيت، وماذا تعلمت، وما الذي تغيّر نتيجة لذلك.",
+    "show_divider": true,
+    "divider_motif": "",
+    "og_image": "",
+    "draft": false,
+    "blocks": [
+      {
+        "type": "cards",
+        "heading": "الخبرة",
+        "hidden": false,
+        "intro": "",
+        "columns": "1",
+        "items": [
+          {
+            "title": "Chip Theory Games",
+            "meta": "مهندس أنظمة · سبتمبر 2026 – حتى الآن",
+            "badge": "",
+            "body": "- أبني منصة معيارية لإدارة المشاريع (React وNode.js وMySQL) توحّد سير العمل عبر **4 فرق**. وقد خفّض الإطلاق الأول وقت إعداد البروفات بنسبة **40%** وعمليات تسليم المهام بنسبة **32%**.\n- أنقل ثلاثة تطبيقات قديمة محلية الاستضافة إلى AWS، وأعيد تصميم بنيتها لإتاحة الوصول السحابي وخفض أعباء الصيانة.",
+            "tags": [
+              "React",
+              "Node.js",
+              "MySQL",
+              "AWS"
+            ],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Incredible Dream Studios",
+            "meta": "مهندس تقنية وأتمتة · مارس – سبتمبر 2026",
+            "badge": "",
+            "body": "- صمّمت ونفّذت عمليات أتمتة موجهة للعملاء لجمع البيانات التشغيلية وفرزها وتحليلها، فخفضت وقت حل التذاكر بنسبة **82%** وحسّنت توزيع الموارد الداخلية.\n- أعددت تقارير تقنية وتحليلية شاملة حددت نطاق المشاريع وقيود الميزانية والمبادئ التوجيهية التشغيلية **للرئيس التنفيذي** و**رئيس العمليات** و**رئيس الشؤون التجارية**، دعمًا لاتخاذ القرارات الاستراتيجية.\n- هندست مسارات داخلية لسلسلة التوريد والاتصالات باستخدام Python وJavaScript وZapier عبر واجهات REST API وWebhooks، فرفعت كفاءة التوزيع بنسبة **45%** مع صون مصالح الأطراف المعنية.",
+            "tags": [
+              "JavaScript",
+              "Webhooks",
+              "Zapier",
+              "البنية المعمارية"
+            ],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "DJ League",
+            "meta": "متدرب في هندسة الواجهات الأمامية · فبراير – أبريل 2026",
+            "badge": "",
+            "body": "- بنيت مكونات React متحركة للمنافسات الحية على طبقة WebSocket التفاعلية في Convex، مبقيًا زمن الاستجابة دون **50 ms** عبر أكثر من 200 اتصال متزامن.\n- عالجت عمليات الكتابة عالية التردد باشتراكات مؤجلة (Debounced) وتحديثات متفائلة للحفاظ على **60 FPS** ثابتة.",
+            "tags": [
+              "React",
+              "Convex",
+              "WebSockets"
+            ],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "قسم علم النفس في LMU",
+            "meta": "مساعد باحث",
+            "badge": "",
+            "body": "- هندست مسارات متينة لجمع البيانات لتجميع وتنقية مجموعات بيانات ضخمة مخصصة لنصوص تحليل إحصائي معقدة (Python)، مع ضمان صرامة جودة البيانات والتحقق منها لأكثر من 300 مشارك.\n- بنيت أدوات محاكاة قابلة للتوسع في Unity (C#)‎ لاستخلاص مجموعات بيانات ضخمة عن الإدراك البشري ورسم مقاييس سلوكية معقدة لدراسات بحثية متقدمة.\n- ألّفت أوراقًا تحليلية شاملة مدعومة بالبيانات، حوّلت مخرجات إحصائية معقدة إلى رؤى واضحة للقراء غير المتخصصين.",
+            "tags": [
+              "Python",
+              "Unity",
+              "C#‎",
+              "تصميم البحوث"
+            ],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "G2 Esports",
+            "meta": "متدرب في التسويق واستقطاب الشراكات",
+            "badge": "",
+            "body": "- أجريت بحوث سوق مستفيضة وتواصلت مع الرعاة باستخدام Salesforce وGoogle Analytics وMicrosoft Excel لتقييم فرص الشراكة والمبادرات التجارية ومقاييس التفاعل.\n- وسّعت الحضور التجاري في السوق بنسبة **34%** لدى **أكثر من 200** شركة متعددة الجنسيات عبر بناء قواعد بيانات قائمة على التحليل.\n- صنّفت ونمذجت التركيبة السكانية للمشاهدين والاتجاهات الجغرافية لتحسين استقطاب رعاة الشركات.\n- قدّمت نتائج كمية ومؤشرات أداء رئيسية (KPI) إلى الإدارة العليا لتوجيه استراتيجية تطوير الأعمال، وجهود تحقيق الدخل المباشر من المستهلك (DTC)، والشراكات التجارية.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "قسم علم النفس في LMU",
+            "meta": "عضو لجنة التنوع والإنصاف والشمول (DEI)",
+            "badge": "",
+            "body": "- استخدمت منتجات Microsoft Office وAdobe Photoshop وHTML لإجراء البحوث وإعداد سرديات تاريخية وموارد عالمية عن المهن في علم النفس لموقع LMU. وتواصلت بانتظام مع الفريق عبر Outlook وZoom، ونسّقت مجموعات نقاش لطلاب السنة الأخيرة عبر Workday.",
+            "tags": [
+              "Adobe Photoshop",
+              "Canva"
+            ],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "heading": "القيادة",
+        "hidden": false,
+        "intro": "",
+        "columns": "1",
+        "items": [
+          {
+            "title": "EurAsian Lions",
+            "meta": "مؤسس ورئيس ومسؤول المشاركة المجتمعية",
+            "badge": "",
+            "body": "- أسست ناديًا يمثل شعوب أوروبا الشرقية والشرق الأوسط وآسيا الوسطى وسيبيريا.\n- أجريت استقصاءً واسعًا وقدمت ندوات عن تواريخ هذه الثقافات وعاداتها ومعتقداتها.\n- جمعت التبرعات وخططت ونظمت جولات على ظهور الخيل وعروضًا سينمائية وزيارات إلى المتاحف، بالعمل مع Mazevo وModern Campus CMS.\n- نلت من جامعتي Practice Ignatian Values Award وNew Outstanding Student Organizations Award لنهجي المبتكر في مد الجسور بين المجتمعات وإلهام الآخرين للانخراط العميق مع خلفيات متنوعة.",
+            "tags": [
+              "Mazevo CMS",
+              "Canva",
+              "Excel"
+            ],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "RAE For LA",
+            "meta": "عضو الفريق التقني",
+            "badge": "",
+            "body": "- شخّصت أخطاء الواجهة الأمامية في موقع الحملة وأصلحتها، فارتفع معدل التحويل بنسبة 12% وحركة الزيارات بنسبة 27%؛ وأتمتُّ مسارات البيانات باستخدام Airtable وZapier بدلًا من عمليات تتبع المتطوعين اليدوية.\n- وجّهت فريقًا من 30 شخصًا في ممارسات تصحيح الأخطاء وفي بنية نظام مسار البيانات منخفض الشيفرة (Low-code) الخاص بالحملة.",
+            "tags": [
+              "JavaScript",
+              "Zapier"
+            ],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Associated Students of Loyola Marymount University",
+            "meta": "عضو مجلس الشيوخ الطلابي",
+            "badge": "",
+            "body": "- مثّلت أكثر من 9000 طالب.\n- شاركت في اجتماعات لجان نصف شهرية لمعالجة القضايا الجارية.\n- أقررت قرارات لتحسين الحياة الجامعية.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Peter Symonds College",
+            "meta": "رئيس Student Union",
+            "badge": "",
+            "body": "- قدت Student Union ممثلًا أكثر من 8000 طالب.\n- تعاونت مع الهيئة التدريسية في إعادة الاندماج بعد كوفيد-19.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
+      }
+    ]
+  },
+  "ru": {
+    "permalink": "work",
+    "title": "Карьера",
+    "description": "Профессиональный опыт, исследования, проекты и общественная деятельность Mehmet Colakoglu.",
+    "kicker": "Карьера",
+    "show_title": true,
+    "intro": "Где я созидал, чему научился и что изменилось в результате.",
+    "show_divider": true,
+    "divider_motif": "",
+    "og_image": "",
+    "draft": false,
+    "blocks": [
+      {
+        "type": "cards",
+        "heading": "Опыт",
+        "hidden": false,
+        "intro": "",
+        "columns": "1",
+        "items": [
+          {
+            "title": "Chip Theory Games",
+            "meta": "Системный инженер · сент. 2026 – настоящее время",
+            "badge": "",
+            "body": "- Разрабатываю модульную платформу управления проектами (React, Node.js, MySQL), объединяющую рабочие процессы **4 команд**. Первое внедрение сократило время подготовки корректуры на **40 %**, а число передач задач — на **32 %**.\n- Перевожу три устаревших локальных приложения на AWS, перестраивая их архитектуру для облачного доступа и снижения затрат на сопровождение.",
+            "tags": [
+              "React",
+              "Node.js",
+              "MySQL",
+              "AWS"
+            ],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Incredible Dream Studios",
+            "meta": "Инженер по технологиям и автоматизации · март – сент. 2026",
+            "badge": "",
+            "body": "- Спроектировал и внедрил клиентские средства автоматизации для сбора, сортировки и анализа операционных данных, сократив время разрешения обращений на **82 %** и оптимизировав распределение внутренних ресурсов.\n- Подготовил всесторонние технические и аналитические отчёты, определявшие рамки проектов, бюджетные ограничения и операционные регламенты, для **CEO**, **COO** и **CCO** в поддержку стратегических решений.\n- Создал внутренние процессы цепочки поставок и коммуникации на Python, JavaScript и Zapier посредством REST API и вебхуков, повысив эффективность дистрибуции на **45 %** и оградив интересы заинтересованных сторон.",
+            "tags": [
+              "JavaScript",
+              "Webhooks",
+              "Zapier",
+              "Архитектура"
+            ],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "DJ League",
+            "meta": "Стажёр-инженер фронтенда · февр. – апр. 2026",
+            "badge": "",
+            "body": "- Создавал анимированные компоненты React для соревнований в прямом эфире на реактивном слое WebSocket платформы Convex, удерживая задержку ниже **50 мс** при более чем 200 одновременных подключениях.\n- Обрабатывал высокочастотную запись с помощью подписок с debounce и оптимистичных обновлений, поддерживая стабильные **60 FPS**.",
+            "tags": [
+              "React",
+              "Convex",
+              "WebSockets"
+            ],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Факультет психологии LMU",
+            "meta": "Научный ассистент",
+            "badge": "",
+            "body": "- Создал надёжные конвейеры сбора данных для агрегирования и очистки больших массивов данных, предназначенных для сложных скриптов статистического анализа (Python), обеспечив строгий контроль качества, верификацию и валидацию данных более чем 300 участников.\n- Разработал масштабируемые инструменты моделирования в Unity (C#) для получения больших массивов данных о человеческом восприятии и картирования сложных поведенческих метрик в рамках передовых исследований.\n- Написал обстоятельные аналитические работы, основанные на данных, изложив сложные статистические результаты в виде ясных выводов для читателей без технической подготовки.",
+            "tags": [
+              "Python",
+              "Unity",
+              "C#",
+              "Планирование исследований"
+            ],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "G2 Esports",
+            "meta": "Стажёр по маркетингу и привлечению партнёров",
+            "badge": "",
+            "body": "- Провёл обширное исследование рынка и работу со спонсорами с использованием Salesforce, Google Analytics и Microsoft Excel для оценки партнёрских перспектив, коммерческих инициатив и показателей вовлечённости.\n- Расширил коммерческое присутствие на рынке на **34 %** среди **более чем 200** транснациональных корпораций благодаря созданию баз данных, основанных на аналитике.\n- Систематизировал и моделировал демографию зрителей и географические тенденции для оптимизации привлечения корпоративных спонсоров.\n- Представил количественные результаты и ключевые показатели эффективности (KPI) высшему руководству для формирования стратегии развития бизнеса, монетизации напрямую потребителю (DTC) и коммерческих партнёрств.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Факультет психологии LMU",
+            "meta": "Член комитета по разнообразию, равенству и инклюзивности (DEI)",
+            "badge": "",
+            "body": "- Используя продукты Microsoft Office, Adobe Photoshop и HTML, проводил исследования и готовил исторические обзоры и глобальные ресурсы о карьере в психологии для сайта LMU. Регулярно взаимодействовал с командой через Outlook и Zoom и координировал фокус-группы студентов старших курсов с помощью Workday.",
+            "tags": [
+              "Adobe Photoshop",
+              "Canva"
+            ],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "heading": "Лидерство",
+        "hidden": false,
+        "intro": "",
+        "columns": "1",
+        "items": [
+          {
+            "title": "EurAsian Lions",
+            "meta": "Основатель, президент и руководитель по работе с сообществом",
+            "badge": "",
+            "body": "- Основал клуб, представляющий народы Восточной Европы, Ближнего Востока, Центральной Азии и Сибири.\n- Провёл обширные изыскания и вёл семинары, посвящённые истории, обычаям и верованиям этих культур.\n- Собирал средства, планировал и проводил конные прогулки, кинопоказы и посещения музеев, работая с Mazevo и Modern Campus CMS.\n- Получил от своего университета Practice Ignatian Values Award и New Outstanding Student Organizations Award за новаторский подход к сближению сообществ и вдохновение других на глубокое взаимодействие с людьми разного происхождения.",
+            "tags": [
+              "Mazevo CMS",
+              "Canva",
+              "Excel"
+            ],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "RAE For LA",
+            "meta": "Участник технической команды",
+            "badge": "",
+            "body": "- Выявил и устранил ошибки фронтенда на сайте кампании, повысив конверсию на 12 %, а трафик на 27 %; автоматизировал потоки данных с помощью Airtable и Zapier, заменив ручной учёт волонтёров.\n- Наставлял команду из 30 человек в методах отладки и системной архитектуре low-code-конвейера данных кампании.",
+            "tags": [
+              "JavaScript",
+              "Zapier"
+            ],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Associated Students of Loyola Marymount University",
+            "meta": "Сенатор",
+            "badge": "",
+            "body": "- Представлял более 9000 студентов.\n- Участвовал в заседаниях комитета, проходивших раз в две недели, для рассмотрения текущих вопросов.\n- Принимал резолюции, направленные на улучшение жизни кампуса.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Peter Symonds College",
+            "meta": "Президент Student Union",
+            "badge": "",
+            "body": "- Возглавлял Student Union, представляя более 8000 учащихся.\n- Сотрудничал с преподавателями в вопросах возвращения к очной жизни после COVID-19.",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
+      }
+    ]
+  },
+  "zh": {
+    "permalink": "work",
+    "title": "职业经历",
+    "description": "Mehmet Colakoglu 的工作经历、研究、项目和公民事务工作。",
+    "kicker": "职业经历",
+    "show_title": true,
+    "intro": "我在何处构建，学到了什么，又因此改变了什么。",
+    "show_divider": true,
+    "divider_motif": "",
+    "og_image": "",
+    "draft": false,
+    "blocks": [
+      {
+        "type": "cards",
+        "heading": "工作经历",
+        "hidden": false,
+        "intro": "",
+        "columns": "1",
+        "items": [
+          {
+            "title": "Chip Theory Games",
+            "meta": "系统工程师 · 2026 年 9 月 – 至今",
+            "badge": "",
+            "body": "- 构建模块化项目管理平台（React、Node.js、MySQL），集中管理 **4 个团队**的工作流程。首次上线即将校样准备时间缩短 **40%**，任务交接减少 **32%**。\n- 将三个遗留的本地部署应用迁移至 AWS，并重构其架构，以实现云端访问和更低的维护负担。",
+            "tags": [
+              "React",
+              "Node.js",
+              "MySQL",
+              "AWS"
+            ],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Incredible Dream Studios",
+            "meta": "技术与自动化工程师 · 2026 年 3 月 – 9 月",
+            "badge": "",
+            "body": "- 设计并实施面向客户的自动化流程，用于收集、分类和分析运营数据，将工单解决时间缩短 **82%**，并优化内部资源配置。\n- 为 **CEO**、**COO** 和 **CCO** 撰写全面的技术与分析报告，梳理项目范围、预算约束和运营准则，以支持战略决策。\n- 通过 REST API 和 Webhook，使用 Python、JavaScript 和 Zapier 打造内部供应链与沟通工作流，将分销效率提升 **45%**，同时维护利益相关方的权益。",
+            "tags": [
+              "JavaScript",
+              "Webhooks",
+              "Zapier",
+              "架构"
+            ],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "DJ League",
+            "meta": "前端工程实习生 · 2026 年 2 月 – 4 月",
+            "badge": "",
+            "body": "- 基于 Convex 的响应式 WebSocket 层为现场竞赛构建动画 React 组件，在 200 多个并发连接下将延迟控制在 **50 毫秒**以内。\n- 通过防抖订阅和乐观更新处理高频写入，保持稳定的 **60 FPS**。",
+            "tags": [
+              "React",
+              "Convex",
+              "WebSockets"
+            ],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "LMU 心理学系",
+            "meta": "研究助理",
+            "badge": "",
+            "body": "- 设计稳健的数据采集管道，为复杂的统计分析脚本（Python）汇聚和清理大型数据集，确保 300 余名参与者数据的严格质量、核查与验证。\n- 在 Unity（C#）中构建可扩展的模拟工具，提取人类感知的大型数据集，并为前沿研究映射复杂的行为指标。\n- 撰写以数据为依据的详尽分析论文，将复杂的统计结果转化为非技术读者亦能明了的洞见。",
+            "tags": [
+              "Python",
+              "Unity",
+              "C#",
+              "研究设计"
+            ],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "G2 Esports",
+            "meta": "营销与合作伙伴拓展实习生",
+            "badge": "",
+            "body": "- 运用 Salesforce、Google Analytics 和 Microsoft Excel 开展广泛的市场研究和赞助商联络，评估合作前景、商业举措和参与度指标。\n- 通过构建数据驱动的数据库，将商业版图在 **200 多家**跨国公司中扩大 **34%**。\n- 整理并建模观众人口统计和地域趋势，以优化企业赞助商的获取。\n- 向高层管理者汇报量化结果和关键绩效指标（KPI），为业务发展战略、直面消费者（DTC）变现工作和商业合作提供依据。",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "LMU 心理学系",
+            "meta": "多元、公平与包容（DEI）委员会成员",
+            "badge": "",
+            "body": "- 运用 Microsoft Office 产品、Adobe Photoshop 和 HTML 开展研究，为 LMU 网站编写心理学职业的历史记述和全球资源。定期通过 Outlook 和 Zoom 与团队沟通，并借助 Workday 协调高年级学生焦点小组。",
+            "tags": [
+              "Adobe Photoshop",
+              "Canva"
+            ],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "heading": "领导经历",
+        "hidden": false,
+        "intro": "",
+        "columns": "1",
+        "items": [
+          {
+            "title": "EurAsian Lions",
+            "meta": "创始人、主席兼社区参与负责人",
+            "badge": "",
+            "body": "- 创立社团，代表东欧、中东、中亚和西伯利亚各民族。\n- 开展广泛探究，并就这些文化的历史、习俗和信仰举办研讨会。\n- 通过 Mazevo 和 Modern Campus CMS，筹集资金并策划、举办骑马活动、电影放映和博物馆参观。\n- 因以创新方式联结各社群、激励他人深入接触多元背景，获学校颁发 Practice Ignatian Values Award 和 New Outstanding Student Organizations Award。",
+            "tags": [
+              "Mazevo CMS",
+              "Canva",
+              "Excel"
+            ],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "RAE For LA",
+            "meta": "技术团队成员",
+            "badge": "",
+            "body": "- 诊断并修复竞选网站的前端缺陷，使转化率提升 12%、流量提升 27%；使用 Airtable 和 Zapier 实现数据工作流自动化，取代人工志愿者跟踪流程。\n- 就调试实践和竞选低代码数据管道的系统架构指导 30 人团队。",
+            "tags": [
+              "JavaScript",
+              "Zapier"
+            ],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Associated Students of Loyola Marymount University",
+            "meta": "参议员",
+            "badge": "",
+            "body": "- 代表逾 9000 名学生。\n- 参加每两周一次的委员会会议，处理各项持续性议题。\n- 推动通过改善校园生活的决议。",
+            "tags": [],
+            "links": [],
+            "gallery": [],
+            "image_side": "right",
+            "video_url": "",
+            "embed_url": "",
+            "show_band": true,
+            "hidden": false
+          },
+          {
+            "title": "Peter Symonds College",
+            "meta": "Student Union 主席",
+            "badge": "",
+            "body": "- 领导 Student Union，代表逾 8000 名学生。\n- 与教职员工合作推进新冠疫情后的重新融入。",
             "tags": [],
             "links": [],
             "gallery": [],

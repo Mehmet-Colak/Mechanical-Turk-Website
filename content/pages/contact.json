@@ -58,5 +58,65 @@
         "intro": ""
       }
     ]
+  },
+  "ar": {
+    "permalink": "contact",
+    "title": "التواصل",
+    "description": "تواصلوا مع Mehmet Colakoglu عبر البريد الإلكتروني أو LinkedIn أو GitHub أو Calendly.",
+    "kicker": "التواصل",
+    "show_title": true,
+    "intro": "تواصلوا مع Mehmet Colakoglu عبر البريد الإلكتروني أو LinkedIn أو GitHub أو Calendly.\n\nهل تبحثون عن كفاءات في تطوير المنتجات، أو الهندسة المتكاملة، أو هندسة تعلّم الآلة، أو علم الروبوتات؟ راسلوني أو حددوا موعدًا للحديث!",
+    "show_divider": true,
+    "divider_motif": "",
+    "og_image": "",
+    "draft": false,
+    "blocks": [
+      {
+        "type": "contact",
+        "heading": "",
+        "hidden": false,
+        "intro": ""
+      }
+    ]
+  },
+  "ru": {
+    "permalink": "contact",
+    "title": "Контакты",
+    "description": "Свяжитесь с Mehmet Colakoglu по электронной почте, через LinkedIn, GitHub или Calendly.",
+    "kicker": "Контакты",
+    "show_title": true,
+    "intro": "Свяжитесь с Mehmet Colakoglu по электронной почте, через LinkedIn, GitHub или Calendly.\n\nИщете специалиста в области разработки продуктов, full-stack-инженерии, инженерии машинного обучения или робототехники? Напишите мне или назначьте время для беседы!",
+    "show_divider": true,
+    "divider_motif": "",
+    "og_image": "",
+    "draft": false,
+    "blocks": [
+      {
+        "type": "contact",
+        "heading": "",
+        "hidden": false,
+        "intro": ""
+      }
+    ]
+  },
+  "zh": {
+    "permalink": "contact",
+    "title": "联系方式",
+    "description": "通过电子邮件、LinkedIn、GitHub 或 Calendly 联系 Mehmet Colakoglu。",
+    "kicker": "联系方式",
+    "show_title": true,
+    "intro": "通过电子邮件、LinkedIn、GitHub 或 Calendly 联系 Mehmet Colakoglu。\n\n您是否正在招聘产品开发、全栈工程、机器学习工程或机器人技术方面的人才？欢迎致函或预约时间洽谈！",
+    "show_divider": true,
+    "divider_motif": "",
+    "og_image": "",
+    "draft": false,
+    "blocks": [
+      {
+        "type": "contact",
+        "heading": "",
+        "hidden": false,
+        "intro": ""
+      }
+    ]
   }
 }

@@ -82,5 +82,89 @@
         "hidden": false
       }
     ]
+  },
+  "ar": {
+    "items": [
+      {
+        "label": "البريد الإلكتروني",
+        "value": "mehmetnuri.colakoglu@gmail.com",
+        "url": "mailto:mehmetnuri.colakoglu@gmail.com",
+        "hidden": false
+      },
+      {
+        "label": "Calendly",
+        "value": "حجز مكالمة تعريفية",
+        "url": "https://calendly.com/mehmetnuri-colakoglu/intro-call",
+        "hidden": false
+      },
+      {
+        "label": "LinkedIn",
+        "value": "mehmet-colakoglu",
+        "url": "https://www.linkedin.com/in/mehmet-colakoglu/",
+        "hidden": false
+      },
+      {
+        "label": "GitHub",
+        "value": "Mehmet-Colak",
+        "url": "https://github.com/Mehmet-Colak",
+        "hidden": false
+      }
+    ]
+  },
+  "ru": {
+    "items": [
+      {
+        "label": "Электронная почта",
+        "value": "mehmetnuri.colakoglu@gmail.com",
+        "url": "mailto:mehmetnuri.colakoglu@gmail.com",
+        "hidden": false
+      },
+      {
+        "label": "Calendly",
+        "value": "Назначить вводную беседу",
+        "url": "https://calendly.com/mehmetnuri-colakoglu/intro-call",
+        "hidden": false
+      },
+      {
+        "label": "LinkedIn",
+        "value": "mehmet-colakoglu",
+        "url": "https://www.linkedin.com/in/mehmet-colakoglu/",
+        "hidden": false
+      },
+      {
+        "label": "GitHub",
+        "value": "Mehmet-Colak",
+        "url": "https://github.com/Mehmet-Colak",
+        "hidden": false
+      }
+    ]
+  },
+  "zh": {
+    "items": [
+      {
+        "label": "电子邮件",
+        "value": "mehmetnuri.colakoglu@gmail.com",
+        "url": "mailto:mehmetnuri.colakoglu@gmail.com",
+        "hidden": false
+      },
+      {
+        "label": "Calendly",
+        "value": "预约初步洽谈",
+        "url": "https://calendly.com/mehmetnuri-colakoglu/intro-call",
+        "hidden": false
+      },
+      {
+        "label": "LinkedIn",
+        "value": "mehmet-colakoglu",
+        "url": "https://www.linkedin.com/in/mehmet-colakoglu/",
+        "hidden": false
+      },
+      {
+        "label": "GitHub",
+        "value": "Mehmet-Colak",
+        "url": "https://github.com/Mehmet-Colak",
+        "hidden": false
+      }
+    ]
   }
 }
