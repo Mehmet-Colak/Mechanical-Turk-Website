@@ -2,7 +2,7 @@
 // templates (lib/*.mjs, copied to /admin/preview/lib by build.mjs) as you type.
 // Everything not in the open entry comes from the last published build (data.json).
 import { renderPage } from "./preview/lib/render.mjs";
-import { makeLocalize, motifArtFrom } from "./preview/lib/i18n.mjs";
+import { makeLocalize, motifArtFrom, motifSizesFrom } from "./preview/lib/i18n.mjs";
 
 const React = globalThis.__SVELTIA_CMS_REACT__;
 const { createElement: h, useEffect, useRef, useState } = React;
@@ -41,6 +41,8 @@ function renderEntry(entry) {
   let skills = snapshot.skills;
   let timeline = snapshot.timeline;
   if (!isPage && SETTINGS_KEYS[file]) settings[SETTINGS_KEYS[file]] = liveRaw;
+  // Motif art isn't translated, so its file has no language wrapper.
+  if (!isPage && file === "motif_art") settings.motifArt = liveRaw[code];
   if (!isPage && file === "skills") skills = liveRaw;
   if (!isPage && file === "timeline") timeline = liveRaw;
 
@@ -67,7 +69,7 @@ function renderEntry(entry) {
     alternates: Object.fromEntries(enabled.map((l) => [l.code, urlFor(l.code)(permalink)])),
     data: { skills: localize(skills, code), timeline: localize(timeline, code), contact },
     urlFor: urlFor(code),
-    assetVersion, theme: settings.theme, favicon, motifArt: motifArtFrom(settings.motifArt),
+    assetVersion, theme: settings.theme, favicon, motifArt: motifArtFrom(settings.motifArt), motifSizes: motifSizesFrom(settings.motifArt),
   });
 }
 

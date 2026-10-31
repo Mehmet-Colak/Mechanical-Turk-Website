@@ -112,6 +112,9 @@ button, input, select, textarea { font: inherit; color: inherit; border-radius: 
 :focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
 h1, h2, h3, h4, h5 { font-family: var(--font-display); line-height: 1.15; font-weight: 700; }
 
+/* Set from Settings → Motif art. */
+:root { --motif-small: 1; --motif-big: 1; }
+
 .sprite { position: absolute; width: 0; height: 0; overflow: hidden; }
 .k-teal { fill: var(--teal); } .k-rust { fill: var(--rust); } .k-burg { fill: var(--burgundy); }
 .k-saff { fill: var(--saffron); } .k-sand { fill: var(--sand); } .k-ink { fill: currentColor; }
@@ -142,8 +145,9 @@ h1, h2, h3, h4, h5 { font-family: var(--font-display); line-height: 1.15; font-w
 .border-symbols--header { bottom: calc(var(--border) / -2); transform: translate(-50%, 50%); }
 .border-symbols--footer { top: calc(var(--border) / -2); transform: translate(-50%, -50%); }
 .border-symbols__gap { width: 14px; }
-.bereket { position: relative; width: 40px; height: 18px; color: var(--rust); }
-.bereket svg { position: absolute; left: 50%; top: 50%; width: 16px; height: 37px; fill: currentColor; shape-rendering: crispEdges; }
+/* The six copies must still fit across a phone screen when enlarged. */
+.bereket { --bereket-w: min(calc(40px * var(--motif-big)), calc((100vw - 64px) / 6)); position: relative; width: var(--bereket-w); height: calc(var(--bereket-w) * 0.45); color: var(--rust); }
+.bereket svg { position: absolute; left: 50%; top: 50%; width: calc(var(--bereket-w) * 0.4); height: calc(var(--bereket-w) * 0.925); fill: currentColor; shape-rendering: crispEdges; }
 .bereket--90 svg { transform: translate(-50%, -50%) rotate(90deg); }
 .bereket--270 svg { transform: translate(-50%, -50%) rotate(270deg); }
 
@@ -194,7 +198,7 @@ h1, h2, h3, h4, h5 { font-family: var(--font-display); line-height: 1.15; font-w
 .content { padding: 52px 56px 96px; max-width: 900px; min-width: 0; width: 100%; }
 
 .id__mark { width: 96px; height: 96px; display: grid; place-items: center; background: var(--mark-bg); color: var(--mark-fg); }
-.id__mark-icon { width: 58px; height: 58px; }
+.id__mark-icon { width: calc(58px * var(--motif-big)); height: calc(58px * var(--motif-big)); }
 .id__portrait { width: 150px; height: 150px; object-fit: cover; border: var(--border) solid var(--line); }
 .id__name { font-family: var(--font-display); font-weight: 700; font-size: 1.75rem; line-height: 1.1; margin: 22px 0 6px; }
 .id__role { font-family: var(--font-mono); font-size: 0.88rem; color: var(--kicker); margin: 0 0 14px; }
@@ -219,9 +223,9 @@ h1, h2, h3, h4, h5 { font-family: var(--font-display); line-height: 1.15; font-w
 .page-intro { font-size: 1.18rem; color: var(--ink-soft); max-width: 62ch; }
 .page-intro p:last-child { margin-bottom: 0; }
 
-.motif-divider { height: 22px; margin: 30px 0 44px; }
+.motif-divider { height: calc(22px * var(--motif-small)); margin: 30px 0 44px; }
 .page-header + .block { margin-top: 48px; }
-.motif-divider svg { display: block; width: 100%; height: 22px; }
+.motif-divider svg { display: block; width: 100%; height: calc(22px * var(--motif-small)); }
 
 /* ---------- blocks ---------- */
 .block + .block, .block + .motif-divider + .block { margin-top: 56px; }
@@ -276,7 +280,7 @@ h1, h2, h3, h4, h5 { font-family: var(--font-display); line-height: 1.15; font-w
 .card__body { padding: 24px 26px 26px; min-width: 0; }
 .card__head { display: flex; align-items: center; gap: 16px; margin-bottom: 6px; min-width: 0; }
 .card__title { font-size: 1.4rem; margin: 0; flex: 0 1 auto; min-width: 0; }
-.kilim-band { flex: 1 1 72px; min-width: 54px; height: 21px; display: block; shape-rendering: crispEdges; }
+.kilim-band { flex: 1 1 72px; min-width: 54px; height: calc(21px * var(--motif-small)); display: block; shape-rendering: crispEdges; }
 .card__meta {
   display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px;
   margin: 6px 0 14px; font-family: var(--font-mono); font-size: 0.86rem; color: var(--ink-soft);
@@ -324,10 +328,11 @@ h1, h2, h3, h4, h5 { font-family: var(--font-display); line-height: 1.15; font-w
 .timeline__item { position: relative; }
 .timeline__item + .timeline__item { margin-top: 26px; }
 .timeline__marker {
-  position: absolute; inset-inline-start: -44px; top: 16px;
-  width: 32px; height: 32px; display: grid; place-items: center; background: var(--bg); color: var(--motif);
+  /* Stays centred on the timeline line at any size. */
+  position: absolute; inset-inline-start: calc(-28px - 16px * var(--motif-small)); top: calc(32px - 16px * var(--motif-small));
+  width: calc(32px * var(--motif-small)); height: calc(32px * var(--motif-small)); display: grid; place-items: center; background: var(--bg); color: var(--motif);
 }
-.timeline__marker svg { width: 24px; height: 24px; }
+.timeline__marker svg { width: calc(24px * var(--motif-small)); height: calc(24px * var(--motif-small)); }
 .timeline__card { border: var(--border) solid var(--line); background: var(--surface); padding: 18px 22px 20px; transition: background-color 0.15s ease; }
 @media (hover: hover) { .timeline__card:hover { background: var(--surface-hover); } }
 .timeline__date { margin: 0 0 4px; font-family: var(--font-mono); font-size: 0.86rem; color: var(--kicker); display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
@@ -435,7 +440,7 @@ h1, h2, h3, h4, h5 { font-family: var(--font-display); line-height: 1.15; font-w
   .sidebar__inner { position: static; max-height: none; overflow: visible; padding: 34px 22px 24px; }
   .id { display: grid; grid-template-columns: auto minmax(0, 1fr); column-gap: 18px; align-items: center; }
   .id__mark, .id__portrait { grid-row: span 2; width: 72px; height: 72px; }
-  .id__mark-icon { width: 44px; height: 44px; }
+  .id__mark-icon { width: calc(44px * var(--motif-big)); height: calc(44px * var(--motif-big)); }
   .id__name { margin: 0 0 2px; font-size: 1.5rem; align-self: end; }
   .id__role { margin: 0; align-self: start; }
   .id__tagline, .id__status { grid-column: 1 / -1; }

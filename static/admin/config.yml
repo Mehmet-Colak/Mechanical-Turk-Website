@@ -1430,8 +1430,10 @@ collections:
         label: Motif art (custom pixel art)
         file: content/settings/motif_art.json
         i18n: false
-        description: "Upload your own art to replace any kilim symbol everywhere it appears (dividers, timeline, sidebar mark, tab icon, borders). Use a PNG with a transparent background. Leave a slot empty to keep the built-in drawing. Preview: https://mechanical-turk.dev/admin/motifs/"
+        description: "Set how large the symbols are drawn, and upload your own art to replace any kilim symbol everywhere it appears (dividers, timeline, sidebar mark, tab icon, borders). Use a PNG with a transparent background. Leave a slot empty to keep the built-in drawing. Preview: https://mechanical-turk.dev/admin/motifs/"
         fields:
+          - { name: small_size, label: "Size of small motifs (timeline markers, dividers, woven band)", widget: motif_size, default: 100, required: false }
+          - { name: big_size, label: "Size of big motifs (bereket border symbols, sidebar mark)", widget: motif_size, default: 100, required: false }
           - name: bereket
             label: "Bereket · border symbol"
             widget: object

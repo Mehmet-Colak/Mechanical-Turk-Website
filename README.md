@@ -111,6 +111,7 @@ Only people with write access to the GitHub repo can save changes. Anyone else w
 | **Tab icon** | Settings → Tab icon. Pick a symbol and its own colours (empty = palette burgundy/saffron), or upload a square image to replace it. |
 | **Custom pixel art** | Settings → Motif art. Upload a PNG (transparent background) for any symbol: bereket (9×21 grid), woven band tile (12×14) or any motif (square). **Paint in palette colours** keeps only the shape and colours it like the built-in art; turn it off to keep the image's own colours. Empty slot = built-in drawing. Check the result at /admin/motifs/. |
 | **Card image left/right** | Card → *Image gallery* plus **Gallery position** (right or left). Text / long-form card and Data → Timeline entries → *Image* plus **Image position** (above, left or right). |
+| **Motif sizes** | Settings → Motif art, the two sliders at the top (50–150%). *Small* sizes timeline markers, dividers and the woven band; *big* sizes the bereket border symbols and the sidebar mark. Tab icons aren't affected. |
 | **Colours** | Settings → Colour scheme. *Kilim palette* colours the motifs, symbols and favicon; *Light mode* and *Dark mode* set backgrounds, text, links, buttons and borders for each mode. Also choose whether new visitors start in light, dark or their device setting. |
 | **Project / simulation display** | Card → *Image gallery* (2+ images get ‹ › arrows and a counter; click opens full size), *Video link* (YouTube, Vimeo, Google Drive or .mp4) and *Simulation URL* open in a viewer window. |
 

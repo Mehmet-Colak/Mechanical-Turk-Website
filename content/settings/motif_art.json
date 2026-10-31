@@ -1,4 +1,6 @@
 {
+  "small_size": 100,
+  "big_size": 100,
   "bereket": {
     "image": "",
     "recolour": true

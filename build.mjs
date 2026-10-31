@@ -12,7 +12,7 @@ import { renderPage } from "./lib/render.mjs";
 import { faviconSvg, MOTIF_KEYS } from "./lib/symbols.mjs";
 import { renderMotifReference } from "./lib/motif-reference.mjs";
 import { color, paletteColor } from "./lib/theme.mjs";
-import { makeLocalize, motifArtFrom } from "./lib/i18n.mjs";
+import { makeLocalize, motifArtFrom, motifSizesFrom } from "./lib/i18n.mjs";
 
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
 const CONTENT = path.join(ROOT, "content");
@@ -76,6 +76,7 @@ fs.mkdirSync(OUT, { recursive: true });
 fs.cpSync(STATIC, OUT, { recursive: true });
 // The favicon needs uploaded motif art inlined as a data: URI (see faviconSvg).
 const motifArt = motifArtFrom(settings.motifArt);
+const motifSizes = motifSizesFrom(settings.motifArt);
 const MIME = { ".png": "image/png", ".gif": "image/gif", ".webp": "image/webp", ".svg": "image/svg+xml", ".jpg": "image/jpeg", ".jpeg": "image/jpeg" };
 const inlineArt = (a) => {
   if (!a || !a.href.startsWith("/")) return null;
@@ -103,7 +104,7 @@ const assetVersion = hash(path.join(STATIC, "assets/css/site.css")) + hash(path.
 
 // Motif reference sheet for editors, linked from the CMS motif pickers.
 fs.mkdirSync(path.join(OUT, "admin/motifs"), { recursive: true });
-fs.writeFileSync(path.join(OUT, "admin/motifs/index.html"), renderMotifReference({ theme: settings.theme, iconColours, assetVersion, motifArt, faviconArt }));
+fs.writeFileSync(path.join(OUT, "admin/motifs/index.html"), renderMotifReference({ theme: settings.theme, iconColours, assetVersion, motifArt, motifSizes, faviconArt }));
 
 // CMS live preview (static/admin/preview.js): the templates plus a snapshot of the
 // published content, so the editor can render the page being edited.
@@ -131,7 +132,7 @@ for (const lang of ENABLED) {
     const url = urlFor(lang.code)(p.permalink);
     const html = renderPage({
       page, site, nav, languages: ENABLED.map((l) => ({ ...l, default: l.code === DEFAULT })),
-      locale: lang, alternates, data, urlFor: urlFor(lang.code), assetVersion, theme: settings.theme, favicon, motifArt,
+      locale: lang, alternates, data, urlFor: urlFor(lang.code), assetVersion, theme: settings.theme, favicon, motifArt, motifSizes,
     });
 
     const outFile = path.join(OUT, url, "index.html");
@@ -153,7 +154,7 @@ fs.writeFileSync(path.join(OUT, "404.html"), renderPage({
   languages: [{ ...languages.find((l) => l.code === DEFAULT), default: true, enabled: true }],
   locale: languages.find((l) => l.code === DEFAULT),
   alternates: { [DEFAULT]: "/" },
-  data: { skills: {}, timeline: {}, contact: {} }, urlFor: urlFor(DEFAULT), assetVersion, theme: settings.theme, favicon, motifArt,
+  data: { skills: {}, timeline: {}, contact: {} }, urlFor: urlFor(DEFAULT), assetVersion, theme: settings.theme, favicon, motifArt, motifSizes,
 }));
 
 fs.writeFileSync(path.join(OUT, "sitemap.xml"),
