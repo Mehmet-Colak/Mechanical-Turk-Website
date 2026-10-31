@@ -148,7 +148,7 @@ h1, h2, h3, h4, h5 { font-family: var(--font-display); line-height: 1.15; font-w
 .border-symbols__gap { width: 14px; }
 /* The six copies must still fit across a phone screen when enlarged. */
 .bereket { --bereket-w: min(calc(40px * var(--motif-big)), calc((100vw - 64px) / 6)); position: relative; width: var(--bereket-w); height: calc(var(--bereket-w) * 0.45); color: var(--rust); }
-.bereket svg { position: absolute; left: 50%; top: 50%; width: calc(var(--bereket-w) * 0.4); height: calc(var(--bereket-w) * 0.925); fill: currentColor; shape-rendering: crispEdges; }
+.bereket svg { position: absolute; left: 50%; top: 50%; width: calc(var(--bereket-w) * 0.4); height: calc(var(--bereket-w) * 0.925); fill: currentColor; }
 .bereket--90 svg { transform: translate(-50%, -50%) rotate(90deg); }
 .bereket--270 svg { transform: translate(-50%, -50%) rotate(270deg); }
 
