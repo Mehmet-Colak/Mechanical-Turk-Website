@@ -7,7 +7,7 @@
     "show_title": true,
     "intro": "An engineer at heart, but one guided by community.",
     "show_divider": true,
-    "divider_motif": "",
+    "divider_motif": "yildiz",
     "og_image": "",
     "draft": false,
     "blocks": [
@@ -16,6 +16,10 @@
         "heading": "",
         "hidden": false,
         "intro": ""
+      },
+      {
+        "type": "divider",
+        "motif": "yildiz"
       }
     ]
   },
@@ -27,7 +31,7 @@
     "show_title": true,
     "intro": "Özünde bir mühendis; ancak pusulasını topluluğun belirlediği bir mühendis.",
     "show_divider": true,
-    "divider_motif": "",
+    "divider_motif": "yildiz",
     "og_image": "",
     "draft": false,
     "blocks": [
@@ -36,6 +40,10 @@
         "heading": "",
         "hidden": false,
         "intro": ""
+      },
+      {
+        "type": "divider",
+        "motif": "yildiz"
       }
     ]
   },
@@ -47,7 +55,7 @@
     "show_title": true,
     "intro": "Ingeniero de corazón, pero guiado por la comunidad.",
     "show_divider": true,
-    "divider_motif": "",
+    "divider_motif": "yildiz",
     "og_image": "",
     "draft": false,
     "blocks": [
@@ -56,6 +64,10 @@
         "heading": "",
         "hidden": false,
         "intro": ""
+      },
+      {
+        "type": "divider",
+        "motif": "yildiz"
       }
     ]
   },
@@ -67,7 +79,7 @@
     "show_title": true,
     "intro": "مهندس في الصميم، لكنه مهتدٍ بالمجتمع.",
     "show_divider": true,
-    "divider_motif": "",
+    "divider_motif": "yildiz",
     "og_image": "",
     "draft": false,
     "blocks": [
@@ -76,6 +88,10 @@
         "heading": "",
         "hidden": false,
         "intro": ""
+      },
+      {
+        "type": "divider",
+        "motif": "yildiz"
       }
     ]
   },
@@ -87,7 +103,7 @@
     "show_title": true,
     "intro": "Инженер по призванию, но руководствующийся интересами сообщества.",
     "show_divider": true,
-    "divider_motif": "",
+    "divider_motif": "yildiz",
     "og_image": "",
     "draft": false,
     "blocks": [
@@ -96,6 +112,10 @@
         "heading": "",
         "hidden": false,
         "intro": ""
+      },
+      {
+        "type": "divider",
+        "motif": "yildiz"
       }
     ]
   },
@@ -107,7 +127,7 @@
     "show_title": true,
     "intro": "本心是工程师，但以社群为指引。",
     "show_divider": true,
-    "divider_motif": "",
+    "divider_motif": "yildiz",
     "og_image": "",
     "draft": false,
     "blocks": [
@@ -116,6 +136,10 @@
         "heading": "",
         "hidden": false,
         "intro": ""
+      },
+      {
+        "type": "divider",
+        "motif": "yildiz"
       }
     ]
   }
