@@ -7,7 +7,7 @@
     "show_title": true,
     "intro": "These are the tools I use to build. I prefer scripting languages, but I have extensive experience with compiled languages.",
     "show_divider": true,
-    "divider_motif": "",
+    "divider_motif": "koc_boynuzu",
     "og_image": "",
     "draft": false,
     "blocks": [
@@ -19,7 +19,7 @@
       },
       {
         "type": "divider",
-        "motif": ""
+        "motif": "koc_boynuzu"
       }
     ]
   },
@@ -31,7 +31,7 @@
     "show_title": true,
     "intro": "Bunlar, ürün inşa ederken başvurduğum araçlar. Scripting dillerini tercih etsem de, compiled diller konusunda da kapsamlı bir tecrübeye sahibim.",
     "show_divider": true,
-    "divider_motif": "",
+    "divider_motif": "koc_boynuzu",
     "og_image": "",
     "draft": false,
     "blocks": [
@@ -43,7 +43,7 @@
       },
       {
         "type": "divider",
-        "motif": ""
+        "motif": "koc_boynuzu"
       }
     ]
   },
@@ -55,7 +55,7 @@
     "show_title": true,
     "intro": "Estas son las herramientas con las que construyo. Prefiero los lenguajes de scripting, pero poseo una amplia experiencia con lenguajes compilados.",
     "show_divider": true,
-    "divider_motif": "",
+    "divider_motif": "koc_boynuzu",
     "og_image": "",
     "draft": false,
     "blocks": [
@@ -67,7 +67,7 @@
       },
       {
         "type": "divider",
-        "motif": ""
+        "motif": "koc_boynuzu"
       }
     ]
   },
@@ -79,7 +79,7 @@
     "show_title": true,
     "intro": "هذه هي الأدوات التي أبني بها. أفضّل لغات البرمجة النصية، لكنني أمتلك خبرة واسعة في اللغات المترجَمة.",
     "show_divider": true,
-    "divider_motif": "",
+    "divider_motif": "koc_boynuzu",
     "og_image": "",
     "draft": false,
     "blocks": [
@@ -91,7 +91,7 @@
       },
       {
         "type": "divider",
-        "motif": ""
+        "motif": "koc_boynuzu"
       }
     ]
   },
@@ -103,7 +103,7 @@
     "show_title": true,
     "intro": "Это инструменты, с помощью которых я созидаю. Я предпочитаю скриптовые языки, но обладаю обширным опытом работы и с компилируемыми.",
     "show_divider": true,
-    "divider_motif": "",
+    "divider_motif": "koc_boynuzu",
     "og_image": "",
     "draft": false,
     "blocks": [
@@ -115,7 +115,7 @@
       },
       {
         "type": "divider",
-        "motif": ""
+        "motif": "koc_boynuzu"
       }
     ]
   },
@@ -127,7 +127,7 @@
     "show_title": true,
     "intro": "这些是我用以构建的工具。我偏爱脚本语言，但在编译型语言方面也拥有丰富经验。",
     "show_divider": true,
-    "divider_motif": "",
+    "divider_motif": "koc_boynuzu",
     "og_image": "",
     "draft": false,
     "blocks": [
@@ -139,7 +139,7 @@
       },
       {
         "type": "divider",
-        "motif": ""
+        "motif": "koc_boynuzu"
       }
     ]
   }
