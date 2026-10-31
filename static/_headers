@@ -13,3 +13,6 @@
 
 /assets/js/*
   Cache-Control: public, max-age=31536000, immutable
+
+/assets/motifs/*
+  Cache-Control: public, max-age=31536000, immutable

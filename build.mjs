@@ -11,6 +11,7 @@ import { fileURLToPath } from "node:url";
 import { renderPage } from "./lib/render.mjs";
 import { faviconSvg, MOTIF_KEYS } from "./lib/symbols.mjs";
 import { renderMotifReference } from "./lib/motif-reference.mjs";
+import { pngSize, resizePng } from "./lib/png-resize.mjs";
 import { color, paletteColor } from "./lib/theme.mjs";
 import { makeLocalize, motifArtFrom, motifSizesFrom } from "./lib/i18n.mjs";
 
@@ -75,15 +76,37 @@ fs.rmSync(OUT, { recursive: true, force: true });
 fs.mkdirSync(OUT, { recursive: true });
 fs.cpSync(STATIC, OUT, { recursive: true });
 // The favicon needs uploaded motif art inlined as a data: URI (see faviconSvg).
-const motifArt = motifArtFrom(settings.motifArt);
+// Uploads are drawn at about 36px at most, so a full-size file only costs download time.
+// Pages get a small copy under a hashed name, which browsers can cache for good. Art that
+// is already tiny is left alone and marked as pixel art, to stay sharp when enlarged.
+const MOTIF_MAX = 256;
+const PIXEL_ART_MAX = 128;
+function optimiseArt(key, a) {
+  if (!a.href.startsWith("/") || !/\.png$/i.test(a.href)) return a;
+  let file;
+  try { file = path.join(OUT, decodeURI(a.href)); } catch { return a; }
+  if (!file.startsWith(OUT) || !fs.existsSync(file)) return a;
+  const source = fs.readFileSync(file);
+  const size = pngSize(source);
+  if (!size) return a;
+  if (Math.max(size.width, size.height) <= PIXEL_ART_MAX) return { ...a, pixelated: true };
+  if (Math.max(size.width, size.height) <= MOTIF_MAX) return a;
+  const small = resizePng(source, MOTIF_MAX);
+  if (!small || small.length >= source.length) return a;
+  const name = `${key}-${crypto.createHash("sha1").update(small).digest("hex").slice(0, 8)}.png`;
+  fs.mkdirSync(path.join(OUT, "assets/motifs"), { recursive: true });
+  fs.writeFileSync(path.join(OUT, "assets/motifs", name), small);
+  return { ...a, href: `/assets/motifs/${name}` };
+}
+const motifArt = Object.fromEntries(Object.entries(motifArtFrom(settings.motifArt)).map(([k, a]) => [k, optimiseArt(k, a)]));
 const motifSizes = motifSizesFrom(settings.motifArt);
 const MIME = { ".png": "image/png", ".gif": "image/gif", ".webp": "image/webp", ".svg": "image/svg+xml", ".jpg": "image/jpeg", ".jpeg": "image/jpeg" };
 const inlineArt = (a) => {
   if (!a || !a.href.startsWith("/")) return null;
   let file;
-  try { file = path.join(STATIC, decodeURI(a.href)); } catch { return null; }
+  try { file = path.join(OUT, decodeURI(a.href)); } catch { return null; }
   const mime = MIME[path.extname(file).toLowerCase()];
-  if (!mime || !file.startsWith(STATIC) || !fs.existsSync(file)) return null;
+  if (!mime || !file.startsWith(OUT) || !fs.existsSync(file)) return null;
   return { ...a, href: `data:${mime};base64,${fs.readFileSync(file).toString("base64")}` };
 };
 const faviconArt = Object.fromEntries(Object.entries(motifArt).map(([k, a]) => [k, inlineArt(a)]).filter(([, a]) => a));
