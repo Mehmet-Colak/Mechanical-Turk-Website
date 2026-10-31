@@ -16,6 +16,10 @@
         "heading": "",
         "hidden": false,
         "intro": ""
+      },
+      {
+        "type": "divider",
+        "motif": ""
       }
     ]
   },
@@ -36,6 +40,10 @@
         "heading": "",
         "hidden": false,
         "intro": ""
+      },
+      {
+        "type": "divider",
+        "motif": ""
       }
     ]
   },
@@ -46,6 +54,7 @@
     "kicker": "Competencias",
     "show_title": true,
     "intro": "Estas son las herramientas con las que construyo. Prefiero los lenguajes de scripting, pero poseo una amplia experiencia con lenguajes compilados.",
+    "show_divider": true,
     "divider_motif": "",
     "og_image": "",
     "draft": false,
@@ -55,9 +64,12 @@
         "heading": "",
         "hidden": false,
         "intro": ""
+      },
+      {
+        "type": "divider",
+        "motif": ""
       }
-    ],
-    "show_divider": true
+    ]
   },
   "ar": {
     "permalink": "skills",
@@ -76,6 +88,10 @@
         "heading": "",
         "hidden": false,
         "intro": ""
+      },
+      {
+        "type": "divider",
+        "motif": ""
       }
     ]
   },
@@ -96,6 +112,10 @@
         "heading": "",
         "hidden": false,
         "intro": ""
+      },
+      {
+        "type": "divider",
+        "motif": ""
       }
     ]
   },
@@ -116,6 +136,10 @@
         "heading": "",
         "hidden": false,
         "intro": ""
+      },
+      {
+        "type": "divider",
+        "motif": ""
       }
     ]
   }
